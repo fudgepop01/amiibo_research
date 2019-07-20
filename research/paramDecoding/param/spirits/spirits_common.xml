@@ -1,0 +1,1051 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<struct>
+  <uint hash="0x148d5d8994">1000</uint>
+  <list size="2" hash="0x171dbc7121">
+    <hash40 index="0">mr_shine_mr_bright</hash40>
+    <hash40 index="1">ribbongirl</hash40>
+  </list>
+  <float hash="0x128ecb3146">0.3</float>
+  <float hash="0x12babf326e">150</float>
+  <float hash="0x1c8fa8af77">0</float>
+  <float hash="0x1a1fc6f970">0</float>
+  <float hash="0x104ef6777f">1</float>
+  <float hash="0x107a827457">100</float>
+  <float hash="0x12562c98da">0.2</float>
+  <float hash="0x1262589bf2">200</float>
+  <float hash="0x1c0d0192fd">0</float>
+  <float hash="0x1a071ed1d1">0</float>
+  <float hash="0x1019f7e6fb">0.5</float>
+  <float hash="0x102d83e5d3">300</float>
+  <uint hash="capacity_min">0</uint>
+  <list size="4" hash="0x1c6c6bc1ae">
+    <struct index="0">
+      <float hash="power_win_mul">-0.0002</float>
+      <float hash="power_lose_mul">0.00032</float>
+      <uint hash="capacity_max">5000</uint>
+    </struct>
+    <struct index="1">
+      <float hash="power_win_mul">-0.0002</float>
+      <float hash="power_lose_mul">0.00016</float>
+      <uint hash="capacity_max">15000</uint>
+    </struct>
+    <struct index="2">
+      <float hash="power_win_mul">-0.0002</float>
+      <float hash="power_lose_mul">0.00011</float>
+      <uint hash="capacity_max">25000</uint>
+    </struct>
+    <struct index="3">
+      <float hash="power_win_mul">-0.0002</float>
+      <float hash="power_lose_mul">9E-05</float>
+      <uint hash="capacity_max">40000</uint>
+    </struct>
+  </list>
+  <float hash="0x103a9abb0e">5000</float>
+  <float hash="0x10fb1464ce">1000</float>
+  <float hash="0x1007948b03">250</float>
+  <float hash="0x11c9d7d71d">1.3</float>
+  <float hash="0x0faebcc8ea">0.032</float>
+  <list size="4" hash="stand_exp_value">
+    <float index="0">300</float>
+    <float index="1">1000</float>
+    <float index="2">2500</float>
+    <float index="3">5000</float>
+  </list>
+  <list size="4" hash="stand_sp_value">
+    <ushort index="0">100</ushort>
+    <ushort index="1">300</ushort>
+    <ushort index="2">700</ushort>
+    <ushort index="3">1500</ushort>
+  </list>
+  <byte hash="repeat_interval_frames">8</byte>
+  <byte hash="0x1ebc11ffdc">20</byte>
+  <byte hash="0x1eb1dd93f0">20</byte>
+  <byte hash="0x0fae6d0472">30</byte>
+  <list size="4" hash="0x0f15d1eda9">
+    <float index="0">1</float>
+    <float index="1">1</float>
+    <float index="2">1.5</float>
+    <float index="3">1.5</float>
+  </list>
+  <byte hash="0x18095b400d">5</byte>
+  <byte hash="0x18905211b7">15</byte>
+  <byte hash="0x158c079648">5</byte>
+  <list size="4" hash="0x1eb32f069b">
+    <float index="0">40</float>
+    <float index="1">40</float>
+    <float index="2">15</float>
+    <float index="3">5</float>
+  </list>
+  <byte hash="0x196ef70b63">15</byte>
+  <byte hash="0x1952fa343a">30</byte>
+  <byte hash="0x11ba746e10">1</byte>
+  <byte hash="0x1054ca8ad0">120</byte>
+  <byte hash="0x1088b26483">1</byte>
+  <list size="4" hash="appear_condition">
+    <struct index="0">
+      <uint hash="collect_count">0</uint>
+      <uint hash="0x09d8c53fc7">0</uint>
+    </struct>
+    <struct index="1">
+      <uint hash="collect_count">10</uint>
+      <uint hash="0x09d8c53fc7">5</uint>
+    </struct>
+    <struct index="2">
+      <uint hash="collect_count">40</uint>
+      <uint hash="0x09d8c53fc7">20</uint>
+    </struct>
+    <struct index="3">
+      <uint hash="collect_count">120</uint>
+      <uint hash="0x09d8c53fc7">60</uint>
+    </struct>
+  </list>
+  <byte hash="0x230fff9dda">120</byte>
+  <byte hash="0x1a0c746bb5">120</byte>
+  <float hash="bringing_flower_frame">2400</float>
+  <float hash="bringing_flower_damage">1</float>
+  <float hash="0x1b4fa21903">0.3</float>
+  <float hash="0x1d661b6fa9">30</float>
+  <float hash="0x1f50f0090e">1.3</float>
+  <list size="4" hash="0x1674f566f8">
+    <struct index="0">
+      <int hash="lv1">100</int>
+      <int hash="lv99">500</int>
+    </struct>
+    <struct index="1">
+      <int hash="lv1">200</int>
+      <int hash="lv99">1000</int>
+    </struct>
+    <struct index="2">
+      <int hash="lv1">400</int>
+      <int hash="lv99">2000</int>
+    </struct>
+    <struct index="3">
+      <int hash="lv1">800</int>
+      <int hash="lv99">4000</int>
+    </struct>
+  </list>
+  <list size="4" hash="0x16874c17b0">
+    <struct index="0">
+      <int hash="cost1">100</int>
+      <int hash="cost2">100</int>
+      <int hash="cost3">100</int>
+    </struct>
+    <struct index="1">
+      <int hash="cost1">200</int>
+      <int hash="cost2">250</int>
+      <int hash="cost3">300</int>
+    </struct>
+    <struct index="2">
+      <int hash="cost1">400</int>
+      <int hash="cost2">500</int>
+      <int hash="cost3">600</int>
+    </struct>
+    <struct index="3">
+      <int hash="cost1">800</int>
+      <int hash="cost2">1000</int>
+      <int hash="cost3">1200</int>
+    </struct>
+  </list>
+  <byte hash="shoot_delay_frame_min">2</byte>
+  <byte hash="shoot_delay_frame_max">3</byte>
+  <byte hash="0x1776abac12">28</byte>
+  <byte hash="0x17afea1599">0</byte>
+  <byte hash="0x1c0692b3e2">4</byte>
+  <byte hash="0x1c6f266609">3</byte>
+  <uint hash="auto_shoot_frame">600</uint>
+  <list size="4" hash="0x13004bc69c">
+    <struct index="0">
+      <float hash="max_rot_speed">17</float>
+      <float hash="min_rot_speed">13.5</float>
+      <float hash="rot_speed_change_frame">0</float>
+      <float hash="rot_speed_change_rate">0</float>
+      <float hash="brake_range">24</float>
+    </struct>
+    <struct index="1">
+      <float hash="max_rot_speed">16</float>
+      <float hash="min_rot_speed">10.5</float>
+      <float hash="rot_speed_change_frame">0</float>
+      <float hash="rot_speed_change_rate">0</float>
+      <float hash="brake_range">26</float>
+    </struct>
+    <struct index="2">
+      <float hash="max_rot_speed">12</float>
+      <float hash="min_rot_speed">8.25</float>
+      <float hash="rot_speed_change_frame">0</float>
+      <float hash="rot_speed_change_rate">0</float>
+      <float hash="brake_range">28</float>
+    </struct>
+    <struct index="3">
+      <float hash="max_rot_speed">9</float>
+      <float hash="min_rot_speed">5</float>
+      <float hash="rot_speed_change_frame">0</float>
+      <float hash="rot_speed_change_rate">0</float>
+      <float hash="brake_range">30</float>
+    </struct>
+  </list>
+  <float hash="0x160a4017ea">14</float>
+  <float hash="0x15d19f727a">10</float>
+  <list size="4" hash="0x177a83dc99">
+    <uint index="0">240</uint>
+    <uint index="1">480</uint>
+    <uint index="2">1200</uint>
+    <uint index="3">4000</uint>
+  </list>
+  <list size="9" hash="0x1a5db6de5b">
+    <struct index="0">
+      <hash40 hash="chara_id">ui_chara_pichu</hash40>
+      <float hash="scale">1.35</float>
+    </struct>
+    <struct index="1">
+      <hash40 hash="chara_id">ui_chara_kirby</hash40>
+      <float hash="scale">1.2</float>
+    </struct>
+    <struct index="2">
+      <hash40 hash="chara_id">ui_chara_diddy</hash40>
+      <float hash="scale">1.1</float>
+    </struct>
+    <struct index="3">
+      <hash40 hash="chara_id">ui_chara_purin</hash40>
+      <float hash="scale">1.2</float>
+    </struct>
+    <struct index="4">
+      <hash40 hash="chara_id">ui_chara_pzenigame</hash40>
+      <float hash="scale">1.2</float>
+    </struct>
+    <struct index="5">
+      <hash40 hash="chara_id">ui_chara_pfushigisou</hash40>
+      <float hash="scale">1.2</float>
+    </struct>
+    <struct index="6">
+      <hash40 hash="chara_id">ui_chara_pikachu</hash40>
+      <float hash="scale">1.2</float>
+    </struct>
+    <struct index="7">
+      <hash40 hash="chara_id">ui_chara_captain</hash40>
+      <float hash="scale">0.9</float>
+    </struct>
+    <struct index="8">
+      <hash40 hash="chara_id">ui_chara_snake</hash40>
+      <float hash="scale">0.9</float>
+    </struct>
+  </list>
+  <uint hash="0x1a461cd543">6</uint>
+  <float hash="0x1628bd4a15">2</float>
+  <uint hash="0x169092cab5">30</uint>
+  <uint hash="0x18b45bda57">50</uint>
+  <uint hash="0x17cb421040">80</uint>
+  <uint hash="0x18cec37424">60</uint>
+  <uint hash="0x1803f45b59">2</uint>
+  <float hash="0x164067ef5c">1.5</float>
+  <uint hash="0x1653a8aa5d">15</uint>
+  <uint hash="0x1eebc40e29">240</uint>
+  <uint hash="0x1f9f5e5996">120</uint>
+  <uint hash="roulette_retry_wait_frame">60</uint>
+  <uint hash="roulette_item_lucky_interval_frame">30</uint>
+  <uint hash="roulette_item_lucky_wait_frame">60</uint>
+  <uint hash="roulette_item_slow_wait_frame">100</uint>
+  <float hash="roulette_item_slow_action_speed_rate">0.05</float>
+  <uint hash="roulette_item_slow_action_frame">100</uint>
+  <float hash="series_boost_rate">1.1</float>
+  <list size="99" hash="0x0e06cc9870">
+    <struct index="0">
+      <float hash="normal">0</float>
+      <float hash="fast">0</float>
+      <float hash="fastest">0</float>
+      <float hash="slow">0</float>
+      <float hash="slowest">0</float>
+      <float hash="same">0</float>
+    </struct>
+    <struct index="1">
+      <float hash="normal">34.6939</float>
+      <float hash="fast">71.4286</float>
+      <float hash="fastest">102.041</float>
+      <float hash="slow">30.6122</float>
+      <float hash="slowest">10.2041</float>
+      <float hash="same">101.99</float>
+    </struct>
+    <struct index="2">
+      <float hash="normal">70.4082</float>
+      <float hash="fast">144.898</float>
+      <float hash="fastest">207.143</float>
+      <float hash="slow">61.7347</float>
+      <float hash="slowest">20.9184</float>
+      <float hash="same">203.98</float>
+    </struct>
+    <struct index="3">
+      <float hash="normal">107.143</float>
+      <float hash="fast">220.408</float>
+      <float hash="fastest">315.306</float>
+      <float hash="slow">93.3673</float>
+      <float hash="slowest">32.1429</float>
+      <float hash="same">305.969</float>
+    </struct>
+    <struct index="4">
+      <float hash="normal">144.898</float>
+      <float hash="fast">297.959</float>
+      <float hash="fastest">426.531</float>
+      <float hash="slow">125.51</float>
+      <float hash="slowest">43.8776</float>
+      <float hash="same">407.959</float>
+    </struct>
+    <struct index="5">
+      <float hash="normal">183.673</float>
+      <float hash="fast">377.551</float>
+      <float hash="fastest">540.816</float>
+      <float hash="slow">158.163</float>
+      <float hash="slowest">56.1224</float>
+      <float hash="same">509.949</float>
+    </struct>
+    <struct index="6">
+      <float hash="normal">223.469</float>
+      <float hash="fast">459.184</float>
+      <float hash="fastest">658.163</float>
+      <float hash="slow">191.327</float>
+      <float hash="slowest">68.8776</float>
+      <float hash="same">611.939</float>
+    </struct>
+    <struct index="7">
+      <float hash="normal">264.286</float>
+      <float hash="fast">542.857</float>
+      <float hash="fastest">778.571</float>
+      <float hash="slow">225</float>
+      <float hash="slowest">82.1429</float>
+      <float hash="same">713.929</float>
+    </struct>
+    <struct index="8">
+      <float hash="normal">306.122</float>
+      <float hash="fast">628.571</float>
+      <float hash="fastest">902.041</float>
+      <float hash="slow">259.184</float>
+      <float hash="slowest">95.9184</float>
+      <float hash="same">815.918</float>
+    </struct>
+    <struct index="9">
+      <float hash="normal">348.98</float>
+      <float hash="fast">716.327</float>
+      <float hash="fastest">1028.57</float>
+      <float hash="slow">293.878</float>
+      <float hash="slowest">110.204</float>
+      <float hash="same">917.908</float>
+    </struct>
+    <struct index="10">
+      <float hash="normal">392.857</float>
+      <float hash="fast">806.122</float>
+      <float hash="fastest">1158.16</float>
+      <float hash="slow">329.082</float>
+      <float hash="slowest">125</float>
+      <float hash="same">1019.9</float>
+    </struct>
+    <struct index="11">
+      <float hash="normal">437.755</float>
+      <float hash="fast">897.959</float>
+      <float hash="fastest">1290.82</float>
+      <float hash="slow">364.796</float>
+      <float hash="slowest">140.306</float>
+      <float hash="same">1121.89</float>
+    </struct>
+    <struct index="12">
+      <float hash="normal">483.673</float>
+      <float hash="fast">991.837</float>
+      <float hash="fastest">1426.53</float>
+      <float hash="slow">401.02</float>
+      <float hash="slowest">156.122</float>
+      <float hash="same">1223.88</float>
+    </struct>
+    <struct index="13">
+      <float hash="normal">530.612</float>
+      <float hash="fast">1087.76</float>
+      <float hash="fastest">1565.31</float>
+      <float hash="slow">437.755</float>
+      <float hash="slowest">172.449</float>
+      <float hash="same">1325.87</float>
+    </struct>
+    <struct index="14">
+      <float hash="normal">578.571</float>
+      <float hash="fast">1185.71</float>
+      <float hash="fastest">1707.14</float>
+      <float hash="slow">475</float>
+      <float hash="slowest">189.286</float>
+      <float hash="same">1427.86</float>
+    </struct>
+    <struct index="15">
+      <float hash="normal">627.551</float>
+      <float hash="fast">1285.71</float>
+      <float hash="fastest">1852.04</float>
+      <float hash="slow">512.755</float>
+      <float hash="slowest">206.633</float>
+      <float hash="same">1529.85</float>
+    </struct>
+    <struct index="16">
+      <float hash="normal">677.551</float>
+      <float hash="fast">1387.76</float>
+      <float hash="fastest">2000</float>
+      <float hash="slow">551.02</float>
+      <float hash="slowest">224.49</float>
+      <float hash="same">1631.84</float>
+    </struct>
+    <struct index="17">
+      <float hash="normal">728.571</float>
+      <float hash="fast">1491.84</float>
+      <float hash="fastest">2151.02</float>
+      <float hash="slow">589.796</float>
+      <float hash="slowest">242.857</float>
+      <float hash="same">1733.83</float>
+    </struct>
+    <struct index="18">
+      <float hash="normal">780.612</float>
+      <float hash="fast">1597.96</float>
+      <float hash="fastest">2305.1</float>
+      <float hash="slow">629.082</float>
+      <float hash="slowest">261.735</float>
+      <float hash="same">1835.82</float>
+    </struct>
+    <struct index="19">
+      <float hash="normal">833.673</float>
+      <float hash="fast">1706.12</float>
+      <float hash="fastest">2462.24</float>
+      <float hash="slow">668.878</float>
+      <float hash="slowest">281.122</float>
+      <float hash="same">1937.81</float>
+    </struct>
+    <struct index="20">
+      <float hash="normal">887.755</float>
+      <float hash="fast">1816.33</float>
+      <float hash="fastest">2621.43</float>
+      <float hash="slow">709.694</float>
+      <float hash="slowest">301.02</float>
+      <float hash="same">2039.8</float>
+    </struct>
+    <struct index="21">
+      <float hash="normal">942.857</float>
+      <float hash="fast">1928.57</float>
+      <float hash="fastest">2782.65</float>
+      <float hash="slow">751.531</float>
+      <float hash="slowest">321.429</float>
+      <float hash="same">2141.79</float>
+    </struct>
+    <struct index="22">
+      <float hash="normal">998.98</float>
+      <float hash="fast">2042.86</float>
+      <float hash="fastest">2945.92</float>
+      <float hash="slow">794.388</float>
+      <float hash="slowest">342.347</float>
+      <float hash="same">2243.78</float>
+    </struct>
+    <struct index="23">
+      <float hash="normal">1056.12</float>
+      <float hash="fast">2159.18</float>
+      <float hash="fastest">3111.22</float>
+      <float hash="slow">838.265</float>
+      <float hash="slowest">363.776</float>
+      <float hash="same">2345.77</float>
+    </struct>
+    <struct index="24">
+      <float hash="normal">1114.29</float>
+      <float hash="fast">2277.55</float>
+      <float hash="fastest">3278.57</float>
+      <float hash="slow">883.163</float>
+      <float hash="slowest">385.714</float>
+      <float hash="same">2447.76</float>
+    </struct>
+    <struct index="25">
+      <float hash="normal">1173.47</float>
+      <float hash="fast">2397.96</float>
+      <float hash="fastest">3447.96</float>
+      <float hash="slow">929.082</float>
+      <float hash="slowest">408.163</float>
+      <float hash="same">2549.74</float>
+    </struct>
+    <struct index="26">
+      <float hash="normal">1233.67</float>
+      <float hash="fast">2520.41</float>
+      <float hash="fastest">3619.39</float>
+      <float hash="slow">976.02</float>
+      <float hash="slowest">431.122</float>
+      <float hash="same">2651.73</float>
+    </struct>
+    <struct index="27">
+      <float hash="normal">1294.9</float>
+      <float hash="fast">2644.9</float>
+      <float hash="fastest">3792.86</float>
+      <float hash="slow">1023.98</float>
+      <float hash="slowest">454.592</float>
+      <float hash="same">2753.72</float>
+    </struct>
+    <struct index="28">
+      <float hash="normal">1357.14</float>
+      <float hash="fast">2771.43</float>
+      <float hash="fastest">3968.37</float>
+      <float hash="slow">1072.96</float>
+      <float hash="slowest">478.571</float>
+      <float hash="same">2855.71</float>
+    </struct>
+    <struct index="29">
+      <float hash="normal">1420.41</float>
+      <float hash="fast">2900</float>
+      <float hash="fastest">4145.92</float>
+      <float hash="slow">1122.96</float>
+      <float hash="slowest">503.061</float>
+      <float hash="same">2957.7</float>
+    </struct>
+    <struct index="30">
+      <float hash="normal">1484.69</float>
+      <float hash="fast">3030.61</float>
+      <float hash="fastest">4325.51</float>
+      <float hash="slow">1173.98</float>
+      <float hash="slowest">528.061</float>
+      <float hash="same">3059.69</float>
+    </struct>
+    <struct index="31">
+      <float hash="normal">1550</float>
+      <float hash="fast">3163.27</float>
+      <float hash="fastest">4507.14</float>
+      <float hash="slow">1226.02</float>
+      <float hash="slowest">553.571</float>
+      <float hash="same">3161.68</float>
+    </struct>
+    <struct index="32">
+      <float hash="normal">1616.33</float>
+      <float hash="fast">3297.96</float>
+      <float hash="fastest">4690.82</float>
+      <float hash="slow">1279.08</float>
+      <float hash="slowest">579.592</float>
+      <float hash="same">3263.67</float>
+    </struct>
+    <struct index="33">
+      <float hash="normal">1683.67</float>
+      <float hash="fast">3434.69</float>
+      <float hash="fastest">4876.53</float>
+      <float hash="slow">1333.16</float>
+      <float hash="slowest">606.122</float>
+      <float hash="same">3365.66</float>
+    </struct>
+    <struct index="34">
+      <float hash="normal">1752.04</float>
+      <float hash="fast">3573.47</float>
+      <float hash="fastest">5064.29</float>
+      <float hash="slow">1388.27</float>
+      <float hash="slowest">633.163</float>
+      <float hash="same">3467.65</float>
+    </struct>
+    <struct index="35">
+      <float hash="normal">1821.43</float>
+      <float hash="fast">3714.29</float>
+      <float hash="fastest">5254.08</float>
+      <float hash="slow">1444.39</float>
+      <float hash="slowest">660.714</float>
+      <float hash="same">3569.64</float>
+    </struct>
+    <struct index="36">
+      <float hash="normal">1891.84</float>
+      <float hash="fast">3857.14</float>
+      <float hash="fastest">5438.78</float>
+      <float hash="slow">1501.53</float>
+      <float hash="slowest">688.776</float>
+      <float hash="same">3671.63</float>
+    </struct>
+    <struct index="37">
+      <float hash="normal">1963.27</float>
+      <float hash="fast">4002.04</float>
+      <float hash="fastest">5618.37</float>
+      <float hash="slow">1559.69</float>
+      <float hash="slowest">717.347</float>
+      <float hash="same">3773.62</float>
+    </struct>
+    <struct index="38">
+      <float hash="normal">2035.71</float>
+      <float hash="fast">4148.98</float>
+      <float hash="fastest">5792.86</float>
+      <float hash="slow">1618.88</float>
+      <float hash="slowest">746.429</float>
+      <float hash="same">3875.61</float>
+    </struct>
+    <struct index="39">
+      <float hash="normal">2109.18</float>
+      <float hash="fast">4297.96</float>
+      <float hash="fastest">5962.24</float>
+      <float hash="slow">1679.08</float>
+      <float hash="slowest">776.02</float>
+      <float hash="same">3977.6</float>
+    </struct>
+    <struct index="40">
+      <float hash="normal">2183.67</float>
+      <float hash="fast">4448.98</float>
+      <float hash="fastest">6126.53</float>
+      <float hash="slow">1740.31</float>
+      <float hash="slowest">807.653</float>
+      <float hash="same">4079.59</float>
+    </struct>
+    <struct index="41">
+      <float hash="normal">2260.2</float>
+      <float hash="fast">4601.02</float>
+      <float hash="fastest">6285.71</float>
+      <float hash="slow">1802.55</float>
+      <float hash="slowest">841.327</float>
+      <float hash="same">4181.58</float>
+    </struct>
+    <struct index="42">
+      <float hash="normal">2338.78</float>
+      <float hash="fast">4754.08</float>
+      <float hash="fastest">6439.8</float>
+      <float hash="slow">1865.82</float>
+      <float hash="slowest">877.041</float>
+      <float hash="same">4283.57</float>
+    </struct>
+    <struct index="43">
+      <float hash="normal">2419.39</float>
+      <float hash="fast">4908.16</float>
+      <float hash="fastest">6588.78</float>
+      <float hash="slow">1930.1</float>
+      <float hash="slowest">914.796</float>
+      <float hash="same">4385.56</float>
+    </struct>
+    <struct index="44">
+      <float hash="normal">2502.04</float>
+      <float hash="fast">5063.27</float>
+      <float hash="fastest">6732.65</float>
+      <float hash="slow">1995.41</float>
+      <float hash="slowest">954.592</float>
+      <float hash="same">4487.55</float>
+    </struct>
+    <struct index="45">
+      <float hash="normal">2586.73</float>
+      <float hash="fast">5219.39</float>
+      <float hash="fastest">6871.43</float>
+      <float hash="slow">2061.73</float>
+      <float hash="slowest">996.429</float>
+      <float hash="same">4589.54</float>
+    </struct>
+    <struct index="46">
+      <float hash="normal">2673.47</float>
+      <float hash="fast">5376.53</float>
+      <float hash="fastest">7005.1</float>
+      <float hash="slow">2129.08</float>
+      <float hash="slowest">1040.31</float>
+      <float hash="same">4691.53</float>
+    </struct>
+    <struct index="47">
+      <float hash="normal">2762.24</float>
+      <float hash="fast">5534.69</float>
+      <float hash="fastest">7133.67</float>
+      <float hash="slow">2197.45</float>
+      <float hash="slowest">1086.22</float>
+      <float hash="same">4793.52</float>
+    </struct>
+    <struct index="48">
+      <float hash="normal">2853.06</float>
+      <float hash="fast">5693.88</float>
+      <float hash="fastest">7257.14</float>
+      <float hash="slow">2266.84</float>
+      <float hash="slowest">1134.18</float>
+      <float hash="same">4895.51</float>
+    </struct>
+    <struct index="49">
+      <float hash="normal">2945.92</float>
+      <float hash="fast">5854.08</float>
+      <float hash="fastest">7375.51</float>
+      <float hash="slow">2337.24</float>
+      <float hash="slowest">1184.18</float>
+      <float hash="same">4997.5</float>
+    </struct>
+    <struct index="50">
+      <float hash="normal">3040.82</float>
+      <float hash="fast">6015.31</float>
+      <float hash="fastest">7488.78</float>
+      <float hash="slow">2409.69</float>
+      <float hash="slowest">1238.27</float>
+      <float hash="same">5099.49</float>
+    </struct>
+    <struct index="51">
+      <float hash="normal">3137.76</float>
+      <float hash="fast">6172.45</float>
+      <float hash="fastest">7597.96</float>
+      <float hash="slow">2484.18</float>
+      <float hash="slowest">1296.43</float>
+      <float hash="same">5201.48</float>
+    </struct>
+    <struct index="52">
+      <float hash="normal">3236.73</float>
+      <float hash="fast">6325.51</float>
+      <float hash="fastest">7703.06</float>
+      <float hash="slow">2560.71</float>
+      <float hash="slowest">1358.67</float>
+      <float hash="same">5303.47</float>
+    </struct>
+    <struct index="53">
+      <float hash="normal">3337.76</float>
+      <float hash="fast">6474.49</float>
+      <float hash="fastest">7804.08</float>
+      <float hash="slow">2639.29</float>
+      <float hash="slowest">1425</float>
+      <float hash="same">5405.46</float>
+    </struct>
+    <struct index="54">
+      <float hash="normal">3440.82</float>
+      <float hash="fast">6619.39</float>
+      <float hash="fastest">7901.02</float>
+      <float hash="slow">2719.9</float>
+      <float hash="slowest">1495.41</float>
+      <float hash="same">5507.45</float>
+    </struct>
+    <struct index="55">
+      <float hash="normal">3545.92</float>
+      <float hash="fast">6760.2</float>
+      <float hash="fastest">7993.88</float>
+      <float hash="slow">2802.55</float>
+      <float hash="slowest">1569.9</float>
+      <float hash="same">5609.44</float>
+    </struct>
+    <struct index="56">
+      <float hash="normal">3653.06</float>
+      <float hash="fast">6896.94</float>
+      <float hash="fastest">8082.65</float>
+      <float hash="slow">2887.24</float>
+      <float hash="slowest">1648.47</float>
+      <float hash="same">5711.43</float>
+    </struct>
+    <struct index="57">
+      <float hash="normal">3762.24</float>
+      <float hash="fast">7029.59</float>
+      <float hash="fastest">8167.35</float>
+      <float hash="slow">2973.98</float>
+      <float hash="slowest">1731.12</float>
+      <float hash="same">5813.42</float>
+    </struct>
+    <struct index="58">
+      <float hash="normal">3873.47</float>
+      <float hash="fast">7158.16</float>
+      <float hash="fastest">8247.96</float>
+      <float hash="slow">3062.76</float>
+      <float hash="slowest">1817.86</float>
+      <float hash="same">5915.41</float>
+    </struct>
+    <struct index="59">
+      <float hash="normal">3986.73</float>
+      <float hash="fast">7282.65</float>
+      <float hash="fastest">8324.49</float>
+      <float hash="slow">3153.57</float>
+      <float hash="slowest">1908.67</float>
+      <float hash="same">6017.4</float>
+    </struct>
+    <struct index="60">
+      <float hash="normal">4102.04</float>
+      <float hash="fast">7403.06</float>
+      <float hash="fastest">8398.47</float>
+      <float hash="slow">3248.47</float>
+      <float hash="slowest">2004.59</float>
+      <float hash="same">6119.39</float>
+    </struct>
+    <struct index="61">
+      <float hash="normal">4219.39</float>
+      <float hash="fast">7519.39</float>
+      <float hash="fastest">8469.9</float>
+      <float hash="slow">3347.45</float>
+      <float hash="slowest">2105.61</float>
+      <float hash="same">6221.38</float>
+    </struct>
+    <struct index="62">
+      <float hash="normal">4338.78</float>
+      <float hash="fast">7631.63</float>
+      <float hash="fastest">8538.78</float>
+      <float hash="slow">3450.51</float>
+      <float hash="slowest">2211.73</float>
+      <float hash="same">6323.37</float>
+    </struct>
+    <struct index="63">
+      <float hash="normal">4460.2</float>
+      <float hash="fast">7739.8</float>
+      <float hash="fastest">8605.1</float>
+      <float hash="slow">3557.65</float>
+      <float hash="slowest">2322.96</float>
+      <float hash="same">6425.36</float>
+    </struct>
+    <struct index="64">
+      <float hash="normal">4583.67</float>
+      <float hash="fast">7843.88</float>
+      <float hash="fastest">8668.88</float>
+      <float hash="slow">3668.88</float>
+      <float hash="slowest">2439.29</float>
+      <float hash="same">6527.35</float>
+    </struct>
+    <struct index="65">
+      <float hash="normal">4709.18</float>
+      <float hash="fast">7943.88</float>
+      <float hash="fastest">8730.1</float>
+      <float hash="slow">3784.18</float>
+      <float hash="slowest">2560.71</float>
+      <float hash="same">6629.34</float>
+    </struct>
+    <struct index="66">
+      <float hash="normal">4836.73</float>
+      <float hash="fast">8039.8</float>
+      <float hash="fastest">8788.78</float>
+      <float hash="slow">3903.57</float>
+      <float hash="slowest">2687.24</float>
+      <float hash="same">6731.33</float>
+    </struct>
+    <struct index="67">
+      <float hash="normal">4966.33</float>
+      <float hash="fast">8131.63</float>
+      <float hash="fastest">8844.9</float>
+      <float hash="slow">4027.04</float>
+      <float hash="slowest">2818.88</float>
+      <float hash="same">6833.32</float>
+    </struct>
+    <struct index="68">
+      <float hash="normal">5097.96</float>
+      <float hash="fast">8219.39</float>
+      <float hash="fastest">8898.47</float>
+      <float hash="slow">4154.59</float>
+      <float hash="slowest">2955.61</float>
+      <float hash="same">6935.31</float>
+    </struct>
+    <struct index="69">
+      <float hash="normal">5231.63</float>
+      <float hash="fast">8303.06</float>
+      <float hash="fastest">8949.49</float>
+      <float hash="slow">4286.22</float>
+      <float hash="slowest">3097.45</float>
+      <float hash="same">7037.3</float>
+    </struct>
+    <struct index="70">
+      <float hash="normal">5367.35</float>
+      <float hash="fast">8382.65</float>
+      <float hash="fastest">8998.47</float>
+      <float hash="slow">4421.94</float>
+      <float hash="slowest">3245.41</float>
+      <float hash="same">7139.29</float>
+    </struct>
+    <struct index="71">
+      <float hash="normal">5505.1</float>
+      <float hash="fast">8460.2</float>
+      <float hash="fastest">9045.41</float>
+      <float hash="slow">4561.73</float>
+      <float hash="slowest">3399.49</float>
+      <float hash="same">7241.28</float>
+    </struct>
+    <struct index="72">
+      <float hash="normal">5644.9</float>
+      <float hash="fast">8535.71</float>
+      <float hash="fastest">9090.31</float>
+      <float hash="slow">4705.61</float>
+      <float hash="slowest">3559.69</float>
+      <float hash="same">7343.27</float>
+    </struct>
+    <struct index="73">
+      <float hash="normal">5786.73</float>
+      <float hash="fast">8609.18</float>
+      <float hash="fastest">9133.16</float>
+      <float hash="slow">4853.57</float>
+      <float hash="slowest">3726.02</float>
+      <float hash="same">7445.26</float>
+    </struct>
+    <struct index="74">
+      <float hash="normal">5930.61</float>
+      <float hash="fast">8680.61</float>
+      <float hash="fastest">9173.98</float>
+      <float hash="slow">5005.61</float>
+      <float hash="slowest">3898.47</float>
+      <float hash="same">7547.24</float>
+    </struct>
+    <struct index="75">
+      <float hash="normal">6076.53</float>
+      <float hash="fast">8750</float>
+      <float hash="fastest">9212.76</float>
+      <float hash="slow">5161.73</float>
+      <float hash="slowest">4077.04</float>
+      <float hash="same">7649.23</float>
+    </struct>
+    <struct index="76">
+      <float hash="normal">6224.49</float>
+      <float hash="fast">8817.35</float>
+      <float hash="fastest">9249.49</float>
+      <float hash="slow">5321.94</float>
+      <float hash="slowest">4261.73</float>
+      <float hash="same">7751.22</float>
+    </struct>
+    <struct index="77">
+      <float hash="normal">6374.49</float>
+      <float hash="fast">8882.65</float>
+      <float hash="fastest">9284.18</float>
+      <float hash="slow">5486.22</float>
+      <float hash="slowest">4452.55</float>
+      <float hash="same">7853.21</float>
+    </struct>
+    <struct index="78">
+      <float hash="normal">6526.53</float>
+      <float hash="fast">8945.92</float>
+      <float hash="fastest">9316.84</float>
+      <float hash="slow">5654.59</float>
+      <float hash="slowest">4649.49</float>
+      <float hash="same">7955.2</float>
+    </struct>
+    <struct index="79">
+      <float hash="normal">6680.61</float>
+      <float hash="fast">9007.14</float>
+      <float hash="fastest">9347.45</float>
+      <float hash="slow">5827.04</float>
+      <float hash="slowest">4852.55</float>
+      <float hash="same">8057.19</float>
+    </struct>
+    <struct index="80">
+      <float hash="normal">6836.73</float>
+      <float hash="fast">9066.33</float>
+      <float hash="fastest">9377.55</float>
+      <float hash="slow">6004.59</float>
+      <float hash="slowest">5062.76</float>
+      <float hash="same">8159.18</float>
+    </struct>
+    <struct index="81">
+      <float hash="normal">6994.9</float>
+      <float hash="fast">9124.49</float>
+      <float hash="fastest">9407.14</float>
+      <float hash="slow">6187.24</float>
+      <float hash="slowest">5280.1</float>
+      <float hash="same">8261.17</float>
+    </struct>
+    <struct index="82">
+      <float hash="normal">7155.1</float>
+      <float hash="fast">9181.63</float>
+      <float hash="fastest">9436.22</float>
+      <float hash="slow">6375</float>
+      <float hash="slowest">5504.59</float>
+      <float hash="same">8363.16</float>
+    </struct>
+    <struct index="83">
+      <float hash="normal">7317.35</float>
+      <float hash="fast">9237.76</float>
+      <float hash="fastest">9464.8</float>
+      <float hash="slow">6567.86</float>
+      <float hash="slowest">5736.22</float>
+      <float hash="same">8465.15</float>
+    </struct>
+    <struct index="84">
+      <float hash="normal">7481.63</float>
+      <float hash="fast">9292.86</float>
+      <float hash="fastest">9492.86</float>
+      <float hash="slow">6765.82</float>
+      <float hash="slowest">5975</float>
+      <float hash="same">8567.14</float>
+    </struct>
+    <struct index="85">
+      <float hash="normal">7647.96</float>
+      <float hash="fast">9346.94</float>
+      <float hash="fastest">9520.41</float>
+      <float hash="slow">6968.88</float>
+      <float hash="slowest">6220.92</float>
+      <float hash="same">8669.13</float>
+    </struct>
+    <struct index="86">
+      <float hash="normal">7816.33</float>
+      <float hash="fast">9400</float>
+      <float hash="fastest">9547.45</float>
+      <float hash="slow">7177.04</float>
+      <float hash="slowest">6473.98</float>
+      <float hash="same">8771.12</float>
+    </struct>
+    <struct index="87">
+      <float hash="normal">7986.73</float>
+      <float hash="fast">9452.04</float>
+      <float hash="fastest">9573.98</float>
+      <float hash="slow">7390.31</float>
+      <float hash="slowest">6734.18</float>
+      <float hash="same">8873.11</float>
+    </struct>
+    <struct index="88">
+      <float hash="normal">8159.18</float>
+      <float hash="fast">9503.06</float>
+      <float hash="fastest">9600</float>
+      <float hash="slow">7608.67</float>
+      <float hash="slowest">7001.53</float>
+      <float hash="same">8975.1</float>
+    </struct>
+    <struct index="89">
+      <float hash="normal">8333.67</float>
+      <float hash="fast">9553.06</float>
+      <float hash="fastest">9625.51</float>
+      <float hash="slow">7832.14</float>
+      <float hash="slowest">7276.02</float>
+      <float hash="same">9077.09</float>
+    </struct>
+    <struct index="90">
+      <float hash="normal">8510.2</float>
+      <float hash="fast">9602.04</float>
+      <float hash="fastest">9650.51</float>
+      <float hash="slow">8060.71</float>
+      <float hash="slowest">7558.67</float>
+      <float hash="same">9179.08</float>
+    </struct>
+    <struct index="91">
+      <float hash="normal">8688.78</float>
+      <float hash="fast">9650</float>
+      <float hash="fastest">9675</float>
+      <float hash="slow">8294.39</float>
+      <float hash="slowest">7849.49</float>
+      <float hash="same">9281.07</float>
+    </struct>
+    <struct index="92">
+      <float hash="normal">8869.39</float>
+      <float hash="fast">9696.94</float>
+      <float hash="fastest">9698.98</float>
+      <float hash="slow">8533.16</float>
+      <float hash="slowest">8148.47</float>
+      <float hash="same">9383.06</float>
+    </struct>
+    <struct index="93">
+      <float hash="normal">9052.04</float>
+      <float hash="fast">9742.86</float>
+      <float hash="fastest">9722.45</float>
+      <float hash="slow">8777.04</float>
+      <float hash="slowest">8455.61</float>
+      <float hash="same">9485.05</float>
+    </struct>
+    <struct index="94">
+      <float hash="normal">9236.73</float>
+      <float hash="fast">9787.76</float>
+      <float hash="fastest">9745.41</float>
+      <float hash="slow">9026.02</float>
+      <float hash="slowest">8770.92</float>
+      <float hash="same">9587.04</float>
+    </struct>
+    <struct index="95">
+      <float hash="normal">9423.47</float>
+      <float hash="fast">9831.63</float>
+      <float hash="fastest">9767.86</float>
+      <float hash="slow">9280.1</float>
+      <float hash="slowest">9094.39</float>
+      <float hash="same">9689.03</float>
+    </struct>
+    <struct index="96">
+      <float hash="normal">9612.24</float>
+      <float hash="fast">9874.49</float>
+      <float hash="fastest">9789.8</float>
+      <float hash="slow">9539.29</float>
+      <float hash="slowest">9426.02</float>
+      <float hash="same">9791.02</float>
+    </struct>
+    <struct index="97">
+      <float hash="normal">9803.06</float>
+      <float hash="fast">9916.33</float>
+      <float hash="fastest">9811.22</float>
+      <float hash="slow">9803.57</float>
+      <float hash="slowest">9765.82</float>
+      <float hash="same">9893.01</float>
+    </struct>
+    <struct index="98">
+      <float hash="normal">10000</float>
+      <float hash="fast">10000</float>
+      <float hash="fastest">10000</float>
+      <float hash="slow">10000</float>
+      <float hash="slowest">10000</float>
+      <float hash="same">10000</float>
+    </struct>
+  </list>
+  <float hash="0x1a9d47d580">2.1</float>
+  <list size="4" hash="0x1b0ecee171">
+    <uint index="0">1600</uint>
+    <uint index="1">2475</uint>
+    <uint index="2">4615</uint>
+    <uint index="3">8450</uint>
+  </list>
+</struct>

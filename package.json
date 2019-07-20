@@ -1,0 +1,28 @@
+{
+  "name": "amiibo_modding",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^1.2.4",
+    "chalk": "^2.4.2",
+    "crc-32": "^1.2.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "maboii": "^1.1.0",
+    "nfc-pcsc": "^0.7.4",
+    "opencv4nodejs": "^5.1.0",
+    "readline-promise": "^1.0.4",
+    "usb": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/fluent-ffmpeg": "^2.1.10",
+    "@types/node": "^12.6.2",
+    "@types/usb": "^1.5.1"
+  }
+}

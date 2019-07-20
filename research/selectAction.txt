@@ -1,0 +1,3911 @@
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+/* WARNING: Restarted to delay deadcode elimination for space: stack */
+/* WARNING: Unknown calling convention yet parameter storage is locked */
+/* lua2cpp::L2CFighterAIModeBase::select_action() */
+
+void select_action(void)
+
+{
+  L2CValue *this;
+  undefined4 uVar1;
+  lua_State **pplVar2;
+  byte bVar3;
+  bool bVar4;
+  char cVar5;
+  NfpPersonalityKind NVar6;
+  Hash40 HVar7;
+  SkillStatus SVar8;
+  int iVar9;
+  L2CValue *this_00;
+  L2CValue *this_01;
+  L2CFighterAIBase *this_02;
+  L2CValue *this_03;
+  L2CValue *this_04;
+  L2CValue *this_05;
+  L2CFighterAIModeBase *this_06;
+  uint uVar10;
+  uint uVar11;
+  longlong lVar12;
+  uint uVar13;
+  uint uVar14;
+  uint uVar15;
+  ulonglong uVar16;
+  lua_State *plVar17;
+  float in_s0;
+  float fVar18;
+  float fVar19;
+  undefined auVar20 [16];
+  undefined auVar21 [16];
+  undefined8 uVar22;
+  undefined in_z1 [32];
+  undefined in_z8 [32];
+  undefined in_z9 [32];
+  float fVar23;
+  undefined in_z10 [32];
+  uint local_19a0;
+  undefined4 uStack6556;
+  ulonglong uStack6552;
+  L2CValue aLStack6512 [16];
+  L2CValue aLStack6496 [16];
+  L2CValue aLStack6480 [16];
+  L2CValue aLStack6464 [16];
+  L2CValue aLStack6448 [16];
+  L2CValue aLStack6432 [16];
+  L2CValue aLStack6416 [16];
+  L2CValue aLStack6400 [16];
+  L2CValue aLStack6384 [16];
+  L2CValue aLStack6368 [16];
+  L2CValue aLStack6352 [16];
+  L2CValue aLStack6336 [16];
+  L2CValue aLStack6320 [16];
+  L2CValue aLStack6304 [16];
+  L2CValue aLStack6288 [16];
+  L2CValue aLStack6272 [16];
+  L2CValue aLStack6256 [16];
+  L2CValue aLStack6240 [16];
+  L2CValue aLStack6224 [16];
+  L2CValue aLStack6208 [16];
+  L2CValue aLStack6192 [16];
+  L2CValue aLStack6176 [16];
+  L2CValue aLStack6160 [16];
+  L2CValue aLStack6144 [16];
+  L2CValue aLStack6128 [16];
+  L2CValue aLStack6112 [16];
+  L2CValue aLStack6096 [16];
+  L2CValue aLStack6080 [16];
+  L2CValue aLStack6064 [16];
+  L2CValue aLStack6048 [16];
+  L2CValue aLStack6032 [16];
+  L2CValue aLStack6016 [16];
+  L2CValue aLStack6000 [16];
+  L2CValue aLStack5984 [16];
+  L2CValue aLStack5968 [16];
+  L2CValue aLStack5952 [16];
+  L2CValue aLStack5936 [16];
+  L2CValue aLStack5920 [16];
+  L2CValue aLStack5904 [16];
+  L2CValue aLStack5888 [16];
+  L2CValue aLStack5872 [16];
+  L2CValue aLStack5856 [16];
+  L2CValue aLStack5840 [16];
+  L2CValue aLStack5824 [16];
+  L2CValue aLStack5808 [16];
+  L2CValue aLStack5792 [16];
+  L2CValue aLStack5776 [16];
+  L2CValue aLStack5760 [16];
+  L2CValue aLStack5744 [16];
+  L2CValue aLStack5728 [16];
+  L2CValue aLStack5712 [16];
+  L2CValue aLStack5696 [16];
+  L2CValue aLStack5680 [16];
+  L2CValue aLStack5664 [16];
+  L2CValue aLStack5648 [16];
+  L2CValue aLStack5632 [16];
+  L2CValue aLStack5616 [16];
+  L2CValue aLStack5600 [16];
+  L2CValue aLStack5584 [16];
+  L2CValue aLStack5568 [16];
+  L2CValue aLStack5552 [16];
+  L2CValue aLStack5536 [16];
+  L2CValue aLStack5520 [16];
+  L2CValue aLStack5504 [16];
+  L2CValue aLStack5488 [16];
+  L2CValue aLStack5472 [16];
+  L2CValue aLStack5456 [16];
+  L2CValue aLStack5440 [16];
+  L2CValue aLStack5424 [16];
+  L2CValue aLStack5408 [16];
+  L2CValue aLStack5392 [16];
+  L2CValue aLStack5376 [16];
+  L2CValue aLStack5360 [16];
+  L2CValue aLStack5344 [16];
+  L2CValue aLStack5328 [16];
+  L2CValue aLStack5312 [16];
+  L2CValue aLStack5296 [16];
+  L2CValue aLStack5280 [16];
+  L2CValue aLStack5264 [16];
+  L2CValue aLStack5248 [16];
+  L2CValue aLStack5232 [16];
+  L2CValue aLStack5216 [16];
+  L2CValue aLStack5200 [16];
+  L2CValue aLStack5184 [16];
+  L2CValue aLStack5168 [16];
+  L2CValue aLStack5152 [16];
+  L2CValue aLStack5136 [16];
+  L2CValue aLStack5120 [16];
+  L2CValue aLStack5104 [16];
+  L2CValue aLStack5088 [16];
+  L2CValue aLStack5072 [16];
+  L2CValue aLStack5056 [16];
+  L2CValue aLStack5040 [16];
+  L2CValue aLStack5024 [16];
+  L2CValue aLStack5008 [16];
+  L2CValue aLStack4992 [16];
+  L2CValue aLStack4976 [16];
+  L2CValue aLStack4960 [16];
+  L2CValue aLStack4944 [16];
+  L2CValue aLStack4928 [16];
+  L2CValue aLStack4912 [16];
+  L2CValue aLStack4896 [16];
+  L2CValue aLStack4880 [16];
+  L2CValue aLStack4864 [16];
+  L2CValue aLStack4848 [16];
+  L2CValue aLStack4832 [16];
+  L2CValue aLStack4816 [16];
+  L2CValue aLStack4800 [16];
+  L2CValue aLStack4784 [16];
+  L2CValue aLStack4768 [16];
+  L2CValue aLStack4752 [16];
+  L2CValue aLStack4736 [16];
+  L2CValue aLStack4720 [16];
+  L2CValue aLStack4704 [16];
+  L2CValue aLStack4688 [16];
+  L2CValue aLStack4672 [16];
+  L2CValue aLStack4656 [16];
+  L2CValue aLStack4640 [16];
+  L2CValue aLStack4624 [16];
+  L2CValue aLStack4608 [16];
+  L2CValue aLStack4592 [16];
+  L2CValue aLStack4576 [16];
+  L2CValue aLStack4560 [16];
+  L2CValue aLStack4544 [16];
+  L2CValue aLStack4528 [16];
+  L2CValue aLStack4512 [16];
+  L2CValue aLStack4496 [16];
+  L2CValue aLStack4480 [16];
+  L2CValue aLStack4464 [16];
+  L2CValue aLStack4448 [16];
+  L2CValue aLStack4432 [16];
+  L2CValue aLStack4416 [16];
+  L2CValue aLStack4400 [16];
+  L2CValue aLStack4384 [16];
+  L2CValue aLStack4368 [16];
+  L2CValue aLStack4352 [16];
+  L2CValue aLStack4336 [16];
+  L2CValue aLStack4320 [16];
+  L2CValue aLStack4304 [16];
+  L2CValue aLStack4288 [16];
+  L2CValue aLStack4272 [16];
+  L2CValue aLStack4256 [16];
+  L2CValue aLStack4240 [16];
+  L2CValue aLStack4224 [16];
+  L2CValue aLStack4208 [16];
+  L2CValue aLStack4192 [16];
+  L2CValue aLStack4176 [16];
+  L2CValue aLStack4160 [16];
+  L2CValue aLStack4144 [16];
+  L2CValue aLStack4128 [16];
+  L2CValue aLStack4112 [16];
+  L2CValue aLStack4096 [16];
+  L2CValue aLStack4080 [16];
+  L2CValue aLStack4064 [16];
+  L2CValue aLStack4048 [16];
+  L2CValue aLStack4032 [16];
+  L2CValue aLStack4016 [16];
+  L2CValue aLStack4000 [16];
+  L2CValue aLStack3984 [16];
+  L2CValue aLStack3968 [16];
+  L2CValue aLStack3952 [16];
+  L2CValue aLStack3936 [16];
+  L2CValue aLStack3920 [16];
+  L2CValue aLStack3904 [16];
+  L2CValue aLStack3888 [16];
+  L2CValue aLStack3872 [16];
+  L2CValue aLStack3856 [16];
+  L2CValue aLStack3840 [16];
+  L2CValue aLStack3824 [16];
+  L2CValue aLStack3808 [16];
+  L2CValue aLStack3792 [16];
+  L2CValue aLStack3776 [16];
+  L2CValue aLStack3760 [16];
+  L2CValue aLStack3744 [16];
+  L2CValue aLStack3728 [16];
+  L2CValue aLStack3712 [16];
+  L2CValue aLStack3696 [16];
+  L2CValue aLStack3680 [16];
+  L2CValue aLStack3664 [16];
+  L2CValue aLStack3648 [16];
+  L2CValue aLStack3632 [16];
+  L2CValue aLStack3616 [16];
+  L2CValue aLStack3600 [16];
+  L2CValue aLStack3584 [16];
+  L2CValue aLStack3568 [16];
+  L2CValue aLStack3552 [16];
+  L2CValue aLStack3536 [16];
+  L2CValue aLStack3520 [16];
+  L2CValue aLStack3504 [16];
+  L2CValue aLStack3488 [16];
+  L2CValue aLStack3472 [16];
+  L2CValue aLStack3456 [16];
+  L2CValue aLStack3440 [16];
+  L2CValue aLStack3424 [16];
+  L2CValue aLStack3408 [16];
+  L2CValue aLStack3392 [16];
+  L2CValue aLStack3376 [16];
+  L2CValue aLStack3360 [16];
+  L2CValue aLStack3344 [16];
+  L2CValue aLStack3328 [16];
+  L2CValue aLStack3312 [16];
+  L2CValue aLStack3296 [16];
+  L2CValue aLStack3280 [16];
+  L2CValue aLStack3264 [16];
+  L2CValue aLStack3248 [16];
+  L2CValue aLStack3232 [16];
+  L2CValue aLStack3216 [16];
+  L2CValue aLStack3200 [16];
+  L2CValue aLStack3184 [16];
+  L2CValue aLStack3168 [16];
+  L2CValue aLStack3152 [16];
+  L2CValue aLStack3136 [16];
+  L2CValue aLStack3120 [16];
+  L2CValue aLStack3104 [16];
+  L2CValue aLStack3088 [16];
+  L2CValue aLStack3072 [16];
+  L2CValue aLStack3056 [16];
+  L2CValue aLStack3040 [16];
+  L2CValue aLStack3024 [16];
+  L2CValue aLStack3008 [16];
+  L2CValue aLStack2992 [16];
+  L2CValue aLStack2976 [16];
+  L2CValue aLStack2960 [16];
+  L2CValue aLStack2944 [16];
+  L2CValue aLStack2928 [16];
+  L2CValue aLStack2912 [16];
+  L2CValue aLStack2896 [16];
+  L2CValue aLStack2880 [16];
+  L2CValue aLStack2864 [16];
+  L2CValue aLStack2848 [16];
+  L2CValue aLStack2832 [16];
+  L2CValue aLStack2816 [16];
+  L2CValue aLStack2800 [16];
+  L2CValue aLStack2784 [16];
+  L2CValue aLStack2768 [16];
+  L2CValue aLStack2752 [16];
+  L2CValue aLStack2736 [16];
+  L2CValue aLStack2720 [16];
+  L2CValue aLStack2704 [16];
+  L2CValue aLStack2688 [16];
+  L2CValue aLStack2672 [16];
+  L2CValue aLStack2656 [16];
+  L2CValue aLStack2640 [16];
+  L2CValue aLStack2624 [16];
+  L2CValue aLStack2608 [16];
+  L2CValue aLStack2592 [16];
+  L2CValue aLStack2576 [16];
+  L2CValue aLStack2560 [16];
+  L2CValue aLStack2544 [16];
+  L2CValue aLStack2528 [16];
+  L2CValue aLStack2512 [16];
+  L2CValue aLStack2496 [16];
+  L2CValue aLStack2480 [16];
+  L2CValue aLStack2464 [16];
+  L2CValue aLStack2448 [16];
+  L2CValue aLStack2432 [16];
+  L2CValue aLStack2416 [16];
+  L2CValue aLStack2400 [16];
+  L2CValue aLStack2384 [16];
+  L2CValue aLStack2368 [16];
+  L2CValue aLStack2352 [16];
+  L2CValue aLStack2336 [16];
+  L2CValue aLStack2320 [16];
+  L2CValue aLStack2304 [16];
+  L2CValue aLStack2288 [16];
+  L2CValue aLStack2272 [16];
+  L2CValue aLStack2256 [16];
+  L2CValue aLStack2240 [16];
+  L2CValue aLStack2224 [16];
+  L2CValue aLStack2208 [16];
+  L2CValue aLStack2192 [16];
+  L2CValue aLStack2176 [16];
+  L2CValue aLStack2160 [16];
+  L2CValue aLStack2144 [16];
+  L2CValue aLStack2128 [16];
+  L2CValue aLStack2112 [16];
+  L2CValue aLStack2096 [16];
+  L2CValue aLStack2080 [16];
+  L2CValue aLStack2064 [16];
+  L2CValue aLStack2048 [16];
+  L2CValue aLStack2032 [16];
+  L2CValue aLStack2016 [16];
+  L2CValue aLStack2000 [16];
+  L2CValue aLStack1984 [16];
+  L2CValue aLStack1968 [16];
+  L2CValue aLStack1952 [16];
+  L2CValue aLStack1936 [16];
+  L2CValue aLStack1920 [16];
+  L2CValue aLStack1904 [16];
+  L2CValue aLStack1888 [16];
+  L2CValue aLStack1872 [16];
+  L2CValue aLStack1856 [16];
+  L2CValue aLStack1840 [16];
+  L2CValue aLStack1824 [16];
+  L2CValue aLStack1808 [16];
+  L2CValue aLStack1792 [16];
+  L2CValue aLStack1776 [16];
+  L2CValue aLStack1760 [16];
+  L2CValue aLStack1744 [16];
+  L2CValue aLStack1728 [16];
+  L2CValue aLStack1712 [16];
+  L2CValue aLStack1696 [16];
+  L2CValue aLStack1680 [16];
+  L2CValue aLStack1664 [16];
+  L2CValue aLStack1648 [16];
+  L2CValue aLStack1632 [16];
+  L2CValue aLStack1616 [16];
+  L2CValue aLStack1600 [16];
+  L2CValue aLStack1584 [16];
+  L2CValue aLStack1568 [16];
+  L2CValue aLStack1552 [16];
+  L2CValue aLStack1536 [16];
+  L2CValue aLStack1520 [16];
+  L2CValue aLStack1504 [16];
+  L2CValue aLStack1488 [16];
+  L2CValue aLStack1472 [16];
+  L2CValue aLStack1456 [16];
+  L2CValue aLStack1440 [16];
+  L2CValue aLStack1424 [16];
+  L2CValue aLStack1408 [16];
+  L2CValue aLStack1392 [16];
+  L2CValue aLStack1376 [16];
+  L2CValue aLStack1360 [16];
+  L2CValue aLStack1344 [16];
+  L2CValue aLStack1328 [16];
+  L2CValue aLStack1312 [16];
+  L2CValue aLStack1296 [16];
+  L2CValue aLStack1280 [16];
+  L2CValue aLStack1264 [16];
+  L2CValue aLStack1248 [16];
+  L2CValue aLStack1232 [16];
+  L2CValue aLStack1216 [16];
+  L2CValue aLStack1200 [16];
+  L2CValue aLStack1184 [16];
+  L2CValue aLStack1168 [16];
+  L2CValue aLStack1152 [16];
+  L2CValue aLStack1136 [16];
+  L2CValue aLStack1120 [16];
+  L2CValue aLStack1104 [16];
+  L2CValue aLStack1088 [16];
+  L2CValue aLStack1072 [16];
+  L2CValue aLStack1056 [16];
+  L2CValue aLStack1040 [16];
+  L2CValue aLStack1024 [16];
+  L2CValue aLStack1008 [16];
+  L2CValue aLStack992 [16];
+  L2CValue aLStack976 [16];
+  L2CValue aLStack960 [16];
+  L2CValue aLStack944 [16];
+  L2CValue aLStack928 [16];
+  L2CValue aLStack912 [16];
+  L2CValue aLStack896 [16];
+  L2CValue aLStack880 [16];
+  L2CValue aLStack864 [16];
+  L2CValue aLStack848 [16];
+  L2CValue aLStack832 [16];
+  L2CValue aLStack816 [16];
+  L2CValue aLStack800 [16];
+  L2CValue aLStack784 [16];
+  L2CValue aLStack768 [16];
+  L2CValue aLStack752 [16];
+  L2CValue aLStack736 [16];
+  L2CValue aLStack720 [16];
+  L2CValue aLStack704 [16];
+  L2CValue aLStack688 [16];
+  L2CValue aLStack672 [16];
+  L2CValue aLStack656 [16];
+  L2CValue aLStack640 [16];
+  L2CValue aLStack624 [16];
+  L2CValue aLStack608 [16];
+  L2CValue aLStack592 [16];
+  L2CValue aLStack576 [16];
+  L2CValue aLStack560 [16];
+  L2CValue aLStack544 [16];
+  L2CValue aLStack528 [16];
+  L2CValue aLStack512 [16];
+  L2CValue aLStack496 [16];
+  L2CValue aLStack480 [16];
+  L2CValue aLStack464 [16];
+  L2CValue aLStack448 [16];
+  L2CValue aLStack432 [16];
+  L2CValue aLStack416 [16];
+  L2CValue aLStack400 [16];
+  L2CValue aLStack384 [16];
+  L2CValue aLStack368 [16];
+  L2CValue aLStack352 [16];
+  L2CValue aLStack336 [16];
+  L2CValue aLStack320 [16];
+  L2CValue aLStack304 [16];
+  L2CValue aLStack288 [16];
+  L2CValue aLStack272 [16];
+  L2CValue aLStack256 [16];
+  L2CValue aLStack240 [16];
+  L2CValue aLStack224 [16];
+  L2CValue aLStack208 [16];
+  L2CValue aLStack192 [16];
+  L2CValue aLStack176 [16];
+  undefined8 local_a0;
+  undefined8 uStack152;
+  undefined8 local_90;
+  undefined8 uStack136;
+  undefined8 local_80;
+  lua_State **local_78;
+  undefined8 local_70;
+  undefined8 uStack104;
+  
+  _uVar22 = SUB3216(in_z1,0);
+  local_80 = SUB328(in_z10,0);
+  local_70 = SUB328(in_z9,0);
+  uStack104 = SUB328(in_z8,0);
+  clear_lua_stack();
+  local_78 = (lua_State **)(this_00 + 8);
+  bVar3 = check_stat_air(*local_78);
+  L2CValue(aLStack192,(bool)(bVar3 & 1));
+  operator!(aLStack192);
+  bVar4 = operator.cast.to.bool(aLStack176);
+  ~L2CValue(aLStack176);
+  ~L2CValue(aLStack192);
+  if ((bVar4 & 1U) == 0) {
+    select_mode_action_air();
+    return;
+  }
+  this_05 = this_00 + 0x218;
+  L2CValue(aLStack208,this_05);
+  uVar11 = DAT_710086e394;
+  local_19a0 = DAT_710086e394;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(DAT_710086e394 & 0xff ^ 0x9a) * 4) ^ DAT_710086e394 >> 8
+           ^ 0xffff;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x61) * 4) ^ uVar10 >> 8;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x72) * 4) ^ uVar10 >> 8;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x6e) * 4) ^ uVar10 >> 8;
+  this = this_00 + 0x1e8;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x69) * 4) ^ uVar10 >> 8;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x6e) * 4) ^ uVar10 >> 8;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x67) * 4) ^ uVar10 >> 8;
+  this_01 = (L2CValue *)
+            operator[](this,*(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x5f) * 4) ^
+                            uVar10 >> 8 ^ 0xffffffff);
+  uVar10 = *(uint *)(&table_ +
+                    (ulonglong)
+                    (
+                     __ZN3app11FighterUtil23check_cloud_through_outERNS_26BattleObjectModuleAccessorE
+                     & 0xff ^ 0x8a) * 4) ^
+           __ZN3app11FighterUtil23check_cloud_through_outERNS_26BattleObjectModuleAccessorE >> 8 ^
+           0xffff;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x61) * 4) ^ uVar10 >> 8;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x72) * 4) ^ uVar10 >> 8;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 100) * 4) ^ uVar10 >> 8;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x5f) * 4) ^ uVar10 >> 8;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x72) * 4) ^ uVar10 >> 8;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x61) * 4) ^ uVar10 >> 8;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x74) * 4) ^ uVar10 >> 8;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x65) * 4) ^ uVar10 >> 8;
+  this_01 = (L2CValue *)
+            operator[](this_01,*(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x5f) * 4) ^
+                               uVar10 >> 8 ^ 0xffffffff);
+  L2CValue(aLStack224,this_01);
+  uVar10 = 0xffffffff;
+  uVar16 = 0x61;
+  lVar12 = 1;
+  do {
+    uVar13 = (uint)uVar16;
+    uVar15 = uVar13 + 0x20;
+    if (0x19 < (uVar13 - 0x41 & 0xff)) {
+      uVar15 = uVar13;
+    }
+    uVar10 = *(uint *)(&table_ + (ulonglong)((uVar15 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+    uVar16 = (ulonglong)(byte)"action_probability_mul_1st_"[lVar12];
+    lVar12 = lVar12 + 1;
+  } while (lVar12 != 0x1c);
+  this_01 = this_00 + 0x158;
+  this_03 = (L2CValue *)operator[](this_01,~uVar10);
+  this_03 = (L2CValue *)operator[](this_03,aLStack208);
+  operator=(this_03,aLStack224);
+  ~L2CValue(aLStack224);
+  ~L2CValue(aLStack208);
+  clear_lua_stack();
+  bVar3 = is_enabled(*(lua_State **)(this_00 + 8));
+  L2CValue(aLStack240,(bool)(bVar3 & 1));
+  bVar4 = operator.cast.to.bool(aLStack240);
+  ~L2CValue(aLStack240);
+  if ((bVar4 & 1U) != 0) {
+    L2CValue((L2CValue *)&local_90,8);
+    clear_lua_stack();
+    push_lua_stack(this_00);
+    plVar17 = *local_78;
+    NVar6 = as_integer(); // 
+    personality_up_rate(plVar17,NVar6);
+    L2CValue((L2CValue *)&local_a0,in_s0);
+    ~L2CValue((L2CValue *)&local_90);
+    L2CValue((L2CValue *)&local_90,8);
+    clear_lua_stack();
+    push_lua_stack(this_00);
+    plVar17 = *local_78;
+    NVar6 = as_integer();
+    personality_down_rate(plVar17,NVar6);
+    L2CValue(aLStack256,in_s0);
+    ~L2CValue((L2CValue *)&local_90);
+    L2CValue((L2CValue *)&local_90,0.00000000);
+    uVar16 = operator<((L2CValue *)&local_90,(L2CValue *)&local_a0);
+    ~L2CValue((L2CValue *)&local_90);
+    if ((uVar16 & 1) == 0) {
+      fVar18 = 1.00000000;
+      L2CValue(aLStack368,1.00000000);
+      L2CValue(aLStack304,0xb1ccf3a8);
+      HVar7 = as_hash();
+      param_float(HVar7);
+      L2CValue(aLStack384,fVar18);
+      this_02 = (L2CFighterAIBase *)L2CValue(aLStack400,aLStack256);
+      lerp(this_02,(L2CValue)0x90,(L2CValue)0x80,(L2CValue)0x70);
+      ~L2CValue(aLStack400);
+      ~L2CValue(aLStack384);
+      ~L2CValue(aLStack304);
+      ~L2CValue(aLStack368);
+      L2CValue(aLStack416,bind_address_call_is_feint_mode_action);
+      L2CValue(aLStack432,(L2CValue *)&local_90);
+      set_action_probability_mul_1st_foreach
+                ((L2CFighterAIModeBase *)this_00,(L2CValue)0x60,(L2CValue)0x50);
+      ~L2CValue(aLStack432);
+      this_03 = aLStack416;
+    }
+    else {
+      fVar18 = 1.00000000;
+      L2CValue(aLStack272,1.00000000);
+      L2CValue(aLStack304,0x8dc1ccf1);
+      HVar7 = as_hash();
+      param_float(HVar7);
+      L2CValue(aLStack288,fVar18);
+      this_02 = (L2CFighterAIBase *)L2CValue(aLStack320,(L2CValue *)&local_a0);
+      lerp(this_02,(L2CValue)0xf0,(L2CValue)0xe0,(L2CValue)0xc0);
+      ~L2CValue(aLStack320);
+      ~L2CValue(aLStack288);
+      ~L2CValue(aLStack304);
+      ~L2CValue(aLStack272);
+      L2CValue(aLStack336,bind_address_call_is_feint_mode_action);
+      L2CValue(aLStack352,(L2CValue *)&local_90);
+      set_action_probability_mul_1st_foreach
+                ((L2CFighterAIModeBase *)this_00,(L2CValue)0xb0,(L2CValue)0xa0);
+      ~L2CValue(aLStack352);
+      this_03 = aLStack336;
+    }
+    ~L2CValue(this_03);
+    ~L2CValue((L2CValue *)&local_90);
+    ~L2CValue(aLStack256);
+    ~L2CValue((L2CValue *)&local_a0);
+    L2CValue((L2CValue *)&local_90,2);
+    clear_lua_stack();
+    push_lua_stack(this_00);
+    plVar17 = *local_78;
+    NVar6 = as_integer();
+    personality_rate(plVar17,NVar6);
+    L2CValue((L2CValue *)&local_a0,fVar18);
+    ~L2CValue((L2CValue *)&local_90);
+    L2CValue((L2CValue *)&local_90,0.50000000);
+    uVar16 = operator<((L2CValue *)&local_90,(L2CValue *)&local_a0);
+    ~L2CValue((L2CValue *)&local_90);
+    if ((uVar16 & 1) == 0) {
+      fVar18 = 0.50000000;
+      L2CValue((L2CValue *)&local_90,0.50000000);
+      uVar16 = operator<((L2CValue *)&local_a0,(L2CValue *)&local_90);
+      ~L2CValue((L2CValue *)&local_90);
+      if ((uVar16 & 1) != 0) {
+        L2CValue((L2CValue *)&local_90,0.50000000);
+        operator-((L2CValue *)&local_90,(L2CValue *)&local_a0);
+        ~L2CValue((L2CValue *)&local_90);
+        L2CValue((L2CValue *)&local_90,2.00000000);
+        operator*(aLStack608,(L2CValue *)&local_90);
+        ~L2CValue((L2CValue *)&local_90);
+        fVar18 = 100.00000000;
+        L2CValue((L2CValue *)&local_90,100.00000000);
+        operator*(aLStack592,(L2CValue *)&local_90);
+        ~L2CValue((L2CValue *)&local_90);
+        ~L2CValue(aLStack592);
+        ~L2CValue(aLStack608);
+        as_number();
+        bVar3 = is_percent(fVar18);
+        L2CValue(aLStack624,(bool)(bVar3 & 1));
+        bVar4 = operator.cast.to.bool(aLStack624);
+        ~L2CValue(aLStack624);
+        if ((bVar4 & 1U) != 0) {
+          L2CValue(aLStack640,bind_address_call_is_large_jump_mode_action);
+          fVar18 = 50.00000000;
+          L2CValue(aLStack656,50.00000000);
+          set_action_probability_mul_1st_foreach
+                    ((L2CFighterAIModeBase *)this_00,(L2CValue)0x80,(L2CValue)0x70);
+          ~L2CValue(aLStack656);
+          this_03 = aLStack640;
+          goto LAB_7100480fc4;
+        }
+        goto LAB_7100480fc8;
+      }
+    }
+    else {
+      L2CValue((L2CValue *)&local_90,0.50000000);
+      operator-((L2CValue *)&local_a0,(L2CValue *)&local_90);
+      ~L2CValue((L2CValue *)&local_90);
+      L2CValue((L2CValue *)&local_90,2.00000000);
+      operator*(aLStack464,(L2CValue *)&local_90);
+      ~L2CValue((L2CValue *)&local_90);
+      fVar18 = 100.00000000;
+      L2CValue((L2CValue *)&local_90,100.00000000);
+      operator*(aLStack448,(L2CValue *)&local_90);
+      ~L2CValue((L2CValue *)&local_90);
+      ~L2CValue(aLStack448);
+      ~L2CValue(aLStack464);
+      as_number();
+      bVar3 = is_percent(fVar18);
+      L2CValue(aLStack480,(bool)(bVar3 & 1));
+      bVar4 = operator.cast.to.bool(aLStack480);
+      ~L2CValue(aLStack480);
+      if ((bVar4 & 1U) != 0) {
+        L2CValue(aLStack496,bind_address_call_is_jump_mode_action);
+        L2CValue(aLStack512,0.05000000);
+        set_action_probability_mul_1st_foreach
+                  ((L2CFighterAIModeBase *)this_00,(L2CValue)0x10,(L2CValue)0x0);
+        ~L2CValue(aLStack512);
+        ~L2CValue(aLStack496);
+        L2CValue(aLStack528,this_00 + 0x228);
+        L2CValue(aLStack544,3.00000000);
+        uVar10 = 0xffffffff;
+        uVar16 = 0x61;
+        lVar12 = 1;
+        do {
+          uVar13 = (uint)uVar16;
+          uVar15 = uVar13 + 0x20;
+          if (0x19 < (uVar13 - 0x41 & 0xff)) {
+            uVar15 = uVar13;
+          }
+          uVar10 = *(uint *)(&table_ + (ulonglong)((uVar15 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+          uVar16 = (ulonglong)(byte)"action_probability_mul_1st_"[lVar12];
+          lVar12 = lVar12 + 1;
+        } while (lVar12 != 0x1c);
+        this_03 = (L2CValue *)operator[](this_01,~uVar10);
+        this_03 = (L2CValue *)operator[](this_03,aLStack528);
+        operator=(this_03,aLStack544);
+        ~L2CValue(aLStack544);
+        ~L2CValue(aLStack528);
+        L2CValue(aLStack560,this_00 + 0x238);
+        fVar18 = 3.00000000;
+        L2CValue(aLStack576,3.00000000);
+        uVar10 = 0xffffffff;
+        uVar16 = 0x61;
+        lVar12 = 1;
+        do {
+          uVar13 = (uint)uVar16;
+          uVar15 = uVar13 + 0x20;
+          if (0x19 < (uVar13 - 0x41 & 0xff)) {
+            uVar15 = uVar13;
+          }
+          uVar10 = *(uint *)(&table_ + (ulonglong)((uVar15 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+          uVar16 = (ulonglong)(byte)"action_probability_mul_1st_"[lVar12];
+          lVar12 = lVar12 + 1;
+        } while (lVar12 != 0x1c);
+        this_03 = (L2CValue *)operator[](this_01,~uVar10);
+        this_03 = (L2CValue *)operator[](this_03,aLStack560);
+        operator=(this_03,aLStack576);
+        ~L2CValue(aLStack576);
+        this_03 = aLStack560;
+LAB_7100480fc4:
+        ~L2CValue(this_03);
+      }
+LAB_7100480fc8:
+      ~L2CValue(aLStack256);
+    }
+    L2CValue((L2CValue *)&local_90,4);
+    clear_lua_stack();
+    push_lua_stack(this_00);
+    plVar17 = *local_78;
+    NVar6 = as_integer();
+    personality_rate(plVar17,NVar6);
+    L2CValue(aLStack256,fVar18);
+    ~L2CValue((L2CValue *)&local_90);
+    L2CValue((L2CValue *)&local_90,0.50000000);
+    uVar16 = operator<((L2CValue *)&local_90,aLStack256);
+    ~L2CValue((L2CValue *)&local_90);
+    if ((uVar16 & 1) == 0) {
+      fVar18 = 0.50000000;
+      L2CValue((L2CValue *)&local_90,0.50000000);
+      uVar16 = operator<(aLStack256,(L2CValue *)&local_90);
+      ~L2CValue((L2CValue *)&local_90);
+      if ((uVar16 & 1) != 0) {
+        L2CValue((L2CValue *)&local_90,0.50000000);
+        operator-((L2CValue *)&local_90,aLStack256);
+        ~L2CValue((L2CValue *)&local_90);
+        L2CValue((L2CValue *)&local_90,2.00000000);
+        operator*(aLStack800,(L2CValue *)&local_90);
+        ~L2CValue((L2CValue *)&local_90);
+        fVar18 = 100.00000000;
+        L2CValue((L2CValue *)&local_90,100.00000000);
+        operator*(aLStack784,(L2CValue *)&local_90);
+        ~L2CValue((L2CValue *)&local_90);
+        ~L2CValue(aLStack784);
+        ~L2CValue(aLStack800);
+        as_number();
+        bVar3 = is_percent(fVar18);
+        L2CValue(aLStack816,(bool)(bVar3 & 1));
+        bVar4 = operator.cast.to.bool(aLStack816);
+        ~L2CValue(aLStack816);
+        if ((bVar4 & 1U) != 0) {
+          L2CValue(aLStack832,this_00 + 0x248);
+          L2CValue(aLStack848,30.00000000);
+          uVar10 = 0xffffffff;
+          uVar16 = 0x61;
+          lVar12 = 1;
+          do {
+            uVar13 = (uint)uVar16;
+            uVar15 = uVar13 + 0x20;
+            if (0x19 < (uVar13 - 0x41 & 0xff)) {
+              uVar15 = uVar13;
+            }
+            uVar10 = *(uint *)(&table_ + (ulonglong)((uVar15 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+            uVar16 = (ulonglong)(byte)"action_probability_mul_1st_"[lVar12];
+            lVar12 = lVar12 + 1;
+          } while (lVar12 != 0x1c);
+          this_03 = (L2CValue *)operator[](this_01,~uVar10);
+          this_03 = (L2CValue *)operator[](this_03,aLStack832);
+          operator=(this_03,aLStack848);
+          ~L2CValue(aLStack848);
+          ~L2CValue(aLStack832);
+          L2CValue(aLStack864,this_00 + 600);
+          L2CValue(aLStack880,10.00000000);
+          uVar10 = 0xffffffff;
+          uVar16 = 0x61;
+          lVar12 = 1;
+          do {
+            uVar13 = (uint)uVar16;
+            uVar15 = uVar13 + 0x20;
+            if (0x19 < (uVar13 - 0x41 & 0xff)) {
+              uVar15 = uVar13;
+            }
+            uVar10 = *(uint *)(&table_ + (ulonglong)((uVar15 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+            uVar16 = (ulonglong)(byte)"action_probability_mul_1st_"[lVar12];
+            lVar12 = lVar12 + 1;
+          } while (lVar12 != 0x1c);
+          this_03 = (L2CValue *)operator[](this_01,~uVar10);
+          this_03 = (L2CValue *)operator[](this_03,aLStack864);
+          operator=(this_03,aLStack880);
+          ~L2CValue(aLStack880);
+          ~L2CValue(aLStack864);
+          L2CValue(aLStack896,bind_address_call_is_run_mode_action);
+          fVar18 = 0.00000000;
+          L2CValue(aLStack912,0.00000000);
+          set_action_probability_mul_1st_foreach
+                    ((L2CFighterAIModeBase *)this_00,(L2CValue)0x80,(L2CValue)0x70);
+          ~L2CValue(aLStack912);
+          this_03 = aLStack896;
+          goto LAB_7100481504;
+        }
+        goto LAB_7100481508;
+      }
+    }
+    else {
+      L2CValue((L2CValue *)&local_90,0.50000000);
+      operator-(aLStack256,(L2CValue *)&local_90);
+      ~L2CValue((L2CValue *)&local_90);
+      L2CValue((L2CValue *)&local_90,2.00000000);
+      operator*(aLStack688,(L2CValue *)&local_90);
+      ~L2CValue((L2CValue *)&local_90);
+      fVar18 = 100.00000000;
+      L2CValue((L2CValue *)&local_90,100.00000000);
+      operator*(aLStack672,(L2CValue *)&local_90);
+      ~L2CValue((L2CValue *)&local_90);
+      ~L2CValue(aLStack672);
+      ~L2CValue(aLStack688);
+      as_number();
+      bVar3 = is_percent(fVar18);
+      L2CValue(aLStack704,(bool)(bVar3 & 1));
+      bVar4 = operator.cast.to.bool(aLStack704);
+      ~L2CValue(aLStack704);
+      if ((bVar4 & 1U) != 0) {
+        L2CValue(aLStack720,this_00 + 0x248);
+        L2CValue(aLStack736,0.00000000);
+        uVar10 = 0xffffffff;
+        uVar16 = 0x61;
+        lVar12 = 1;
+        do {
+          uVar13 = (uint)uVar16;
+          uVar15 = uVar13 + 0x20;
+          if (0x19 < (uVar13 - 0x41 & 0xff)) {
+            uVar15 = uVar13;
+          }
+          uVar10 = *(uint *)(&table_ + (ulonglong)((uVar15 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+          uVar16 = (ulonglong)(byte)"action_probability_mul_1st_"[lVar12];
+          lVar12 = lVar12 + 1;
+        } while (lVar12 != 0x1c);
+        this_03 = (L2CValue *)operator[](this_01,~uVar10);
+        this_03 = (L2CValue *)operator[](this_03,aLStack720);
+        operator=(this_03,aLStack736);
+        ~L2CValue(aLStack736);
+        ~L2CValue(aLStack720);
+        L2CValue(aLStack752,this_00 + 600);
+        fVar18 = 0.00000000;
+        L2CValue(aLStack768,0.00000000);
+        uVar10 = 0xffffffff;
+        uVar16 = 0x61;
+        lVar12 = 1;
+        do {
+          uVar13 = (uint)uVar16;
+          uVar15 = uVar13 + 0x20;
+          if (0x19 < (uVar13 - 0x41 & 0xff)) {
+            uVar15 = uVar13;
+          }
+          uVar10 = *(uint *)(&table_ + (ulonglong)((uVar15 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+          uVar16 = (ulonglong)(byte)"action_probability_mul_1st_"[lVar12];
+          lVar12 = lVar12 + 1;
+        } while (lVar12 != 0x1c);
+        this_03 = (L2CValue *)operator[](this_01,~uVar10);
+        this_03 = (L2CValue *)operator[](this_03,aLStack752);
+        operator=(this_03,aLStack768);
+        ~L2CValue(aLStack768);
+        this_03 = aLStack752;
+LAB_7100481504:
+        ~L2CValue(this_03);
+      }
+LAB_7100481508:
+      ~L2CValue(aLStack304);
+    }
+    L2CValue(aLStack944,0x10);
+    clear_lua_stack();
+    push_lua_stack(this_00);
+    plVar17 = *local_78;
+    NVar6 = as_integer();
+    personality_rate(plVar17,NVar6);
+    L2CValue(aLStack928,fVar18);
+    L2CValue(aLStack976,0x5e6485ba);
+    HVar7 = as_hash();
+    param_float(HVar7);
+    L2CValue(aLStack960,fVar18);
+    operator*(aLStack928,aLStack960);
+    L2CValue(aLStack1024,0xb);
+    clear_lua_stack();
+    push_lua_stack(this_00);
+    plVar17 = *local_78;
+    NVar6 = as_integer();
+    personality_rate(plVar17,NVar6);
+    L2CValue(aLStack1008,fVar18);
+    L2CValue(aLStack1056,0xc3943d5);
+    HVar7 = as_hash();
+    param_float(HVar7);
+    L2CValue(aLStack1040,fVar18);
+    operator*(aLStack1008,aLStack1040);
+    math_max((L2CValue *)&local_90,aLStack992);
+    ~L2CValue(aLStack992);
+    ~L2CValue(aLStack1040);
+    ~L2CValue(aLStack1056);
+    ~L2CValue(aLStack1008);
+    ~L2CValue(aLStack1024);
+    ~L2CValue((L2CValue *)&local_90);
+    ~L2CValue(aLStack960);
+    ~L2CValue(aLStack976);
+    ~L2CValue(aLStack928);
+    ~L2CValue(aLStack944);
+    L2CValue(aLStack1072,this_00 + 0x268);
+    L2CValue(aLStack1088,aLStack304);
+    uVar10 = 0xffffffff;
+    lVar12 = 1;
+    uVar16 = 0x61;
+    do {
+      uVar13 = (uint)uVar16;
+      uVar15 = uVar13 + 0x20;
+      if (0x19 < (uVar13 - 0x41 & 0xff)) {
+        uVar15 = uVar13;
+      }
+      uVar10 = *(uint *)(&table_ + (ulonglong)((uVar15 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+      uVar16 = (ulonglong)(byte)"action_probability_mul_1st_"[lVar12];
+      lVar12 = lVar12 + 1;
+    } while (lVar12 != 0x1c);
+    this_03 = (L2CValue *)operator[](this_01,~uVar10);
+    this_03 = (L2CValue *)operator[](this_03,aLStack1072);
+    operator=(this_03,aLStack1088);
+    ~L2CValue(aLStack1088);
+    ~L2CValue(aLStack1072);
+    clear_lua_stack();
+    lr(*local_78);
+    L2CValue(aLStack1104,fVar18);
+    operator-(aLStack1104);
+    clear_lua_stack();
+    push_lua_stack(this_00);
+    plVar17 = *local_78;
+    as_number();
+    floor_edge_distance_lr(plVar17,fVar18);
+    L2CValue(aLStack944,fVar18);
+    ~L2CValue((L2CValue *)&local_90);
+    ~L2CValue(aLStack1104);
+    clear_lua_stack();
+    lr(*local_78);
+    L2CValue((L2CValue *)&local_90,fVar18);
+    clear_lua_stack();
+    push_lua_stack(this_00);
+    plVar17 = *local_78;
+    as_number();
+    floor_edge_distance_lr(plVar17,fVar18);
+    L2CValue(aLStack960,fVar18);
+    ~L2CValue((L2CValue *)&local_90);
+    L2CValue((L2CValue *)&local_90,0xb11989ba);
+    HVar7 = as_hash();
+    param_float(HVar7);
+    L2CValue(aLStack976,fVar18);
+    ~L2CValue((L2CValue *)&local_90);
+    uVar16 = operator<(aLStack944,aLStack976);
+    if (((uVar16 & 1) != 0) && (uVar16 = operator<(aLStack976,aLStack960), (uVar16 & 1) != 0)) {
+      L2CValue(aLStack992,7);
+      clear_lua_stack();
+      push_lua_stack(this_00);
+      plVar17 = *local_78;
+      NVar6 = as_integer();
+      personality_up_rate(plVar17,NVar6);
+      L2CValue(aLStack1120,fVar18);
+      L2CValue((L2CValue *)&local_90,0.00000000);
+      uVar16 = operator<((L2CValue *)&local_90,aLStack1120);
+      ~L2CValue((L2CValue *)&local_90);
+      ~L2CValue(aLStack1120);
+      ~L2CValue(aLStack992);
+      if ((uVar16 & 1) == 0) {
+        fVar18 = 1.00000000;
+        L2CValue(aLStack1296,1.00000000);
+        L2CValue(aLStack992,0x729ce501);
+        HVar7 = as_hash();
+        param_float(HVar7);
+        L2CValue(aLStack1312,fVar18);
+        L2CValue(aLStack1024,7);
+        clear_lua_stack();
+        push_lua_stack(this_00);
+        plVar17 = *local_78;
+        NVar6 = as_integer();
+        personality_down_rate(plVar17,NVar6);
+        this_02 = (L2CFighterAIBase *)L2CValue(aLStack1328,fVar18);
+        lerp(this_02,(L2CValue)0xf0,(L2CValue)0xe0,(L2CValue)0xd0);
+        ~L2CValue(aLStack1328);
+        ~L2CValue(aLStack1024);
+        ~L2CValue(aLStack1312);
+        ~L2CValue(aLStack992);
+        ~L2CValue(aLStack1296);
+        fVar18 = 1.00000000;
+        L2CValue(aLStack1344,1.00000000);
+        L2CValue(aLStack1024,0x67054a57);
+        HVar7 = as_hash();
+        param_float(HVar7);
+        L2CValue(aLStack1360,fVar18);
+        L2CValue(aLStack1040,7);
+        clear_lua_stack();
+        push_lua_stack(this_00);
+        plVar17 = *local_78;
+        NVar6 = as_integer();
+        personality_up_rate(plVar17,NVar6);
+        this_02 = (L2CFighterAIBase *)L2CValue(aLStack1376,fVar18);
+        lerp(this_02,(L2CValue)0xc0,(L2CValue)0xb0,(L2CValue)0xa0);
+        ~L2CValue(aLStack1376);
+        ~L2CValue(aLStack1040);
+        ~L2CValue(aLStack1360);
+        ~L2CValue(aLStack1024);
+        ~L2CValue(aLStack1344);
+        L2CValue(aLStack1392,this_00 + 0x278);
+        L2CValue(aLStack1408,(L2CValue *)&local_90);
+        uVar10 = 0xffffffff;
+        uVar16 = 0x61;
+        lVar12 = 1;
+        do {
+          uVar13 = (uint)uVar16;
+          uVar15 = uVar13 + 0x20;
+          if (0x19 < (uVar13 - 0x41 & 0xff)) {
+            uVar15 = uVar13;
+          }
+          uVar10 = *(uint *)(&table_ + (ulonglong)((uVar15 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+          uVar16 = (ulonglong)(byte)"action_probability_mul_1st_"[lVar12];
+          lVar12 = lVar12 + 1;
+        } while (lVar12 != 0x1c);
+        this_03 = (L2CValue *)operator[](this_01,~uVar10);
+        this_03 = (L2CValue *)operator[](this_03,aLStack1392);
+        operator=(this_03,aLStack1408);
+        ~L2CValue(aLStack1408);
+        ~L2CValue(aLStack1392);
+        L2CValue(aLStack1424,this_00 + 0x288);
+        L2CValue(aLStack1440,aLStack992);
+        uVar10 = 0xffffffff;
+        uVar16 = 0x61;
+        lVar12 = 1;
+        do {
+          uVar13 = (uint)uVar16;
+          uVar15 = uVar13 + 0x20;
+          if (0x19 < (uVar13 - 0x41 & 0xff)) {
+            uVar15 = uVar13;
+          }
+          uVar10 = *(uint *)(&table_ + (ulonglong)((uVar15 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+          uVar16 = (ulonglong)(byte)"action_probability_mul_1st_"[lVar12];
+          lVar12 = lVar12 + 1;
+        } while (lVar12 != 0x1c);
+        this_03 = (L2CValue *)operator[](this_01,~uVar10);
+        this_03 = (L2CValue *)operator[](this_03,aLStack1424);
+        operator=(this_03,aLStack1440);
+        ~L2CValue(aLStack1440);
+        this_03 = aLStack1424;
+      }
+      else {
+        fVar18 = 1.00000000;
+        L2CValue(aLStack1136,1.00000000);
+        L2CValue(aLStack992,0x729ce501);
+        HVar7 = as_hash();
+        param_float(HVar7);
+        L2CValue(aLStack1152,fVar18);
+        L2CValue(aLStack1024,7);
+        clear_lua_stack();
+        push_lua_stack(this_00);
+        plVar17 = *local_78;
+        NVar6 = as_integer();
+        personality_up_rate(plVar17,NVar6);
+        this_02 = (L2CFighterAIBase *)L2CValue(aLStack1168,fVar18);
+        lerp(this_02,(L2CValue)0x90,(L2CValue)0x80,(L2CValue)0x70);
+        ~L2CValue(aLStack1168);
+        ~L2CValue(aLStack1024);
+        ~L2CValue(aLStack1152);
+        ~L2CValue(aLStack992);
+        ~L2CValue(aLStack1136);
+        fVar18 = 1.00000000;
+        L2CValue(aLStack1184,1.00000000);
+        L2CValue(aLStack1024,0x67054a57);
+        HVar7 = as_hash();
+        param_float(HVar7);
+        L2CValue(aLStack1200,fVar18);
+        L2CValue(aLStack1040,7);
+        clear_lua_stack();
+        push_lua_stack(this_00);
+        plVar17 = *local_78;
+        NVar6 = as_integer();
+        personality_down_rate(plVar17,NVar6);
+        this_02 = (L2CFighterAIBase *)L2CValue(aLStack1216,fVar18);
+        lerp(this_02,(L2CValue)0x60,(L2CValue)0x50,(L2CValue)0x40);
+        ~L2CValue(aLStack1216);
+        ~L2CValue(aLStack1040);
+        ~L2CValue(aLStack1200);
+        ~L2CValue(aLStack1024);
+        ~L2CValue(aLStack1184);
+        L2CValue(aLStack1232,this_00 + 0x278);
+        L2CValue(aLStack1248,aLStack992);
+        uVar10 = 0xffffffff;
+        uVar16 = 0x61;
+        lVar12 = 1;
+        do {
+          uVar13 = (uint)uVar16;
+          uVar15 = uVar13 + 0x20;
+          if (0x19 < (uVar13 - 0x41 & 0xff)) {
+            uVar15 = uVar13;
+          }
+          uVar10 = *(uint *)(&table_ + (ulonglong)((uVar15 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+          uVar16 = (ulonglong)(byte)"action_probability_mul_1st_"[lVar12];
+          lVar12 = lVar12 + 1;
+        } while (lVar12 != 0x1c);
+        this_03 = (L2CValue *)operator[](this_01,~uVar10);
+        this_03 = (L2CValue *)operator[](this_03,aLStack1232);
+        operator=(this_03,aLStack1248);
+        ~L2CValue(aLStack1248);
+        ~L2CValue(aLStack1232);
+        L2CValue(aLStack1264,this_00 + 0x288);
+        L2CValue(aLStack1280,(L2CValue *)&local_90);
+        uVar10 = 0xffffffff;
+        uVar16 = 0x61;
+        lVar12 = 1;
+        do {
+          uVar13 = (uint)uVar16;
+          uVar15 = uVar13 + 0x20;
+          if (0x19 < (uVar13 - 0x41 & 0xff)) {
+            uVar15 = uVar13;
+          }
+          uVar10 = *(uint *)(&table_ + (ulonglong)((uVar15 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+          uVar16 = (ulonglong)(byte)"action_probability_mul_1st_"[lVar12];
+          lVar12 = lVar12 + 1;
+        } while (lVar12 != 0x1c);
+        this_03 = (L2CValue *)operator[](this_01,~uVar10);
+        this_03 = (L2CValue *)operator[](this_03,aLStack1264);
+        operator=(this_03,aLStack1280);
+        ~L2CValue(aLStack1280);
+        this_03 = aLStack1264;
+      }
+      ~L2CValue(this_03);
+      ~L2CValue(aLStack992);
+      ~L2CValue((L2CValue *)&local_90);
+    }
+    uVar16 = operator<(aLStack976,aLStack944);
+    if (((uVar16 & 1) != 0) && (uVar16 = operator<(aLStack960,aLStack976), (uVar16 & 1) != 0)) {
+      L2CValue(aLStack992,7);
+      clear_lua_stack();
+      push_lua_stack(this_00);
+      plVar17 = *local_78;
+      NVar6 = as_integer();
+      personality_up_rate(plVar17,NVar6);
+      L2CValue(aLStack1456,fVar18);
+      L2CValue((L2CValue *)&local_90,0.00000000);
+      uVar16 = operator<((L2CValue *)&local_90,aLStack1456);
+      ~L2CValue((L2CValue *)&local_90);
+      ~L2CValue(aLStack1456);
+      ~L2CValue(aLStack992);
+      if ((uVar16 & 1) == 0) {
+        fVar18 = 1.00000000;
+        L2CValue(aLStack1632,1.00000000);
+        L2CValue(aLStack992,0x729ce501);
+        HVar7 = as_hash();
+        param_float(HVar7);
+        L2CValue(aLStack1648,fVar18);
+        L2CValue(aLStack1024,7);
+        clear_lua_stack();
+        push_lua_stack(this_00);
+        plVar17 = *local_78;
+        NVar6 = as_integer();
+        personality_down_rate(plVar17,NVar6);
+        this_02 = (L2CFighterAIBase *)L2CValue(aLStack1664,fVar18);
+        lerp(this_02,(L2CValue)0xa0,(L2CValue)0x90,(L2CValue)0x80);
+        ~L2CValue(aLStack1664);
+        ~L2CValue(aLStack1024);
+        ~L2CValue(aLStack1648);
+        ~L2CValue(aLStack992);
+        ~L2CValue(aLStack1632);
+        fVar18 = 1.00000000;
+        L2CValue(aLStack1680,1.00000000);
+        L2CValue(aLStack1024,0x67054a57);
+        HVar7 = as_hash();
+        param_float(HVar7);
+        L2CValue(aLStack1696,fVar18);
+        L2CValue(aLStack1040,7);
+        clear_lua_stack();
+        push_lua_stack(this_00);
+        plVar17 = *local_78;
+        NVar6 = as_integer();
+        personality_up_rate(plVar17,NVar6);
+        this_02 = (L2CFighterAIBase *)L2CValue(aLStack1712,fVar18);
+        lerp(this_02,(L2CValue)0x70,(L2CValue)0x60,(L2CValue)0x50);
+        ~L2CValue(aLStack1712);
+        ~L2CValue(aLStack1040);
+        ~L2CValue(aLStack1696);
+        ~L2CValue(aLStack1024);
+        ~L2CValue(aLStack1680);
+        L2CValue(aLStack1728,this_00 + 0x278);
+        L2CValue(aLStack1744,aLStack992);
+        uVar10 = 0xffffffff;
+        uVar16 = 0x61;
+        lVar12 = 1;
+        do {
+          uVar13 = (uint)uVar16;
+          uVar15 = uVar13 + 0x20;
+          if (0x19 < (uVar13 - 0x41 & 0xff)) {
+            uVar15 = uVar13;
+          }
+          uVar10 = *(uint *)(&table_ + (ulonglong)((uVar15 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+          uVar16 = (ulonglong)(byte)"action_probability_mul_1st_"[lVar12];
+          lVar12 = lVar12 + 1;
+        } while (lVar12 != 0x1c);
+        this_03 = (L2CValue *)operator[](this_01,~uVar10);
+        this_03 = (L2CValue *)operator[](this_03,aLStack1728);
+        operator=(this_03,aLStack1744);
+        ~L2CValue(aLStack1744);
+        ~L2CValue(aLStack1728);
+        L2CValue(aLStack1760,this_00 + 0x288);
+        L2CValue(aLStack1776,(L2CValue *)&local_90);
+        uVar10 = 0xffffffff;
+        uVar16 = 0x61;
+        lVar12 = 1;
+        do {
+          uVar13 = (uint)uVar16;
+          uVar15 = uVar13 + 0x20;
+          if (0x19 < (uVar13 - 0x41 & 0xff)) {
+            uVar15 = uVar13;
+          }
+          uVar10 = *(uint *)(&table_ + (ulonglong)((uVar15 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+          uVar16 = (ulonglong)(byte)"action_probability_mul_1st_"[lVar12];
+          lVar12 = lVar12 + 1;
+        } while (lVar12 != 0x1c);
+        this_03 = (L2CValue *)operator[](this_01,~uVar10);
+        this_03 = (L2CValue *)operator[](this_03,aLStack1760);
+        operator=(this_03,aLStack1776);
+        ~L2CValue(aLStack1776);
+        this_03 = aLStack1760;
+      }
+      else {
+        fVar18 = 1.00000000;
+        L2CValue(aLStack1472,1.00000000);
+        L2CValue(aLStack992,0x729ce501);
+        HVar7 = as_hash();
+        param_float(HVar7);
+        L2CValue(aLStack1488,fVar18);
+        L2CValue(aLStack1024,7);
+        clear_lua_stack();
+        push_lua_stack(this_00);
+        plVar17 = *local_78;
+        NVar6 = as_integer();
+        personality_up_rate(plVar17,NVar6);
+        this_02 = (L2CFighterAIBase *)L2CValue(aLStack1504,fVar18);
+        lerp(this_02,(L2CValue)0x40,(L2CValue)0x30,(L2CValue)0x20);
+        ~L2CValue(aLStack1504);
+        ~L2CValue(aLStack1024);
+        ~L2CValue(aLStack1488);
+        ~L2CValue(aLStack992);
+        ~L2CValue(aLStack1472);
+        fVar18 = 1.00000000;
+        L2CValue(aLStack1520,1.00000000);
+        L2CValue(aLStack1024,0x67054a57);
+        HVar7 = as_hash();
+        param_float(HVar7);
+        L2CValue(aLStack1536,fVar18);
+        L2CValue(aLStack1040,7);
+        clear_lua_stack();
+        push_lua_stack(this_00);
+        plVar17 = *local_78;
+        NVar6 = as_integer();
+        personality_down_rate(plVar17,NVar6);
+        this_02 = (L2CFighterAIBase *)L2CValue(aLStack1552,fVar18);
+        lerp(this_02,(L2CValue)0x10,(L2CValue)0x0,(L2CValue)0xf0);
+        ~L2CValue(aLStack1552);
+        ~L2CValue(aLStack1040);
+        ~L2CValue(aLStack1536);
+        ~L2CValue(aLStack1024);
+        ~L2CValue(aLStack1520);
+        L2CValue(aLStack1568,this_00 + 0x278);
+        L2CValue(aLStack1584,(L2CValue *)&local_90);
+        uVar10 = 0xffffffff;
+        uVar16 = 0x61;
+        lVar12 = 1;
+        do {
+          uVar13 = (uint)uVar16;
+          uVar15 = uVar13 + 0x20;
+          if (0x19 < (uVar13 - 0x41 & 0xff)) {
+            uVar15 = uVar13;
+          }
+          uVar10 = *(uint *)(&table_ + (ulonglong)((uVar15 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+          uVar16 = (ulonglong)(byte)"action_probability_mul_1st_"[lVar12];
+          lVar12 = lVar12 + 1;
+        } while (lVar12 != 0x1c);
+        this_03 = (L2CValue *)operator[](this_01,~uVar10);
+        this_03 = (L2CValue *)operator[](this_03,aLStack1568);
+        operator=(this_03,aLStack1584);
+        ~L2CValue(aLStack1584);
+        ~L2CValue(aLStack1568);
+        L2CValue(aLStack1600,this_00 + 0x288);
+        L2CValue(aLStack1616,aLStack992);
+        uVar10 = 0xffffffff;
+        uVar16 = 0x61;
+        lVar12 = 1;
+        do {
+          uVar13 = (uint)uVar16;
+          uVar15 = uVar13 + 0x20;
+          if (0x19 < (uVar13 - 0x41 & 0xff)) {
+            uVar15 = uVar13;
+          }
+          uVar10 = *(uint *)(&table_ + (ulonglong)((uVar15 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+          uVar16 = (ulonglong)(byte)"action_probability_mul_1st_"[lVar12];
+          lVar12 = lVar12 + 1;
+        } while (lVar12 != 0x1c);
+        this_03 = (L2CValue *)operator[](this_01,~uVar10);
+        this_03 = (L2CValue *)operator[](this_03,aLStack1600);
+        operator=(this_03,aLStack1616);
+        ~L2CValue(aLStack1616);
+        this_03 = aLStack1600;
+      }
+      ~L2CValue(this_03);
+      ~L2CValue(aLStack992);
+      ~L2CValue((L2CValue *)&local_90);
+    }
+    L2CValue((L2CValue *)&local_90,0x13);
+    clear_lua_stack();
+    push_lua_stack(this_00);
+    plVar17 = *local_78;
+    NVar6 = as_integer();
+    personality_up_rate(plVar17,NVar6);
+    L2CValue(aLStack992,fVar18);
+    ~L2CValue((L2CValue *)&local_90);
+    L2CValue((L2CValue *)&local_90,0.00000000);
+    uVar16 = operator<((L2CValue *)&local_90,aLStack992);
+    ~L2CValue((L2CValue *)&local_90);
+    if ((uVar16 & 1) == 0) {
+      L2CValue(aLStack1872,1.00000000);
+      fVar18 = 0.00000000;
+      L2CValue(aLStack1888,0.00000000);
+      L2CValue(aLStack1024,0x13);
+      clear_lua_stack();
+      push_lua_stack(this_00);
+      plVar17 = *local_78;
+      NVar6 = as_integer();
+      personality_down_rate(plVar17,NVar6);
+      this_02 = (L2CFighterAIBase *)L2CValue(aLStack1904,fVar18);
+      lerp(this_02,(L2CValue)0xb0,(L2CValue)0xa0,(L2CValue)0x90);
+      ~L2CValue(aLStack1904);
+      ~L2CValue(aLStack1024);
+      ~L2CValue(aLStack1888);
+      ~L2CValue(aLStack1872);
+      L2CValue(aLStack1920,this_05);
+      L2CValue(aLStack1936,(L2CValue *)&local_90);
+      uVar10 = 0xffffffff;
+      uVar16 = 0x61;
+      lVar12 = 1;
+      do {
+        uVar13 = (uint)uVar16;
+        uVar15 = uVar13 + 0x20;
+        if (0x19 < (uVar13 - 0x41 & 0xff)) {
+          uVar15 = uVar13;
+        }
+        uVar10 = *(uint *)(&table_ + (ulonglong)((uVar15 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+        uVar16 = (ulonglong)(byte)"action_probability_mul_1st_"[lVar12];
+        lVar12 = lVar12 + 1;
+      } while (lVar12 != 0x1c);
+      this_03 = (L2CValue *)operator[](this_01,~uVar10);
+      this_03 = (L2CValue *)operator[](this_03,aLStack1920);
+      operator=(this_03,aLStack1936);
+      ~L2CValue(aLStack1936);
+      this_03 = aLStack1920;
+    }
+    else {
+      fVar18 = 1.00000000;
+      L2CValue(aLStack1792,1.00000000);
+      L2CValue(aLStack1024,0xdd7a90c1);
+      HVar7 = as_hash();
+      param_float(HVar7);
+      L2CValue(aLStack1808,fVar18);
+      this_02 = (L2CFighterAIBase *)L2CValue(aLStack1824,aLStack992);
+      lerp(this_02,(L2CValue)0x0,(L2CValue)0xf0,(L2CValue)0xe0);
+      ~L2CValue(aLStack1824);
+      ~L2CValue(aLStack1808);
+      ~L2CValue(aLStack1024);
+      ~L2CValue(aLStack1792);
+      L2CValue(aLStack1840,this_05);
+      L2CValue(aLStack1856,(L2CValue *)&local_90);
+      uVar10 = 0xffffffff;
+      uVar16 = 0x61;
+      lVar12 = 1;
+      do {
+        uVar13 = (uint)uVar16;
+        uVar15 = uVar13 + 0x20;
+        if (0x19 < (uVar13 - 0x41 & 0xff)) {
+          uVar15 = uVar13;
+        }
+        uVar10 = *(uint *)(&table_ + (ulonglong)((uVar15 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+        uVar16 = (ulonglong)(byte)"action_probability_mul_1st_"[lVar12];
+        lVar12 = lVar12 + 1;
+      } while (lVar12 != 0x1c);
+      this_03 = (L2CValue *)operator[](this_01,~uVar10);
+      this_03 = (L2CValue *)operator[](this_03,aLStack1840);
+      operator=(this_03,aLStack1856);
+      ~L2CValue(aLStack1856);
+      this_03 = aLStack1840;
+    }
+    ~L2CValue(this_03);
+    ~L2CValue((L2CValue *)&local_90);
+    ~L2CValue(aLStack992);
+    L2CValue((L2CValue *)&local_90,1);
+    clear_lua_stack();
+    push_lua_stack(this_00);
+    plVar17 = *local_78;
+    NVar6 = as_integer();
+    personality_down_rate(plVar17,NVar6);
+    L2CValue(aLStack992,fVar18);
+    ~L2CValue((L2CValue *)&local_90);
+    in_s0 = 0.00000000;
+    L2CValue((L2CValue *)&local_90,0.00000000);
+    uVar16 = operator<((L2CValue *)&local_90,aLStack992);
+    ~L2CValue((L2CValue *)&local_90);
+    if ((uVar16 & 1) != 0) {
+      L2CValue(aLStack1024,true);
+      uVar10 = *(uint *)(&table_ + (ulonglong)(DAT_710086e384 & 0xff ^ 0x8d) * 4) ^
+               DAT_710086e384 >> 8 ^ 0xffff;
+      uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x65) * 4) ^ uVar10 >> 8;
+      uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 100) * 4) ^ uVar10 >> 8;
+      uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x69) * 4) ^ uVar10 >> 8;
+      uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 99) * 4) ^ uVar10 >> 8;
+      uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x74) * 4) ^ uVar10 >> 8;
+      uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x5f) * 4) ^ uVar10 >> 8;
+      uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x74) * 4) ^ uVar10 >> 8;
+      uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x61) * 4) ^ uVar10 >> 8;
+      uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x72) * 4) ^ uVar10 >> 8;
+      uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x67) * 4) ^ uVar10 >> 8;
+      uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x65) * 4) ^ uVar10 >> 8;
+      uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x74) * 4) ^ uVar10 >> 8;
+      this_03 = (L2CValue *)
+                operator[](this,*(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x5f) * 4) ^
+                                uVar10 >> 8 ^ 0xffffffff);
+      uVar10 = *(uint *)(&table_ + (ulonglong)(__ZNK3lib8L2CValue6lengthEv & 0xff ^ 0x97) * 4) ^
+               __ZNK3lib8L2CValue6lengthEv >> 8 ^ 0xffff;
+      uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x61) * 4) ^ uVar10 >> 8;
+      uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x6e) * 4) ^ uVar10 >> 8;
+      uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 99) * 4) ^ uVar10 >> 8;
+      uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x65) * 4) ^ uVar10 >> 8;
+      uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 100) * 4) ^ uVar10 >> 8;
+      uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x5f) * 4) ^ uVar10 >> 8;
+      uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x66) * 4) ^ uVar10 >> 8;
+      uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x72) * 4) ^ uVar10 >> 8;
+      uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x61) * 4) ^ uVar10 >> 8;
+      uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x6d) * 4) ^ uVar10 >> 8;
+      uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x65) * 4) ^ uVar10 >> 8;
+      this_03 = (L2CValue *)
+                operator[](this_03,*(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x5f) * 4) ^
+                                   uVar10 >> 8 ^ 0xffffffff);
+      L2CValue((L2CValue *)&local_90,0x14);
+      operator*((L2CValue *)&local_90,aLStack992);
+      ~L2CValue((L2CValue *)&local_90);
+      uVar16 = operator<(aLStack1040,this_03);
+      ~L2CValue(aLStack1040);
+      if ((uVar16 & 1) != 0) {
+        L2CValue((L2CValue *)&local_90,false);
+        operator=(aLStack1024,(L2CValue *)&local_90);
+        ~L2CValue((L2CValue *)&local_90);
+      }
+      clear_lua_stack();
+      bVar3 = check_stat_attention(*local_78);
+      L2CValue(aLStack1952,(bool)(bVar3 & 1));
+      bVar4 = operator.cast.to.bool(aLStack1952);
+      ~L2CValue(aLStack1952);
+      if ((bVar4 & 1U) != 0) {
+        L2CValue((L2CValue *)&local_90,false);
+        operator=(aLStack1024,(L2CValue *)&local_90);
+        ~L2CValue((L2CValue *)&local_90);
+      }
+      clear_lua_stack();
+      rank(*local_78);
+      L2CValue(aLStack1968,in_s0);
+      uVar10 = *(uint *)(&table_ + (ulonglong)(uVar11 & 0xff ^ 0x9a) * 4) ^ uVar11 >> 8 ^ 0xffff;
+      uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x76) * 4) ^ uVar10 >> 8;
+      uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x65) * 4) ^ uVar10 >> 8;
+      uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x6c) * 4) ^ uVar10 >> 8;
+      uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x5f) * 4) ^ uVar10 >> 8;
+      this_03 = (L2CValue *)
+                operator[](this_00 + 0xd8,
+                           *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x33) * 4) ^
+                           uVar10 >> 8 ^ 0xffffffff);
+      uVar16 = operator<=(aLStack1968,this_03);
+      ~L2CValue(aLStack1968);
+      if ((uVar16 & 1) != 0) {
+        L2CValue((L2CValue *)&local_90,false);
+        operator=(aLStack1024,(L2CValue *)&local_90);
+        ~L2CValue((L2CValue *)&local_90);
+      }
+      bVar4 = operator.cast.to.bool(aLStack1024);
+      if ((bVar4 & 1U) != 0) {
+        L2CValue(aLStack1984,bind_address_call_is_jump_s_attack_mode_action);
+        L2CValue((L2CValue *)&local_90,1.00000000);
+        operator-((L2CValue *)&local_90,aLStack992);
+        ~L2CValue((L2CValue *)&local_90);
+        set_action_probability_mul_1st_foreach
+                  ((L2CFighterAIModeBase *)this_00,(L2CValue)0x40,(L2CValue)0x30);
+        ~L2CValue(aLStack2000);
+        ~L2CValue(aLStack1984);
+        L2CValue(aLStack2016,this_00 + 0x268);
+        in_s0 = 1.00000000;
+        L2CValue((L2CValue *)&local_90,1.00000000);
+        operator-((L2CValue *)&local_90,aLStack992);
+        ~L2CValue((L2CValue *)&local_90);
+        uVar10 = 0xffffffff;
+        uVar16 = 0x61;
+        lVar12 = 1;
+        do {
+          uVar13 = (uint)uVar16;
+          uVar15 = uVar13 + 0x20;
+          if (0x19 < (uVar13 - 0x41 & 0xff)) {
+            uVar15 = uVar13;
+          }
+          uVar10 = *(uint *)(&table_ + (ulonglong)((uVar15 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+          uVar16 = (ulonglong)(byte)"action_probability_mul_1st_"[lVar12];
+          lVar12 = lVar12 + 1;
+        } while (lVar12 != 0x1c);
+        this_03 = (L2CValue *)operator[](this_01,~uVar10);
+        this_03 = (L2CValue *)operator[](this_03,aLStack2016);
+        operator=(this_03,aLStack2032);
+        ~L2CValue(aLStack2032);
+        ~L2CValue(aLStack2016);
+      }
+      ~L2CValue(aLStack1024);
+    }
+    ~L2CValue(aLStack992);
+    ~L2CValue(aLStack976);
+    ~L2CValue(aLStack960);
+    ~L2CValue(aLStack944);
+    ~L2CValue(aLStack304);
+    ~L2CValue(aLStack256);
+    ~L2CValue((L2CValue *)&local_a0);
+  }
+  L2CValue((L2CValue *)&local_90,0x1000);
+  clear_lua_stack();
+  push_lua_stack(this_00);
+  plVar17 = *local_78;
+  SVar8 = as_integer();
+  bVar3 = check_skill_stat(plVar17,SVar8);
+  L2CValue(aLStack2048,(bool)(bVar3 & 1));
+  bVar4 = operator.cast.to.bool(aLStack2048);
+  ~L2CValue(aLStack2048);
+  ~L2CValue((L2CValue *)&local_90);
+  if ((bVar4 & 1U) != 0) {
+    L2CValue(aLStack2064,this_05);
+    in_s0 = 1.50000000;
+    L2CValue(aLStack2080,1.50000000);
+    uVar10 = 0xffffffff;
+    uVar16 = 0x61;
+    lVar12 = 1;
+    do {
+      uVar13 = (uint)uVar16;
+      uVar15 = uVar13 + 0x20;
+      if (0x19 < (uVar13 - 0x41 & 0xff)) {
+        uVar15 = uVar13;
+      }
+      uVar10 = *(uint *)(&table_ + (ulonglong)((uVar15 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+      uVar16 = (ulonglong)(byte)"action_probability_mul_1st_"[lVar12];
+      lVar12 = lVar12 + 1;
+    } while (lVar12 != 0x1c);
+    this_03 = (L2CValue *)operator[](this_01,~uVar10);
+    this_03 = (L2CValue *)operator[](this_03,aLStack2064);
+    operator=(this_03,aLStack2080);
+    ~L2CValue(aLStack2080);
+    ~L2CValue(aLStack2064);
+  }
+  clear_lua_stack();
+  cVar5 = cp_type(*(lua_State **)(this_00 + 8));
+  L2CValue(aLStack2096,(int)cVar5);
+  L2CValue((L2CValue *)&local_90,0x1b);
+  uVar16 = operator==(aLStack2096,(L2CValue *)&local_90);
+  ~L2CValue((L2CValue *)&local_90);
+  ~L2CValue(aLStack2096);
+  if ((uVar16 & 1) != 0) {
+    L2CValue(aLStack2112,this_05);
+    in_s0 = 1.50000000;
+    L2CValue(aLStack2128,1.50000000);
+    uVar10 = 0xffffffff;
+    uVar16 = 0x61;
+    lVar12 = 1;
+    do {
+      uVar13 = (uint)uVar16;
+      uVar15 = uVar13 + 0x20;
+      if (0x19 < (uVar13 - 0x41 & 0xff)) {
+        uVar15 = uVar13;
+      }
+      uVar10 = *(uint *)(&table_ + (ulonglong)((uVar15 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+      uVar16 = (ulonglong)(byte)"action_probability_mul_1st_"[lVar12];
+      lVar12 = lVar12 + 1;
+    } while (lVar12 != 0x1c);
+    this_03 = (L2CValue *)operator[](this_01,~uVar10);
+    this_03 = (L2CValue *)operator[](this_03,aLStack2112);
+    operator=(this_03,aLStack2128);
+    ~L2CValue(aLStack2128);
+    ~L2CValue(aLStack2112);
+  }
+  clear_lua_stack();
+  rank(*(lua_State **)(this_00 + 8));
+  L2CValue(aLStack2144,in_s0);
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar11 & 0xff ^ 0x9a) * 4) ^ uVar11 >> 8 ^ 0xffff;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x76) * 4) ^ uVar10 >> 8;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x65) * 4) ^ uVar10 >> 8;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x6c) * 4) ^ uVar10 >> 8;
+  this_03 = this_00 + 0xd8;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x5f) * 4) ^ uVar10 >> 8;
+  this_04 = (L2CValue *)
+            operator[](this_03,*(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x39) * 4) ^
+                               uVar10 >> 8 ^ 0xffffffff);
+  uVar16 = operator<=(this_04,aLStack2144);
+  ~L2CValue(aLStack2144);
+  if ((uVar16 & 1) != 0) {
+    uVar10 = *(uint *)(&table_ + (ulonglong)(DAT_710086e384 & 0xff ^ 0x8d) * 4) ^
+             DAT_710086e384 >> 8 ^ 0xffff;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x65) * 4) ^ uVar10 >> 8;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 100) * 4) ^ uVar10 >> 8;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x69) * 4) ^ uVar10 >> 8;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 99) * 4) ^ uVar10 >> 8;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x74) * 4) ^ uVar10 >> 8;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x5f) * 4) ^ uVar10 >> 8;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x74) * 4) ^ uVar10 >> 8;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x61) * 4) ^ uVar10 >> 8;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x72) * 4) ^ uVar10 >> 8;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x67) * 4) ^ uVar10 >> 8;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x65) * 4) ^ uVar10 >> 8;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x74) * 4) ^ uVar10 >> 8;
+    this_04 = (L2CValue *)
+              operator[](this,*(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x5f) * 4) ^
+                              uVar10 >> 8 ^ 0xffffffff);
+    uVar10 = *(uint *)(&table_ + (ulonglong)(__ZNK3lib8L2CValue6lengthEv & 0xff ^ 0x97) * 4) ^
+             __ZNK3lib8L2CValue6lengthEv >> 8 ^ 0xffff;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x61) * 4) ^ uVar10 >> 8;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x6e) * 4) ^ uVar10 >> 8;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 99) * 4) ^ uVar10 >> 8;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x65) * 4) ^ uVar10 >> 8;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 100) * 4) ^ uVar10 >> 8;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x5f) * 4) ^ uVar10 >> 8;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x66) * 4) ^ uVar10 >> 8;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x72) * 4) ^ uVar10 >> 8;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x61) * 4) ^ uVar10 >> 8;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x6d) * 4) ^ uVar10 >> 8;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x65) * 4) ^ uVar10 >> 8;
+    this_04 = (L2CValue *)
+              operator[](this_04,*(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x5f) * 4) ^
+                                 uVar10 >> 8 ^ 0xffffffff);
+    L2CValue((L2CValue *)&local_90,0x1e);
+    uVar16 = operator<((L2CValue *)&local_90,this_04);
+    ~L2CValue((L2CValue *)&local_90);
+    if ((uVar16 & 1) != 0) {
+      L2CValue(aLStack2160,this_05);
+      L2CValue(aLStack2176,0.00000000);
+      uVar10 = 0xffffffff;
+      uVar16 = 0x61;
+      lVar12 = 1;
+      do {
+        uVar13 = (uint)uVar16;
+        uVar15 = uVar13 + 0x20;
+        if (0x19 < (uVar13 - 0x41 & 0xff)) {
+          uVar15 = uVar13;
+        }
+        uVar10 = *(uint *)(&table_ + (ulonglong)((uVar15 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+        uVar16 = (ulonglong)(byte)"action_probability_mul_1st_"[lVar12];
+        lVar12 = lVar12 + 1;
+      } while (lVar12 != 0x1c);
+      this_05 = (L2CValue *)operator[](this_01,~uVar10);
+      this_05 = (L2CValue *)operator[](this_05,aLStack2160);
+      operator=(this_05,aLStack2176);
+      ~L2CValue(aLStack2176);
+      ~L2CValue(aLStack2160);
+      L2CValue(aLStack2192,this_00 + 0x278);
+      L2CValue(aLStack2208,0.00000000);
+      uVar10 = 0xffffffff;
+      uVar16 = 0x61;
+      lVar12 = 1;
+      do {
+        uVar13 = (uint)uVar16;
+        uVar15 = uVar13 + 0x20;
+        if (0x19 < (uVar13 - 0x41 & 0xff)) {
+          uVar15 = uVar13;
+        }
+        uVar10 = *(uint *)(&table_ + (ulonglong)((uVar15 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+        uVar16 = (ulonglong)(byte)"action_probability_mul_1st_"[lVar12];
+        lVar12 = lVar12 + 1;
+      } while (lVar12 != 0x1c);
+      this_05 = (L2CValue *)operator[](this_01,~uVar10);
+      this_05 = (L2CValue *)operator[](this_05,aLStack2192);
+      operator=(this_05,aLStack2208);
+      ~L2CValue(aLStack2208);
+      ~L2CValue(aLStack2192);
+      L2CValue(aLStack2224,this_00 + 0x288);
+      L2CValue(aLStack2240,0.00000000);
+      uVar10 = 0xffffffff;
+      uVar16 = 0x61;
+      lVar12 = 1;
+      do {
+        uVar13 = (uint)uVar16;
+        uVar15 = uVar13 + 0x20;
+        if (0x19 < (uVar13 - 0x41 & 0xff)) {
+          uVar15 = uVar13;
+        }
+        uVar10 = *(uint *)(&table_ + (ulonglong)((uVar15 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+        uVar16 = (ulonglong)(byte)"action_probability_mul_1st_"[lVar12];
+        lVar12 = lVar12 + 1;
+      } while (lVar12 != 0x1c);
+      this_05 = (L2CValue *)operator[](this_01,~uVar10);
+      this_05 = (L2CValue *)operator[](this_05,aLStack2224);
+      operator=(this_05,aLStack2240);
+      ~L2CValue(aLStack2240);
+      ~L2CValue(aLStack2224);
+      L2CValue(aLStack2256,bind_address_call_is_feint_mode_action);
+      in_s0 = 0.00000000;
+      L2CValue(aLStack2272,0.00000000);
+      set_action_probability_mul_1st_foreach
+                ((L2CFighterAIModeBase *)this_00,(L2CValue)0x30,(L2CValue)0x20);
+      ~L2CValue(aLStack2272);
+      ~L2CValue(aLStack2256);
+    }
+  }
+  clear_lua_stack();
+  rank(*(lua_State **)(this_00 + 8));
+  L2CValue(aLStack2288,in_s0);
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar11 & 0xff ^ 0x9a) * 4) ^ uVar11 >> 8 ^ 0xffff;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x76) * 4) ^ uVar10 >> 8;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x65) * 4) ^ uVar10 >> 8;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x6c) * 4) ^ uVar10 >> 8;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x5f) * 4) ^ uVar10 >> 8;
+  this_05 = (L2CValue *)
+            operator[](this_03,*(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x37) * 4) ^
+                               uVar10 >> 8 ^ 0xffffffff);
+  uVar16 = operator<=(aLStack2288,this_05);
+  ~L2CValue(aLStack2288);
+  if ((uVar16 & 1) != 0) {
+    L2CValue((L2CValue *)&local_a0,70.00000000);
+    fVar18 = 110.00000000;
+    L2CValue(aLStack256,110.00000000);
+    clear_lua_stack();
+    target_damage(*local_78);
+    L2CValue(aLStack2304,fVar18);
+    uVar16 = operator<(aLStack2304,(L2CValue *)&local_a0);
+    if ((uVar16 & 1) == 0) {
+      this_05 = aLStack2304;
+LAB_7100483c28:
+      ~L2CValue(this_05);
+    }
+    else {
+      clear_lua_stack();
+      damage(*local_78);
+      L2CValue(aLStack2320,fVar18);
+      uVar16 = operator<=((L2CValue *)&local_a0,aLStack2320);
+      ~L2CValue(aLStack2320);
+      ~L2CValue(aLStack2304);
+      if ((uVar16 & 1) != 0) {
+        fVar18 = 0.00000000;
+        L2CValue((L2CValue *)&local_90,0.00000000);
+        clear_lua_stack();
+        damage(*local_78);
+        L2CValue(aLStack960,fVar18);
+        math_min(aLStack960,aLStack256);
+        operator-(aLStack2336,(L2CValue *)&local_a0);
+        math_max((L2CValue *)&local_90,aLStack944);
+        ~L2CValue(aLStack944);
+        ~L2CValue(aLStack2336);
+        ~L2CValue(aLStack960);
+        ~L2CValue((L2CValue *)&local_90);
+        operator-(aLStack256,(L2CValue *)&local_a0);
+        operator/(aLStack304,aLStack976);
+        L2CValue((L2CValue *)&local_90,1.00000000);
+        operator-((L2CValue *)&local_90,aLStack960);
+        ~L2CValue((L2CValue *)&local_90);
+        ~L2CValue(aLStack960);
+        ~L2CValue(aLStack976);
+        L2CValue(aLStack2352,bind_address_call_is_large_jump_mode_action);
+        L2CValue(aLStack2384,1.20000005);
+        L2CValue(aLStack2400,1.50000000);
+        this_02 = (L2CFighterAIBase *)L2CValue(aLStack2416,aLStack944);
+        lerp(this_02,(L2CValue)0xb0,(L2CValue)0xa0,(L2CValue)0x90);
+        set_action_probability_mul_1st_foreach
+                  ((L2CFighterAIModeBase *)this_00,(L2CValue)0xd0,(L2CValue)0xc0);
+        ~L2CValue(aLStack2368);
+        ~L2CValue(aLStack2416);
+        ~L2CValue(aLStack2400);
+        ~L2CValue(aLStack2384);
+        ~L2CValue(aLStack2352);
+        L2CValue(aLStack2432,bind_address_call_is_wait_mode_action);
+        L2CValue(aLStack2464,0.20000000);
+        L2CValue(aLStack2480,0.89999998);
+        this_02 = (L2CFighterAIBase *)L2CValue(aLStack2496,aLStack944);
+        lerp(this_02,(L2CValue)0x60,(L2CValue)0x50,(L2CValue)0x40);
+        set_action_probability_mul_1st_foreach
+                  ((L2CFighterAIModeBase *)this_00,(L2CValue)0x80,(L2CValue)0x70);
+        ~L2CValue(aLStack2448);
+        ~L2CValue(aLStack2496);
+        ~L2CValue(aLStack2480);
+        ~L2CValue(aLStack2464);
+        ~L2CValue(aLStack2432);
+        ~L2CValue(aLStack944);
+        this_05 = aLStack304;
+        goto LAB_7100483c28;
+      }
+    }
+    ~L2CValue(aLStack256);
+    ~L2CValue((L2CValue *)&local_a0);
+  }
+  clear_lua_stack();
+  bVar3 = check_stat_have_swing(*(lua_State **)(this_00 + 8));
+  L2CValue(aLStack2512,(bool)(bVar3 & 1));
+  bVar4 = operator.cast.to.bool(aLStack2512);
+  ~L2CValue(aLStack2512);
+  if ((bVar4 & 1U) != 0) {
+    L2CValue(aLStack2528,bind_address_call_is_jump_mode_action);
+    L2CValue(aLStack2544,0.01000000);
+    set_action_probability_mul_1st_foreach
+              ((L2CFighterAIModeBase *)this_00,(L2CValue)0x20,(L2CValue)0x10);
+    ~L2CValue(aLStack2544);
+    ~L2CValue(aLStack2528);
+    L2CValue(aLStack2560,this_00 + 0x298);
+    L2CValue(aLStack2576,100);
+    uVar10 = 0xffffffff;
+    uVar16 = 0x61;
+    lVar12 = 1;
+    do {
+      uVar13 = (uint)uVar16;
+      uVar15 = uVar13 + 0x20;
+      if (0x19 < (uVar13 - 0x41 & 0xff)) {
+        uVar15 = uVar13;
+      }
+      uVar10 = *(uint *)(&table_ + (ulonglong)((uVar15 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+      uVar16 = (ulonglong)(byte)"action_probability_mul_1st_"[lVar12];
+      lVar12 = lVar12 + 1;
+    } while (lVar12 != 0x1c);
+    this_05 = (L2CValue *)operator[](this_01,~uVar10);
+    this_05 = (L2CValue *)operator[](this_05,aLStack2560);
+    operator=(this_05,aLStack2576);
+    ~L2CValue(aLStack2576);
+    ~L2CValue(aLStack2560);
+  }
+  L2CValue((L2CValue *)&local_90,1);
+  clear_lua_stack();
+  push_lua_stack(this_00);
+  plVar17 = *local_78;
+  SVar8 = as_integer();
+  bVar3 = check_skill_stat(plVar17,SVar8);
+  L2CValue(aLStack2592,(bool)(bVar3 & 1));
+  bVar4 = operator.cast.to.bool(aLStack2592);
+  ~L2CValue(aLStack2592);
+  ~L2CValue((L2CValue *)&local_90);
+  if ((bVar4 & 1U) == 0) {
+    L2CValue(aLStack2672,this_00 + 0x2a8);
+    L2CValue(aLStack2688,0.00000000);
+    uVar10 = 0xffffffff;
+    uVar16 = 0x61;
+    lVar12 = 1;
+    do {
+      uVar13 = (uint)uVar16;
+      uVar15 = uVar13 + 0x20;
+      if (0x19 < (uVar13 - 0x41 & 0xff)) {
+        uVar15 = uVar13;
+      }
+      uVar10 = *(uint *)(&table_ + (ulonglong)((uVar15 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+      uVar16 = (ulonglong)(byte)"action_probability_mul_1st_"[lVar12];
+      lVar12 = lVar12 + 1;
+    } while (lVar12 != 0x1c);
+    this_05 = (L2CValue *)operator[](this_01,~uVar10);
+    this_05 = (L2CValue *)operator[](this_05,aLStack2672);
+    operator=(this_05,aLStack2688);
+    ~L2CValue(aLStack2688);
+    this_05 = aLStack2672;
+  }
+  else {
+    L2CValue(aLStack2608,this_00 + 0x2a8);
+    L2CValue(aLStack2624,1000.00000000);
+    uVar10 = 0xffffffff;
+    uVar16 = 0x61;
+    lVar12 = 1;
+    do {
+      uVar13 = (uint)uVar16;
+      uVar15 = uVar13 + 0x20;
+      if (0x19 < (uVar13 - 0x41 & 0xff)) {
+        uVar15 = uVar13;
+      }
+      uVar10 = *(uint *)(&table_ + (ulonglong)((uVar15 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+      uVar16 = (ulonglong)(byte)"action_probability_mul_1st_"[lVar12];
+      lVar12 = lVar12 + 1;
+    } while (lVar12 != 0x1c);
+    this_05 = (L2CValue *)operator[](this_01,~uVar10);
+    this_05 = (L2CValue *)operator[](this_05,aLStack2608);
+    operator=(this_05,aLStack2624);
+    ~L2CValue(aLStack2624);
+    ~L2CValue(aLStack2608);
+    L2CValue(aLStack2640,bind_address_call_is_large_jump_mode_action);
+    L2CValue(aLStack2656,0.10000000);
+    set_action_probability_mul_1st_foreach
+              ((L2CFighterAIModeBase *)this_00,(L2CValue)0xb0,(L2CValue)0xa0);
+    ~L2CValue(aLStack2656);
+    this_05 = aLStack2640;
+  }
+  ~L2CValue(this_05);
+  L2CValue((L2CValue *)&local_90,2);
+  clear_lua_stack();
+  push_lua_stack(this_00);
+  plVar17 = *local_78;
+  SVar8 = as_integer();
+  bVar3 = check_skill_stat(plVar17,SVar8);
+  L2CValue(aLStack2704,(bool)(bVar3 & 1));
+  bVar4 = operator.cast.to.bool(aLStack2704);
+  ~L2CValue(aLStack2704);
+  ~L2CValue((L2CValue *)&local_90);
+  if ((bVar4 & 1U) == 0) {
+    L2CValue(aLStack2784,this_00 + 0x2b8);
+    fVar18 = 0.00000000;
+    L2CValue(aLStack2800,0.00000000);
+    uVar10 = 0xffffffff;
+    uVar16 = 0x61;
+    lVar12 = 1;
+    do {
+      uVar13 = (uint)uVar16;
+      uVar15 = uVar13 + 0x20;
+      if (0x19 < (uVar13 - 0x41 & 0xff)) {
+        uVar15 = uVar13;
+      }
+      uVar10 = *(uint *)(&table_ + (ulonglong)((uVar15 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+      uVar16 = (ulonglong)(byte)"action_probability_mul_1st_"[lVar12];
+      lVar12 = lVar12 + 1;
+    } while (lVar12 != 0x1c);
+    this_05 = (L2CValue *)operator[](this_01,~uVar10);
+    this_05 = (L2CValue *)operator[](this_05,aLStack2784);
+    operator=(this_05,aLStack2800);
+    ~L2CValue(aLStack2800);
+    this_05 = aLStack2784;
+  }
+  else {
+    L2CValue(aLStack2720,this_00 + 0x2b8);
+    L2CValue(aLStack2736,1000.00000000);
+    uVar10 = 0xffffffff;
+    uVar16 = 0x61;
+    lVar12 = 1;
+    do {
+      uVar13 = (uint)uVar16;
+      uVar15 = uVar13 + 0x20;
+      if (0x19 < (uVar13 - 0x41 & 0xff)) {
+        uVar15 = uVar13;
+      }
+      uVar10 = *(uint *)(&table_ + (ulonglong)((uVar15 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+      uVar16 = (ulonglong)(byte)"action_probability_mul_1st_"[lVar12];
+      lVar12 = lVar12 + 1;
+    } while (lVar12 != 0x1c);
+    this_05 = (L2CValue *)operator[](this_01,~uVar10);
+    this_05 = (L2CValue *)operator[](this_05,aLStack2720);
+    operator=(this_05,aLStack2736);
+    ~L2CValue(aLStack2736);
+    ~L2CValue(aLStack2720);
+    L2CValue(aLStack2752,bind_address_call_is_run_mode_action);
+    fVar18 = 0.10000000;
+    L2CValue(aLStack2768,0.10000000);
+    set_action_probability_mul_1st_foreach
+              ((L2CFighterAIModeBase *)this_00,(L2CValue)0x40,(L2CValue)0x30);
+    ~L2CValue(aLStack2768);
+    this_05 = aLStack2752;
+  }
+  ~L2CValue(this_05);
+  L2CValue((L2CValue *)&local_90,0x400);
+  clear_lua_stack();
+  push_lua_stack(this_00);
+  plVar17 = *local_78;
+  SVar8 = as_integer();
+  bVar3 = check_skill_stat(plVar17,SVar8);
+  L2CValue(aLStack2816,(bool)(bVar3 & 1));
+  bVar4 = operator.cast.to.bool(aLStack2816);
+  ~L2CValue(aLStack2816);
+  ~L2CValue((L2CValue *)&local_90);
+  if ((bVar4 & 1U) != 0) {
+    L2CValue(aLStack2832,bind_address_call_is_jump_s_attack_mode_action);
+    L2CValue(aLStack2848,10.00000000);
+    set_action_probability_mul_1st_foreach
+              ((L2CFighterAIModeBase *)this_00,(L2CValue)0xf0,(L2CValue)0xe0);
+    ~L2CValue(aLStack2848);
+    ~L2CValue(aLStack2832);
+    L2CValue(aLStack2864,this_00 + 0x228);
+    L2CValue(aLStack2880,0.00000000);
+    uVar10 = 0xffffffff;
+    uVar16 = 0x61;
+    lVar12 = 1;
+    do {
+      uVar13 = (uint)uVar16;
+      uVar15 = uVar13 + 0x20;
+      if (0x19 < (uVar13 - 0x41 & 0xff)) {
+        uVar15 = uVar13;
+      }
+      uVar10 = *(uint *)(&table_ + (ulonglong)((uVar15 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+      uVar16 = (ulonglong)(byte)"action_probability_mul_1st_"[lVar12];
+      lVar12 = lVar12 + 1;
+    } while (lVar12 != 0x1c);
+    this_05 = (L2CValue *)operator[](this_01,~uVar10);
+    this_05 = (L2CValue *)operator[](this_05,aLStack2864);
+    operator=(this_05,aLStack2880);
+    ~L2CValue(aLStack2880);
+    ~L2CValue(aLStack2864);
+    L2CValue(aLStack2896,this_00 + 0x238);
+    L2CValue(aLStack2912,0.00000000);
+    uVar10 = 0xffffffff;
+    uVar16 = 0x61;
+    lVar12 = 1;
+    do {
+      uVar13 = (uint)uVar16;
+      uVar15 = uVar13 + 0x20;
+      if (0x19 < (uVar13 - 0x41 & 0xff)) {
+        uVar15 = uVar13;
+      }
+      uVar10 = *(uint *)(&table_ + (ulonglong)((uVar15 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+      uVar16 = (ulonglong)(byte)"action_probability_mul_1st_"[lVar12];
+      lVar12 = lVar12 + 1;
+    } while (lVar12 != 0x1c);
+    this_05 = (L2CValue *)operator[](this_01,~uVar10);
+    this_05 = (L2CValue *)operator[](this_05,aLStack2896);
+    operator=(this_05,aLStack2912);
+    ~L2CValue(aLStack2912);
+    ~L2CValue(aLStack2896);
+    L2CValue(aLStack2928,this_00 + 0x2c8);
+    L2CValue(aLStack2944,0.00000000);
+    uVar10 = 0xffffffff;
+    uVar16 = 0x61;
+    lVar12 = 1;
+    do {
+      uVar13 = (uint)uVar16;
+      uVar15 = uVar13 + 0x20;
+      if (0x19 < (uVar13 - 0x41 & 0xff)) {
+        uVar15 = uVar13;
+      }
+      uVar10 = *(uint *)(&table_ + (ulonglong)((uVar15 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+      uVar16 = (ulonglong)(byte)"action_probability_mul_1st_"[lVar12];
+      lVar12 = lVar12 + 1;
+    } while (lVar12 != 0x1c);
+    this_05 = (L2CValue *)operator[](this_01,~uVar10);
+    this_05 = (L2CValue *)operator[](this_05,aLStack2928);
+    operator=(this_05,aLStack2944);
+    ~L2CValue(aLStack2944);
+    ~L2CValue(aLStack2928);
+    L2CValue(aLStack2960,this_00 + 0x2d8);
+    L2CValue(aLStack2976,0.00000000);
+    uVar10 = 0xffffffff;
+    uVar16 = 0x61;
+    lVar12 = 1;
+    do {
+      uVar13 = (uint)uVar16;
+      uVar15 = uVar13 + 0x20;
+      if (0x19 < (uVar13 - 0x41 & 0xff)) {
+        uVar15 = uVar13;
+      }
+      uVar10 = *(uint *)(&table_ + (ulonglong)((uVar15 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+      uVar16 = (ulonglong)(byte)"action_probability_mul_1st_"[lVar12];
+      lVar12 = lVar12 + 1;
+    } while (lVar12 != 0x1c);
+    this_05 = (L2CValue *)operator[](this_01,~uVar10);
+    this_05 = (L2CValue *)operator[](this_05,aLStack2960);
+    operator=(this_05,aLStack2976);
+    ~L2CValue(aLStack2976);
+    ~L2CValue(aLStack2960);
+    L2CValue(aLStack2992,this_00 + 0x2e8);
+    L2CValue(aLStack3008,0.00000000);
+    uVar10 = 0xffffffff;
+    uVar16 = 0x61;
+    lVar12 = 1;
+    do {
+      uVar13 = (uint)uVar16;
+      uVar15 = uVar13 + 0x20;
+      if (0x19 < (uVar13 - 0x41 & 0xff)) {
+        uVar15 = uVar13;
+      }
+      uVar10 = *(uint *)(&table_ + (ulonglong)((uVar15 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+      uVar16 = (ulonglong)(byte)"action_probability_mul_1st_"[lVar12];
+      lVar12 = lVar12 + 1;
+    } while (lVar12 != 0x1c);
+    this_05 = (L2CValue *)operator[](this_01,~uVar10);
+    this_05 = (L2CValue *)operator[](this_05,aLStack2992);
+    operator=(this_05,aLStack3008);
+    ~L2CValue(aLStack3008);
+    ~L2CValue(aLStack2992);
+    L2CValue(aLStack3024,this_00 + 0x278);
+    L2CValue(aLStack3040,10.00000000);
+    uVar10 = 0xffffffff;
+    uVar16 = 0x61;
+    lVar12 = 1;
+    do {
+      uVar13 = (uint)uVar16;
+      uVar15 = uVar13 + 0x20;
+      if (0x19 < (uVar13 - 0x41 & 0xff)) {
+        uVar15 = uVar13;
+      }
+      uVar10 = *(uint *)(&table_ + (ulonglong)((uVar15 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+      uVar16 = (ulonglong)(byte)"action_probability_mul_1st_"[lVar12];
+      lVar12 = lVar12 + 1;
+    } while (lVar12 != 0x1c);
+    this_05 = (L2CValue *)operator[](this_01,~uVar10);
+    this_05 = (L2CValue *)operator[](this_05,aLStack3024);
+    operator=(this_05,aLStack3040);
+    ~L2CValue(aLStack3040);
+    ~L2CValue(aLStack3024);
+    L2CValue(aLStack3056,this_00 + 0x288);
+    fVar18 = 10.00000000;
+    L2CValue(aLStack3072,10.00000000);
+    uVar10 = 0xffffffff;
+    uVar16 = 0x61;
+    lVar12 = 1;
+    do {
+      uVar13 = (uint)uVar16;
+      uVar15 = uVar13 + 0x20;
+      if (0x19 < (uVar13 - 0x41 & 0xff)) {
+        uVar15 = uVar13;
+      }
+      uVar10 = *(uint *)(&table_ + (ulonglong)((uVar15 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+      uVar16 = (ulonglong)(byte)"action_probability_mul_1st_"[lVar12];
+      lVar12 = lVar12 + 1;
+    } while (lVar12 != 0x1c);
+    this_05 = (L2CValue *)operator[](this_01,~uVar10);
+    this_05 = (L2CValue *)operator[](this_05,aLStack3056);
+    operator=(this_05,aLStack3072);
+    ~L2CValue(aLStack3072);
+    ~L2CValue(aLStack3056);
+  }
+  L2CValue((L2CValue *)&local_90,0x200);
+  clear_lua_stack();
+  push_lua_stack(this_00);
+  plVar17 = *local_78;
+  SVar8 = as_integer();
+  bVar3 = check_skill_stat(plVar17,SVar8);
+  L2CValue(aLStack3088,(bool)(bVar3 & 1));
+  bVar4 = operator.cast.to.bool(aLStack3088);
+  if ((bVar4 & 1U) == 0) {
+    L2CValue((L2CValue *)&local_a0,0x400);
+    clear_lua_stack();
+    push_lua_stack(this_00);
+    plVar17 = *local_78;
+    SVar8 = as_integer();
+    bVar3 = check_skill_stat(plVar17,SVar8);
+    L2CValue(aLStack3104,(bool)(bVar3 & 1));
+    bVar4 = operator.cast.to.bool(aLStack3104);
+    ~L2CValue(aLStack3104);
+    ~L2CValue((L2CValue *)&local_a0);
+    ~L2CValue(aLStack3088);
+    ~L2CValue((L2CValue *)&local_90);
+    if ((bVar4 & 1U) != 0) goto LAB_7100484614;
+  }
+  else {
+    ~L2CValue(aLStack3088);
+    ~L2CValue((L2CValue *)&local_90);
+LAB_7100484614:
+    clear_lua_stack();
+    pos_x(*(lua_State **)(this_00 + 8));
+    L2CValue(aLStack3136,fVar18);
+    clear_lua_stack();
+    width(*local_78);
+    L2CValue(aLStack3152,fVar18);
+    fVar18 = 2.00000000;
+    L2CValue((L2CValue *)&local_90,2.00000000);
+    operator*(aLStack3152,(L2CValue *)&local_90);
+    ~L2CValue((L2CValue *)&local_90);
+    operator-(aLStack3136,aLStack304);
+    clear_lua_stack();
+    pos_y(*local_78);
+    L2CValue(aLStack944,fVar18);
+    clear_lua_stack();
+    pos_x(*local_78);
+    L2CValue(aLStack3168,fVar18);
+    clear_lua_stack();
+    width(*local_78);
+    L2CValue(aLStack3184,fVar18);
+    auVar20 = SUB3216(ZEXT432(0x40000000),0);
+    L2CValue((L2CValue *)&local_90,2.00000000);
+    operator*(aLStack3184,(L2CValue *)&local_90);
+    ~L2CValue((L2CValue *)&local_90);
+    operator+(aLStack3168,aLStack976);
+    clear_lua_stack();
+    pos_y(*local_78);
+    L2CValue(aLStack992,SUB164(auVar20,0));
+    clear_lua_stack();
+    push_lua_stack(this_00);
+    push_lua_stack(this_00);
+    push_lua_stack(this_00);
+    push_lua_stack(this_00);
+    plVar17 = *local_78;
+    as_number();
+    local_19a0 = SUB164(auVar20,0);
+    uStack6556 = SUB164(auVar20 >> 0x20,0);
+    auVar21 = auVar20;
+    as_number();
+                    /* WARNING: Ignoring partial resolution of indirect */
+    uVar22 = 0;
+    uVar22 = 0;
+    uVar1 = SIMD_PIECE(auVar20 & (undefined  [16])0xffffffffffffffff | ZEXT816(uStack6552) << 0x40,0
+                      );
+    _uVar22 = SIMD_COPY(_uVar22,uVar1,0);
+    uVar1 = SIMD_PIECE(auVar21,0);
+    _uVar22 = SIMD_COPY(_uVar22,uVar1,1);
+    uStack136 = SUB328(ZEXT1632(_uVar22) >> 0x40,0);
+    local_90 = SUB168(_uVar22,0);
+    as_number();
+    as_number();
+                    /* WARNING: Ignoring partial resolution of indirect */
+    uVar22 = 0;
+    uVar22 = 0;
+    fVar18 = SUB164(auVar21,0);
+    uVar1 = SIMD_PIECE(auVar20 & (undefined  [16])0xffffffffffffffff | ZEXT816(uStack6552) << 0x40,0
+                      );
+    _uVar22 = SIMD_COPY(_uVar22,uVar1,0);
+    uVar1 = SIMD_PIECE(auVar21,0);
+    _uVar22 = SIMD_COPY(_uVar22,uVar1,1);
+    uStack152 = SUB328(ZEXT1632(_uVar22) >> 0x40,0);
+    local_a0 = SUB168(_uVar22,0);
+    iVar9 = check_line_segment(plVar17,(Vector2f *)&local_90,(Vector2f *)&local_a0);
+    L2CValue(aLStack3120,iVar9);
+    L2CValue((L2CValue *)&local_90,-1);
+    uVar16 = operator==(aLStack3120,(L2CValue *)&local_90);
+    ~L2CValue((L2CValue *)&local_90);
+    ~L2CValue(aLStack3120);
+    ~L2CValue(aLStack992);
+    ~L2CValue(aLStack960);
+    ~L2CValue(aLStack976);
+    ~L2CValue(aLStack3184);
+    ~L2CValue(aLStack3168);
+    ~L2CValue(aLStack944);
+    ~L2CValue(aLStack256);
+    ~L2CValue(aLStack304);
+    ~L2CValue(aLStack3152);
+    ~L2CValue(aLStack3136);
+    if ((uVar16 & 1) == 0) {
+      L2CValue(aLStack3200,bind_address_call_is_wait_mode_action);
+      fVar18 = 0.00000000;
+      L2CValue(aLStack3216,0.00000000);
+      set_action_probability_mul_1st_foreach
+                ((L2CFighterAIModeBase *)this_00,(L2CValue)0x80,(L2CValue)0x70);
+      ~L2CValue(aLStack3216);
+      ~L2CValue(aLStack3200);
+    }
+  }
+  clear_lua_stack();
+  bVar3 = check_target_stat_cliff(*(lua_State **)(this_00 + 8));
+  L2CValue(aLStack3232,(bool)(bVar3 & 1));
+  bVar4 = operator.cast.to.bool(aLStack3232);
+  if ((bVar4 & 1U) == 0) {
+    clear_lua_stack();
+    bVar3 = check_target_stat_cliff_act(*local_78);
+    L2CValue(aLStack3248,(bool)(bVar3 & 1));
+    bVar4 = operator.cast.to.bool(aLStack3248);
+    ~L2CValue(aLStack3248);
+    ~L2CValue(aLStack3232);
+    if ((bVar4 & 1U) != 0) goto LAB_7100484944;
+  }
+  else {
+    ~L2CValue(aLStack3232);
+LAB_7100484944:
+    L2CValue(aLStack3264,this_00 + 0x2f8);
+    L2CValue(aLStack3280,0.00000000);
+    uVar10 = 0xffffffff;
+    uVar16 = 0x61;
+    lVar12 = 1;
+    do {
+      uVar13 = (uint)uVar16;
+      uVar15 = uVar13 + 0x20;
+      if (0x19 < (uVar13 - 0x41 & 0xff)) {
+        uVar15 = uVar13;
+      }
+      uVar10 = *(uint *)(&table_ + (ulonglong)((uVar15 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+      uVar16 = (ulonglong)(byte)"action_probability_mul_1st_"[lVar12];
+      lVar12 = lVar12 + 1;
+    } while (lVar12 != 0x1c);
+    this_05 = (L2CValue *)operator[](this_01,~uVar10);
+    this_05 = (L2CValue *)operator[](this_05,aLStack3264);
+    operator=(this_05,aLStack3280);
+    ~L2CValue(aLStack3280);
+    ~L2CValue(aLStack3264);
+    L2CValue(aLStack3296,this_00 + 0x308);
+    fVar18 = 0.00000000;
+    L2CValue(aLStack3312,0.00000000);
+    uVar10 = 0xffffffff;
+    uVar16 = 0x61;
+    lVar12 = 1;
+    do {
+      uVar13 = (uint)uVar16;
+      uVar15 = uVar13 + 0x20;
+      if (0x19 < (uVar13 - 0x41 & 0xff)) {
+        uVar15 = uVar13;
+      }
+      uVar10 = *(uint *)(&table_ + (ulonglong)((uVar15 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+      uVar16 = (ulonglong)(byte)"action_probability_mul_1st_"[lVar12];
+      lVar12 = lVar12 + 1;
+    } while (lVar12 != 0x1c);
+    this_05 = (L2CValue *)operator[](this_01,~uVar10);
+    this_05 = (L2CValue *)operator[](this_05,aLStack3296);
+    operator=(this_05,aLStack3312);
+    ~L2CValue(aLStack3312);
+    ~L2CValue(aLStack3296);
+  }
+  uVar10 = *(uint *)(&table_ + (ulonglong)(DAT_710086e384 & 0xff ^ 0x8d) * 4) ^ DAT_710086e384 >> 8
+           ^ 0xffff;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x65) * 4) ^ uVar10 >> 8;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x76) * 4) ^ uVar10 >> 8;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x5f) * 4) ^ uVar10 >> 8;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x61) * 4) ^ uVar10 >> 8;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 99) * 4) ^ uVar10 >> 8;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x74) * 4) ^ uVar10 >> 8;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x69) * 4) ^ uVar10 >> 8;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x6f) * 4) ^ uVar10 >> 8;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x6e) * 4) ^ uVar10 >> 8;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x5f) * 4) ^ uVar10 >> 8;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x69) * 4) ^ uVar10 >> 8;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 100) * 4) ^ uVar10 >> 8;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x5f) * 4) ^ uVar10 >> 8 ^ 0xffffffff;
+  this_05 = (L2CValue *)operator[](this_01,uVar10);
+  uVar16 = operator==(this_05,this_00 + 0x318);
+  if ((uVar16 & 1) == 0) {
+    this_05 = (L2CValue *)operator[](this_01,uVar10);
+    uVar16 = operator==(this_05,this_00 + 0x328);
+    if ((uVar16 & 1) != 0) goto LAB_7100484ba0;
+  }
+  else {
+LAB_7100484ba0:
+    L2CValue(aLStack3328,this_00 + 0x318);
+    fVar18 = 0.10000000;
+    L2CValue(aLStack3344,0.10000000);
+    uVar10 = 0xffffffff;
+    uVar16 = 0x61;
+    lVar12 = 1;
+    do {
+      uVar13 = (uint)uVar16;
+      uVar15 = uVar13 + 0x20;
+      if (0x19 < (uVar13 - 0x41 & 0xff)) {
+        uVar15 = uVar13;
+      }
+      uVar10 = *(uint *)(&table_ + (ulonglong)((uVar15 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+      uVar16 = (ulonglong)(byte)"action_probability_mul_1st_"[lVar12];
+      lVar12 = lVar12 + 1;
+    } while (lVar12 != 0x1c);
+    this_05 = (L2CValue *)operator[](this_01,~uVar10);
+    this_05 = (L2CValue *)operator[](this_05,aLStack3328);
+    operator=(this_05,aLStack3344);
+    ~L2CValue(aLStack3344);
+    ~L2CValue(aLStack3328);
+    L2CValue(aLStack3360,this_00 + 0x328);
+    L2CValue(aLStack3376,fVar18);
+    uVar10 = 0xffffffff;
+    uVar16 = 0x61;
+    lVar12 = 1;
+    do {
+      uVar13 = (uint)uVar16;
+      uVar15 = uVar13 + 0x20;
+      if (0x19 < (uVar13 - 0x41 & 0xff)) {
+        uVar15 = uVar13;
+      }
+      uVar10 = *(uint *)(&table_ + (ulonglong)((uVar15 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+      uVar16 = (ulonglong)(byte)"action_probability_mul_1st_"[lVar12];
+      lVar12 = lVar12 + 1;
+    } while (lVar12 != 0x1c);
+    this_05 = (L2CValue *)operator[](this_01,~uVar10);
+    this_05 = (L2CValue *)operator[](this_05,aLStack3360);
+    operator=(this_05,aLStack3376);
+    ~L2CValue(aLStack3376);
+    ~L2CValue(aLStack3360);
+  }
+  specializer_can_buildup((L2CFighterAIModeBase *)this_00);
+  operator!(aLStack3408);
+  bVar4 = operator.cast.to.bool(aLStack3392);
+  ~L2CValue(aLStack3392);
+  ~L2CValue(aLStack3408);
+  if ((bVar4 & 1U) != 0) {
+    L2CValue(aLStack3424,this_00 + 0x348);
+    fVar18 = 0.00000000;
+    L2CValue(aLStack3440,0.00000000);
+    uVar10 = 0xffffffff;
+    uVar16 = 0x61;
+    lVar12 = 1;
+    do {
+      uVar13 = (uint)uVar16;
+      uVar15 = uVar13 + 0x20;
+      if (0x19 < (uVar13 - 0x41 & 0xff)) {
+        uVar15 = uVar13;
+      }
+      uVar10 = *(uint *)(&table_ + (ulonglong)((uVar15 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+      uVar16 = (ulonglong)(byte)"action_probability_mul_1st_"[lVar12];
+      lVar12 = lVar12 + 1;
+    } while (lVar12 != 0x1c);
+    this_05 = (L2CValue *)operator[](this_01,~uVar10);
+    this_05 = (L2CValue *)operator[](this_05,aLStack3424);
+    operator=(this_05,aLStack3440);
+    ~L2CValue(aLStack3440);
+    ~L2CValue(aLStack3424);
+  }
+  clear_lua_stack();
+  distance_x_to_target(*(lua_State **)(this_00 + 8));
+  L2CValue(aLStack3456,fVar18);
+  L2CValue(aLStack3472,0.00000000);
+  fVar18 = 60.00000000;
+  L2CValue(aLStack3488,60.00000000);
+  uVar15 = *(uint *)(&table_ + (ulonglong)(uVar11 & 0xff ^ 0x9a) * 4) ^ uVar11 >> 8 ^ 0xffff;
+  uVar10 = uVar15 & 0xff;
+  uVar15 = uVar15 >> 8;
+  uVar11 = *(uint *)(&table_ + (ulonglong)(uVar10 ^ 0x76) * 4) ^ uVar15;
+  uVar11 = *(uint *)(&table_ + (ulonglong)(uVar11 & 0xff ^ 0x65) * 4) ^ uVar11 >> 8;
+  uVar11 = *(uint *)(&table_ + (ulonglong)(uVar11 & 0xff ^ 0x6c) * 4) ^ uVar11 >> 8;
+  uVar13 = *(uint *)(&table_ + (ulonglong)(uVar11 & 0xff ^ 0x5f) * 4) ^ uVar11 >> 8;
+  uVar11 = uVar13 & 0xff;
+  uVar13 = uVar13 >> 8;
+  this_05 = (L2CValue *)
+            operator[](this_03,*(uint *)(&table_ + (ulonglong)(uVar11 ^ 0x31) * 4) ^
+                               uVar13 ^ 0xffffffff);
+  L2CValue(aLStack3504,this_05);
+  this_05 = (L2CValue *)
+            operator[](this_03,*(uint *)(&table_ + (ulonglong)(uVar11 ^ 0x38) * 4) ^
+                               uVar13 ^ 0xffffffff);
+  L2CValue(aLStack3520,this_05);
+  rank_rate_with_range
+            ((L2CFighterAIBase *)this_00,(L2CValue)0x70,(L2CValue)0x60,(L2CValue)0x50,(L2CValue)0x40
+            );
+  uVar16 = operator<(aLStack3456,(L2CValue *)&local_90);
+  if ((uVar16 & 1) == 0) {
+    ~L2CValue((L2CValue *)&local_90);
+    ~L2CValue(aLStack3520);
+    ~L2CValue(aLStack3504);
+    ~L2CValue(aLStack3488);
+    ~L2CValue(aLStack3472);
+    this_05 = aLStack3456;
+LAB_7100484fdc:
+    ~L2CValue(this_05);
+  }
+  else {
+    clear_lua_stack();
+    bVar3 = check_target_over_ground(*local_78);
+    L2CValue(aLStack3536,(bool)(bVar3 & 1));
+    bVar4 = operator.cast.to.bool(aLStack3536);
+    ~L2CValue(aLStack3536);
+    ~L2CValue((L2CValue *)&local_90);
+    ~L2CValue(aLStack3520);
+    ~L2CValue(aLStack3504);
+    ~L2CValue(aLStack3488);
+    ~L2CValue(aLStack3472);
+    ~L2CValue(aLStack3456);
+    if ((bVar4 & 1U) != 0) {
+      L2CValue(aLStack3552,this_00 + 0x348);
+      fVar18 = 0.00000000;
+      L2CValue(aLStack3568,0.00000000);
+      uVar11 = 0xffffffff;
+      uVar16 = 0x61;
+      lVar12 = 1;
+      do {
+        uVar14 = (uint)uVar16;
+        uVar13 = uVar14 + 0x20;
+        if (0x19 < (uVar14 - 0x41 & 0xff)) {
+          uVar13 = uVar14;
+        }
+        uVar11 = *(uint *)(&table_ + (ulonglong)((uVar13 ^ uVar11) & 0xff) * 4) ^ uVar11 >> 8;
+        uVar16 = (ulonglong)(byte)"action_probability_mul_1st_"[lVar12];
+        lVar12 = lVar12 + 1;
+      } while (lVar12 != 0x1c);
+      this_05 = (L2CValue *)operator[](this_01,~uVar11);
+      this_05 = (L2CValue *)operator[](this_05,aLStack3552);
+      operator=(this_05,aLStack3568);
+      ~L2CValue(aLStack3568);
+      this_05 = aLStack3552;
+      goto LAB_7100484fdc;
+    }
+  }
+  uVar15 = *(uint *)(&table_ + (ulonglong)(uVar10 ^ 0x61) * 4) ^ uVar15;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar15 & 0xff ^ 0x72) * 4) ^ uVar15 >> 8;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x6e) * 4) ^ uVar10 >> 8;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x69) * 4) ^ uVar10 >> 8;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x6e) * 4) ^ uVar10 >> 8;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x67) * 4) ^ uVar10 >> 8;
+  this_05 = (L2CValue *)
+            operator[](this,*(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x5f) * 4) ^
+                            uVar10 >> 8 ^ 0xffffffff);
+  uVar10 = *(uint *)(&table_ + (ulonglong)(DAT_710086e38c & 0xff ^ 0x90) * 4) ^ DAT_710086e38c >> 8
+           ^ 0xffff;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x5f) * 4) ^ uVar10 >> 8;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x62) * 4) ^ uVar10 >> 8;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x75) * 4) ^ uVar10 >> 8;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x69) * 4) ^ uVar10 >> 8;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x6c) * 4) ^ uVar10 >> 8;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 100) * 4) ^ uVar10 >> 8;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x75) * 4) ^ uVar10 >> 8;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x70) * 4) ^ uVar10 >> 8;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x5f) * 4) ^ uVar10 >> 8;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 99) * 4) ^ uVar10 >> 8;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x6f) * 4) ^ uVar10 >> 8;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x75) * 4) ^ uVar10 >> 8;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x6e) * 4) ^ uVar10 >> 8;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x74) * 4) ^ uVar10 >> 8;
+  this_05 = (L2CValue *)
+            operator[](this_05,*(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x5f) * 4) ^
+                               uVar10 >> 8 ^ 0xffffffff);
+  L2CValue((L2CValue *)&local_90,0);
+  uVar16 = operator<((L2CValue *)&local_90,this_05);
+  ~L2CValue((L2CValue *)&local_90);
+  if ((uVar16 & 1) != 0) {
+    L2CValue(aLStack3584,this_00 + 0x348);
+    fVar18 = 0.00000000;
+    L2CValue(aLStack3600,0.00000000);
+    uVar10 = 0xffffffff;
+    uVar16 = 0x61;
+    lVar12 = 1;
+    do {
+      uVar15 = (uint)uVar16;
+      uVar11 = uVar15 + 0x20;
+      if (0x19 < (uVar15 - 0x41 & 0xff)) {
+        uVar11 = uVar15;
+      }
+      uVar10 = *(uint *)(&table_ + (ulonglong)((uVar11 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+      uVar16 = (ulonglong)(byte)"action_probability_mul_1st_"[lVar12];
+      lVar12 = lVar12 + 1;
+    } while (lVar12 != 0x1c);
+    this_05 = (L2CValue *)operator[](this_01,~uVar10);
+    this_05 = (L2CValue *)operator[](this_05,aLStack3584);
+    operator=(this_05,aLStack3600);
+    ~L2CValue(aLStack3600);
+    ~L2CValue(aLStack3584);
+  }
+  clear_lua_stack();
+  cVar5 = cp_type(*(lua_State **)(this_00 + 8));
+  L2CValue(aLStack3616,(int)cVar5);
+  L2CValue((L2CValue *)&local_90,0x13);
+  uVar16 = operator==(aLStack3616,(L2CValue *)&local_90);
+  ~L2CValue((L2CValue *)&local_90);
+  ~L2CValue(aLStack3616);
+  if ((uVar16 & 1) != 0) goto LAB_71004858c8;
+  clear_lua_stack();
+  bVar3 = check_target_stat_invincible(*(lua_State **)(this_00 + 8));
+  L2CValue(aLStack3632,(bool)(bVar3 & 1));
+  bVar4 = operator.cast.to.bool(aLStack3632);
+  if ((bVar4 & 1U) == 0) {
+LAB_71004858c0:
+    this_05 = aLStack3632;
+LAB_71004858c4:
+    ~L2CValue(this_05);
+  }
+  else {
+    clear_lua_stack();
+    bVar3 = check_target_stat_escape(*local_78);
+    L2CValue(aLStack3664,(bool)(bVar3 & 1));
+    operator!(aLStack3664);
+    bVar4 = operator.cast.to.bool(aLStack3648);
+    if ((bVar4 & 1U) == 0) {
+      ~L2CValue(aLStack3648);
+      ~L2CValue(aLStack3664);
+      goto LAB_71004858c0;
+    }
+    clear_lua_stack();
+    bVar3 = check_target_stat_piyo(*local_78);
+    L2CValue(aLStack3696,(bool)(bVar3 & 1));
+    operator!(aLStack3696);
+    bVar4 = operator.cast.to.bool(aLStack3680);
+    ~L2CValue(aLStack3680);
+    ~L2CValue(aLStack3696);
+    ~L2CValue(aLStack3648);
+    ~L2CValue(aLStack3664);
+    ~L2CValue(aLStack3632);
+    if ((bVar4 & 1U) != 0) {
+      L2CValue(aLStack3712,this_00 + 0x358);
+      L2CValue(aLStack3728,0.00000000);
+      uVar10 = 0xffffffff;
+      uVar16 = 0x61;
+      lVar12 = 1;
+      do {
+        uVar15 = (uint)uVar16;
+        uVar11 = uVar15 + 0x20;
+        if (0x19 < (uVar15 - 0x41 & 0xff)) {
+          uVar11 = uVar15;
+        }
+        uVar10 = *(uint *)(&table_ + (ulonglong)((uVar11 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+        uVar16 = (ulonglong)(byte)"action_probability_mul_1st_"[lVar12];
+        lVar12 = lVar12 + 1;
+      } while (lVar12 != 0x1c);
+      this_05 = (L2CValue *)operator[](this_01,~uVar10);
+      this_05 = (L2CValue *)operator[](this_05,aLStack3712);
+      operator=(this_05,aLStack3728);
+      ~L2CValue(aLStack3728);
+      ~L2CValue(aLStack3712);
+      L2CValue(aLStack3744,this_00 + 0x208);
+      L2CValue(aLStack3760,0.00000000);
+      uVar10 = 0xffffffff;
+      uVar16 = 0x61;
+      lVar12 = 1;
+      do {
+        uVar15 = (uint)uVar16;
+        uVar11 = uVar15 + 0x20;
+        if (0x19 < (uVar15 - 0x41 & 0xff)) {
+          uVar11 = uVar15;
+        }
+        uVar10 = *(uint *)(&table_ + (ulonglong)((uVar11 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+        uVar16 = (ulonglong)(byte)"action_probability_mul_1st_"[lVar12];
+        lVar12 = lVar12 + 1;
+      } while (lVar12 != 0x1c);
+      this_05 = (L2CValue *)operator[](this_01,~uVar10);
+      this_05 = (L2CValue *)operator[](this_05,aLStack3744);
+      operator=(this_05,aLStack3760);
+      ~L2CValue(aLStack3760);
+      ~L2CValue(aLStack3744);
+      L2CValue(aLStack3776,this_00 + 0x2f8);
+      L2CValue(aLStack3792,0.00000000);
+      uVar10 = 0xffffffff;
+      uVar16 = 0x61;
+      lVar12 = 1;
+      do {
+        uVar15 = (uint)uVar16;
+        uVar11 = uVar15 + 0x20;
+        if (0x19 < (uVar15 - 0x41 & 0xff)) {
+          uVar11 = uVar15;
+        }
+        uVar10 = *(uint *)(&table_ + (ulonglong)((uVar11 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+        uVar16 = (ulonglong)(byte)"action_probability_mul_1st_"[lVar12];
+        lVar12 = lVar12 + 1;
+      } while (lVar12 != 0x1c);
+      this_05 = (L2CValue *)operator[](this_01,~uVar10);
+      this_05 = (L2CValue *)operator[](this_05,aLStack3776);
+      operator=(this_05,aLStack3792);
+      ~L2CValue(aLStack3792);
+      ~L2CValue(aLStack3776);
+      L2CValue(aLStack3808,this_00 + 0x308);
+      L2CValue(aLStack3824,0.00000000);
+      uVar10 = 0xffffffff;
+      uVar16 = 0x61;
+      lVar12 = 1;
+      do {
+        uVar15 = (uint)uVar16;
+        uVar11 = uVar15 + 0x20;
+        if (0x19 < (uVar15 - 0x41 & 0xff)) {
+          uVar11 = uVar15;
+        }
+        uVar10 = *(uint *)(&table_ + (ulonglong)((uVar11 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+        uVar16 = (ulonglong)(byte)"action_probability_mul_1st_"[lVar12];
+        lVar12 = lVar12 + 1;
+      } while (lVar12 != 0x1c);
+      this_05 = (L2CValue *)operator[](this_01,~uVar10);
+      this_05 = (L2CValue *)operator[](this_05,aLStack3808);
+      operator=(this_05,aLStack3824);
+      ~L2CValue(aLStack3824);
+      ~L2CValue(aLStack3808);
+      L2CValue(aLStack3840,this_00 + 0x2d8);
+      L2CValue(aLStack3856,0.00000000);
+      uVar10 = 0xffffffff;
+      uVar16 = 0x61;
+      lVar12 = 1;
+      do {
+        uVar15 = (uint)uVar16;
+        uVar11 = uVar15 + 0x20;
+        if (0x19 < (uVar15 - 0x41 & 0xff)) {
+          uVar11 = uVar15;
+        }
+        uVar10 = *(uint *)(&table_ + (ulonglong)((uVar11 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+        uVar16 = (ulonglong)(byte)"action_probability_mul_1st_"[lVar12];
+        lVar12 = lVar12 + 1;
+      } while (lVar12 != 0x1c);
+      this_05 = (L2CValue *)operator[](this_01,~uVar10);
+      this_05 = (L2CValue *)operator[](this_05,aLStack3840);
+      operator=(this_05,aLStack3856);
+      ~L2CValue(aLStack3856);
+      ~L2CValue(aLStack3840);
+      L2CValue(aLStack3872,this_00 + 0x368);
+      fVar18 = 0.00000000;
+      L2CValue(aLStack3888,0.00000000);
+      uVar10 = 0xffffffff;
+      lVar12 = 1;
+      uVar16 = 0x61;
+      do {
+        uVar15 = (uint)uVar16;
+        uVar11 = uVar15 + 0x20;
+        if (0x19 < (uVar15 - 0x41 & 0xff)) {
+          uVar11 = uVar15;
+        }
+        uVar10 = *(uint *)(&table_ + (ulonglong)((uVar11 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+        uVar16 = (ulonglong)(byte)"action_probability_mul_1st_"[lVar12];
+        lVar12 = lVar12 + 1;
+      } while (lVar12 != 0x1c);
+      this_05 = (L2CValue *)operator[](this_01,~uVar10);
+      this_05 = (L2CValue *)operator[](this_05,aLStack3872);
+      operator=(this_05,aLStack3888);
+      ~L2CValue(aLStack3888);
+      ~L2CValue(aLStack3872);
+      uVar10 = *(uint *)(&table_ + (ulonglong)(DAT_710086e374 & 0xff ^ 0x9e) * 4) ^
+               DAT_710086e374 >> 8 ^ 0xffff;
+      uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x72) * 4) ^ uVar10 >> 8;
+      uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x67) * 4) ^ uVar10 >> 8;
+      uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x65) * 4) ^ uVar10 >> 8;
+      uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x74) * 4) ^ uVar10 >> 8;
+      uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x5f) * 4) ^ uVar10 >> 8;
+      uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x61) * 4) ^ uVar10 >> 8;
+      uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x69) * 4) ^ uVar10 >> 8;
+      uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x5f) * 4) ^ uVar10 >> 8;
+      uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x73) * 4) ^ uVar10 >> 8;
+      uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x74) * 4) ^ uVar10 >> 8;
+      uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x61) * 4) ^ uVar10 >> 8;
+      uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x74) * 4) ^ uVar10 >> 8;
+      uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x75) * 4) ^ uVar10 >> 8;
+      uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x73) * 4) ^ uVar10 >> 8;
+      this_05 = (L2CValue *)
+                operator[](this,*(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x5f) * 4) ^
+                                uVar10 >> 8 ^ 0xffffffff);
+      L2CValue((L2CValue *)&local_90,0x19);
+      uVar16 = operator==(this_05,(L2CValue *)&local_90);
+      ~L2CValue((L2CValue *)&local_90);
+      if ((uVar16 & 1) == 0) goto LAB_71004858c8;
+      L2CValue(aLStack3904,this_00 + 0x378);
+      fVar18 = 0.00000000;
+      L2CValue(aLStack3920,0.00000000);
+      uVar10 = 0xffffffff;
+      uVar16 = 0x61;
+      lVar12 = 1;
+      do {
+        uVar15 = (uint)uVar16;
+        uVar11 = uVar15 + 0x20;
+        if (0x19 < (uVar15 - 0x41 & 0xff)) {
+          uVar11 = uVar15;
+        }
+        uVar10 = *(uint *)(&table_ + (ulonglong)((uVar11 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+        uVar16 = (ulonglong)(byte)"action_probability_mul_1st_"[lVar12];
+        lVar12 = lVar12 + 1;
+      } while (lVar12 != 0x1c);
+      this_05 = (L2CValue *)operator[](this_01,~uVar10);
+      this_05 = (L2CValue *)operator[](this_05,aLStack3904);
+      operator=(this_05,aLStack3920);
+      ~L2CValue(aLStack3920);
+      this_05 = aLStack3904;
+      goto LAB_71004858c4;
+    }
+  }
+LAB_71004858c8:
+  clear_lua_stack();
+  bVar3 = check_stat_unable_attack(*(lua_State **)(this_00 + 8));
+  L2CValue(aLStack3936,(bool)(bVar3 & 1));
+  bVar4 = operator.cast.to.bool(aLStack3936);
+  ~L2CValue(aLStack3936);
+  if ((bVar4 & 1U) != 0) {
+    L2CValue(aLStack3952,this_00 + 0x358);
+    L2CValue(aLStack3968,0.00000000);
+    uVar10 = 0xffffffff;
+    uVar16 = 0x61;
+    lVar12 = 1;
+    do {
+      uVar15 = (uint)uVar16;
+      uVar11 = uVar15 + 0x20;
+      if (0x19 < (uVar15 - 0x41 & 0xff)) {
+        uVar11 = uVar15;
+      }
+      uVar10 = *(uint *)(&table_ + (ulonglong)((uVar11 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+      uVar16 = (ulonglong)(byte)"action_probability_mul_1st_"[lVar12];
+      lVar12 = lVar12 + 1;
+    } while (lVar12 != 0x1c);
+    this_05 = (L2CValue *)operator[](this_01,~uVar10);
+    this_05 = (L2CValue *)operator[](this_05,aLStack3952);
+    operator=(this_05,aLStack3968);
+    ~L2CValue(aLStack3968);
+    ~L2CValue(aLStack3952);
+    L2CValue(aLStack3984,this_00 + 0x208);
+    L2CValue(aLStack4000,0.00000000);
+    uVar10 = 0xffffffff;
+    uVar16 = 0x61;
+    lVar12 = 1;
+    do {
+      uVar15 = (uint)uVar16;
+      uVar11 = uVar15 + 0x20;
+      if (0x19 < (uVar15 - 0x41 & 0xff)) {
+        uVar11 = uVar15;
+      }
+      uVar10 = *(uint *)(&table_ + (ulonglong)((uVar11 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+      uVar16 = (ulonglong)(byte)"action_probability_mul_1st_"[lVar12];
+      lVar12 = lVar12 + 1;
+    } while (lVar12 != 0x1c);
+    this_05 = (L2CValue *)operator[](this_01,~uVar10);
+    this_05 = (L2CValue *)operator[](this_05,aLStack3984);
+    operator=(this_05,aLStack4000);
+    ~L2CValue(aLStack4000);
+    ~L2CValue(aLStack3984);
+    L2CValue(aLStack4016,this_00 + 0x2f8);
+    L2CValue(aLStack4032,0.00000000);
+    uVar10 = 0xffffffff;
+    uVar16 = 0x61;
+    lVar12 = 1;
+    do {
+      uVar15 = (uint)uVar16;
+      uVar11 = uVar15 + 0x20;
+      if (0x19 < (uVar15 - 0x41 & 0xff)) {
+        uVar11 = uVar15;
+      }
+      uVar10 = *(uint *)(&table_ + (ulonglong)((uVar11 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+      uVar16 = (ulonglong)(byte)"action_probability_mul_1st_"[lVar12];
+      lVar12 = lVar12 + 1;
+    } while (lVar12 != 0x1c);
+    this_05 = (L2CValue *)operator[](this_01,~uVar10);
+    this_05 = (L2CValue *)operator[](this_05,aLStack4016);
+    operator=(this_05,aLStack4032);
+    ~L2CValue(aLStack4032);
+    ~L2CValue(aLStack4016);
+    L2CValue(aLStack4048,this_00 + 0x308);
+    fVar18 = 0.00000000;
+    L2CValue(aLStack4064,0.00000000);
+    uVar10 = 0xffffffff;
+    uVar16 = 0x61;
+    lVar12 = 1;
+    do {
+      uVar15 = (uint)uVar16;
+      uVar11 = uVar15 + 0x20;
+      if (0x19 < (uVar15 - 0x41 & 0xff)) {
+        uVar11 = uVar15;
+      }
+      uVar10 = *(uint *)(&table_ + (ulonglong)((uVar11 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+      uVar16 = (ulonglong)(byte)"action_probability_mul_1st_"[lVar12];
+      lVar12 = lVar12 + 1;
+    } while (lVar12 != 0x1c);
+    this_05 = (L2CValue *)operator[](this_01,~uVar10);
+    this_05 = (L2CValue *)operator[](this_05,aLStack4048);
+    operator=(this_05,aLStack4064);
+    ~L2CValue(aLStack4064);
+    ~L2CValue(aLStack4048);
+  }
+  clear_lua_stack();
+  bVar3 = check_stat_unable_jump(*(lua_State **)(this_00 + 8));
+  L2CValue(aLStack4080,(bool)(bVar3 & 1));
+  bVar4 = operator.cast.to.bool(aLStack4080);
+  ~L2CValue(aLStack4080);
+  if ((bVar4 & 1U) != 0) {
+    L2CValue(aLStack4096,bind_address_call_is_jump_mode_action);
+    fVar18 = 0.00000000;
+    L2CValue(aLStack4112,0.00000000);
+    set_action_probability_mul_1st_foreach
+              ((L2CFighterAIModeBase *)this_00,(L2CValue)0x0,(L2CValue)0xf0);
+    ~L2CValue(aLStack4112);
+    ~L2CValue(aLStack4096);
+  }
+  clear_lua_stack();
+  bVar3 = check_stat_unable_shield(*(lua_State **)(this_00 + 8));
+  L2CValue(aLStack4128,(bool)(bVar3 & 1));
+  bVar4 = operator.cast.to.bool(aLStack4128);
+  ~L2CValue(aLStack4128);
+  if ((bVar4 & 1U) != 0) {
+    L2CValue(aLStack4144,(L2CValue *)CONCAT44(uStack6556,local_19a0));
+    L2CValue(aLStack4160,0.00000000);
+    uVar10 = 0xffffffff;
+    uVar16 = 0x61;
+    lVar12 = 1;
+    do {
+      uVar15 = (uint)uVar16;
+      uVar11 = uVar15 + 0x20;
+      if (0x19 < (uVar15 - 0x41 & 0xff)) {
+        uVar11 = uVar15;
+      }
+      uVar10 = *(uint *)(&table_ + (ulonglong)((uVar11 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+      uVar16 = (ulonglong)(byte)"action_probability_mul_1st_"[lVar12];
+      lVar12 = lVar12 + 1;
+    } while (lVar12 != 0x1c);
+    this_05 = (L2CValue *)operator[](this_01,~uVar10);
+    this_05 = (L2CValue *)operator[](this_05,aLStack4144);
+    operator=(this_05,aLStack4160);
+    ~L2CValue(aLStack4160);
+    ~L2CValue(aLStack4144);
+    L2CValue(aLStack4176,this_00 + 0x2e8);
+    fVar18 = 0.00000000;
+    L2CValue(aLStack4192,0.00000000);
+    uVar10 = 0xffffffff;
+    uVar16 = 0x61;
+    lVar12 = 1;
+    do {
+      uVar15 = (uint)uVar16;
+      uVar11 = uVar15 + 0x20;
+      if (0x19 < (uVar15 - 0x41 & 0xff)) {
+        uVar11 = uVar15;
+      }
+      uVar10 = *(uint *)(&table_ + (ulonglong)((uVar11 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+      uVar16 = (ulonglong)(byte)"action_probability_mul_1st_"[lVar12];
+      lVar12 = lVar12 + 1;
+    } while (lVar12 != 0x1c);
+    this_05 = (L2CValue *)operator[](this_01,~uVar10);
+    this_05 = (L2CValue *)operator[](this_05,aLStack4176);
+    operator=(this_05,aLStack4192);
+    ~L2CValue(aLStack4192);
+    ~L2CValue(aLStack4176);
+  }
+  clear_lua_stack();
+  floor_width(*(lua_State **)(this_00 + 8));
+  L2CValue(aLStack4208,fVar18);
+  fVar18 = 40.00000000;
+  fVar19 = fVar18;
+  L2CValue((L2CValue *)&local_90,40.00000000);
+  uVar16 = operator<(aLStack4208,(L2CValue *)&local_90);
+  ~L2CValue((L2CValue *)&local_90);
+  ~L2CValue(aLStack4208);
+  if ((uVar16 & 1) != 0) {
+    L2CValue(aLStack4224,bind_address_call_is_run_mode_action);
+    fVar18 = 0.00000000;
+    L2CValue(aLStack4240,0.00000000);
+    set_action_probability_mul_1st_foreach
+              ((L2CFighterAIModeBase *)this_00,(L2CValue)0x80,(L2CValue)0x70);
+    ~L2CValue(aLStack4240);
+    ~L2CValue(aLStack4224);
+  }
+  uVar10 = 0xffffffff;
+  uVar16 = 0x74;
+  lVar12 = 1;
+  do {
+    uVar15 = (uint)uVar16;
+    uVar11 = uVar15 + 0x20;
+    if (0x19 < (uVar15 - 0x41 & 0xff)) {
+      uVar11 = uVar15;
+    }
+    uVar10 = *(uint *)(&table_ + (ulonglong)((uVar11 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+    uVar16 = (ulonglong)(byte)"target_ai_status_attack_count_"[lVar12];
+    lVar12 = lVar12 + 1;
+  } while (lVar12 != 0x1f);
+  this_05 = (L2CValue *)operator[](this,~uVar10);
+  L2CValue((L2CValue *)&local_90,0x1e);
+  uVar16 = operator<((L2CValue *)&local_90,this_05);
+  ~L2CValue((L2CValue *)&local_90);
+  if ((uVar16 & 1) != 0) {
+    uVar10 = *(uint *)(&table_ + (ulonglong)(DAT_710086e374 & 0xff ^ 0x9e) * 4) ^
+             DAT_710086e374 >> 8 ^ 0xffff;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x72) * 4) ^ uVar10 >> 8;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x67) * 4) ^ uVar10 >> 8;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x65) * 4) ^ uVar10 >> 8;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x74) * 4) ^ uVar10 >> 8;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x5f) * 4) ^ uVar10 >> 8;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x61) * 4) ^ uVar10 >> 8;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x69) * 4) ^ uVar10 >> 8;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x5f) * 4) ^ uVar10 >> 8;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x73) * 4) ^ uVar10 >> 8;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x74) * 4) ^ uVar10 >> 8;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x61) * 4) ^ uVar10 >> 8;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x74) * 4) ^ uVar10 >> 8;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x75) * 4) ^ uVar10 >> 8;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x73) * 4) ^ uVar10 >> 8;
+    this_05 = (L2CValue *)
+              operator[](this,*(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x5f) * 4) ^
+                              uVar10 >> 8 ^ 0xffffffff);
+    this_06 = (L2CFighterAIModeBase *)L2CValue(aLStack4272,this_05);
+    analyst_is_attacking_only_ground(this_06,(L2CValue)0x50);
+    bVar4 = operator.cast.to.bool(aLStack4256);
+    ~L2CValue(aLStack4256);
+    ~L2CValue(aLStack4272);
+    if ((bVar4 & 1U) != 0) {
+      L2CValue(aLStack4288,bind_address_call_is_small_jump_mode_action);
+      fVar18 = 0.05000000;
+      L2CValue(aLStack4320,0.05000000);
+      fVar23 = 0.01000000;
+      L2CValue(aLStack4336,0.01000000);
+      rank_rate(SUB81(this_00,0),(L2CValue)0x20);
+      set_action_probability_mul_2nd_foreach
+                ((L2CFighterAIModeBase *)this_00,(L2CValue)0x40,(L2CValue)0x30);
+      ~L2CValue(aLStack4304);
+      ~L2CValue(aLStack4336);
+      ~L2CValue(aLStack4320);
+      ~L2CValue(aLStack4288);
+      L2CValue(aLStack4352,bind_address_call_is_run_mode_action);
+      L2CValue(aLStack4384,fVar18);
+      L2CValue(aLStack4400,fVar23);
+      rank_rate(SUB81(this_00,0),(L2CValue)0xe0);
+      set_action_probability_mul_2nd_foreach
+                ((L2CFighterAIModeBase *)this_00,(L2CValue)0x0,(L2CValue)0xf0);
+      ~L2CValue(aLStack4368);
+      ~L2CValue(aLStack4400);
+      ~L2CValue(aLStack4384);
+      ~L2CValue(aLStack4352);
+      L2CValue(aLStack4416,bind_address_call_is_large_jump_mode_action);
+      fVar18 = 100.00000000;
+      L2CValue(aLStack4432,100.00000000);
+      set_action_probability_mul_1st_foreach
+                ((L2CFighterAIModeBase *)this_00,(L2CValue)0xc0,(L2CValue)0xb0);
+      ~L2CValue(aLStack4432);
+      ~L2CValue(aLStack4416);
+    }
+  }
+  uVar15 = DAT_710086e3b4;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(DAT_710086e3b4 & 0xff ^ 0x9e) * 4) ^ DAT_710086e3b4 >> 8
+           ^ 0xffff;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x6d) * 4) ^ uVar10 >> 8;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x61) * 4) ^ uVar10 >> 8;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x67) * 4) ^ uVar10 >> 8;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x65) * 4) ^ uVar10 >> 8;
+  this_05 = (L2CValue *)
+            operator[](this,*(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x5f) * 4) ^
+                            uVar10 >> 8 ^ 0xffffffff);
+  uVar11 = __ZN3app15sv_fighter_util21get_attack_hi3_motionEP9lua_State;
+  uVar10 = *(uint *)(&table_ +
+                    (ulonglong)
+                    (__ZN3app15sv_fighter_util21get_attack_hi3_motionEP9lua_State & 0xff ^ 0x8f) * 4
+                    ) ^ __ZN3app15sv_fighter_util21get_attack_hi3_motionEP9lua_State >> 8 ^ 0xffff;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x70) * 4) ^ uVar10 >> 8;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x6f) * 4) ^ uVar10 >> 8;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x6e) * 4) ^ uVar10 >> 8;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x65) * 4) ^ uVar10 >> 8;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x6e) * 4) ^ uVar10 >> 8;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x74) * 4) ^ uVar10 >> 8;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x5f) * 4) ^ uVar10 >> 8;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 99) * 4) ^ uVar10 >> 8;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x61) * 4) ^ uVar10 >> 8;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x74) * 4) ^ uVar10 >> 8;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x65) * 4) ^ uVar10 >> 8;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x67) * 4) ^ uVar10 >> 8;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x6f) * 4) ^ uVar10 >> 8;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x72) * 4) ^ uVar10 >> 8;
+  uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x79) * 4) ^ uVar10 >> 8;
+  this_05 = (L2CValue *)
+            operator[](this_05,*(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x5f) * 4) ^
+                               uVar10 >> 8 ^ 0xffffffff);
+  L2CValue((L2CValue *)&local_90,4);
+  uVar16 = operator==(this_05,(L2CValue *)&local_90);
+  ~L2CValue((L2CValue *)&local_90);
+  if ((uVar16 & 1) == 0) {
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar15 & 0xff ^ 0x9e) * 4) ^ uVar15 >> 8 ^ 0xffff;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x6d) * 4) ^ uVar10 >> 8;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x61) * 4) ^ uVar10 >> 8;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x67) * 4) ^ uVar10 >> 8;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x65) * 4) ^ uVar10 >> 8;
+    this_05 = (L2CValue *)
+              operator[](this,*(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x5f) * 4) ^
+                              uVar10 >> 8 ^ 0xffffffff);
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar11 & 0xff ^ 0x8f) * 4) ^ uVar11 >> 8 ^ 0xffff;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x70) * 4) ^ uVar10 >> 8;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x6f) * 4) ^ uVar10 >> 8;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x6e) * 4) ^ uVar10 >> 8;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x65) * 4) ^ uVar10 >> 8;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x6e) * 4) ^ uVar10 >> 8;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x74) * 4) ^ uVar10 >> 8;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x5f) * 4) ^ uVar10 >> 8;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 99) * 4) ^ uVar10 >> 8;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x61) * 4) ^ uVar10 >> 8;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x74) * 4) ^ uVar10 >> 8;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x65) * 4) ^ uVar10 >> 8;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x67) * 4) ^ uVar10 >> 8;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x6f) * 4) ^ uVar10 >> 8;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x72) * 4) ^ uVar10 >> 8;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x79) * 4) ^ uVar10 >> 8;
+    this_05 = (L2CValue *)
+              operator[](this_05,*(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x5f) * 4) ^
+                                 uVar10 >> 8 ^ 0xffffffff);
+    L2CValue((L2CValue *)&local_90,1);
+    uVar16 = operator==(this_05,(L2CValue *)&local_90);
+    ~L2CValue((L2CValue *)&local_90);
+    if ((uVar16 & 1) != 0) goto LAB_71004864a8;
+  }
+  else {
+LAB_71004864a8:
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar15 & 0xff ^ 0x9e) * 4) ^ uVar15 >> 8 ^ 0xffff;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x6d) * 4) ^ uVar10 >> 8;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x61) * 4) ^ uVar10 >> 8;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x67) * 4) ^ uVar10 >> 8;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x65) * 4) ^ uVar10 >> 8;
+    this_05 = (L2CValue *)
+              operator[](this,*(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x5f) * 4) ^
+                              uVar10 >> 8 ^ 0xffffffff);
+    uVar10 = *(uint *)(&table_ +
+                      (ulonglong)
+                      (__ZN3app17sv_kinetic_energy13set_chara_dirEP9lua_State & 0xff ^ 0x9e) * 4) ^
+             __ZN3app17sv_kinetic_energy13set_chara_dirEP9lua_State >> 8 ^ 0xffff;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x6d) * 4) ^ uVar10 >> 8;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x65) * 4) ^ uVar10 >> 8;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x5f) * 4) ^ uVar10 >> 8;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 100) * 4) ^ uVar10 >> 8;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x61) * 4) ^ uVar10 >> 8;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x6d) * 4) ^ uVar10 >> 8;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x61) * 4) ^ uVar10 >> 8;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x67) * 4) ^ uVar10 >> 8;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x65) * 4) ^ uVar10 >> 8;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x5f) * 4) ^ uVar10 >> 8;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 99) * 4) ^ uVar10 >> 8;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x6f) * 4) ^ uVar10 >> 8;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x75) * 4) ^ uVar10 >> 8;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x6e) * 4) ^ uVar10 >> 8;
+    uVar10 = *(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x74) * 4) ^ uVar10 >> 8;
+    this_05 = (L2CValue *)
+              operator[](this_05,*(uint *)(&table_ + (ulonglong)(uVar10 & 0xff ^ 0x5f) * 4) ^
+                                 uVar10 >> 8 ^ 0xffffffff);
+    L2CValue((L2CValue *)&local_90,0);
+    uVar16 = operator<((L2CValue *)&local_90,this_05);
+    ~L2CValue((L2CValue *)&local_90);
+    if ((uVar16 & 1) != 0) {
+      L2CValue(aLStack4448,bind_address_call_is_small_jump_mode_action);
+      L2CValue(aLStack4464,0.00000000);
+      set_action_probability_mul_2nd_foreach
+                ((L2CFighterAIModeBase *)this_03,(L2CValue)0xa0,(L2CValue)0x90);
+      ~L2CValue(aLStack4464);
+      ~L2CValue(aLStack4448);
+      L2CValue(aLStack4480,bind_address_call_is_run_mode_action);
+      L2CValue(aLStack4496,0.00000000);
+      set_action_probability_mul_2nd_foreach
+                ((L2CFighterAIModeBase *)this_03,(L2CValue)0x80,(L2CValue)0x70);
+      ~L2CValue(aLStack4496);
+      ~L2CValue(aLStack4480);
+      L2CValue(aLStack4512,bind_address_call_is_run_mode_action);
+      L2CValue(aLStack4528,0.00000000);
+      set_action_probability_mul_2nd_foreach
+                ((L2CFighterAIModeBase *)this_03,(L2CValue)0x60,(L2CValue)0x50);
+      ~L2CValue(aLStack4528);
+      ~L2CValue(aLStack4512);
+      L2CValue(aLStack4544,bind_address_call_is_large_jump_mode_action);
+      fVar18 = 100.00000000;
+      L2CValue(aLStack4560,100.00000000);
+      set_action_probability_mul_1st_foreach
+                ((L2CFighterAIModeBase *)this_03,(L2CValue)0x40,(L2CValue)0x30);
+      ~L2CValue(aLStack4560);
+      ~L2CValue(aLStack4544);
+    }
+  }
+  clear_lua_stack();
+  bVar3 = check_stat_have_throw(*(lua_State **)(this_00 + 0xe0));
+  L2CValue(aLStack4576,(bool)(bVar3 & 1));
+  bVar4 = operator.cast.to.bool(aLStack4576);
+  ~L2CValue(aLStack4576);
+  pplVar2 = local_78;
+  if ((bVar4 & 1U) != 0) {
+    L2CValue(aLStack4592,this_00 + 0x340);
+    L2CValue(aLStack4608,0.00000000);
+    uVar10 = 0xffffffff;
+    uVar16 = 0x61;
+    lVar12 = 1;
+    do {
+      uVar15 = (uint)uVar16;
+      uVar11 = uVar15 + 0x20;
+      if (0x19 < (uVar15 - 0x41 & 0xff)) {
+        uVar11 = uVar15;
+      }
+      uVar10 = *(uint *)(&table_ + (ulonglong)((uVar11 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+      uVar16 = (ulonglong)(byte)"action_probability_mul_1st_"[lVar12];
+      lVar12 = lVar12 + 1;
+    } while (lVar12 != 0x1c);
+    this_05 = (L2CValue *)operator[](this_01,~uVar10);
+    this_05 = (L2CValue *)operator[](this_05,aLStack4592);
+    operator=(this_05,aLStack4608);
+    ~L2CValue(aLStack4608);
+    ~L2CValue(aLStack4592);
+    L2CValue(aLStack4624,this_00 + 0x3d0);
+    L2CValue(aLStack4640,0.00000000);
+    uVar10 = 0xffffffff;
+    uVar16 = 0x61;
+    lVar12 = 1;
+    do {
+      uVar15 = (uint)uVar16;
+      uVar11 = uVar15 + 0x20;
+      if (0x19 < (uVar15 - 0x41 & 0xff)) {
+        uVar11 = uVar15;
+      }
+      uVar10 = *(uint *)(&table_ + (ulonglong)((uVar11 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+      uVar16 = (ulonglong)(byte)"action_probability_mul_1st_"[lVar12];
+      lVar12 = lVar12 + 1;
+    } while (lVar12 != 0x1c);
+    this_05 = (L2CValue *)operator[](this_01,~uVar10);
+    this_05 = (L2CValue *)operator[](this_05,aLStack4624);
+    operator=(this_05,aLStack4640);
+    ~L2CValue(aLStack4640);
+    ~L2CValue(aLStack4624);
+    L2CValue(aLStack4656,this_00 + 0x3e0);
+    fVar18 = 0.00000000;
+    L2CValue(aLStack4672,0.00000000);
+    uVar10 = 0xffffffff;
+    uVar16 = 0x61;
+    lVar12 = 1;
+    do {
+      uVar15 = (uint)uVar16;
+      uVar11 = uVar15 + 0x20;
+      if (0x19 < (uVar15 - 0x41 & 0xff)) {
+        uVar11 = uVar15;
+      }
+      uVar10 = *(uint *)(&table_ + (ulonglong)((uVar11 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+      uVar16 = (ulonglong)(byte)"action_probability_mul_1st_"[lVar12];
+      lVar12 = lVar12 + 1;
+    } while (lVar12 != 0x1c);
+    this_05 = (L2CValue *)operator[](this_01,~uVar10);
+    this_05 = (L2CValue *)operator[](this_05,aLStack4656);
+    operator=(this_05,aLStack4672);
+    ~L2CValue(aLStack4672);
+    ~L2CValue(aLStack4656);
+  }
+  clear_lua_stack();
+  pos_x(*(lua_State **)(this_00 + 0xe0));
+  L2CValue(aLStack4688,fVar18);
+  dead_left();
+  L2CValue(aLStack4704,fVar18);
+  escape_distance();
+  operator+(aLStack4704,aLStack256);
+  bVar3 = operator<(aLStack4688,(L2CValue *)&local_90);
+  L2CValue((L2CValue *)&local_a0,(bool)(bVar3 & 1));
+  ~L2CValue((L2CValue *)&local_90);
+  ~L2CValue(aLStack256);
+  ~L2CValue(aLStack4704);
+  ~L2CValue(aLStack4688);
+  clear_lua_stack();
+  pos_x(*pplVar2);
+  L2CValue(aLStack4720,fVar18);
+  dead_right();
+  L2CValue(aLStack4736,fVar18);
+  escape_distance();
+  operator-(aLStack4736,aLStack304);
+  bVar3 = operator<((L2CValue *)&local_90,aLStack4720);
+  L2CValue(aLStack256,(bool)(bVar3 & 1));
+  ~L2CValue((L2CValue *)&local_90);
+  ~L2CValue(aLStack304);
+  ~L2CValue(aLStack4736);
+  ~L2CValue(aLStack4720);
+  bVar4 = operator.cast.to.bool((L2CValue *)&local_a0);
+  if ((bVar4 & 1U) == 0) {
+    bVar4 = operator.cast.to.bool(aLStack256);
+    if ((bVar4 & 1U) != 0) {
+      clear_lua_stack();
+      lr_to_target(*pplVar2);
+      L2CValue(aLStack4976,fVar18);
+      L2CValue((L2CValue *)&local_90,0.00000000);
+      uVar16 = operator<((L2CValue *)&local_90,aLStack4976);
+      ~L2CValue((L2CValue *)&local_90);
+      ~L2CValue(aLStack4976);
+      if ((uVar16 & 1) == 0) {
+        L2CValue(aLStack5056,this_00 + 0x470);
+        L2CValue(aLStack5072,0.00000000);
+        uVar10 = 0xffffffff;
+        uVar16 = 0x61;
+        lVar12 = 1;
+        do {
+          uVar15 = (uint)uVar16;
+          uVar11 = uVar15 + 0x20;
+          if (0x19 < (uVar15 - 0x41 & 0xff)) {
+            uVar11 = uVar15;
+          }
+          uVar10 = *(uint *)(&table_ + (ulonglong)((uVar11 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+          uVar16 = (ulonglong)(byte)"action_probability_mul_2nd_"[lVar12];
+          lVar12 = lVar12 + 1;
+        } while (lVar12 != 0x1c);
+        this_05 = (L2CValue *)operator[](this_01,~uVar10);
+        this_05 = (L2CValue *)operator[](this_05,aLStack5056);
+        operator=(this_05,aLStack5072);
+        ~L2CValue(aLStack5072);
+        ~L2CValue(aLStack5056);
+        L2CValue(aLStack5088,bind_address_call_is_dash_backward_mode_action);
+        fVar18 = 0.00000000;
+        L2CValue(aLStack5104,0.00000000);
+        set_action_probability_mul_2nd_foreach
+                  ((L2CFighterAIModeBase *)this_03,(L2CValue)0x20,(L2CValue)0x10);
+        ~L2CValue(aLStack5104);
+        this_05 = aLStack5088;
+      }
+      else {
+        L2CValue(aLStack4992,this_00 + 0x460);
+        L2CValue(aLStack5008,0.00000000);
+        uVar10 = 0xffffffff;
+        uVar16 = 0x61;
+        lVar12 = 1;
+        do {
+          uVar15 = (uint)uVar16;
+          uVar11 = uVar15 + 0x20;
+          if (0x19 < (uVar15 - 0x41 & 0xff)) {
+            uVar11 = uVar15;
+          }
+          uVar10 = *(uint *)(&table_ + (ulonglong)((uVar11 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+          uVar16 = (ulonglong)(byte)"action_probability_mul_2nd_"[lVar12];
+          lVar12 = lVar12 + 1;
+        } while (lVar12 != 0x1c);
+        this_05 = (L2CValue *)operator[](this_01,~uVar10);
+        this_05 = (L2CValue *)operator[](this_05,aLStack4992);
+        operator=(this_05,aLStack5008);
+        ~L2CValue(aLStack5008);
+        ~L2CValue(aLStack4992);
+        L2CValue(aLStack5024,bind_address_call_is_dash_forward_mode_action);
+        fVar18 = 0.00000000;
+        L2CValue(aLStack5040,0.00000000);
+        set_action_probability_mul_2nd_foreach
+                  ((L2CFighterAIModeBase *)this_03,(L2CValue)0x60,(L2CValue)0x50);
+        ~L2CValue(aLStack5040);
+        this_05 = aLStack5024;
+      }
+      ~L2CValue(this_05);
+      clear_lua_stack();
+      lr(*pplVar2);
+      L2CValue(aLStack5120,fVar18);
+      L2CValue((L2CValue *)&local_90,0.00000000);
+      uVar16 = operator<((L2CValue *)&local_90,aLStack5120);
+      ~L2CValue((L2CValue *)&local_90);
+      ~L2CValue(aLStack5120);
+      if ((uVar16 & 1) == 0) {
+        L2CValue(aLStack5168,this_00 + 0x360);
+        fVar18 = 0.00000000;
+        L2CValue(aLStack5184,0.00000000);
+        uVar10 = 0xffffffff;
+        uVar16 = 0x61;
+        lVar12 = 1;
+        do {
+          uVar15 = (uint)uVar16;
+          uVar11 = uVar15 + 0x20;
+          if (0x19 < (uVar15 - 0x41 & 0xff)) {
+            uVar11 = uVar15;
+          }
+          uVar10 = *(uint *)(&table_ + (ulonglong)((uVar11 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+          uVar16 = (ulonglong)(byte)"action_probability_mul_2nd_"[lVar12];
+          lVar12 = lVar12 + 1;
+        } while (lVar12 != 0x1c);
+        this_05 = (L2CValue *)operator[](this_01,~uVar10);
+        this_05 = (L2CValue *)operator[](this_05,aLStack5168);
+        operator=(this_05,aLStack5184);
+        ~L2CValue(aLStack5184);
+        this_05 = aLStack5168;
+      }
+      else {
+        L2CValue(aLStack5136,this_00 + 0x350);
+        fVar18 = 0.00000000;
+        L2CValue(aLStack5152,0.00000000);
+        uVar10 = 0xffffffff;
+        uVar16 = 0x61;
+        lVar12 = 1;
+        do {
+          uVar15 = (uint)uVar16;
+          uVar11 = uVar15 + 0x20;
+          if (0x19 < (uVar15 - 0x41 & 0xff)) {
+            uVar11 = uVar15;
+          }
+          uVar10 = *(uint *)(&table_ + (ulonglong)((uVar11 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+          uVar16 = (ulonglong)(byte)"action_probability_mul_2nd_"[lVar12];
+          lVar12 = lVar12 + 1;
+        } while (lVar12 != 0x1c);
+        this_05 = (L2CValue *)operator[](this_01,~uVar10);
+        this_05 = (L2CValue *)operator[](this_05,aLStack5136);
+        operator=(this_05,aLStack5152);
+        ~L2CValue(aLStack5152);
+        this_05 = aLStack5136;
+      }
+      goto LAB_7100487140;
+    }
+  }
+  else {
+    clear_lua_stack();
+    lr_to_target(*pplVar2);
+    L2CValue(aLStack4752,fVar18);
+    L2CValue((L2CValue *)&local_90,0.00000000);
+    uVar16 = operator<(aLStack4752,(L2CValue *)&local_90);
+    ~L2CValue((L2CValue *)&local_90);
+    ~L2CValue(aLStack4752);
+    if ((uVar16 & 1) == 0) {
+      L2CValue(aLStack4832,this_00 + 0x470);
+      L2CValue(aLStack4848,0.00000000);
+      uVar10 = 0xffffffff;
+      uVar16 = 0x61;
+      lVar12 = 1;
+      do {
+        uVar15 = (uint)uVar16;
+        uVar11 = uVar15 + 0x20;
+        if (0x19 < (uVar15 - 0x41 & 0xff)) {
+          uVar11 = uVar15;
+        }
+        uVar10 = *(uint *)(&table_ + (ulonglong)((uVar11 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+        uVar16 = (ulonglong)(byte)"action_probability_mul_2nd_"[lVar12];
+        lVar12 = lVar12 + 1;
+      } while (lVar12 != 0x1c);
+      this_05 = (L2CValue *)operator[](this_01,~uVar10);
+      this_05 = (L2CValue *)operator[](this_05,aLStack4832);
+      operator=(this_05,aLStack4848);
+      ~L2CValue(aLStack4848);
+      ~L2CValue(aLStack4832);
+      L2CValue(aLStack4864,bind_address_call_is_dash_backward_mode_action);
+      fVar18 = 0.00000000;
+      L2CValue(aLStack4880,0.00000000);
+      set_action_probability_mul_2nd_foreach
+                ((L2CFighterAIModeBase *)this_03,(L2CValue)0x0,(L2CValue)0xf0);
+      ~L2CValue(aLStack4880);
+      this_05 = aLStack4864;
+    }
+    else {
+      L2CValue(aLStack4768,this_00 + 0x460);
+      L2CValue(aLStack4784,0.00000000);
+      uVar10 = 0xffffffff;
+      uVar16 = 0x61;
+      lVar12 = 1;
+      do {
+        uVar15 = (uint)uVar16;
+        uVar11 = uVar15 + 0x20;
+        if (0x19 < (uVar15 - 0x41 & 0xff)) {
+          uVar11 = uVar15;
+        }
+        uVar10 = *(uint *)(&table_ + (ulonglong)((uVar11 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+        uVar16 = (ulonglong)(byte)"action_probability_mul_2nd_"[lVar12];
+        lVar12 = lVar12 + 1;
+      } while (lVar12 != 0x1c);
+      this_05 = (L2CValue *)operator[](this_01,~uVar10);
+      this_05 = (L2CValue *)operator[](this_05,aLStack4768);
+      operator=(this_05,aLStack4784);
+      ~L2CValue(aLStack4784);
+      ~L2CValue(aLStack4768);
+      L2CValue(aLStack4800,bind_address_call_is_dash_forward_mode_action);
+      fVar18 = 0.00000000;
+      L2CValue(aLStack4816,0.00000000);
+      set_action_probability_mul_2nd_foreach
+                ((L2CFighterAIModeBase *)this_03,(L2CValue)0x40,(L2CValue)0x30);
+      ~L2CValue(aLStack4816);
+      this_05 = aLStack4800;
+    }
+    ~L2CValue(this_05);
+    clear_lua_stack();
+    lr(*pplVar2);
+    L2CValue(aLStack4896,fVar18);
+    L2CValue((L2CValue *)&local_90,0.00000000);
+    uVar16 = operator<(aLStack4896,(L2CValue *)&local_90);
+    ~L2CValue((L2CValue *)&local_90);
+    ~L2CValue(aLStack4896);
+    if ((uVar16 & 1) == 0) {
+      L2CValue(aLStack4944,this_00 + 0x360);
+      fVar18 = 0.00000000;
+      L2CValue(aLStack4960,0.00000000);
+      uVar10 = 0xffffffff;
+      uVar16 = 0x61;
+      lVar12 = 1;
+      do {
+        uVar15 = (uint)uVar16;
+        uVar11 = uVar15 + 0x20;
+        if (0x19 < (uVar15 - 0x41 & 0xff)) {
+          uVar11 = uVar15;
+        }
+        uVar10 = *(uint *)(&table_ + (ulonglong)((uVar11 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+        uVar16 = (ulonglong)(byte)"action_probability_mul_2nd_"[lVar12];
+        lVar12 = lVar12 + 1;
+      } while (lVar12 != 0x1c);
+      this_05 = (L2CValue *)operator[](this_01,~uVar10);
+      this_05 = (L2CValue *)operator[](this_05,aLStack4944);
+      operator=(this_05,aLStack4960);
+      ~L2CValue(aLStack4960);
+      this_05 = aLStack4944;
+    }
+    else {
+      L2CValue(aLStack4912,this_00 + 0x350);
+      fVar18 = 0.00000000;
+      L2CValue(aLStack4928,0.00000000);
+      uVar10 = 0xffffffff;
+      uVar16 = 0x61;
+      lVar12 = 1;
+      do {
+        uVar15 = (uint)uVar16;
+        uVar11 = uVar15 + 0x20;
+        if (0x19 < (uVar15 - 0x41 & 0xff)) {
+          uVar11 = uVar15;
+        }
+        uVar10 = *(uint *)(&table_ + (ulonglong)((uVar11 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+        uVar16 = (ulonglong)(byte)"action_probability_mul_2nd_"[lVar12];
+        lVar12 = lVar12 + 1;
+      } while (lVar12 != 0x1c);
+      this_05 = (L2CValue *)operator[](this_01,~uVar10);
+      this_05 = (L2CValue *)operator[](this_05,aLStack4912);
+      operator=(this_05,aLStack4928);
+      ~L2CValue(aLStack4928);
+      this_05 = aLStack4912;
+    }
+LAB_7100487140:
+    ~L2CValue(this_05);
+  }
+  ~L2CValue(aLStack256);
+  ~L2CValue((L2CValue *)&local_a0);
+  clear_lua_stack();
+  width(*(lua_State **)(this_00 + 0xe0));
+  L2CValue(aLStack256,fVar18);
+  L2CValue((L2CValue *)&local_90,fVar19);
+  operator+((L2CValue *)&local_90,aLStack256);
+  ~L2CValue((L2CValue *)&local_90);
+  clear_lua_stack();
+  scale(*pplVar2);
+  L2CValue((L2CValue *)&local_90,fVar19);
+  operator*(aLStack5200,(L2CValue *)&local_90);
+  ~L2CValue((L2CValue *)&local_90);
+  ~L2CValue(aLStack5200);
+  ~L2CValue(aLStack256);
+  clear_lua_stack();
+  pos_x(*pplVar2);
+  L2CValue(aLStack5232,fVar19);
+  clear_lua_stack();
+  pos_y(*pplVar2);
+  L2CValue(aLStack5264,fVar19);
+  clear_lua_stack();
+  height(*pplVar2);
+  L2CValue(aLStack5280,fVar19);
+  fVar18 = 0.50000000;
+  L2CValue((L2CValue *)&local_90,0.50000000);
+  operator*(aLStack5280,(L2CValue *)&local_90);
+  ~L2CValue((L2CValue *)&local_90);
+  operator+(aLStack5264,aLStack256);
+  clear_lua_stack();
+  pos_x(*pplVar2);
+  L2CValue(aLStack5312,fVar18);
+  clear_lua_stack();
+  lr_to_target(*pplVar2);
+  L2CValue(aLStack944,fVar18);
+  operator*((L2CValue *)&local_a0,aLStack944);
+  operator+(aLStack5312,aLStack304);
+  clear_lua_stack();
+  pos_y(*pplVar2);
+  L2CValue(aLStack5344,fVar18);
+  clear_lua_stack();
+  height(*pplVar2);
+  L2CValue(aLStack5360,fVar18);
+  fVar18 = 0.50000000;
+  L2CValue((L2CValue *)&local_90,0.50000000);
+  operator*(aLStack5360,(L2CValue *)&local_90);
+  ~L2CValue((L2CValue *)&local_90);
+  operator+(aLStack5344,aLStack960);
+  check_line_segment_is_danger
+            ((L2CFighterAIModeBase *)this_03,(L2CValue)0x90,(L2CValue)0x80,(L2CValue)0x50,
+             (L2CValue)0x30);
+  bVar4 = operator.cast.to.bool(aLStack5216);
+  ~L2CValue(aLStack5216);
+  ~L2CValue(aLStack5328);
+  ~L2CValue(aLStack960);
+  ~L2CValue(aLStack5360);
+  ~L2CValue(aLStack5344);
+  ~L2CValue(aLStack5296);
+  ~L2CValue(aLStack304);
+  ~L2CValue(aLStack944);
+  ~L2CValue(aLStack5312);
+  ~L2CValue(aLStack5248);
+  ~L2CValue(aLStack256);
+  ~L2CValue(aLStack5280);
+  ~L2CValue(aLStack5264);
+  ~L2CValue(aLStack5232);
+  if ((bVar4 & 1U) != 0) {
+    L2CValue(aLStack5376,bind_address_call_is_dash_forward_mode_action);
+    L2CValue(aLStack5392,0.00000000);
+    set_action_probability_mul_2nd_foreach
+              ((L2CFighterAIModeBase *)this_03,(L2CValue)0x0,(L2CValue)0xf0);
+    ~L2CValue(aLStack5392);
+    ~L2CValue(aLStack5376);
+    L2CValue(aLStack5408,this_00 + 0x460);
+    fVar18 = 0.00000000;
+    L2CValue(aLStack5424,0.00000000);
+    uVar10 = 0xffffffff;
+    uVar16 = 0x61;
+    lVar12 = 1;
+    do {
+      uVar15 = (uint)uVar16;
+      uVar11 = uVar15 + 0x20;
+      if (0x19 < (uVar15 - 0x41 & 0xff)) {
+        uVar11 = uVar15;
+      }
+      uVar10 = *(uint *)(&table_ + (ulonglong)((uVar11 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+      uVar16 = (ulonglong)(byte)"action_probability_mul_2nd_"[lVar12];
+      lVar12 = lVar12 + 1;
+    } while (lVar12 != 0x1c);
+    this_05 = (L2CValue *)operator[](this_01,~uVar10);
+    this_05 = (L2CValue *)operator[](this_05,aLStack5408);
+    operator=(this_05,aLStack5424);
+    ~L2CValue(aLStack5424);
+    ~L2CValue(aLStack5408);
+    clear_lua_stack();
+    lr(*pplVar2);
+    L2CValue(aLStack5440,fVar18);
+    clear_lua_stack();
+    lr_to_target(*pplVar2);
+    L2CValue((L2CValue *)&local_90,fVar18);
+    uVar16 = operator==(aLStack5440,(L2CValue *)&local_90);
+    ~L2CValue((L2CValue *)&local_90);
+    ~L2CValue(aLStack5440);
+    if ((uVar16 & 1) == 0) {
+      L2CValue(aLStack5488,this_00 + 0x360);
+      L2CValue(aLStack5504,0.00000000);
+      uVar10 = 0xffffffff;
+      uVar16 = 0x61;
+      lVar12 = 1;
+      do {
+        uVar15 = (uint)uVar16;
+        uVar11 = uVar15 + 0x20;
+        if (0x19 < (uVar15 - 0x41 & 0xff)) {
+          uVar11 = uVar15;
+        }
+        uVar10 = *(uint *)(&table_ + (ulonglong)((uVar11 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+        uVar16 = (ulonglong)(byte)"action_probability_mul_2nd_"[lVar12];
+        lVar12 = lVar12 + 1;
+      } while (lVar12 != 0x1c);
+      this_05 = (L2CValue *)operator[](this_01,~uVar10);
+      this_05 = (L2CValue *)operator[](this_05,aLStack5488);
+      operator=(this_05,aLStack5504);
+      ~L2CValue(aLStack5504);
+      this_05 = aLStack5488;
+    }
+    else {
+      L2CValue(aLStack5456,this_00 + 0x350);
+      L2CValue(aLStack5472,0.00000000);
+      uVar10 = 0xffffffff;
+      uVar16 = 0x61;
+      lVar12 = 1;
+      do {
+        uVar15 = (uint)uVar16;
+        uVar11 = uVar15 + 0x20;
+        if (0x19 < (uVar15 - 0x41 & 0xff)) {
+          uVar11 = uVar15;
+        }
+        uVar10 = *(uint *)(&table_ + (ulonglong)((uVar11 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+        uVar16 = (ulonglong)(byte)"action_probability_mul_2nd_"[lVar12];
+        lVar12 = lVar12 + 1;
+      } while (lVar12 != 0x1c);
+      this_05 = (L2CValue *)operator[](this_01,~uVar10);
+      this_05 = (L2CValue *)operator[](this_05,aLStack5456);
+      operator=(this_05,aLStack5472);
+      ~L2CValue(aLStack5472);
+      this_05 = aLStack5456;
+    }
+    ~L2CValue(this_05);
+    L2CValue(aLStack5520,bind_address_call_is_large_jump_mode_action);
+    fVar18 = 100.00000000;
+    L2CValue(aLStack5536,100.00000000);
+    set_action_probability_mul_1st_foreach
+              ((L2CFighterAIModeBase *)this_03,(L2CValue)0x70,(L2CValue)0x60);
+    ~L2CValue(aLStack5536);
+    ~L2CValue(aLStack5520);
+  }
+  clear_lua_stack();
+  pos_x(*pplVar2);
+  L2CValue(aLStack5568,fVar18);
+  clear_lua_stack();
+  pos_y(*pplVar2);
+  L2CValue(aLStack5600,fVar18);
+  clear_lua_stack();
+  height(*pplVar2);
+  L2CValue(aLStack5616,fVar18);
+  fVar18 = 0.50000000;
+  L2CValue((L2CValue *)&local_90,0.50000000);
+  operator*(aLStack5616,(L2CValue *)&local_90);
+  ~L2CValue((L2CValue *)&local_90);
+  operator+(aLStack5600,aLStack256);
+  clear_lua_stack();
+  pos_x(*pplVar2);
+  L2CValue(aLStack5648,fVar18);
+  clear_lua_stack();
+  lr_to_target(*pplVar2);
+  L2CValue(aLStack5664,fVar18);
+  operator-(aLStack5664);
+  operator*((L2CValue *)&local_a0,aLStack944);
+  operator+(aLStack5648,aLStack304);
+  clear_lua_stack();
+  pos_y(*pplVar2);
+  L2CValue(aLStack5696,fVar18);
+  clear_lua_stack();
+  height(*pplVar2);
+  L2CValue(aLStack5712,fVar18);
+  fVar18 = 0.50000000;
+  L2CValue((L2CValue *)&local_90,0.50000000);
+  operator*(aLStack5712,(L2CValue *)&local_90);
+  ~L2CValue((L2CValue *)&local_90);
+  operator+(aLStack5696,aLStack960);
+  check_line_segment_is_danger
+            ((L2CFighterAIModeBase *)this_03,(L2CValue)0x40,(L2CValue)0x30,(L2CValue)0x0,
+             (L2CValue)0xd0);
+  bVar4 = operator.cast.to.bool(aLStack5552);
+  ~L2CValue(aLStack5552);
+  ~L2CValue(aLStack5680);
+  ~L2CValue(aLStack960);
+  ~L2CValue(aLStack5712);
+  ~L2CValue(aLStack5696);
+  ~L2CValue(aLStack5632);
+  ~L2CValue(aLStack304);
+  ~L2CValue(aLStack944);
+  ~L2CValue(aLStack5664);
+  ~L2CValue(aLStack5648);
+  ~L2CValue(aLStack5584);
+  ~L2CValue(aLStack256);
+  ~L2CValue(aLStack5616);
+  ~L2CValue(aLStack5600);
+  ~L2CValue(aLStack5568);
+  if ((bVar4 & 1U) != 0) {
+    L2CValue(aLStack5728,bind_address_call_is_dash_backward_mode_action);
+    L2CValue(aLStack5744,0.00000000);
+    set_action_probability_mul_2nd_foreach
+              ((L2CFighterAIModeBase *)this_03,(L2CValue)0xa0,(L2CValue)0x90);
+    ~L2CValue(aLStack5744);
+    ~L2CValue(aLStack5728);
+    L2CValue(aLStack5760,this_00 + 0x470);
+    fVar18 = 0.00000000;
+    L2CValue(aLStack5776,0.00000000);
+    uVar10 = 0xffffffff;
+    uVar16 = 0x61;
+    lVar12 = 1;
+    do {
+      uVar15 = (uint)uVar16;
+      uVar11 = uVar15 + 0x20;
+      if (0x19 < (uVar15 - 0x41 & 0xff)) {
+        uVar11 = uVar15;
+      }
+      uVar10 = *(uint *)(&table_ + (ulonglong)((uVar11 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+      uVar16 = (ulonglong)(byte)"action_probability_mul_2nd_"[lVar12];
+      lVar12 = lVar12 + 1;
+    } while (lVar12 != 0x1c);
+    this_05 = (L2CValue *)operator[](this_01,~uVar10);
+    this_05 = (L2CValue *)operator[](this_05,aLStack5760);
+    operator=(this_05,aLStack5776);
+    ~L2CValue(aLStack5776);
+    ~L2CValue(aLStack5760);
+    clear_lua_stack();
+    lr(*pplVar2);
+    L2CValue(aLStack5792,fVar18);
+    clear_lua_stack();
+    lr_to_target(*pplVar2);
+    L2CValue((L2CValue *)&local_90,fVar18);
+    uVar16 = operator==(aLStack5792,(L2CValue *)&local_90);
+    ~L2CValue((L2CValue *)&local_90);
+    ~L2CValue(aLStack5792);
+    if ((uVar16 & 1) == 0) {
+      L2CValue(aLStack5808,this_00 + 0x350);
+      L2CValue(aLStack5824,0.00000000);
+      uVar10 = 0xffffffff;
+      uVar16 = 0x61;
+      lVar12 = 1;
+      do {
+        uVar15 = (uint)uVar16;
+        uVar11 = uVar15 + 0x20;
+        if (0x19 < (uVar15 - 0x41 & 0xff)) {
+          uVar11 = uVar15;
+        }
+        uVar10 = *(uint *)(&table_ + (ulonglong)((uVar11 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+        uVar16 = (ulonglong)(byte)"action_probability_mul_2nd_"[lVar12];
+        lVar12 = lVar12 + 1;
+      } while (lVar12 != 0x1c);
+      this_05 = (L2CValue *)operator[](this_01,~uVar10);
+      this_05 = (L2CValue *)operator[](this_05,aLStack5808);
+      operator=(this_05,aLStack5824);
+      ~L2CValue(aLStack5824);
+      this_05 = aLStack5808;
+    }
+    else {
+      L2CValue(aLStack5840,this_00 + 0x360);
+      L2CValue(aLStack5856,0.00000000);
+      uVar10 = 0xffffffff;
+      uVar16 = 0x61;
+      lVar12 = 1;
+      do {
+        uVar15 = (uint)uVar16;
+        uVar11 = uVar15 + 0x20;
+        if (0x19 < (uVar15 - 0x41 & 0xff)) {
+          uVar11 = uVar15;
+        }
+        uVar10 = *(uint *)(&table_ + (ulonglong)((uVar11 ^ uVar10) & 0xff) * 4) ^ uVar10 >> 8;
+        uVar16 = (ulonglong)(byte)"action_probability_mul_2nd_"[lVar12];
+        lVar12 = lVar12 + 1;
+      } while (lVar12 != 0x1c);
+      this_05 = (L2CValue *)operator[](this_01,~uVar10);
+      this_05 = (L2CValue *)operator[](this_05,aLStack5840);
+      operator=(this_05,aLStack5856);
+      ~L2CValue(aLStack5856);
+      this_05 = aLStack5840;
+    }
+    ~L2CValue(this_05);
+    L2CValue(aLStack5872,bind_address_call_is_large_jump_mode_action);
+    fVar18 = 100.00000000;
+    L2CValue(aLStack5888,100.00000000);
+    set_action_probability_mul_1st_foreach
+              ((L2CFighterAIModeBase *)this_03,(L2CValue)0x10,(L2CValue)0x0);
+    ~L2CValue(aLStack5888);
+    ~L2CValue(aLStack5872);
+  }
+  clear_lua_stack();
+  width(*pplVar2);
+  L2CValue(aLStack5904,fVar18);
+  fVar18 = 1.50000000;
+  L2CValue((L2CValue *)&local_90,1.50000000);
+  operator*(aLStack5904,(L2CValue *)&local_90);
+  ~L2CValue((L2CValue *)&local_90);
+  ~L2CValue(aLStack5904);
+  clear_lua_stack();
+  pos_x(*pplVar2);
+  L2CValue(aLStack5952,fVar18);
+  operator-(aLStack5952,aLStack256);
+  clear_lua_stack();
+  pos_y(*pplVar2);
+  L2CValue(aLStack5968,fVar18);
+  clear_lua_stack();
+  pos_x(*pplVar2);
+  L2CValue(aLStack6000,fVar18);
+  operator-(aLStack6000,aLStack256);
+  clear_lua_stack();
+  pos_y(*pplVar2);
+  L2CValue(aLStack6032,fVar18);
+  clear_lua_stack();
+  jump_high(*pplVar2);
+  L2CValue(aLStack6048,fVar18);
+  fVar18 = 0.50000000;
+  L2CValue((L2CValue *)&local_90,0.50000000);
+  operator*(aLStack6048,(L2CValue *)&local_90);
+  ~L2CValue((L2CValue *)&local_90);
+  operator+(aLStack6032,aLStack304);
+  check_line_segment_is_danger
+            ((L2CFighterAIModeBase *)this_03,(L2CValue)0xd0,(L2CValue)0xb0,(L2CValue)0xa0,
+             (L2CValue)0x80);
+  bVar4 = operator.cast.to.bool(aLStack5920);
+  if ((bVar4 & 1U) == 0) {
+    clear_lua_stack();
+    pos_x(*pplVar2);
+    L2CValue(aLStack6096,fVar18);
+    operator+(aLStack6096,aLStack256);
+    clear_lua_stack();
+    pos_y(*pplVar2);
+    L2CValue(aLStack6112,fVar18);
+    clear_lua_stack();
+    pos_x(*pplVar2);
+    L2CValue(aLStack6144,fVar18);
+    operator+(aLStack6144,aLStack256);
+    clear_lua_stack();
+    pos_y(*pplVar2);
+    L2CValue(aLStack6176,fVar18);
+    clear_lua_stack();
+    jump_high(*pplVar2);
+    L2CValue(aLStack6192,fVar18);
+    fVar18 = 0.50000000;
+    L2CValue((L2CValue *)&local_90,0.50000000);
+    operator*(aLStack6192,(L2CValue *)&local_90);
+    ~L2CValue((L2CValue *)&local_90);
+    operator+(aLStack6176,aLStack944);
+    check_line_segment_is_danger
+              ((L2CFighterAIModeBase *)this_03,(L2CValue)0x40,(L2CValue)0x20,(L2CValue)0x10,
+               (L2CValue)0xf0);
+    bVar4 = operator.cast.to.bool(aLStack6064);
+    ~L2CValue(aLStack6064);
+    ~L2CValue(aLStack6160);
+    ~L2CValue(aLStack944);
+    ~L2CValue(aLStack6192);
+    ~L2CValue(aLStack6176);
+    ~L2CValue(aLStack6128);
+    ~L2CValue(aLStack6144);
+    ~L2CValue(aLStack6112);
+    ~L2CValue(aLStack6080);
+    ~L2CValue(aLStack6096);
+  }
+  else {
+    bVar4 = true;
+  }
+  ~L2CValue(aLStack5920);
+  ~L2CValue(aLStack6016);
+  ~L2CValue(aLStack304);
+  ~L2CValue(aLStack6048);
+  ~L2CValue(aLStack6032);
+  ~L2CValue(aLStack5984);
+  ~L2CValue(aLStack6000);
+  ~L2CValue(aLStack5968);
+  ~L2CValue(aLStack5936);
+  ~L2CValue(aLStack5952);
+  if ((bVar4 & 1U) == 0) {
+    clear_lua_stack();
+    pos_x(*pplVar2);
+    L2CValue(aLStack6272,fVar18);
+    operator-(aLStack6272,aLStack256);
+    clear_lua_stack();
+    pos_y(*pplVar2);
+    L2CValue(aLStack6288,fVar18);
+    clear_lua_stack();
+    pos_x(*pplVar2);
+    L2CValue(aLStack6320,fVar18);
+    operator-(aLStack6320,aLStack256);
+    clear_lua_stack();
+    pos_y(*pplVar2);
+    L2CValue(aLStack6352,fVar18);
+    clear_lua_stack();
+    jump_high(*pplVar2);
+    L2CValue((L2CValue *)&local_90,fVar18);
+    operator+(aLStack6352,(L2CValue *)&local_90);
+    check_line_segment_is_danger
+              ((L2CFighterAIModeBase *)this_03,(L2CValue)0x90,(L2CValue)0x70,(L2CValue)0x60,
+               (L2CValue)0x40);
+    bVar4 = operator.cast.to.bool(aLStack6240);
+    if ((bVar4 & 1U) == 0) {
+      clear_lua_stack();
+      pos_x(*pplVar2);
+      L2CValue(aLStack6400,fVar18);
+      operator+(aLStack6400,aLStack256);
+      clear_lua_stack();
+      pos_y(*pplVar2);
+      L2CValue(aLStack6416,fVar18);
+      clear_lua_stack();
+      pos_x(*pplVar2);
+      L2CValue(aLStack6448,fVar18);
+      operator+(aLStack6448,aLStack256);
+      clear_lua_stack();
+      pos_y(*pplVar2);
+      L2CValue(aLStack6480,fVar18);
+      clear_lua_stack();
+      jump_high(*pplVar2);
+      L2CValue(aLStack304,fVar18);
+      operator+(aLStack6480,aLStack304);
+      check_line_segment_is_danger
+                ((L2CFighterAIModeBase *)this_03,(L2CValue)0x10,(L2CValue)0xf0,(L2CValue)0xe0,
+                 (L2CValue)0xc0);
+      bVar4 = operator.cast.to.bool(aLStack6368);
+      ~L2CValue(aLStack6368);
+      ~L2CValue(aLStack6464);
+      ~L2CValue(aLStack304);
+      ~L2CValue(aLStack6480);
+      ~L2CValue(aLStack6432);
+      ~L2CValue(aLStack6448);
+      ~L2CValue(aLStack6416);
+      ~L2CValue(aLStack6384);
+      ~L2CValue(aLStack6400);
+      ~L2CValue(aLStack6240);
+      ~L2CValue(aLStack6336);
+      ~L2CValue((L2CValue *)&local_90);
+      ~L2CValue(aLStack6352);
+      ~L2CValue(aLStack6304);
+      ~L2CValue(aLStack6320);
+      ~L2CValue(aLStack6288);
+      ~L2CValue(aLStack6256);
+      ~L2CValue(aLStack6272);
+      if ((bVar4 & 1U) == 0) goto LAB_71004880c8;
+    }
+    else {
+      ~L2CValue(aLStack6240);
+      ~L2CValue(aLStack6336);
+      ~L2CValue((L2CValue *)&local_90);
+      ~L2CValue(aLStack6352);
+      ~L2CValue(aLStack6304);
+      ~L2CValue(aLStack6320);
+      ~L2CValue(aLStack6288);
+      ~L2CValue(aLStack6256);
+      ~L2CValue(aLStack6272);
+    }
+    L2CValue(aLStack6496,bind_address_call_is_large_jump_mode_action);
+    L2CValue(aLStack6512,0.00000000);
+    set_action_probability_mul_2nd_foreach
+              ((L2CFighterAIModeBase *)this_03,(L2CValue)0xa0,(L2CValue)0x90);
+    ~L2CValue(aLStack6512);
+    this_05 = aLStack6496;
+  }
+  else {
+    L2CValue(aLStack6208,bind_address_call_is_jump_mode_action);
+    L2CValue(aLStack6224,0.00000000);
+    set_action_probability_mul_2nd_foreach
+              ((L2CFighterAIModeBase *)this_03,(L2CValue)0xc0,(L2CValue)0xb0);
+    ~L2CValue(aLStack6224);
+    this_05 = aLStack6208;
+  }
+  ~L2CValue(this_05);
+LAB_71004880c8:
+  ~L2CValue(aLStack256);
+  ~L2CValue((L2CValue *)&local_a0);
+  select_mode_action_ground((L2CFighterAIModeBase *)this_03);
+  reset_action_probability_mul_1st((L2CFighterAIModeBase *)this_03);
+  reset_action_probability_mul_2nd((L2CFighterAIModeBase *)this_03);
+  return;
+}
+

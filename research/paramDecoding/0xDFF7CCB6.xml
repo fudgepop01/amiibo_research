@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<struct>
+  <list size="14" hash="0x24cd976d8f">
+    <struct index="0">
+      <hash40 hash="0x14c5e2aa8c">0x2abe5d9303</hash40>
+      <hash40 hash="0x15349ccd10">0x27d68a9fb9</hash40>
+      <ushort hash="second_start_wait">132</ushort>
+    </struct>
+    <struct index="1">
+      <hash40 hash="0x14c5e2aa8c">0x2abe5d9303</hash40>
+      <hash40 hash="0x15349ccd10">0x27d68a9fb9</hash40>
+      <ushort hash="second_start_wait">132</ushort>
+    </struct>
+    <struct index="2">
+      <hash40 hash="0x14c5e2aa8c">0x2abe5d9303</hash40>
+      <hash40 hash="0x15349ccd10">0x27d68a9fb9</hash40>
+      <ushort hash="second_start_wait">90</ushort>
+    </struct>
+    <struct index="3">
+      <hash40 hash="0x14c5e2aa8c">0x2abe5d9303</hash40>
+      <hash40 hash="0x15349ccd10">0x27d68a9fb9</hash40>
+      <ushort hash="second_start_wait">84</ushort>
+    </struct>
+    <struct index="4">
+      <hash40 hash="0x14c5e2aa8c">0x2abe5d9303</hash40>
+      <hash40 hash="0x15349ccd10">0x27d68a9fb9</hash40>
+      <ushort hash="second_start_wait">132</ushort>
+    </struct>
+    <struct index="5">
+      <hash40 hash="0x14c5e2aa8c">0x2abe5d9303</hash40>
+      <hash40 hash="0x15349ccd10">0x27d68a9fb9</hash40>
+      <ushort hash="second_start_wait">90</ushort>
+    </struct>
+    <struct index="6">
+      <hash40 hash="0x14c5e2aa8c">0x2abe5d9303</hash40>
+      <hash40 hash="0x15349ccd10">0x27d68a9fb9</hash40>
+      <ushort hash="second_start_wait">69</ushort>
+    </struct>
+    <struct index="7">
+      <hash40 hash="0x14c5e2aa8c">0x2abe5d9303</hash40>
+      <hash40 hash="0x15349ccd10">0x27d68a9fb9</hash40>
+      <ushort hash="second_start_wait">69</ushort>
+    </struct>
+    <struct index="8">
+      <hash40 hash="0x14c5e2aa8c">0x27d68a9fb9</hash40>
+      <hash40 hash="0x15349ccd10">0x2abe5d9303</hash40>
+      <ushort hash="second_start_wait">64</ushort>
+    </struct>
+    <struct index="9">
+      <hash40 hash="0x14c5e2aa8c">0x2abe5d9303</hash40>
+      <hash40 hash="0x15349ccd10">0x27d68a9fb9</hash40>
+      <ushort hash="second_start_wait">72</ushort>
+    </struct>
+    <struct index="10">
+      <hash40 hash="0x14c5e2aa8c">0x27d68a9fb9</hash40>
+      <hash40 hash="0x15349ccd10">0x2abe5d9303</hash40>
+      <ushort hash="second_start_wait">64</ushort>
+    </struct>
+    <struct index="11">
+      <hash40 hash="0x14c5e2aa8c">0x2abe5d9303</hash40>
+      <hash40 hash="0x15349ccd10">0x27d68a9fb9</hash40>
+      <ushort hash="second_start_wait">132</ushort>
+    </struct>
+    <struct index="12">
+      <hash40 hash="0x14c5e2aa8c">0x2abe5d9303</hash40>
+      <hash40 hash="0x15349ccd10">0x27d68a9fb9</hash40>
+      <ushort hash="second_start_wait">132</ushort>
+    </struct>
+    <struct index="13">
+      <hash40 hash="0x14c5e2aa8c">0x2abe5d9303</hash40>
+      <hash40 hash="0x15349ccd10">0x27d68a9fb9</hash40>
+      <ushort hash="second_start_wait">132</ushort>
+    </struct>
+  </list>
+</struct>

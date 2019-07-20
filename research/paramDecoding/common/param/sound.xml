@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<struct>
+  <float hash="0x14e5735b11">10</float>
+  <float hash="0x195e2eac3a">120</float>
+  <float hash="0x141f7c6672">10</float>
+  <float hash="0x1929299cac">150</float>
+  <float hash="0x14687b56e4">10</float>
+  <float hash="0x1da91f0ad8">5.5</float>
+  <int hash="0x258ec5c650">6</int>
+  <struct hash="param_audience">
+    <float hash="cheer_level_s_value">120</float>
+    <float hash="cheer_level_m_value">150</float>
+    <float hash="cheer_level_l_value">180</float>
+    <float hash="cheer_angle_lw">1.309</float>
+    <float hash="cheer_angle_hi">2.00713</float>
+    <float hash="cheer_reaction_mul_value">0.8</float>
+    <float hash="double_fly_frame">60</float>
+    <int hash="call_damage">100</int>
+    <int hash="call_interval">60</int>
+    <int hash="call_loop_min">4</int>
+    <int hash="call_loop_max">4</int>
+    <float hash="tumult_x">15</float>
+    <float hash="0x1523889fcb">-10</float>
+    <float hash="0x15548faf5d">-30</float>
+    <float hash="0x15ae80923e">-80</float>
+    <int hash="0x177a9a4e9e">3</int>
+    <float hash="0x19581c1545">-30</float>
+    <int hash="cheer_defeat_frame">60</int>
+  </struct>
+</struct>

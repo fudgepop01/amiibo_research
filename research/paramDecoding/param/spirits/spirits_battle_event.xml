@@ -1,0 +1,1914 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<struct>
+  <list size="60" hash="powerup_param">
+    <struct index="0">
+      <hash40 hash="label">all_atk_up_l</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <hash40 hash="power_type">atk</hash40>
+      <int hash="value">5000</int>
+    </struct>
+    <struct index="1">
+      <hash40 hash="label">all_atk_up_m</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <hash40 hash="power_type">atk</hash40>
+      <int hash="value">3000</int>
+    </struct>
+    <struct index="2">
+      <hash40 hash="label">all_atk_up_s</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <hash40 hash="power_type">atk</hash40>
+      <int hash="value">1500</int>
+    </struct>
+    <struct index="3">
+      <hash40 hash="label">all_def_up_l</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <hash40 hash="power_type">def</hash40>
+      <int hash="value">5000</int>
+    </struct>
+    <struct index="4">
+      <hash40 hash="label">all_def_up_m</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <hash40 hash="power_type">def</hash40>
+      <int hash="value">3000</int>
+    </struct>
+    <struct index="5">
+      <hash40 hash="label">all_def_up_s</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <hash40 hash="power_type">def</hash40>
+      <int hash="value">1500</int>
+    </struct>
+    <struct index="6">
+      <hash40 hash="label">all_move_up_l</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <hash40 hash="power_type">move</hash40>
+      <int hash="value">8000</int>
+    </struct>
+    <struct index="7">
+      <hash40 hash="label">all_move_up_m</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <hash40 hash="power_type">move</hash40>
+      <int hash="value">6000</int>
+    </struct>
+    <struct index="8">
+      <hash40 hash="label">all_move_up_s</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <hash40 hash="power_type">move</hash40>
+      <int hash="value">4000</int>
+    </struct>
+    <struct index="9">
+      <hash40 hash="label">all_jump_up_l</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <hash40 hash="power_type">jump</hash40>
+      <int hash="value">8000</int>
+    </struct>
+    <struct index="10">
+      <hash40 hash="label">all_jump_up_m</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <hash40 hash="power_type">jump</hash40>
+      <int hash="value">6000</int>
+    </struct>
+    <struct index="11">
+      <hash40 hash="label">all_jump_up_s</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <hash40 hash="power_type">jump</hash40>
+      <int hash="value">4000</int>
+    </struct>
+    <struct index="12">
+      <hash40 hash="label">all_atk_down_l</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <hash40 hash="power_type">atk</hash40>
+      <int hash="value">-5000</int>
+    </struct>
+    <struct index="13">
+      <hash40 hash="label">all_atk_down_m</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <hash40 hash="power_type">atk</hash40>
+      <int hash="value">-3000</int>
+    </struct>
+    <struct index="14">
+      <hash40 hash="label">all_atk_down_s</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <hash40 hash="power_type">atk</hash40>
+      <int hash="value">-1500</int>
+    </struct>
+    <struct index="15">
+      <hash40 hash="label">all_def_down_l</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <hash40 hash="power_type">def</hash40>
+      <int hash="value">-5000</int>
+    </struct>
+    <struct index="16">
+      <hash40 hash="label">all_def_down_m</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <hash40 hash="power_type">def</hash40>
+      <int hash="value">-3000</int>
+    </struct>
+    <struct index="17">
+      <hash40 hash="label">all_def_down_s</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <hash40 hash="power_type">def</hash40>
+      <int hash="value">-1500</int>
+    </struct>
+    <struct index="18">
+      <hash40 hash="label">all_move_down_l</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <hash40 hash="power_type">move</hash40>
+      <int hash="value">-8000</int>
+    </struct>
+    <struct index="19">
+      <hash40 hash="label">all_move_down_m</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <hash40 hash="power_type">move</hash40>
+      <int hash="value">-6000</int>
+    </struct>
+    <struct index="20">
+      <hash40 hash="label">all_move_down_s</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <hash40 hash="power_type">move</hash40>
+      <int hash="value">-4000</int>
+    </struct>
+    <struct index="21">
+      <hash40 hash="label">all_jump_down_l</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <hash40 hash="power_type">jump</hash40>
+      <int hash="value">-8000</int>
+    </struct>
+    <struct index="22">
+      <hash40 hash="label">all_jump_down_m</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <hash40 hash="power_type">jump</hash40>
+      <int hash="value">-6000</int>
+    </struct>
+    <struct index="23">
+      <hash40 hash="label">all_jump_down_s</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <hash40 hash="power_type">jump</hash40>
+      <int hash="value">-4000</int>
+    </struct>
+    <struct index="24">
+      <hash40 hash="label">enemy_atk_up_l</hash40>
+      <bool hash="is_player_target">False</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <hash40 hash="power_type">atk</hash40>
+      <int hash="value">5000</int>
+    </struct>
+    <struct index="25">
+      <hash40 hash="label">enemy_atk_up_m</hash40>
+      <bool hash="is_player_target">False</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <hash40 hash="power_type">atk</hash40>
+      <int hash="value">3000</int>
+    </struct>
+    <struct index="26">
+      <hash40 hash="label">enemy_atk_up_s</hash40>
+      <bool hash="is_player_target">False</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <hash40 hash="power_type">atk</hash40>
+      <int hash="value">1500</int>
+    </struct>
+    <struct index="27">
+      <hash40 hash="label">enemy_def_up_l</hash40>
+      <bool hash="is_player_target">False</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <hash40 hash="power_type">def</hash40>
+      <int hash="value">5000</int>
+    </struct>
+    <struct index="28">
+      <hash40 hash="label">enemy_def_up_m</hash40>
+      <bool hash="is_player_target">False</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <hash40 hash="power_type">def</hash40>
+      <int hash="value">3000</int>
+    </struct>
+    <struct index="29">
+      <hash40 hash="label">enemy_def_up_s</hash40>
+      <bool hash="is_player_target">False</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <hash40 hash="power_type">def</hash40>
+      <int hash="value">1500</int>
+    </struct>
+    <struct index="30">
+      <hash40 hash="label">enemy_atk_down_l</hash40>
+      <bool hash="is_player_target">False</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <hash40 hash="power_type">atk</hash40>
+      <int hash="value">-5000</int>
+    </struct>
+    <struct index="31">
+      <hash40 hash="label">enemy_atk_down_m</hash40>
+      <bool hash="is_player_target">False</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <hash40 hash="power_type">atk</hash40>
+      <int hash="value">-3000</int>
+    </struct>
+    <struct index="32">
+      <hash40 hash="label">enemy_atk_down_s</hash40>
+      <bool hash="is_player_target">False</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <hash40 hash="power_type">atk</hash40>
+      <int hash="value">-1500</int>
+    </struct>
+    <struct index="33">
+      <hash40 hash="label">enemy_def_down_l</hash40>
+      <bool hash="is_player_target">False</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <hash40 hash="power_type">def</hash40>
+      <int hash="value">-5000</int>
+    </struct>
+    <struct index="34">
+      <hash40 hash="label">enemy_def_down_m</hash40>
+      <bool hash="is_player_target">False</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <hash40 hash="power_type">def</hash40>
+      <int hash="value">-3000</int>
+    </struct>
+    <struct index="35">
+      <hash40 hash="label">enemy_def_down_s</hash40>
+      <bool hash="is_player_target">False</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <hash40 hash="power_type">def</hash40>
+      <int hash="value">-1500</int>
+    </struct>
+    <struct index="36">
+      <hash40 hash="label">enemy_move_down_l</hash40>
+      <bool hash="is_player_target">False</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <hash40 hash="power_type">move</hash40>
+      <int hash="value">-8000</int>
+    </struct>
+    <struct index="37">
+      <hash40 hash="label">enemy_move_down_m</hash40>
+      <bool hash="is_player_target">False</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <hash40 hash="power_type">move</hash40>
+      <int hash="value">-6000</int>
+    </struct>
+    <struct index="38">
+      <hash40 hash="label">enemy_move_down_s</hash40>
+      <bool hash="is_player_target">False</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <hash40 hash="power_type">move</hash40>
+      <int hash="value">-4000</int>
+    </struct>
+    <struct index="39">
+      <hash40 hash="label">player_atk_down_l</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">False</bool>
+      <hash40 hash="power_type">atk</hash40>
+      <int hash="value">-5000</int>
+    </struct>
+    <struct index="40">
+      <hash40 hash="label">player_atk_down_m</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">False</bool>
+      <hash40 hash="power_type">atk</hash40>
+      <int hash="value">-3000</int>
+    </struct>
+    <struct index="41">
+      <hash40 hash="label">player_atk_down_s</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">False</bool>
+      <hash40 hash="power_type">atk</hash40>
+      <int hash="value">-1500</int>
+    </struct>
+    <struct index="42">
+      <hash40 hash="label">player_def_down_l</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">False</bool>
+      <hash40 hash="power_type">def</hash40>
+      <int hash="value">-5000</int>
+    </struct>
+    <struct index="43">
+      <hash40 hash="label">player_def_down_m</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">False</bool>
+      <hash40 hash="power_type">def</hash40>
+      <int hash="value">-3000</int>
+    </struct>
+    <struct index="44">
+      <hash40 hash="label">player_def_down_s</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">False</bool>
+      <hash40 hash="power_type">def</hash40>
+      <int hash="value">-1500</int>
+    </struct>
+    <struct index="45">
+      <hash40 hash="label">player_move_down_l</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">False</bool>
+      <hash40 hash="power_type">move</hash40>
+      <int hash="value">-8000</int>
+    </struct>
+    <struct index="46">
+      <hash40 hash="label">player_move_down_m</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">False</bool>
+      <hash40 hash="power_type">move</hash40>
+      <int hash="value">-6000</int>
+    </struct>
+    <struct index="47">
+      <hash40 hash="label">player_move_down_s</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">False</bool>
+      <hash40 hash="power_type">move</hash40>
+      <int hash="value">-4000</int>
+    </struct>
+    <struct index="48">
+      <hash40 hash="label">player_jump_down_l</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">False</bool>
+      <hash40 hash="power_type">jump</hash40>
+      <int hash="value">-8000</int>
+    </struct>
+    <struct index="49">
+      <hash40 hash="label">player_jump_down_m</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">False</bool>
+      <hash40 hash="power_type">jump</hash40>
+      <int hash="value">-6000</int>
+    </struct>
+    <struct index="50">
+      <hash40 hash="label">player_jump_down_s</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">False</bool>
+      <hash40 hash="power_type">jump</hash40>
+      <int hash="value">-4000</int>
+    </struct>
+    <struct index="51">
+      <hash40 hash="label">enemy_move_up_l</hash40>
+      <bool hash="is_player_target">False</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <hash40 hash="power_type">move</hash40>
+      <int hash="value">8000</int>
+    </struct>
+    <struct index="52">
+      <hash40 hash="label">enemy_move_up_m</hash40>
+      <bool hash="is_player_target">False</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <hash40 hash="power_type">move</hash40>
+      <int hash="value">6000</int>
+    </struct>
+    <struct index="53">
+      <hash40 hash="label">enemy_move_up_s</hash40>
+      <bool hash="is_player_target">False</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <hash40 hash="power_type">move</hash40>
+      <int hash="value">4000</int>
+    </struct>
+    <struct index="54">
+      <hash40 hash="label">player_move_up_l</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">False</bool>
+      <hash40 hash="power_type">move</hash40>
+      <int hash="value">8000</int>
+    </struct>
+    <struct index="55">
+      <hash40 hash="label">player_move_up_m</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">False</bool>
+      <hash40 hash="power_type">move</hash40>
+      <int hash="value">6000</int>
+    </struct>
+    <struct index="56">
+      <hash40 hash="label">player_move_up_s</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">False</bool>
+      <hash40 hash="power_type">move</hash40>
+      <int hash="value">4000</int>
+    </struct>
+    <struct index="57">
+      <hash40 hash="label">enemy_jump_down_l</hash40>
+      <bool hash="is_player_target">False</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <hash40 hash="power_type">jump</hash40>
+      <int hash="value">-8000</int>
+    </struct>
+    <struct index="58">
+      <hash40 hash="label">enemy_jump_down_m</hash40>
+      <bool hash="is_player_target">False</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <hash40 hash="power_type">jump</hash40>
+      <int hash="value">-6000</int>
+    </struct>
+    <struct index="59">
+      <hash40 hash="label">enemy_jump_down_s</hash40>
+      <bool hash="is_player_target">False</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <hash40 hash="power_type">jump</hash40>
+      <int hash="value">-4000</int>
+    </struct>
+  </list>
+  <list size="6" hash="scale_param">
+    <struct index="0">
+      <hash40 hash="label">big_all</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <bool hash="to_bigger">True</bool>
+    </struct>
+    <struct index="1">
+      <hash40 hash="label">big_player</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">False</bool>
+      <bool hash="to_bigger">True</bool>
+    </struct>
+    <struct index="2">
+      <hash40 hash="label">big_enemy</hash40>
+      <bool hash="is_player_target">False</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <bool hash="to_bigger">True</bool>
+    </struct>
+    <struct index="3">
+      <hash40 hash="label">small_all</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <bool hash="to_bigger">False</bool>
+    </struct>
+    <struct index="4">
+      <hash40 hash="label">small_player</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">False</bool>
+      <bool hash="to_bigger">False</bool>
+    </struct>
+    <struct index="5">
+      <hash40 hash="label">small_enemy</hash40>
+      <bool hash="is_player_target">False</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <bool hash="to_bigger">False</bool>
+    </struct>
+  </list>
+  <list size="13" hash="damage_param">
+    <struct index="0">
+      <hash40 hash="label">all_max</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <int hash="value">999</int>
+    </struct>
+    <struct index="1">
+      <hash40 hash="label">all_l</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <int hash="value">100</int>
+    </struct>
+    <struct index="2">
+      <hash40 hash="label">all_m</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <int hash="value">50</int>
+    </struct>
+    <struct index="3">
+      <hash40 hash="label">all_s</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <int hash="value">30</int>
+    </struct>
+    <struct index="4">
+      <hash40 hash="label">player_max</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">False</bool>
+      <int hash="value">999</int>
+    </struct>
+    <struct index="5">
+      <hash40 hash="label">player_l</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">False</bool>
+      <int hash="value">100</int>
+    </struct>
+    <struct index="6">
+      <hash40 hash="label">player_m</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">False</bool>
+      <int hash="value">50</int>
+    </struct>
+    <struct index="7">
+      <hash40 hash="label">player_s</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">False</bool>
+      <int hash="value">30</int>
+    </struct>
+    <struct index="8">
+      <hash40 hash="label">player_xs</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">False</bool>
+      <int hash="value">15</int>
+    </struct>
+    <struct index="9">
+      <hash40 hash="label">enemy_max</hash40>
+      <bool hash="is_player_target">False</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <int hash="value">999</int>
+    </struct>
+    <struct index="10">
+      <hash40 hash="label">enemy_l</hash40>
+      <bool hash="is_player_target">False</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <int hash="value">100</int>
+    </struct>
+    <struct index="11">
+      <hash40 hash="label">enemy_m</hash40>
+      <bool hash="is_player_target">False</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <int hash="value">50</int>
+    </struct>
+    <struct index="12">
+      <hash40 hash="label">enemy_s</hash40>
+      <bool hash="is_player_target">False</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <int hash="value">30</int>
+    </struct>
+  </list>
+  <list size="3" hash="0x117db589bd">
+    <struct index="0">
+      <hash40 hash="label">all</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">True</bool>
+    </struct>
+    <struct index="1">
+      <hash40 hash="label">player</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">False</bool>
+    </struct>
+    <struct index="2">
+      <hash40 hash="label">enemy</hash40>
+      <bool hash="is_player_target">False</bool>
+      <bool hash="is_enemy_target">True</bool>
+    </struct>
+  </list>
+  <list size="12" hash="heal_param">
+    <struct index="0">
+      <hash40 hash="label">all_max</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <int hash="value">999</int>
+    </struct>
+    <struct index="1">
+      <hash40 hash="label">all_l</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <int hash="value">100</int>
+    </struct>
+    <struct index="2">
+      <hash40 hash="label">all_m</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <int hash="value">50</int>
+    </struct>
+    <struct index="3">
+      <hash40 hash="label">all_s</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <int hash="value">30</int>
+    </struct>
+    <struct index="4">
+      <hash40 hash="label">player_max</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">False</bool>
+      <int hash="value">999</int>
+    </struct>
+    <struct index="5">
+      <hash40 hash="label">player_l</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">False</bool>
+      <int hash="value">100</int>
+    </struct>
+    <struct index="6">
+      <hash40 hash="label">player_m</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">False</bool>
+      <int hash="value">50</int>
+    </struct>
+    <struct index="7">
+      <hash40 hash="label">player_s</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">False</bool>
+      <int hash="value">30</int>
+    </struct>
+    <struct index="8">
+      <hash40 hash="label">enemy_max</hash40>
+      <bool hash="is_player_target">False</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <int hash="value">999</int>
+    </struct>
+    <struct index="9">
+      <hash40 hash="label">enemy_l</hash40>
+      <bool hash="is_player_target">False</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <int hash="value">100</int>
+    </struct>
+    <struct index="10">
+      <hash40 hash="label">enemy_m</hash40>
+      <bool hash="is_player_target">False</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <int hash="value">50</int>
+    </struct>
+    <struct index="11">
+      <hash40 hash="label">enemy_s</hash40>
+      <bool hash="is_player_target">False</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <int hash="value">30</int>
+    </struct>
+  </list>
+  <struct hash="quake_param">
+    <int hash="before_quake_frame">30</int>
+    <int hash="before_interval_frame">60</int>
+    <int hash="quake_frame">90</int>
+    <int hash="after_interval_frame">10</int>
+    <int hash="after_quake_frame">20</int>
+  </struct>
+  <list size="3" hash="invalid_capture_param">
+    <struct index="0">
+      <hash40 hash="label">all</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">True</bool>
+    </struct>
+    <struct index="1">
+      <hash40 hash="label">player</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">False</bool>
+    </struct>
+    <struct index="2">
+      <hash40 hash="label">enemy</hash40>
+      <bool hash="is_player_target">False</bool>
+      <bool hash="is_enemy_target">True</bool>
+    </struct>
+  </list>
+  <list size="3" hash="metal_param">
+    <struct index="0">
+      <hash40 hash="label">all</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">True</bool>
+    </struct>
+    <struct index="1">
+      <hash40 hash="label">player</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">False</bool>
+    </struct>
+    <struct index="2">
+      <hash40 hash="label">enemy</hash40>
+      <bool hash="is_player_target">False</bool>
+      <bool hash="is_enemy_target">True</bool>
+    </struct>
+  </list>
+  <list size="3" hash="0x1351c18f78">
+    <struct index="0">
+      <hash40 hash="label">all</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">True</bool>
+    </struct>
+    <struct index="1">
+      <hash40 hash="label">player</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">False</bool>
+    </struct>
+    <struct index="2">
+      <hash40 hash="label">enemy</hash40>
+      <bool hash="is_player_target">False</bool>
+      <bool hash="is_enemy_target">True</bool>
+    </struct>
+  </list>
+  <list size="18" hash="change_gravity_param">
+    <struct index="0">
+      <hash40 hash="label">high_all</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <bool hash="to_high">True</bool>
+      <byte hash="level">1</byte>
+    </struct>
+    <struct index="1">
+      <hash40 hash="label">high_player</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">False</bool>
+      <bool hash="to_high">True</bool>
+      <byte hash="level">1</byte>
+    </struct>
+    <struct index="2">
+      <hash40 hash="label">high_enemy</hash40>
+      <bool hash="is_player_target">False</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <bool hash="to_high">True</bool>
+      <byte hash="level">1</byte>
+    </struct>
+    <struct index="3">
+      <hash40 hash="label">low_all</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <bool hash="to_high">False</bool>
+      <byte hash="level">1</byte>
+    </struct>
+    <struct index="4">
+      <hash40 hash="label">low_player</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">False</bool>
+      <bool hash="to_high">False</bool>
+      <byte hash="level">1</byte>
+    </struct>
+    <struct index="5">
+      <hash40 hash="label">low_enemy</hash40>
+      <bool hash="is_player_target">False</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <bool hash="to_high">False</bool>
+      <byte hash="level">1</byte>
+    </struct>
+    <struct index="6">
+      <hash40 hash="label">high_all_2</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <bool hash="to_high">True</bool>
+      <byte hash="level">2</byte>
+    </struct>
+    <struct index="7">
+      <hash40 hash="label">high_player_2</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">False</bool>
+      <bool hash="to_high">True</bool>
+      <byte hash="level">2</byte>
+    </struct>
+    <struct index="8">
+      <hash40 hash="label">high_enemy_2</hash40>
+      <bool hash="is_player_target">False</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <bool hash="to_high">True</bool>
+      <byte hash="level">2</byte>
+    </struct>
+    <struct index="9">
+      <hash40 hash="label">low_all_2</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <bool hash="to_high">False</bool>
+      <byte hash="level">2</byte>
+    </struct>
+    <struct index="10">
+      <hash40 hash="label">low_player_2</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">False</bool>
+      <bool hash="to_high">False</bool>
+      <byte hash="level">2</byte>
+    </struct>
+    <struct index="11">
+      <hash40 hash="label">low_enemy_2</hash40>
+      <bool hash="is_player_target">False</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <bool hash="to_high">False</bool>
+      <byte hash="level">2</byte>
+    </struct>
+    <struct index="12">
+      <hash40 hash="label">high_all_3</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <bool hash="to_high">True</bool>
+      <byte hash="level">3</byte>
+    </struct>
+    <struct index="13">
+      <hash40 hash="label">high_player_3</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">False</bool>
+      <bool hash="to_high">True</bool>
+      <byte hash="level">3</byte>
+    </struct>
+    <struct index="14">
+      <hash40 hash="label">high_enemy_3</hash40>
+      <bool hash="is_player_target">False</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <bool hash="to_high">True</bool>
+      <byte hash="level">3</byte>
+    </struct>
+    <struct index="15">
+      <hash40 hash="label">low_all_3</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <bool hash="to_high">False</bool>
+      <byte hash="level">3</byte>
+    </struct>
+    <struct index="16">
+      <hash40 hash="label">low_player_3</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">False</bool>
+      <bool hash="to_high">False</bool>
+      <byte hash="level">3</byte>
+    </struct>
+    <struct index="17">
+      <hash40 hash="label">low_enemy_3</hash40>
+      <bool hash="is_player_target">False</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <bool hash="to_high">False</bool>
+      <byte hash="level">3</byte>
+    </struct>
+  </list>
+  <list size="3" hash="magic_up_param">
+    <struct index="0">
+      <hash40 hash="label">all</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">True</bool>
+    </struct>
+    <struct index="1">
+      <hash40 hash="label">player</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">False</bool>
+    </struct>
+    <struct index="2">
+      <hash40 hash="label">enemy</hash40>
+      <bool hash="is_player_target">False</bool>
+      <bool hash="is_enemy_target">True</bool>
+    </struct>
+  </list>
+  <list size="3" hash="energy_up_param">
+    <struct index="0">
+      <hash40 hash="label">all</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">True</bool>
+    </struct>
+    <struct index="1">
+      <hash40 hash="label">player</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">False</bool>
+    </struct>
+    <struct index="2">
+      <hash40 hash="label">enemy</hash40>
+      <bool hash="is_player_target">False</bool>
+      <bool hash="is_enemy_target">True</bool>
+    </struct>
+  </list>
+  <list size="3" hash="0x0f83ee13c9">
+    <struct index="0">
+      <hash40 hash="label">all</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">True</bool>
+    </struct>
+    <struct index="1">
+      <hash40 hash="label">player</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">False</bool>
+    </struct>
+    <struct index="2">
+      <hash40 hash="label">enemy</hash40>
+      <bool hash="is_player_target">False</bool>
+      <bool hash="is_enemy_target">True</bool>
+    </struct>
+  </list>
+  <list size="3" hash="elec_up_param">
+    <struct index="0">
+      <hash40 hash="label">all</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">True</bool>
+    </struct>
+    <struct index="1">
+      <hash40 hash="label">player</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">False</bool>
+    </struct>
+    <struct index="2">
+      <hash40 hash="label">enemy</hash40>
+      <bool hash="is_player_target">False</bool>
+      <bool hash="is_enemy_target">True</bool>
+    </struct>
+  </list>
+  <list size="3" hash="invincible_param">
+    <struct index="0">
+      <hash40 hash="label">all</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">True</bool>
+    </struct>
+    <struct index="1">
+      <hash40 hash="label">player</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">False</bool>
+    </struct>
+    <struct index="2">
+      <hash40 hash="label">enemy</hash40>
+      <bool hash="is_player_target">False</bool>
+      <bool hash="is_enemy_target">True</bool>
+    </struct>
+  </list>
+  <list size="3" hash="flower_param">
+    <struct index="0">
+      <hash40 hash="label">all</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">True</bool>
+    </struct>
+    <struct index="1">
+      <hash40 hash="label">player</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">False</bool>
+    </struct>
+    <struct index="2">
+      <hash40 hash="label">enemy</hash40>
+      <bool hash="is_player_target">False</bool>
+      <bool hash="is_enemy_target">True</bool>
+    </struct>
+  </list>
+  <list size="3" hash="curry_param">
+    <struct index="0">
+      <hash40 hash="label">all</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">True</bool>
+    </struct>
+    <struct index="1">
+      <hash40 hash="label">player</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">False</bool>
+    </struct>
+    <struct index="2">
+      <hash40 hash="label">enemy</hash40>
+      <bool hash="is_player_target">False</bool>
+      <bool hash="is_enemy_target">True</bool>
+    </struct>
+  </list>
+  <list size="3" hash="final_standby_param">
+    <struct index="0">
+      <hash40 hash="label">all</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">True</bool>
+    </struct>
+    <struct index="1">
+      <hash40 hash="label">player</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">False</bool>
+    </struct>
+    <struct index="2">
+      <hash40 hash="label">enemy</hash40>
+      <bool hash="is_player_target">False</bool>
+      <bool hash="is_enemy_target">True</bool>
+    </struct>
+  </list>
+  <list size="3" hash="runaway_param">
+    <struct index="0">
+      <hash40 hash="label">all</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">True</bool>
+    </struct>
+    <struct index="1">
+      <hash40 hash="label">player</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">False</bool>
+    </struct>
+    <struct index="2">
+      <hash40 hash="label">enemy</hash40>
+      <bool hash="is_player_target">False</bool>
+      <bool hash="is_enemy_target">True</bool>
+    </struct>
+  </list>
+  <list size="3" hash="invisible_param">
+    <struct index="0">
+      <hash40 hash="label">all</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">True</bool>
+    </struct>
+    <struct index="1">
+      <hash40 hash="label">player</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">False</bool>
+    </struct>
+    <struct index="2">
+      <hash40 hash="label">enemy</hash40>
+      <bool hash="is_player_target">False</bool>
+      <bool hash="is_enemy_target">True</bool>
+    </struct>
+  </list>
+  <list size="3" hash="drown_up_param">
+    <struct index="0">
+      <hash40 hash="label">all</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">True</bool>
+    </struct>
+    <struct index="1">
+      <hash40 hash="label">player</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">False</bool>
+    </struct>
+    <struct index="2">
+      <hash40 hash="label">enemy</hash40>
+      <bool hash="is_player_target">False</bool>
+      <bool hash="is_enemy_target">True</bool>
+    </struct>
+  </list>
+  <list size="6" hash="0x124c670e8e">
+    <struct index="0">
+      <hash40 hash="label">high_all</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <bool hash="to_up">True</bool>
+    </struct>
+    <struct index="1">
+      <hash40 hash="label">high_player</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">False</bool>
+      <bool hash="to_up">True</bool>
+    </struct>
+    <struct index="2">
+      <hash40 hash="label">high_enemy</hash40>
+      <bool hash="is_player_target">False</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <bool hash="to_up">True</bool>
+    </struct>
+    <struct index="3">
+      <hash40 hash="label">low_all</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <bool hash="to_up">False</bool>
+    </struct>
+    <struct index="4">
+      <hash40 hash="label">low_player</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">False</bool>
+      <bool hash="to_up">False</bool>
+    </struct>
+    <struct index="5">
+      <hash40 hash="label">low_enemy</hash40>
+      <bool hash="is_player_target">False</bool>
+      <bool hash="is_enemy_target">True</bool>
+      <bool hash="to_up">False</bool>
+    </struct>
+  </list>
+  <list size="3" hash="ballon_param">
+    <struct index="0">
+      <hash40 hash="label">all</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">True</bool>
+    </struct>
+    <struct index="1">
+      <hash40 hash="label">player</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">False</bool>
+    </struct>
+    <struct index="2">
+      <hash40 hash="label">enemy</hash40>
+      <bool hash="is_player_target">False</bool>
+      <bool hash="is_enemy_target">True</bool>
+    </struct>
+  </list>
+  <list size="3" hash="smash_up_param">
+    <struct index="0">
+      <hash40 hash="label">all</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">True</bool>
+    </struct>
+    <struct index="1">
+      <hash40 hash="label">player</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">False</bool>
+    </struct>
+    <struct index="2">
+      <hash40 hash="label">enemy</hash40>
+      <bool hash="is_player_target">False</bool>
+      <bool hash="is_enemy_target">True</bool>
+    </struct>
+  </list>
+  <list size="3" hash="invalid_heal_param">
+    <struct index="0">
+      <hash40 hash="label">all</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">True</bool>
+    </struct>
+    <struct index="1">
+      <hash40 hash="label">player</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">False</bool>
+    </struct>
+    <struct index="2">
+      <hash40 hash="label">enemy</hash40>
+      <bool hash="is_player_target">False</bool>
+      <bool hash="is_enemy_target">True</bool>
+    </struct>
+  </list>
+  <list size="3" hash="invalid_jump_param">
+    <struct index="0">
+      <hash40 hash="label">all</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">True</bool>
+    </struct>
+    <struct index="1">
+      <hash40 hash="label">player</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">False</bool>
+    </struct>
+    <struct index="2">
+      <hash40 hash="label">enemy</hash40>
+      <bool hash="is_player_target">False</bool>
+      <bool hash="is_enemy_target">True</bool>
+    </struct>
+  </list>
+  <list size="3" hash="invalid_normal_attack_param">
+    <struct index="0">
+      <hash40 hash="label">all</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">True</bool>
+    </struct>
+    <struct index="1">
+      <hash40 hash="label">player</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">False</bool>
+    </struct>
+    <struct index="2">
+      <hash40 hash="label">enemy</hash40>
+      <bool hash="is_player_target">False</bool>
+      <bool hash="is_enemy_target">True</bool>
+    </struct>
+  </list>
+  <list size="3" hash="invalid_special_attack_param">
+    <struct index="0">
+      <hash40 hash="label">all</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">True</bool>
+    </struct>
+    <struct index="1">
+      <hash40 hash="label">player</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">False</bool>
+    </struct>
+    <struct index="2">
+      <hash40 hash="label">enemy</hash40>
+      <bool hash="is_player_target">False</bool>
+      <bool hash="is_enemy_target">True</bool>
+    </struct>
+  </list>
+  <list size="3" hash="invalid_shield_param">
+    <struct index="0">
+      <hash40 hash="label">all</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">True</bool>
+    </struct>
+    <struct index="1">
+      <hash40 hash="label">player</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">False</bool>
+    </struct>
+    <struct index="2">
+      <hash40 hash="label">enemy</hash40>
+      <bool hash="is_player_target">False</bool>
+      <bool hash="is_enemy_target">True</bool>
+    </struct>
+  </list>
+  <list size="3" hash="reflect_up_param">
+    <struct index="0">
+      <hash40 hash="label">all</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">True</bool>
+    </struct>
+    <struct index="1">
+      <hash40 hash="label">player</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">False</bool>
+    </struct>
+    <struct index="2">
+      <hash40 hash="label">enemy</hash40>
+      <bool hash="is_player_target">False</bool>
+      <bool hash="is_enemy_target">True</bool>
+    </struct>
+  </list>
+  <list size="4" hash="0x18bde21b22">
+    <struct index="0">
+      <hash40 hash="label">attr_attack_up</hash40>
+      <int hash="value">1500</int>
+      <bool hash="to_up">True</bool>
+      <hash40 hash="attr">spirits_attr_atk</hash40>
+    </struct>
+    <struct index="1">
+      <hash40 hash="label">attr_defense_up</hash40>
+      <int hash="value">1500</int>
+      <bool hash="to_up">True</bool>
+      <hash40 hash="attr">spirits_attr_def</hash40>
+    </struct>
+    <struct index="2">
+      <hash40 hash="label">attr_throw_up</hash40>
+      <int hash="value">1500</int>
+      <bool hash="to_up">True</bool>
+      <hash40 hash="attr">spirits_attr_trw</hash40>
+    </struct>
+    <struct index="3">
+      <hash40 hash="label">attr_normal_up</hash40>
+      <int hash="value">1500</int>
+      <bool hash="to_up">True</bool>
+      <hash40 hash="attr">spirits_attr_none</hash40>
+    </struct>
+  </list>
+  <list size="27" hash="item_appear_param">
+    <struct index="0">
+      <hash40 hash="label">kinoko</hash40>
+      <hash40 hash="item_id">ui_item_mushroom</hash40>
+      <uint hash="variation">0</uint>
+      <uint hash="num">5</uint>
+    </struct>
+    <struct index="1">
+      <hash40 hash="label">greenshell</hash40>
+      <hash40 hash="item_id">ui_item_greenshell</hash40>
+      <uint hash="variation">0</uint>
+      <uint hash="num">5</uint>
+    </struct>
+    <struct index="2">
+      <hash40 hash="label">soccerball</hash40>
+      <hash40 hash="item_id">ui_item_soccerball</hash40>
+      <uint hash="variation">0</uint>
+      <uint hash="num">5</uint>
+    </struct>
+    <struct index="3">
+      <hash40 hash="label">magicball</hash40>
+      <hash40 hash="item_id">ui_item_magicball</hash40>
+      <uint hash="variation">0</uint>
+      <uint hash="num">5</uint>
+    </struct>
+    <struct index="4">
+      <hash40 hash="label">pasaran</hash40>
+      <hash40 hash="item_id">ui_item_pasaran</hash40>
+      <uint hash="variation">0</uint>
+      <uint hash="num">5</uint>
+    </struct>
+    <struct index="5">
+      <hash40 hash="label">sensorbomb</hash40>
+      <hash40 hash="item_id">ui_item_sensorbomb</hash40>
+      <uint hash="variation">0</uint>
+      <uint hash="num">5</uint>
+    </struct>
+    <struct index="6">
+      <hash40 hash="label">unira</hash40>
+      <hash40 hash="item_id">ui_item_unira</hash40>
+      <uint hash="variation">0</uint>
+      <uint hash="num">5</uint>
+    </struct>
+    <struct index="7">
+      <hash40 hash="label">deku</hash40>
+      <hash40 hash="item_id">ui_item_deku</hash40>
+      <uint hash="variation">0</uint>
+      <uint hash="num">5</uint>
+    </struct>
+    <struct index="8">
+      <hash40 hash="label">fireflower</hash40>
+      <hash40 hash="item_id">ui_item_fireflower</hash40>
+      <uint hash="variation">0</uint>
+      <uint hash="num">5</uint>
+    </struct>
+    <struct index="9">
+      <hash40 hash="label">killer</hash40>
+      <hash40 hash="item_id">ui_item_killer</hash40>
+      <uint hash="variation">0</uint>
+      <uint hash="num">5</uint>
+    </struct>
+    <struct index="10">
+      <hash40 hash="label">tabemono_cola</hash40>
+      <hash40 hash="item_id">ui_item_tabemono</hash40>
+      <uint hash="variation">5</uint>
+      <uint hash="num">3</uint>
+    </struct>
+    <struct index="11">
+      <hash40 hash="label">tabemono_tea</hash40>
+      <hash40 hash="item_id">ui_item_tabemono</hash40>
+      <uint hash="variation">4</uint>
+      <uint hash="num">3</uint>
+    </struct>
+    <struct index="12">
+      <hash40 hash="label">tabemono_meat</hash40>
+      <hash40 hash="item_id">ui_item_tabemono</hash40>
+      <uint hash="variation">28</uint>
+      <uint hash="num">3</uint>
+    </struct>
+    <struct index="13">
+      <hash40 hash="label">tabemono_milk</hash40>
+      <hash40 hash="item_id">ui_item_tabemono</hash40>
+      <uint hash="variation">2</uint>
+      <uint hash="num">5</uint>
+    </struct>
+    <struct index="14">
+      <hash40 hash="label">tabemono_rice</hash40>
+      <hash40 hash="item_id">ui_item_tabemono</hash40>
+      <uint hash="variation">20</uint>
+      <uint hash="num">5</uint>
+    </struct>
+    <struct index="15">
+      <hash40 hash="label">tabemono_mont_blanc</hash40>
+      <hash40 hash="item_id">ui_item_tabemono</hash40>
+      <uint hash="variation">18</uint>
+      <uint hash="num">5</uint>
+    </struct>
+    <struct index="16">
+      <hash40 hash="label">tabemono_meat_bun</hash40>
+      <hash40 hash="item_id">ui_item_tabemono</hash40>
+      <uint hash="variation">29</uint>
+      <uint hash="num">4</uint>
+    </struct>
+    <struct index="17">
+      <hash40 hash="label">tabemono_grape</hash40>
+      <hash40 hash="item_id">ui_item_tabemono</hash40>
+      <uint hash="variation">22</uint>
+      <uint hash="num">4</uint>
+    </struct>
+    <struct index="18">
+      <hash40 hash="label">superstar</hash40>
+      <hash40 hash="item_id">ui_item_superstar</hash40>
+      <uint hash="variation">0</uint>
+      <uint hash="num">3</uint>
+    </struct>
+    <struct index="19">
+      <hash40 hash="label">pitfall</hash40>
+      <hash40 hash="item_id">ui_item_pitfall</hash40>
+      <uint hash="variation">0</uint>
+      <uint hash="num">5</uint>
+    </struct>
+    <struct index="20">
+      <hash40 hash="label">carrier</hash40>
+      <hash40 hash="item_id">ui_item_box</hash40>
+      <uint hash="variation">0</uint>
+      <uint hash="num">3</uint>
+    </struct>
+    <struct index="21">
+      <hash40 hash="label">powblock</hash40>
+      <hash40 hash="item_id">ui_item_powblock</hash40>
+      <uint hash="variation">0</uint>
+      <uint hash="num">3</uint>
+    </struct>
+    <struct index="22">
+      <hash40 hash="label">banana</hash40>
+      <hash40 hash="item_id">ui_item_banana</hash40>
+      <uint hash="variation">0</uint>
+      <uint hash="num">5</uint>
+    </struct>
+    <struct index="23">
+      <hash40 hash="label">backshield</hash40>
+      <hash40 hash="item_id">ui_item_backshield</hash40>
+      <uint hash="variation">0</uint>
+      <uint hash="num">4</uint>
+    </struct>
+    <struct index="24">
+      <hash40 hash="label">barrel</hash40>
+      <hash40 hash="item_id">ui_item_barrel</hash40>
+      <uint hash="variation">0</uint>
+      <uint hash="num">3</uint>
+    </struct>
+    <struct index="25">
+      <hash40 hash="label">carrier2</hash40>
+      <hash40 hash="item_id">ui_item_box</hash40>
+      <uint hash="variation">1</uint>
+      <uint hash="num">3</uint>
+    </struct>
+    <struct index="26">
+      <hash40 hash="label">carrier3</hash40>
+      <hash40 hash="item_id">ui_item_box</hash40>
+      <uint hash="variation">2</uint>
+      <uint hash="num">2</uint>
+    </struct>
+  </list>
+  <list size="3" hash="0x0a211a1400">
+    <struct index="0">
+      <hash40 hash="label">all</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">True</bool>
+    </struct>
+    <struct index="1">
+      <hash40 hash="label">player</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">False</bool>
+    </struct>
+    <struct index="2">
+      <hash40 hash="label">enemy</hash40>
+      <bool hash="is_player_target">False</bool>
+      <bool hash="is_enemy_target">True</bool>
+    </struct>
+  </list>
+  <list size="6" hash="storm_param">
+    <struct index="0">
+      <hash40 hash="label">left_half</hash40>
+      <bool hash="is_left">True</bool>
+      <float hash="power">0.8</float>
+    </struct>
+    <struct index="1">
+      <hash40 hash="label">left_normal</hash40>
+      <bool hash="is_left">True</bool>
+      <float hash="power">1.1</float>
+    </struct>
+    <struct index="2">
+      <hash40 hash="label">left_strong</hash40>
+      <bool hash="is_left">True</bool>
+      <float hash="power">1.4</float>
+    </struct>
+    <struct index="3">
+      <hash40 hash="label">right_half</hash40>
+      <bool hash="is_left">False</bool>
+      <float hash="power">0.8</float>
+    </struct>
+    <struct index="4">
+      <hash40 hash="label">right_normal</hash40>
+      <bool hash="is_left">False</bool>
+      <float hash="power">1.1</float>
+    </struct>
+    <struct index="5">
+      <hash40 hash="label">right_strong</hash40>
+      <bool hash="is_left">False</bool>
+      <float hash="power">1.4</float>
+    </struct>
+  </list>
+  <list size="3" hash="input_reverse_param">
+    <struct index="0">
+      <hash40 hash="label">all</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">True</bool>
+    </struct>
+    <struct index="1">
+      <hash40 hash="label">player</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">False</bool>
+    </struct>
+    <struct index="2">
+      <hash40 hash="label">enemy</hash40>
+      <bool hash="is_player_target">False</bool>
+      <bool hash="is_enemy_target">True</bool>
+    </struct>
+  </list>
+  <list size="3" hash="slippery_param">
+    <struct index="0">
+      <hash40 hash="label">all</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">True</bool>
+    </struct>
+    <struct index="1">
+      <hash40 hash="label">player</hash40>
+      <bool hash="is_player_target">True</bool>
+      <bool hash="is_enemy_target">False</bool>
+    </struct>
+    <struct index="2">
+      <hash40 hash="label">enemy</hash40>
+      <bool hash="is_player_target">False</bool>
+      <bool hash="is_enemy_target">True</bool>
+    </struct>
+  </list>
+  <list size="59" hash="assist_param">
+    <struct index="0">
+      <hash40 hash="label">midna</hash40>
+      <hash40 hash="item_id">ui_item_assist_midna</hash40>
+    </struct>
+    <struct index="1">
+      <hash40 hash="label">devil</hash40>
+      <hash40 hash="item_id">ui_item_assist_devil</hash40>
+    </struct>
+    <struct index="2">
+      <hash40 hash="label">riki</hash40>
+      <hash40 hash="item_id">ui_item_assist_riki</hash40>
+    </struct>
+    <struct index="3">
+      <hash40 hash="label">krystal</hash40>
+      <hash40 hash="item_id">ui_item_assist_krystal</hash40>
+    </struct>
+    <struct index="4">
+      <hash40 hash="label">guile</hash40>
+      <hash40 hash="item_id">ui_item_assist_guile</hash40>
+    </struct>
+    <struct index="5">
+      <hash40 hash="label">shiokarazu</hash40>
+      <hash40 hash="item_id">ui_item_assist_shiokarazu</hash40>
+    </struct>
+    <struct index="6">
+      <hash40 hash="label">bomberman</hash40>
+      <hash40 hash="item_id">ui_item_assist_bomberman</hash40>
+    </struct>
+    <struct index="7">
+      <hash40 hash="label">akira</hash40>
+      <hash40 hash="item_id">ui_item_assist_akira</hash40>
+    </struct>
+    <struct index="8">
+      <hash40 hash="label">alucard</hash40>
+      <hash40 hash="item_id">ui_item_assist_alucard</hash40>
+    </struct>
+    <struct index="9">
+      <hash40 hash="label">cyborg</hash40>
+      <hash40 hash="item_id">ui_item_assist_cyborg</hash40>
+    </struct>
+    <struct index="10">
+      <hash40 hash="label">robin</hash40>
+      <hash40 hash="item_id">ui_item_assist_robin</hash40>
+    </struct>
+    <struct index="11">
+      <hash40 hash="label">shadow</hash40>
+      <hash40 hash="item_id">ui_item_assist_shadow</hash40>
+    </struct>
+    <struct index="12">
+      <hash40 hash="label">hebigarasu</hash40>
+      <hash40 hash="item_id">ui_item_assist_hebigarasu</hash40>
+    </struct>
+    <struct index="13">
+      <hash40 hash="label">0x04abdef192</hash40>
+      <hash40 hash="item_id">ui_item_assist_zero</hash40>
+    </struct>
+    <struct index="14">
+      <hash40 hash="label">shovelknight</hash40>
+      <hash40 hash="item_id">ui_item_assist_shovelknight</hash40>
+    </struct>
+    <struct index="15">
+      <hash40 hash="label">moon</hash40>
+      <hash40 hash="item_id">ui_item_assist_moon</hash40>
+    </struct>
+    <struct index="16">
+      <hash40 hash="label">kawasaki</hash40>
+      <hash40 hash="item_id">ui_item_assist_kawasaki</hash40>
+    </struct>
+    <struct index="17">
+      <hash40 hash="label">lioleus</hash40>
+      <hash40 hash="item_id">ui_item_assist_lioleus</hash40>
+    </struct>
+    <struct index="18">
+      <hash40 hash="label">ashley</hash40>
+      <hash40 hash="item_id">ui_item_assist_ashley</hash40>
+    </struct>
+    <struct index="19">
+      <hash40 hash="label">jeff</hash40>
+      <hash40 hash="item_id">ui_item_assist_jeff</hash40>
+    </struct>
+    <struct index="20">
+      <hash40 hash="label">goroh</hash40>
+      <hash40 hash="item_id">ui_item_assist_goroh</hash40>
+    </struct>
+    <struct index="21">
+      <hash40 hash="label">monsters</hash40>
+      <hash40 hash="item_id">ui_item_assist_monsters</hash40>
+    </struct>
+    <struct index="22">
+      <hash40 hash="label">takamaru</hash40>
+      <hash40 hash="item_id">ui_item_assist_takamaru</hash40>
+    </struct>
+    <struct index="23">
+      <hash40 hash="label">0x072efcf3f5</hash40>
+      <hash40 hash="item_id">ui_item_assist_waluigi</hash40>
+    </struct>
+    <struct index="24">
+      <hash40 hash="label">darkknight</hash40>
+      <hash40 hash="item_id">ui_item_assist_darkknight</hash40>
+    </struct>
+    <struct index="25">
+      <hash40 hash="label">rodin</hash40>
+      <hash40 hash="item_id">ui_item_assist_rodin</hash40>
+    </struct>
+    <struct index="26">
+      <hash40 hash="label">knuckles</hash40>
+      <hash40 hash="item_id">ui_item_assist_knuckles</hash40>
+    </struct>
+    <struct index="27">
+      <hash40 hash="label">kozukata</hash40>
+      <hash40 hash="item_id">ui_item_assist_kozukata</hash40>
+    </struct>
+    <struct index="28">
+      <hash40 hash="label">sukapon</hash40>
+      <hash40 hash="item_id">ui_item_assist_sukapon</hash40>
+    </struct>
+    <struct index="29">
+      <hash40 hash="label">baito</hash40>
+      <hash40 hash="item_id">ui_item_assist_baito</hash40>
+    </struct>
+    <struct index="30">
+      <hash40 hash="label">claptrap</hash40>
+      <hash40 hash="item_id">ui_item_assist_claptrap</hash40>
+    </struct>
+    <struct index="31">
+      <hash40 hash="label">driver</hash40>
+      <hash40 hash="item_id">ui_item_assist_driver</hash40>
+    </struct>
+    <struct index="32">
+      <hash40 hash="label">dossun</hash40>
+      <hash40 hash="item_id">ui_item_assist_dossun</hash40>
+    </struct>
+    <struct index="33">
+      <hash40 hash="label">springman</hash40>
+      <hash40 hash="item_id">ui_item_assist_springman</hash40>
+    </struct>
+    <struct index="34">
+      <hash40 hash="label">ghirahim</hash40>
+      <hash40 hash="item_id">ui_item_assist_ghirahim</hash40>
+    </struct>
+    <struct index="35">
+      <hash40 hash="label">eleka</hash40>
+      <hash40 hash="item_id">ui_item_assist_eleka</hash40>
+    </struct>
+    <struct index="36">
+      <hash40 hash="label">tvgame</hash40>
+      <hash40 hash="item_id">ui_item_assist_tvgame</hash40>
+    </struct>
+    <struct index="37">
+      <hash40 hash="label">0x065f1c2a7b</hash40>
+      <hash40 hash="item_id">ui_item_assist_wanwan</hash40>
+    </struct>
+    <struct index="38">
+      <hash40 hash="label">metroid</hash40>
+      <hash40 hash="item_id">ui_item_assist_metroid</hash40>
+    </struct>
+    <struct index="39">
+      <hash40 hash="label">motherbrain</hash40>
+      <hash40 hash="item_id">ui_item_assist_motherbrain</hash40>
+    </struct>
+    <struct index="40">
+      <hash40 hash="label">andross</hash40>
+      <hash40 hash="item_id">ui_item_assist_andross</hash40>
+    </struct>
+    <struct index="41">
+      <hash40 hash="label">joe</hash40>
+      <hash40 hash="item_id">ui_item_assist_joe</hash40>
+    </struct>
+    <struct index="42">
+      <hash40 hash="label">nintendogs</hash40>
+      <hash40 hash="item_id">ui_item_assist_nintendogs</hash40>
+    </struct>
+    <struct index="43">
+      <hash40 hash="label">stafy</hash40>
+      <hash40 hash="item_id">ui_item_assist_stafy</hash40>
+    </struct>
+    <struct index="44">
+      <hash40 hash="label">sable</hash40>
+      <hash40 hash="item_id">ui_item_assist_sable</hash40>
+    </struct>
+    <struct index="45">
+      <hash40 hash="label">sheriff</hash40>
+      <hash40 hash="item_id">ui_item_assist_sheriff</hash40>
+    </struct>
+    <struct index="46">
+      <hash40 hash="label">jiro</hash40>
+      <hash40 hash="item_id">ui_item_assist_jiro</hash40>
+    </struct>
+    <struct index="47">
+      <hash40 hash="label">0x0bc7205fd0</hash40>
+      <hash40 hash="item_id">ui_item_assist_wilycapsule</hash40>
+    </struct>
+    <struct index="48">
+      <hash40 hash="label">nightmare</hash40>
+      <hash40 hash="item_id">ui_item_assist_nightmare</hash40>
+    </struct>
+    <struct index="49">
+      <hash40 hash="label">hammerbros</hash40>
+      <hash40 hash="item_id">ui_item_assist_hammerbros</hash40>
+    </struct>
+    <struct index="50">
+      <hash40 hash="label">skullkid</hash40>
+      <hash40 hash="item_id">ui_item_assist_skullkid</hash40>
+    </struct>
+    <struct index="51">
+      <hash40 hash="label">starman</hash40>
+      <hash40 hash="item_id">ui_item_assist_starman</hash40>
+    </struct>
+    <struct index="52">
+      <hash40 hash="label">lin</hash40>
+      <hash40 hash="item_id">ui_item_assist_lin</hash40>
+    </struct>
+    <struct index="53">
+      <hash40 hash="label">0x06d50d1ed3</hash40>
+      <hash40 hash="item_id">ui_item_assist_wright</hash40>
+    </struct>
+    <struct index="54">
+      <hash40 hash="label">kawashima</hash40>
+      <hash40 hash="item_id">ui_item_assist_kawashima</hash40>
+    </struct>
+    <struct index="55">
+      <hash40 hash="label">flyandhand</hash40>
+      <hash40 hash="item_id">ui_item_assist_flyandhand</hash40>
+    </struct>
+    <struct index="56">
+      <hash40 hash="label">0x05c7df1162</hash40>
+      <hash40 hash="item_id">ui_item_assist_vince</hash40>
+    </struct>
+    <struct index="57">
+      <hash40 hash="label">tiki</hash40>
+      <hash40 hash="item_id">ui_item_assist_tiki</hash40>
+    </struct>
+    <struct index="58">
+      <hash40 hash="label">nikki</hash40>
+      <hash40 hash="item_id">ui_item_assist_nikki</hash40>
+    </struct>
+  </list>
+  <list size="55" hash="pokemon_param">
+    <struct index="0">
+      <hash40 hash="label">nyarth</hash40>
+      <hash40 hash="item_id">ui_item_poke_nyarth</hash40>
+    </struct>
+    <struct index="1">
+      <hash40 hash="label">marumine</hash40>
+      <hash40 hash="item_id">ui_item_poke_marumine</hash40>
+    </struct>
+    <struct index="2">
+      <hash40 hash="label">tosakinto</hash40>
+      <hash40 hash="item_id">ui_item_poke_tosakinto</hash40>
+    </struct>
+    <struct index="3">
+      <hash40 hash="label">hitodeman</hash40>
+      <hash40 hash="item_id">ui_item_poke_hitodeman</hash40>
+    </struct>
+    <struct index="4">
+      <hash40 hash="label">kabigon</hash40>
+      <hash40 hash="item_id">ui_item_poke_kabigon</hash40>
+    </struct>
+    <struct index="5">
+      <hash40 hash="label">togepy</hash40>
+      <hash40 hash="item_id">ui_item_poke_togepy</hash40>
+    </struct>
+    <struct index="6">
+      <hash40 hash="label">kireihana</hash40>
+      <hash40 hash="item_id">ui_item_poke_kireihana</hash40>
+    </struct>
+    <struct index="7">
+      <hash40 hash="label">sirnight</hash40>
+      <hash40 hash="item_id">ui_item_poke_sirnight</hash40>
+    </struct>
+    <struct index="8">
+      <hash40 hash="label">metagross</hash40>
+      <hash40 hash="item_id">ui_item_poke_metagross</hash40>
+    </struct>
+    <struct index="9">
+      <hash40 hash="label">fire</hash40>
+      <hash40 hash="item_id">ui_item_poke_fire</hash40>
+    </struct>
+    <struct index="10">
+      <hash40 hash="label">mew</hash40>
+      <hash40 hash="item_id">ui_item_poke_mew</hash40>
+    </struct>
+    <struct index="11">
+      <hash40 hash="label">entei</hash40>
+      <hash40 hash="item_id">ui_item_poke_entei</hash40>
+    </struct>
+    <struct index="12">
+      <hash40 hash="label">suicune</hash40>
+      <hash40 hash="item_id">ui_item_poke_suicune</hash40>
+    </struct>
+    <struct index="13">
+      <hash40 hash="label">lugia</hash40>
+      <hash40 hash="item_id">ui_item_poke_lugia</hash40>
+    </struct>
+    <struct index="14">
+      <hash40 hash="label">latiaslatios</hash40>
+      <hash40 hash="item_id">ui_item_poke_latiaslatios</hash40>
+    </struct>
+    <struct index="15">
+      <hash40 hash="label">kyogre</hash40>
+      <hash40 hash="item_id">ui_item_poke_kyogre</hash40>
+    </struct>
+    <struct index="16">
+      <hash40 hash="label">deoxys</hash40>
+      <hash40 hash="item_id">ui_item_poke_deoxys</hash40>
+    </struct>
+    <struct index="17">
+      <hash40 hash="label">eievui</hash40>
+      <hash40 hash="item_id">ui_item_poke_eievui</hash40>
+    </struct>
+    <struct index="18">
+      <hash40 hash="label">0x08a702d2d4</hash40>
+      <hash40 hash="item_id">ui_item_poke_yukinooh</hash40>
+    </struct>
+    <struct index="19">
+      <hash40 hash="label">0x0836c9a84c</hash40>
+      <hash40 hash="item_id">ui_item_poke_yayakoma</hash40>
+    </struct>
+    <struct index="20">
+      <hash40 hash="label">kofuurai</hash40>
+      <hash40 hash="item_id">ui_item_poke_kofuurai</hash40>
+    </struct>
+    <struct index="21">
+      <hash40 hash="label">maaiika</hash40>
+      <hash40 hash="item_id">ui_item_poke_maaiika</hash40>
+    </struct>
+    <struct index="22">
+      <hash40 hash="label">giratina</hash40>
+      <hash40 hash="item_id">ui_item_poke_giratina</hash40>
+    </struct>
+    <struct index="23">
+      <hash40 hash="label">darkrai</hash40>
+      <hash40 hash="item_id">ui_item_poke_darkrai</hash40>
+    </struct>
+    <struct index="24">
+      <hash40 hash="label">0x0742fdbbdd</hash40>
+      <hash40 hash="item_id">ui_item_poke_zoroark</hash40>
+    </struct>
+    <struct index="25">
+      <hash40 hash="label">meloetta</hash40>
+      <hash40 hash="item_id">ui_item_poke_meloetta</hash40>
+    </struct>
+    <struct index="26">
+      <hash40 hash="label">genesect</hash40>
+      <hash40 hash="item_id">ui_item_poke_genesect</hash40>
+    </struct>
+    <struct index="27">
+      <hash40 hash="label">tsutarja</hash40>
+      <hash40 hash="item_id">ui_item_poke_tsutarja</hash40>
+    </struct>
+    <struct index="28">
+      <hash40 hash="label">mijumaru</hash40>
+      <hash40 hash="item_id">ui_item_poke_mijumaru</hash40>
+    </struct>
+    <struct index="29">
+      <hash40 hash="label">harimaron</hash40>
+      <hash40 hash="item_id">ui_item_poke_harimaron</hash40>
+    </struct>
+    <struct index="30">
+      <hash40 hash="label">fokko</hash40>
+      <hash40 hash="item_id">ui_item_poke_fokko</hash40>
+    </struct>
+    <struct index="31">
+      <hash40 hash="label">gogoat</hash40>
+      <hash40 hash="item_id">ui_item_poke_gogoat</hash40>
+    </struct>
+    <struct index="32">
+      <hash40 hash="label">peroppafu</hash40>
+      <hash40 hash="item_id">ui_item_poke_peroppafu</hash40>
+    </struct>
+    <struct index="33">
+      <hash40 hash="label">dedenne</hash40>
+      <hash40 hash="item_id">ui_item_poke_dedenne</hash40>
+    </struct>
+    <struct index="34">
+      <hash40 hash="label">palkia</hash40>
+      <hash40 hash="item_id">ui_item_poke_palkia</hash40>
+    </struct>
+    <struct index="35">
+      <hash40 hash="label">arceus</hash40>
+      <hash40 hash="item_id">ui_item_poke_arceus</hash40>
+    </struct>
+    <struct index="36">
+      <hash40 hash="label">0x078ff631d1</hash40>
+      <hash40 hash="item_id">ui_item_poke_victini</hash40>
+    </struct>
+    <struct index="37">
+      <hash40 hash="label">kyurem</hash40>
+      <hash40 hash="item_id">ui_item_poke_kyurem</hash40>
+    </struct>
+    <struct index="38">
+      <hash40 hash="label">keldeo</hash40>
+      <hash40 hash="item_id">ui_item_poke_keldeo</hash40>
+    </struct>
+    <struct index="39">
+      <hash40 hash="label">0x07b9cf9fef</hash40>
+      <hash40 hash="item_id">ui_item_poke_xerneas</hash40>
+    </struct>
+    <struct index="40">
+      <hash40 hash="label">metamon</hash40>
+      <hash40 hash="item_id">ui_item_poke_metamon</hash40>
+    </struct>
+    <struct index="41">
+      <hash40 hash="label">rokona</hash40>
+      <hash40 hash="item_id">ui_item_poke_rokona</hash40>
+    </struct>
+    <struct index="42">
+      <hash40 hash="label">nassya</hash40>
+      <hash40 hash="item_id">ui_item_poke_nassya</hash40>
+    </struct>
+    <struct index="43">
+      <hash40 hash="label">kiteruguma</hash40>
+      <hash40 hash="item_id">ui_item_poke_kiteruguma</hash40>
+    </struct>
+    <struct index="44">
+      <hash40 hash="label">mimikkyu</hash40>
+      <hash40 hash="item_id">ui_item_poke_mimikkyu</hash40>
+    </struct>
+    <struct index="45">
+      <hash40 hash="label">solgaleo</hash40>
+      <hash40 hash="item_id">ui_item_poke_solgaleo</hash40>
+    </struct>
+    <struct index="46">
+      <hash40 hash="label">lunala</hash40>
+      <hash40 hash="item_id">ui_item_poke_lunala</hash40>
+    </struct>
+    <struct index="47">
+      <hash40 hash="label">rokon</hash40>
+      <hash40 hash="item_id">ui_item_poke_rokon</hash40>
+    </struct>
+    <struct index="48">
+      <hash40 hash="label">raichua</hash40>
+      <hash40 hash="item_id">ui_item_poke_raichua</hash40>
+    </struct>
+    <struct index="49">
+      <hash40 hash="label">namakobushi</hash40>
+      <hash40 hash="item_id">ui_item_poke_namakobushi</hash40>
+    </struct>
+    <struct index="50">
+      <hash40 hash="label">togedemaru</hash40>
+      <hash40 hash="item_id">ui_item_poke_togedemaru</hash40>
+    </struct>
+    <struct index="51">
+      <hash40 hash="label">kasey</hash40>
+      <hash40 hash="item_id">ui_item_poke_kasey</hash40>
+    </struct>
+    <struct index="52">
+      <hash40 hash="label">kapukokeko</hash40>
+      <hash40 hash="item_id">ui_item_poke_kapukokeko</hash40>
+    </struct>
+    <struct index="53">
+      <hash40 hash="label">marshadow</hash40>
+      <hash40 hash="item_id">ui_item_poke_marshadow</hash40>
+    </struct>
+    <struct index="54">
+      <hash40 hash="label">hassam</hash40>
+      <hash40 hash="item_id">ui_item_poke_hassam</hash40>
+    </struct>
+  </list>
+</struct>

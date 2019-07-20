@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<struct>
+  <list size="34" hash="build_tbl">
+    <struct index="0">
+      <hash40 hash="type">0x24804776e0</hash40>
+      <hash40 hash="act_clear">0x1850f53fe1</hash40>
+    </struct>
+    <struct index="1">
+      <hash40 hash="type">0x2e4a15a72e</hash40>
+      <hash40 hash="act_clear">0x1850f53fe1</hash40>
+    </struct>
+    <struct index="2">
+      <hash40 hash="type">0x29c1f75be9</hash40>
+      <hash40 hash="act_clear">0x1850f53fe1</hash40>
+    </struct>
+    <struct index="3">
+      <hash40 hash="type">0x30cc2908d3</hash40>
+      <hash40 hash="act_clear">0x1850f53fe1</hash40>
+    </struct>
+    <struct index="4">
+      <hash40 hash="type">0x26c5417601</hash40>
+      <hash40 hash="act_clear">0x1850f53fe1</hash40>
+    </struct>
+    <struct index="5">
+      <hash40 hash="type">0x2a59b39d70</hash40>
+      <hash40 hash="act_clear">0x1850f53fe1</hash40>
+    </struct>
+    <struct index="6">
+      <hash40 hash="type">0x290368eb66</hash40>
+      <hash40 hash="act_clear">0x1850f53fe1</hash40>
+    </struct>
+    <struct index="7">
+      <hash40 hash="type">0x2aaaa363eb</hash40>
+      <hash40 hash="act_clear">0x1850f53fe1</hash40>
+    </struct>
+    <struct index="8">
+      <hash40 hash="type">0x24242e1893</hash40>
+      <hash40 hash="act_clear">0x1850f53fe1</hash40>
+    </struct>
+    <struct index="9">
+      <hash40 hash="type">0x305f1e1814</hash40>
+      <hash40 hash="act_clear">0x1850f53fe1</hash40>
+    </struct>
+    <struct index="10">
+      <hash40 hash="type">0x23525cf9bf</hash40>
+      <hash40 hash="act_clear">0x1850f53fe1</hash40>
+    </struct>
+    <struct index="11">
+      <hash40 hash="type">0x255bc35997</hash40>
+      <hash40 hash="act_clear">0x1850f53fe1</hash40>
+    </struct>
+    <struct index="12">
+      <hash40 hash="type">0x269a3eb82f</hash40>
+      <hash40 hash="act_clear">0x1850f53fe1</hash40>
+    </struct>
+    <struct index="13">
+      <hash40 hash="type">0x2a7ba17117</hash40>
+      <hash40 hash="act_clear">0x1850f53fe1</hash40>
+    </struct>
+    <struct index="14">
+      <hash40 hash="type">0x27049da4f9</hash40>
+      <hash40 hash="act_clear">0x1850f53fe1</hash40>
+    </struct>
+    <struct index="15">
+      <hash40 hash="type">0x1c173625f0</hash40>
+      <hash40 hash="act_clear">0x1850f53fe1</hash40>
+    </struct>
+    <struct index="16">
+      <hash40 hash="type">0x19f5e68478</hash40>
+      <hash40 hash="act_clear">0x1850f53fe1</hash40>
+    </struct>
+    <struct index="17">
+      <hash40 hash="type">0x1f2b9d45c7</hash40>
+      <hash40 hash="act_clear">0x1850f53fe1</hash40>
+    </struct>
+    <struct index="18">
+      <hash40 hash="type">0x24837d8277</hash40>
+      <hash40 hash="act_clear">0x1850f53fe1</hash40>
+    </struct>
+    <struct index="19">
+      <hash40 hash="type">0x1b98f4e4f7</hash40>
+      <hash40 hash="act_clear">0x1850f53fe1</hash40>
+    </struct>
+    <struct index="20">
+      <hash40 hash="type">0x2398f9aaa9</hash40>
+      <hash40 hash="act_clear">0x1cef2941fd</hash40>
+    </struct>
+    <struct index="21">
+      <hash40 hash="type">0x2bb5b7161f</hash40>
+      <hash40 hash="act_clear">0x1c462badbd</hash40>
+    </struct>
+    <struct index="22">
+      <hash40 hash="type">0x2422f84412</hash40>
+      <hash40 hash="act_clear">0x1e8b307ce1</hash40>
+    </struct>
+    <struct index="23">
+      <hash40 hash="type">0x287fa826ba</hash40>
+      <hash40 hash="act_clear">0x1850f53fe1</hash40>
+    </struct>
+    <struct index="24">
+      <hash40 hash="type">0x176cc228ae</hash40>
+      <hash40 hash="act_clear">0x1850f53fe1</hash40>
+    </struct>
+    <struct index="25">
+      <hash40 hash="type">0x17f5cb7914</hash40>
+      <hash40 hash="act_clear">0x1850f53fe1</hash40>
+    </struct>
+    <struct index="26">
+      <hash40 hash="type">0x1782cc4982</hash40>
+      <hash40 hash="act_clear">0x1850f53fe1</hash40>
+    </struct>
+    <struct index="27">
+      <hash40 hash="type">0x171ca8dc21</hash40>
+      <hash40 hash="act_clear">0x1850f53fe1</hash40>
+    </struct>
+    <struct index="28">
+      <hash40 hash="type">0x176bafecb7</hash40>
+      <hash40 hash="act_clear">0x1850f53fe1</hash40>
+    </struct>
+    <struct index="29">
+      <hash40 hash="type">0x17f2a6bd0d</hash40>
+      <hash40 hash="act_clear">0x1850f53fe1</hash40>
+    </struct>
+    <struct index="30">
+      <hash40 hash="type">0x1785a18d9b</hash40>
+      <hash40 hash="act_clear">0x1850f53fe1</hash40>
+    </struct>
+    <struct index="31">
+      <hash40 hash="type">0x17151e900a</hash40>
+      <hash40 hash="act_clear">0x1850f53fe1</hash40>
+    </struct>
+    <struct index="32">
+      <hash40 hash="type">0x176219a09c</hash40>
+      <hash40 hash="act_clear">0x1850f53fe1</hash40>
+    </struct>
+    <struct index="33">
+      <hash40 hash="type">0x1702de2979</hash40>
+      <hash40 hash="act_clear">0x1850f53fe1</hash40>
+    </struct>
+  </list>
+</struct>

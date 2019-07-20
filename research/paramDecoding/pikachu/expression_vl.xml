@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<struct>
+  <list size="4" hash="0x0f5ca29a65">
+    <struct index="0">
+      <hash40 hash="motion_kind">0x047dee83e5</hash40>
+      <int hash="frame">50</int>
+    </struct>
+    <struct index="1">
+      <hash40 hash="motion_kind">0x06e395aa39</hash40>
+      <int hash="frame">25</int>
+    </struct>
+    <struct index="2">
+      <hash40 hash="motion_kind">0x0694929aaf</hash40>
+      <int hash="frame">25</int>
+    </struct>
+    <struct index="3">
+      <hash40 hash="motion_kind">invalid</hash40>
+      <int hash="frame">-1</int>
+    </struct>
+  </list>
+  <list size="2" hash="0x152cd1d08e">
+    <struct index="0">
+      <hash40 hash="motion_kind">squat_wait</hash40>
+      <int hash="frame">100</int>
+    </struct>
+    <struct index="1">
+      <hash40 hash="motion_kind">invalid</hash40>
+      <int hash="frame">-1</int>
+    </struct>
+  </list>
+  <list size="5" hash="0x157e91307e">
+    <struct index="0">
+      <hash40 hash="node">hip</hash40>
+      <float hash="offset_x">-2</float>
+      <float hash="offset_y">0</float>
+      <float hash="offset_z">0</float>
+      <float hash="scale">2.1</float>
+    </struct>
+    <struct index="1">
+      <hash40 hash="node">earl1</hash40>
+      <float hash="offset_x">0</float>
+      <float hash="offset_y">0</float>
+      <float hash="offset_z">0</float>
+      <float hash="scale">0.8</float>
+    </struct>
+    <struct index="2">
+      <hash40 hash="node">neck</hash40>
+      <float hash="offset_x">1</float>
+      <float hash="offset_y">0</float>
+      <float hash="offset_z">0</float>
+      <float hash="scale">2</float>
+    </struct>
+    <struct index="3">
+      <hash40 hash="node">earr1</hash40>
+      <float hash="offset_x">0</float>
+      <float hash="offset_y">0</float>
+      <float hash="offset_z">0</float>
+      <float hash="scale">0.8</float>
+    </struct>
+    <struct index="4">
+      <hash40 hash="node">tail1</hash40>
+      <float hash="offset_x">0</float>
+      <float hash="offset_y">0</float>
+      <float hash="offset_z">0</float>
+      <float hash="scale">1.5</float>
+    </struct>
+  </list>
+  <list size="12" hash="0x1139ef006d">
+    <struct index="0">
+      <hash40 hash="node">0x0c4a5d253e</hash40>
+      <hash40 hash="node_parent">0x051a36341b</hash40>
+      <float hash="0x018cdc1683">-1</float>
+      <float hash="0x01fbdb2615">2.7</float>
+      <float hash="0x0162d277af">0</float>
+      <float hash="rot_x">-90</float>
+      <float hash="rot_y">0</float>
+      <float hash="rot_z">-85</float>
+    </struct>
+    <struct index="1">
+      <hash40 hash="node">0x0afd4837ec</hash40>
+      <hash40 hash="node_parent">neck</hash40>
+      <float hash="0x018cdc1683">3.4</float>
+      <float hash="0x01fbdb2615">-1.1</float>
+      <float hash="0x0162d277af">0</float>
+      <float hash="rot_x">-115.4</float>
+      <float hash="rot_y">-90</float>
+      <float hash="rot_z">0</float>
+    </struct>
+    <struct index="2">
+      <hash40 hash="node">0x0c2a6831b4</hash40>
+      <hash40 hash="node_parent">head</hash40>
+      <float hash="0x018cdc1683">0</float>
+      <float hash="0x01fbdb2615">3.5</float>
+      <float hash="0x0162d277af">0</float>
+      <float hash="rot_x">-90</float>
+      <float hash="rot_y">0</float>
+      <float hash="rot_z">0</float>
+    </struct>
+    <struct index="3">
+      <hash40 hash="node">0x13dbe50c4c</hash40>
+      <hash40 hash="node_parent">neck</hash40>
+      <float hash="0x018cdc1683">3.7</float>
+      <float hash="0x01fbdb2615">-0.3</float>
+      <float hash="0x0162d277af">0</float>
+      <float hash="rot_x">-115.4</float>
+      <float hash="rot_y">-90</float>
+      <float hash="rot_z">0</float>
+    </struct>
+    <struct index="4">
+      <hash40 hash="node">0x0bdae4a0a1</hash40>
+      <hash40 hash="node_parent">hip</hash40>
+      <float hash="0x018cdc1683">0</float>
+      <float hash="0x01fbdb2615">-2.5</float>
+      <float hash="0x0162d277af">0</float>
+      <float hash="rot_x">0</float>
+      <float hash="rot_y">-90</float>
+      <float hash="rot_z">-90</float>
+    </struct>
+    <struct index="5">
+      <hash40 hash="node">0x114e656c4f</hash40>
+      <hash40 hash="node_parent">bust</hash40>
+      <float hash="0x018cdc1683">0</float>
+      <float hash="0x01fbdb2615">-2</float>
+      <float hash="0x0162d277af">0</float>
+      <float hash="rot_x">0</float>
+      <float hash="rot_y">0</float>
+      <float hash="rot_z">-20</float>
+    </struct>
+    <struct index="6">
+      <hash40 hash="node">0x0dac6f5d11</hash40>
+      <hash40 hash="node_parent">neck</hash40>
+      <float hash="0x018cdc1683">-1.6</float>
+      <float hash="0x01fbdb2615">-1.2</float>
+      <float hash="0x0162d277af">-0.4</float>
+      <float hash="rot_x">0</float>
+      <float hash="rot_y">90</float>
+      <float hash="rot_z">-90</float>
+    </struct>
+    <struct index="7">
+      <hash40 hash="node">0x1008f289ad</hash40>
+      <hash40 hash="node_parent">neck</hash40>
+      <float hash="0x018cdc1683">4</float>
+      <float hash="0x01fbdb2615">-1.5</float>
+      <float hash="0x0162d277af">0</float>
+      <float hash="rot_x">0</float>
+      <float hash="rot_y">90</float>
+      <float hash="rot_z">170</float>
+    </struct>
+    <struct index="8">
+      <hash40 hash="node">0x100f9f4db4</hash40>
+      <hash40 hash="node_parent">hip</hash40>
+      <float hash="0x018cdc1683">0</float>
+      <float hash="0x01fbdb2615">-3.5</float>
+      <float hash="0x0162d277af">0</float>
+      <float hash="rot_x">0</float>
+      <float hash="rot_y">0</float>
+      <float hash="rot_z">0</float>
+    </struct>
+    <struct index="9">
+      <hash40 hash="node">0x103730af43</hash40>
+      <hash40 hash="node_parent">top</hash40>
+      <float hash="0x018cdc1683">0</float>
+      <float hash="0x01fbdb2615">4</float>
+      <float hash="0x0162d277af">1.7</float>
+      <float hash="rot_x">20</float>
+      <float hash="rot_y">0</float>
+      <float hash="rot_z">0</float>
+    </struct>
+    <struct index="10">
+      <hash40 hash="node">0x0db3b5a0c6</hash40>
+      <hash40 hash="node_parent">top</hash40>
+      <float hash="0x018cdc1683">0</float>
+      <float hash="0x01fbdb2615">11</float>
+      <float hash="0x0162d277af">-2</float>
+      <float hash="rot_x">0</float>
+      <float hash="rot_y">0</float>
+      <float hash="rot_z">0</float>
+    </struct>
+    <struct index="11">
+      <hash40 hash="node">0x0de223373b</hash40>
+      <hash40 hash="node_parent">hip</hash40>
+      <float hash="0x018cdc1683">2</float>
+      <float hash="0x01fbdb2615">0</float>
+      <float hash="0x0162d277af">0</float>
+      <float hash="rot_x">0</float>
+      <float hash="rot_y">0</float>
+      <float hash="rot_z">0</float>
+    </struct>
+  </list>
+  <list size="2" hash="0x16f27e98cf">
+    <struct index="0">
+      <float hash="scale">0</float>
+      <float hash="0x018cdc1683">0</float>
+      <float hash="0x01fbdb2615">0</float>
+      <float hash="0x0162d277af">0</float>
+      <float hash="rot_x">0</float>
+      <float hash="rot_y">0</float>
+      <float hash="rot_z">0</float>
+    </struct>
+    <struct index="1">
+      <float hash="scale">0</float>
+      <float hash="0x018cdc1683">0</float>
+      <float hash="0x01fbdb2615">0</float>
+      <float hash="0x0162d277af">0</float>
+      <float hash="rot_x">0</float>
+      <float hash="rot_y">0</float>
+      <float hash="rot_z">0</float>
+    </struct>
+  </list>
+  <struct hash="0x1a47963f6c">
+    <list size="1" hash="param_set">
+      <struct index="0">
+        <hash40 hash="no">body</hash40>
+        <list size="2" hash="param_group">
+          <struct index="0">
+            <hash40 hash="group">body_normal</hash40>
+            <list size="1" hash="param_node">
+              <hash40 index="0">body</hash40>
+            </list>
+          </struct>
+          <struct index="1">
+            <hash40 hash="group">body_camera_hit</hash40>
+            <list size="1" hash="param_node">
+              <hash40 index="0">camerahit</hash40>
+            </list>
+          </struct>
+        </list>
+        <hash40 hash="reset">body_normal</hash40>
+      </struct>
+    </list>
+    <list size="1" hash="param_flip">
+      <struct index="0">
+        <hash40 hash="no">invalid</hash40>
+        <hash40 hash="flip">invalid</hash40>
+      </struct>
+    </list>
+  </struct>
+</struct>

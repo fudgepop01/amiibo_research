@@ -1,0 +1,470 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<struct>
+  <list size="3" hash="charge_final_param">
+    <struct index="0">
+      <hash40 hash="id">stock</hash40>
+      <float hash="mul">1</float>
+      <float hash="by_time_mul">1</float>
+      <float hash="by_attack_mul">1</float>
+      <float hash="damage_mul">1.2</float>
+    </struct>
+    <struct index="1">
+      <hash40 hash="id">hp</hash40>
+      <float hash="mul">1</float>
+      <float hash="by_time_mul">1</float>
+      <float hash="by_attack_mul">1</float>
+      <float hash="damage_mul">1.2</float>
+    </struct>
+    <struct index="2">
+      <hash40 hash="id">etc</hash40>
+      <float hash="mul">1</float>
+      <float hash="by_time_mul">1</float>
+      <float hash="by_attack_mul">1</float>
+      <float hash="damage_mul">1</float>
+    </struct>
+  </list>
+  <list size="4" hash="0x13e5725bb7">
+    <struct index="0">
+      <hash40 hash="id">easy</hash40>
+      <sbyte hash="0x14dd7ae0cd">-2</sbyte>
+      <float hash="0x1560e2ce7b">0.73</float>
+      <float hash="0x1502c0f453">0.73</float>
+      <float hash="0x19a475f8a3">0.73</float>
+      <float hash="0x19ec015960">0.73</float>
+      <float hash="0x19d372c835">0.73</float>
+      <float hash="0x199b0669f6">0.73</float>
+      <float hash="0x165b572b60">0.7</float>
+      <sbyte hash="0x151b620dce">-2</sbyte>
+      <float hash="0x16f92d872c">0.6</float>
+      <float hash="0x169b0fbd04">0.6</float>
+      <sbyte hash="0x10f42580a6">2</sbyte>
+      <float hash="0x11baab29cb">1.2</float>
+      <float hash="0x11d88913e3">1.2</float>
+    </struct>
+    <struct index="1">
+      <hash40 hash="id">normal</hash40>
+      <sbyte hash="0x14dd7ae0cd">0</sbyte>
+      <float hash="0x1560e2ce7b">1</float>
+      <float hash="0x1502c0f453">1</float>
+      <float hash="0x19a475f8a3">1</float>
+      <float hash="0x19ec015960">1</float>
+      <float hash="0x19d372c835">1</float>
+      <float hash="0x199b0669f6">1</float>
+      <float hash="0x165b572b60">1</float>
+      <sbyte hash="0x151b620dce">0</sbyte>
+      <float hash="0x16f92d872c">1</float>
+      <float hash="0x169b0fbd04">1</float>
+      <sbyte hash="0x10f42580a6">1</sbyte>
+      <float hash="0x11baab29cb">1</float>
+      <float hash="0x11d88913e3">1</float>
+    </struct>
+    <struct index="2">
+      <hash40 hash="id">hard</hash40>
+      <sbyte hash="0x14dd7ae0cd">2</sbyte>
+      <float hash="0x1560e2ce7b">1.1</float>
+      <float hash="0x1502c0f453">1.1</float>
+      <float hash="0x19a475f8a3">1.2</float>
+      <float hash="0x19ec015960">1.2</float>
+      <float hash="0x19d372c835">1.25</float>
+      <float hash="0x199b0669f6">1.25</float>
+      <float hash="0x165b572b60">1</float>
+      <sbyte hash="0x151b620dce">2</sbyte>
+      <float hash="0x16f92d872c">1.1</float>
+      <float hash="0x169b0fbd04">1.1</float>
+      <sbyte hash="0x10f42580a6">-2</sbyte>
+      <float hash="0x11baab29cb">0.9</float>
+      <float hash="0x11d88913e3">0.9</float>
+    </struct>
+    <struct index="3">
+      <hash40 hash="id">board_corp</hash40>
+      <sbyte hash="0x14dd7ae0cd">2</sbyte>
+      <float hash="0x1560e2ce7b">1.1</float>
+      <float hash="0x1502c0f453">1.1</float>
+      <float hash="0x19a475f8a3">1.1</float>
+      <float hash="0x19ec015960">1.1</float>
+      <float hash="0x19d372c835">1.1</float>
+      <float hash="0x199b0669f6">1.1</float>
+      <float hash="0x165b572b60">1</float>
+      <sbyte hash="0x151b620dce">2</sbyte>
+      <float hash="0x16f92d872c">1.1</float>
+      <float hash="0x169b0fbd04">1.1</float>
+      <sbyte hash="0x10f42580a6">2</sbyte>
+      <float hash="0x11baab29cb">1.1</float>
+      <float hash="0x11d88913e3">1.1</float>
+    </struct>
+  </list>
+  <list size="31" hash="0x1583976f16">
+    <struct index="0">
+      <hash40 hash="ui_stage_id">ui_stage_punchoutsb</hash40>
+      <hash40 hash="stage_type">normal</hash40>
+      <byte hash="p0">2</byte>
+      <byte hash="p1">1</byte>
+      <byte hash="p2">0</byte>
+      <byte hash="p3">3</byte>
+      <byte hash="e0">5</byte>
+      <byte hash="e1">6</byte>
+      <byte hash="e2">7</byte>
+      <byte hash="e3">4</byte>
+    </struct>
+    <struct index="1">
+      <hash40 hash="ui_stage_id">ui_stage_punchoutw</hash40>
+      <hash40 hash="stage_type">normal</hash40>
+      <byte hash="p0">2</byte>
+      <byte hash="p1">1</byte>
+      <byte hash="p2">0</byte>
+      <byte hash="p3">3</byte>
+      <byte hash="e0">5</byte>
+      <byte hash="e1">6</byte>
+      <byte hash="e2">7</byte>
+      <byte hash="e3">4</byte>
+    </struct>
+    <struct index="2">
+      <hash40 hash="ui_stage_id">ui_stage_75m</hash40>
+      <hash40 hash="stage_type">normal</hash40>
+      <byte hash="p0">1</byte>
+      <byte hash="p1">0</byte>
+      <byte hash="p2">3</byte>
+      <byte hash="p3">2</byte>
+      <byte hash="e0">7</byte>
+      <byte hash="e1">6</byte>
+      <byte hash="e2">5</byte>
+      <byte hash="e3">4</byte>
+    </struct>
+    <struct index="3">
+      <hash40 hash="ui_stage_id">ui_stage_dk_lodge</hash40>
+      <hash40 hash="stage_type">normal</hash40>
+      <byte hash="p0">0</byte>
+      <byte hash="p1">1</byte>
+      <byte hash="p2">2</byte>
+      <byte hash="p3">3</byte>
+      <byte hash="e0">7</byte>
+      <byte hash="e1">6</byte>
+      <byte hash="e2">4</byte>
+      <byte hash="e3">5</byte>
+    </struct>
+    <struct index="4">
+      <hash40 hash="ui_stage_id">ui_stage_poke_unova</hash40>
+      <hash40 hash="stage_type">normal</hash40>
+      <byte hash="p0">0</byte>
+      <byte hash="p1">1</byte>
+      <byte hash="p2">2</byte>
+      <byte hash="p3">3</byte>
+      <byte hash="e0">7</byte>
+      <byte hash="e1">6</byte>
+      <byte hash="e2">5</byte>
+      <byte hash="e3">4</byte>
+    </struct>
+    <struct index="5">
+      <hash40 hash="ui_stage_id">ui_stage_mario_past64</hash40>
+      <hash40 hash="stage_type">normal</hash40>
+      <byte hash="p0">2</byte>
+      <byte hash="p1">1</byte>
+      <byte hash="p2">0</byte>
+      <byte hash="p3">3</byte>
+      <byte hash="e0">5</byte>
+      <byte hash="e1">6</byte>
+      <byte hash="e2">7</byte>
+      <byte hash="e3">4</byte>
+    </struct>
+    <struct index="6">
+      <hash40 hash="ui_stage_id">ui_stage_sonic_windyhill</hash40>
+      <hash40 hash="stage_type">normal</hash40>
+      <byte hash="p0">0</byte>
+      <byte hash="p1">1</byte>
+      <byte hash="p2">2</byte>
+      <byte hash="p3">3</byte>
+      <byte hash="e0">7</byte>
+      <byte hash="e1">6</byte>
+      <byte hash="e2">5</byte>
+      <byte hash="e3">4</byte>
+    </struct>
+    <struct index="7">
+      <hash40 hash="ui_stage_id">ui_stage_kart_circuitx</hash40>
+      <hash40 hash="stage_type">normal</hash40>
+      <byte hash="p0">0</byte>
+      <byte hash="p1">1</byte>
+      <byte hash="p2">2</byte>
+      <byte hash="p3">3</byte>
+      <byte hash="e0">7</byte>
+      <byte hash="e1">6</byte>
+      <byte hash="e2">5</byte>
+      <byte hash="e3">4</byte>
+    </struct>
+    <struct index="8">
+      <hash40 hash="ui_stage_id">ui_stage_plankton</hash40>
+      <hash40 hash="stage_type">normal</hash40>
+      <byte hash="p0">2</byte>
+      <byte hash="p1">1</byte>
+      <byte hash="p2">0</byte>
+      <byte hash="p3">3</byte>
+      <byte hash="e0">6</byte>
+      <byte hash="e1">7</byte>
+      <byte hash="e2">5</byte>
+      <byte hash="e3">4</byte>
+    </struct>
+    <struct index="9">
+      <hash40 hash="ui_stage_id">ui_stage_icarus_angeland</hash40>
+      <hash40 hash="stage_type">normal</hash40>
+      <byte hash="p0">1</byte>
+      <byte hash="p1">0</byte>
+      <byte hash="p2">2</byte>
+      <byte hash="p3">3</byte>
+      <byte hash="e0">5</byte>
+      <byte hash="e1">7</byte>
+      <byte hash="e2">4</byte>
+      <byte hash="e3">6</byte>
+    </struct>
+    <struct index="10">
+      <hash40 hash="ui_stage_id">ui_stage_zelda_oldin</hash40>
+      <hash40 hash="stage_type">normal</hash40>
+      <byte hash="p0">2</byte>
+      <byte hash="p1">1</byte>
+      <byte hash="p2">0</byte>
+      <byte hash="p3">3</byte>
+      <byte hash="e0">5</byte>
+      <byte hash="e1">6</byte>
+      <byte hash="e2">7</byte>
+      <byte hash="e3">4</byte>
+    </struct>
+    <struct index="11">
+      <hash40 hash="ui_stage_id">ui_stage_xeno_gaur</hash40>
+      <hash40 hash="stage_type">normal</hash40>
+      <byte hash="p0">0</byte>
+      <byte hash="p1">1</byte>
+      <byte hash="p2">2</byte>
+      <byte hash="p3">3</byte>
+      <byte hash="e0">7</byte>
+      <byte hash="e1">6</byte>
+      <byte hash="e2">5</byte>
+      <byte hash="e3">4</byte>
+    </struct>
+    <struct index="12">
+      <hash40 hash="ui_stage_id">ui_stage_zelda_gerudo</hash40>
+      <hash40 hash="stage_type">normal</hash40>
+      <byte hash="p0">3</byte>
+      <byte hash="p1">1</byte>
+      <byte hash="p2">2</byte>
+      <byte hash="p3">0</byte>
+      <byte hash="e0">4</byte>
+      <byte hash="e1">6</byte>
+      <byte hash="e2">5</byte>
+      <byte hash="e3">7</byte>
+    </struct>
+    <struct index="13">
+      <hash40 hash="ui_stage_id">ui_stage_mg_shadowmoses</hash40>
+      <hash40 hash="stage_type">normal</hash40>
+      <byte hash="p0">2</byte>
+      <byte hash="p1">1</byte>
+      <byte hash="p2">0</byte>
+      <byte hash="p3">3</byte>
+      <byte hash="e0">5</byte>
+      <byte hash="e1">7</byte>
+      <byte hash="e2">6</byte>
+      <byte hash="e3">4</byte>
+    </struct>
+    <struct index="14">
+      <hash40 hash="ui_stage_id">ui_stage_streetpass</hash40>
+      <hash40 hash="stage_type">normal</hash40>
+      <byte hash="p0">1</byte>
+      <byte hash="p1">2</byte>
+      <byte hash="p2">0</byte>
+      <byte hash="p3">3</byte>
+      <byte hash="e0">6</byte>
+      <byte hash="e1">7</byte>
+      <byte hash="e2">5</byte>
+      <byte hash="e3">4</byte>
+    </struct>
+    <struct index="15">
+      <hash40 hash="ui_stage_id">ui_stage_poke_tengam</hash40>
+      <hash40 hash="stage_type">normal</hash40>
+      <byte hash="p0">0</byte>
+      <byte hash="p1">1</byte>
+      <byte hash="p2">2</byte>
+      <byte hash="p3">3</byte>
+      <byte hash="e0">6</byte>
+      <byte hash="e1">7</byte>
+      <byte hash="e2">5</byte>
+      <byte hash="e3">4</byte>
+    </struct>
+    <struct index="16">
+      <hash40 hash="ui_stage_id">ui_stage_tomodachi</hash40>
+      <hash40 hash="stage_type">normal</hash40>
+      <byte hash="p0">0</byte>
+      <byte hash="p1">2</byte>
+      <byte hash="p2">1</byte>
+      <byte hash="p3">3</byte>
+      <byte hash="e0">6</byte>
+      <byte hash="e1">5</byte>
+      <byte hash="e2">7</byte>
+      <byte hash="e3">4</byte>
+    </struct>
+    <struct index="17">
+      <hash40 hash="ui_stage_id">ui_stage_mario_dolpic</hash40>
+      <hash40 hash="stage_type">normal</hash40>
+      <byte hash="p0">0</byte>
+      <byte hash="p1">1</byte>
+      <byte hash="p2">2</byte>
+      <byte hash="p3">3</byte>
+      <byte hash="e0">7</byte>
+      <byte hash="e1">6</byte>
+      <byte hash="e2">5</byte>
+      <byte hash="e3">4</byte>
+    </struct>
+    <struct index="18">
+      <hash40 hash="ui_stage_id">ui_stage_mother_newpork</hash40>
+      <hash40 hash="stage_type">normal</hash40>
+      <byte hash="p0">2</byte>
+      <byte hash="p1">3</byte>
+      <byte hash="p2">0</byte>
+      <byte hash="p3">1</byte>
+      <byte hash="e0">5</byte>
+      <byte hash="e1">6</byte>
+      <byte hash="e2">7</byte>
+      <byte hash="e3">4</byte>
+    </struct>
+    <struct index="19">
+      <hash40 hash="ui_stage_id">ui_stage_pilotwings</hash40>
+      <hash40 hash="stage_type">normal</hash40>
+      <byte hash="p0">0</byte>
+      <byte hash="p1">1</byte>
+      <byte hash="p2">2</byte>
+      <byte hash="p3">3</byte>
+      <byte hash="e0">7</byte>
+      <byte hash="e1">6</byte>
+      <byte hash="e2">5</byte>
+      <byte hash="e3">4</byte>
+    </struct>
+    <struct index="20">
+      <hash40 hash="ui_stage_id">ui_stage_metroid_kraid</hash40>
+      <hash40 hash="stage_type">normal</hash40>
+      <byte hash="p0">2</byte>
+      <byte hash="p1">1</byte>
+      <byte hash="p2">0</byte>
+      <byte hash="p3">3</byte>
+      <byte hash="e0">6</byte>
+      <byte hash="e1">7</byte>
+      <byte hash="e2">5</byte>
+      <byte hash="e3">4</byte>
+    </struct>
+    <struct index="21">
+      <hash40 hash="ui_stage_id">ui_stage_mario_uworld</hash40>
+      <hash40 hash="stage_type">normal</hash40>
+      <byte hash="p0">0</byte>
+      <byte hash="p1">2</byte>
+      <byte hash="p2">1</byte>
+      <byte hash="p3">3</byte>
+      <byte hash="e0">7</byte>
+      <byte hash="e1">6</byte>
+      <byte hash="e2">5</byte>
+      <byte hash="e3">4</byte>
+    </struct>
+    <struct index="22">
+      <hash40 hash="ui_stage_id">ui_stage_mario_galaxy</hash40>
+      <hash40 hash="stage_type">normal</hash40>
+      <byte hash="p0">2</byte>
+      <byte hash="p1">1</byte>
+      <byte hash="p2">0</byte>
+      <byte hash="p3">3</byte>
+      <byte hash="e0">5</byte>
+      <byte hash="e1">6</byte>
+      <byte hash="e2">7</byte>
+      <byte hash="e3">4</byte>
+    </struct>
+    <struct index="23">
+      <hash40 hash="ui_stage_id">ui_stage_mariobros</hash40>
+      <hash40 hash="stage_type">normal</hash40>
+      <byte hash="p0">0</byte>
+      <byte hash="p1">2</byte>
+      <byte hash="p2">3</byte>
+      <byte hash="p3">1</byte>
+      <byte hash="e0">7</byte>
+      <byte hash="e1">5</byte>
+      <byte hash="e2">4</byte>
+      <byte hash="e3">6</byte>
+    </struct>
+    <struct index="24">
+      <hash40 hash="ui_stage_id">ui_stage_poke_yamabuki</hash40>
+      <hash40 hash="stage_type">normal</hash40>
+      <byte hash="p0">2</byte>
+      <byte hash="p1">1</byte>
+      <byte hash="p2">0</byte>
+      <byte hash="p3">3</byte>
+      <byte hash="e0">6</byte>
+      <byte hash="e1">7</byte>
+      <byte hash="e2">5</byte>
+      <byte hash="e3">4</byte>
+    </struct>
+    <struct index="25">
+      <hash40 hash="ui_stage_id">ui_stage_yoshi_island</hash40>
+      <hash40 hash="stage_type">normal</hash40>
+      <byte hash="p0">0</byte>
+      <byte hash="p1">1</byte>
+      <byte hash="p2">2</byte>
+      <byte hash="p3">3</byte>
+      <byte hash="e0">7</byte>
+      <byte hash="e1">5</byte>
+      <byte hash="e2">6</byte>
+      <byte hash="e3">4</byte>
+    </struct>
+    <struct index="26">
+      <hash40 hash="ui_stage_id">ui_stage_icarus_uprising</hash40>
+      <hash40 hash="stage_type">normal</hash40>
+      <byte hash="p0">1</byte>
+      <byte hash="p1">0</byte>
+      <byte hash="p2">2</byte>
+      <byte hash="p3">3</byte>
+      <byte hash="e0">5</byte>
+      <byte hash="e1">7</byte>
+      <byte hash="e2">6</byte>
+      <byte hash="e3">4</byte>
+    </struct>
+    <struct index="27">
+      <hash40 hash="ui_stage_id">ui_stage_zelda_temple</hash40>
+      <hash40 hash="stage_type">normal</hash40>
+      <byte hash="p0">1</byte>
+      <byte hash="p1">0</byte>
+      <byte hash="p2">3</byte>
+      <byte hash="p3">2</byte>
+      <byte hash="e0">5</byte>
+      <byte hash="e1">7</byte>
+      <byte hash="e2">6</byte>
+      <byte hash="e3">4</byte>
+    </struct>
+    <struct index="28">
+      <hash40 hash="ui_stage_id">ui_stage_icarus_skyworld</hash40>
+      <hash40 hash="stage_type">normal</hash40>
+      <byte hash="p0">0</byte>
+      <byte hash="p1">1</byte>
+      <byte hash="p2">2</byte>
+      <byte hash="p3">3</byte>
+      <byte hash="e0">6</byte>
+      <byte hash="e1">4</byte>
+      <byte hash="e2">7</byte>
+      <byte hash="e3">5</byte>
+    </struct>
+    <struct index="29">
+      <hash40 hash="ui_stage_id">ui_stage_kirby_cave</hash40>
+      <hash40 hash="stage_type">normal</hash40>
+      <byte hash="p0">2</byte>
+      <byte hash="p1">3</byte>
+      <byte hash="p2">1</byte>
+      <byte hash="p3">0</byte>
+      <byte hash="e0">7</byte>
+      <byte hash="e1">6</byte>
+      <byte hash="e2">4</byte>
+      <byte hash="e3">5</byte>
+    </struct>
+    <struct index="30">
+      <hash40 hash="ui_stage_id">ui_stage_fox_corneria</hash40>
+      <hash40 hash="stage_type">normal</hash40>
+      <byte hash="p0">1</byte>
+      <byte hash="p1">0</byte>
+      <byte hash="p2">2</byte>
+      <byte hash="p3">3</byte>
+      <byte hash="e0">5</byte>
+      <byte hash="e1">6</byte>
+      <byte hash="e2">7</byte>
+      <byte hash="e3">4</byte>
+    </struct>
+  </list>
+</struct>

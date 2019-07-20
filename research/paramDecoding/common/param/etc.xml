@@ -1,0 +1,380 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<struct>
+  <float hash="attack_hit_rumble_add">4</float>
+  <float hash="attack_hit_rumble_mul">0.9</float>
+  <float hash="damage_rumble_add">0</float>
+  <float hash="damage_rumble_mul">1.1</float>
+  <float hash="damage_rumble_lv2">6</float>
+  <float hash="damage_rumble_lv3">10</float>
+  <float hash="damage_rumble_lv4">16</float>
+  <float hash="damage_rumble_lv5">22</float>
+  <int hash="dead_rumble_frame">50</int>
+  <int hash="dead_other_rumble_frame">18</int>
+  <float hash="cursor_fly_speed">2</float>
+  <int hash="cursor_fly_frame">4</int>
+  <int hash="cursor_wait_frame">80</int>
+  <float hash="0x1bc2748f1a">80</float>
+  <float hash="barrel_cursor_offset_y">20</float>
+  <int hash="dead_up_star_move_frame">140</int>
+  <float hash="dead_up_star_scale">1.6</float>
+  <float hash="dead_up_star_end_scale">0.2</float>
+  <float hash="dead_up_star_z_length">-450</float>
+  <float hash="dead_up_star_fall_point">0.6</float>
+  <float hash="dead_up_star_motion_rate">1.3</float>
+  <float hash="dead_up_star_rot_y">270</float>
+  <bool hash="dead_up_star_motion_reverse">False</bool>
+  <int hash="dead_up_star_rumble_frame">20</int>
+  <int hash="dead_up_fall_move_frame">30</int>
+  <int hash="dead_up_fall_hit_camera_stop_frame">20</int>
+  <int hash="dead_up_fall_fall_frame">35</int>
+  <float hash="dead_up_fall_move_rotate_x_angle">45</float>
+  <float hash="dead_up_fall_start_camera_offset_x">0</float>
+  <float hash="dead_up_fall_start_camera_offset_y">120</float>
+  <float hash="dead_up_fall_start_camera_offset_z">-230</float>
+  <float hash="dead_up_fall_end_camera_offset_x">0</float>
+  <float hash="dead_up_fall_end_camera_offset_y">-15</float>
+  <float hash="dead_up_fall_end_camera_offset_z">-50</float>
+  <float hash="dead_up_fall_jump_accel_y">0.08</float>
+  <float hash="dead_up_fall_air_y_speed_max">1.7</float>
+  <list size="2" hash="0x2af3b24d92">
+    <float index="0">-4</float>
+    <float index="1">15</float>
+  </list>
+  <int hash="dead_up_fall_koopa_move_frame">20</int>
+  <float hash="dead_up_fall_koopa_move_rotate_x_angle">15</float>
+  <int hash="dead_up_galaga_move_frame">130</int>
+  <float hash="dead_up_galaga_z_length">-350</float>
+  <float hash="dead_up_galaga_fall_point">0.55</float>
+  <float hash="dead_up_galaga_motion_rate">1</float>
+  <float hash="dead_up_galaga_radius">0.5</float>
+  <float hash="dead_up_galaga_speed_deg">2</float>
+  <float hash="dead_up_galaga_galaga_offset_y">12</float>
+  <float hash="0x16f4a4d634">4</float>
+  <float hash="0x16d876058d">0.5</float>
+  <int hash="damage_model_total_frame">10</int>
+  <int hash="0x278b454cab">5</int>
+  <float hash="damage_model_thorn_mul_min_damage">1</float>
+  <float hash="damage_model_thorn_mul_max_damage">2</float>
+  <float hash="damage_model_thorn_mul_min">1</float>
+  <float hash="damage_model_thorn_mul_max">1</float>
+  <list size="10" hash="damage_model_scale_param">
+    <struct index="0">
+      <float hash="base_x">1</float>
+      <float hash="base_y">1</float>
+      <float hash="base_z">1</float>
+      <float hash="thorn_x">3.5</float>
+      <float hash="thorn_y">3.5</float>
+      <float hash="thorn_z">3.5</float>
+      <float hash="thorn_size_x">0.75</float>
+      <float hash="thorn_size_y">0.75</float>
+      <int hash="disp_flag">1</int>
+    </struct>
+    <struct index="1">
+      <float hash="base_x">1</float>
+      <float hash="base_y">1</float>
+      <float hash="base_z">1</float>
+      <float hash="thorn_x">2.5</float>
+      <float hash="thorn_y">2.5</float>
+      <float hash="thorn_z">2.5</float>
+      <float hash="thorn_size_x">0.3</float>
+      <float hash="thorn_size_y">0.3</float>
+      <int hash="disp_flag">1</int>
+    </struct>
+    <struct index="2">
+      <float hash="base_x">1</float>
+      <float hash="base_y">1</float>
+      <float hash="base_z">1</float>
+      <float hash="thorn_x">3</float>
+      <float hash="thorn_y">3</float>
+      <float hash="thorn_z">3</float>
+      <float hash="thorn_size_x">0.5</float>
+      <float hash="thorn_size_y">0.5</float>
+      <int hash="disp_flag">1</int>
+    </struct>
+    <struct index="3">
+      <float hash="base_x">1</float>
+      <float hash="base_y">1</float>
+      <float hash="base_z">1</float>
+      <float hash="thorn_x">2</float>
+      <float hash="thorn_y">2</float>
+      <float hash="thorn_z">2</float>
+      <float hash="thorn_size_x">0.3</float>
+      <float hash="thorn_size_y">0.3</float>
+      <int hash="disp_flag">1</int>
+    </struct>
+    <struct index="4">
+      <float hash="base_x">1</float>
+      <float hash="base_y">1</float>
+      <float hash="base_z">1</float>
+      <float hash="thorn_x">2.5</float>
+      <float hash="thorn_y">2.5</float>
+      <float hash="thorn_z">2.5</float>
+      <float hash="thorn_size_x">0.5</float>
+      <float hash="thorn_size_y">0.5</float>
+      <int hash="disp_flag">1</int>
+    </struct>
+    <struct index="5">
+      <float hash="base_x">1</float>
+      <float hash="base_y">1</float>
+      <float hash="base_z">1</float>
+      <float hash="thorn_x">2</float>
+      <float hash="thorn_y">2</float>
+      <float hash="thorn_z">2</float>
+      <float hash="thorn_size_x">0.3</float>
+      <float hash="thorn_size_y">0.3</float>
+      <int hash="disp_flag">1</int>
+    </struct>
+    <struct index="6">
+      <float hash="base_x">1</float>
+      <float hash="base_y">1</float>
+      <float hash="base_z">1</float>
+      <float hash="thorn_x">2.5</float>
+      <float hash="thorn_y">2.5</float>
+      <float hash="thorn_z">2.5</float>
+      <float hash="thorn_size_x">0.5</float>
+      <float hash="thorn_size_y">0.5</float>
+      <int hash="disp_flag">1</int>
+    </struct>
+    <struct index="7">
+      <float hash="base_x">1</float>
+      <float hash="base_y">1</float>
+      <float hash="base_z">1</float>
+      <float hash="thorn_x">2</float>
+      <float hash="thorn_y">2</float>
+      <float hash="thorn_z">2</float>
+      <float hash="thorn_size_x">0.3</float>
+      <float hash="thorn_size_y">0.3</float>
+      <int hash="disp_flag">1</int>
+    </struct>
+    <struct index="8">
+      <float hash="base_x">1</float>
+      <float hash="base_y">1</float>
+      <float hash="base_z">1</float>
+      <float hash="thorn_x">2.5</float>
+      <float hash="thorn_y">2.5</float>
+      <float hash="thorn_z">2.5</float>
+      <float hash="thorn_size_x">0.5</float>
+      <float hash="thorn_size_y">0.5</float>
+      <int hash="disp_flag">1</int>
+    </struct>
+    <struct index="9">
+      <float hash="base_x">1</float>
+      <float hash="base_y">1</float>
+      <float hash="base_z">1</float>
+      <float hash="thorn_x">2</float>
+      <float hash="thorn_y">2</float>
+      <float hash="thorn_z">2</float>
+      <float hash="thorn_size_x">0.3</float>
+      <float hash="thorn_size_y">0.3</float>
+      <int hash="disp_flag">1</int>
+    </struct>
+  </list>
+  <int hash="finish_camera_interval_frame">100</int>
+  <int hash="finish_camera_frame_min">18</int>
+  <float hash="finish_camera_attacker_slow_mul">3</float>
+  <int hash="finish_camera_frame">50</int>
+  <float hash="finish_camera_slow_mul">8</float>
+  <int hash="finish_camera_zoom_frame">8</int>
+  <int hash="finish_camera_zoom_cancel_frame">8</int>
+  <float hash="finish_camera_zoom_end_camera_angle">0</float>
+  <float hash="finish_camera_zoom_camera_random_angle">0</float>
+  <int hash="finish_camera_end_slow_frame">8</int>
+  <int hash="finish_camera_end_slow_mul">4</int>
+  <int hash="finish_camera_bgm_down_frame">30</int>
+  <int hash="finish_camera_bgm_revert_frame">60</int>
+  <int hash="finish_camera_bgm_up_frame">30</int>
+  <float hash="finish_camera_near_clip">5</float>
+  <list size="4" hash="0x2096da5976">
+    <struct index="0">
+      <float hash="meter">3</float>
+      <float hash="0x0907307745">2.8</float>
+    </struct>
+    <struct index="1">
+      <float hash="meter">5.5</float>
+      <float hash="0x0907307745">2.7</float>
+    </struct>
+    <struct index="2">
+      <float hash="meter">7</float>
+      <float hash="0x0907307745">2.6</float>
+    </struct>
+    <struct index="3">
+      <float hash="meter">5</float>
+      <float hash="0x0907307745">2.6</float>
+    </struct>
+  </list>
+  <list size="3" hash="0x2263fe13aa">
+    <struct index="0">
+      <float hash="0x061b6e485b">29</float>
+      <float hash="orbit_mul">1</float>
+    </struct>
+    <struct index="1">
+      <float hash="0x061b6e485b">361</float>
+      <float hash="orbit_mul">1</float>
+    </struct>
+    <struct index="2">
+      <float hash="0x061b6e485b">5</float>
+      <float hash="orbit_mul">1</float>
+    </struct>
+  </list>
+  <float hash="0x21d801127f">1</float>
+  <list size="12" hash="0x22b6abdf3e">
+    <struct index="0">
+      <float hash="0x061b6e485b">31</float>
+      <float hash="orbit_mul">1.1</float>
+    </struct>
+    <struct index="1">
+      <float hash="0x061b6e485b">46</float>
+      <float hash="orbit_mul">1.02</float>
+    </struct>
+    <struct index="2">
+      <float hash="0x061b6e485b">56</float>
+      <float hash="orbit_mul">1</float>
+    </struct>
+    <struct index="3">
+      <float hash="0x061b6e485b">71</float>
+      <float hash="orbit_mul">0.98</float>
+    </struct>
+    <struct index="4">
+      <float hash="0x061b6e485b">81</float>
+      <float hash="orbit_mul">1.02</float>
+    </struct>
+    <struct index="5">
+      <float hash="0x061b6e485b">92</float>
+      <float hash="orbit_mul">1</float>
+    </struct>
+    <struct index="6">
+      <float hash="0x061b6e485b">101</float>
+      <float hash="orbit_mul">1.01</float>
+    </struct>
+    <struct index="7">
+      <float hash="0x061b6e485b">111</float>
+      <float hash="orbit_mul">0.981</float>
+    </struct>
+    <struct index="8">
+      <float hash="0x061b6e485b">121</float>
+      <float hash="orbit_mul">0.99</float>
+    </struct>
+    <struct index="9">
+      <float hash="0x061b6e485b">151</float>
+      <float hash="orbit_mul">1.02</float>
+    </struct>
+    <struct index="10">
+      <float hash="0x061b6e485b">361</float>
+      <float hash="orbit_mul">0.995</float>
+    </struct>
+    <struct index="11">
+      <float hash="0x061b6e485b">5</float>
+      <float hash="orbit_mul">1.01</float>
+    </struct>
+  </list>
+  <float hash="0x21ed8c625d">0.95</float>
+  <float hash="critical_hit_camera_zoom_rate">1.3</float>
+  <hash40 hash="critical_hit_camera_quake">0x02e23bcc72</hash40>
+  <hash40 hash="critical_hit_camera_quake_3">0x02e23bcc72</hash40>
+  <int hash="critical_hit_camera_quake_frame">61</int>
+  <int hash="critical_hit_camera_quake_frame_3">61</int>
+  <int hash="critical_hit_camera_bgm_down_frame">30</int>
+  <int hash="critical_hit_camera_bgm_revert_frame">45</int>
+  <int hash="critical_hit_camera_bgm_up_frame">30</int>
+  <int hash="0x22315425f9">5</int>
+  <int hash="0x1ead8bf0dd">15</int>
+  <float hash="area_wind_speed_mul">10</float>
+  <float hash="0x17394c3861">1</float>
+  <float hash="0x21c8349171">10</float>
+  <struct hash="charge_param">
+    <list size="4" hash="curve">
+      <struct index="0">
+        <float hash="frame">0</float>
+        <float hash="ratio">1</float>
+      </struct>
+      <struct index="1">
+        <float hash="frame">8</float>
+        <float hash="ratio">1.2</float>
+      </struct>
+      <struct index="2">
+        <float hash="frame">18</float>
+        <float hash="ratio">0.3</float>
+      </struct>
+      <struct index="3">
+        <float hash="frame">48</float>
+        <float hash="ratio">1.4</float>
+      </struct>
+    </list>
+    <struct hash="hip_trans">
+      <float hash="min">0</float>
+      <float hash="max">0.5</float>
+    </struct>
+    <struct hash="joint_rotate">
+      <float hash="min">0</float>
+      <float hash="max">0.04</float>
+    </struct>
+    <float hash="interval">1</float>
+  </struct>
+  <list size="12" hash="0x163678c039">
+    <struct index="0">
+      <byte hash="r">210</byte>
+      <byte hash="g">30</byte>
+      <byte hash="b">20</byte>
+    </struct>
+    <struct index="1">
+      <byte hash="r">255</byte>
+      <byte hash="g">110</byte>
+      <byte hash="b">25</byte>
+    </struct>
+    <struct index="2">
+      <byte hash="r">255</byte>
+      <byte hash="g">216</byte>
+      <byte hash="b">32</byte>
+    </struct>
+    <struct index="3">
+      <byte hash="r">120</byte>
+      <byte hash="g">210</byte>
+      <byte hash="b">32</byte>
+    </struct>
+    <struct index="4">
+      <byte hash="r">0</byte>
+      <byte hash="g">158</byte>
+      <byte hash="b">63</byte>
+    </struct>
+    <struct index="5">
+      <byte hash="r">12</byte>
+      <byte hash="g">83</byte>
+      <byte hash="b">207</byte>
+    </struct>
+    <struct index="6">
+      <byte hash="r">60</byte>
+      <byte hash="g">170</byte>
+      <byte hash="b">222</byte>
+    </struct>
+    <struct index="7">
+      <byte hash="r">245</byte>
+      <byte hash="g">90</byte>
+      <byte hash="b">125</byte>
+    </struct>
+    <struct index="8">
+      <byte hash="r">115</byte>
+      <byte hash="g">40</byte>
+      <byte hash="b">173</byte>
+    </struct>
+    <struct index="9">
+      <byte hash="r">97</byte>
+      <byte hash="g">75</byte>
+      <byte hash="b">31</byte>
+    </struct>
+    <struct index="10">
+      <byte hash="r">224</byte>
+      <byte hash="g">224</byte>
+      <byte hash="b">224</byte>
+    </struct>
+    <struct index="11">
+      <byte hash="r">36</byte>
+      <byte hash="g">36</byte>
+      <byte hash="b">33</byte>
+    </struct>
+  </list>
+  <float hash="dead_up_fall_jump_speed_y">1</float>
+  <float hash="dead_up_fall_air_z_speed">-1</float>
+  <int hash="dead_up_fall_stand_by_frame">40</int>
+  <int hash="dead_up_star_start_frame">1</int>
+  <int hash="dead_up_galaga_start_frame">1</int>
+</struct>

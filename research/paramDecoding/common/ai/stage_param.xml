@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<struct>
+  <list size="50" hash="area">
+    <struct index="0">
+      <hash40 hash="stage_name">animal_city</hash40>
+      <float hash="0x0280e6d1ad">-100</float>
+      <float hash="0x0299fde0ec">-7</float>
+      <float hash="0x02f7e1e13b">100</float>
+      <float hash="0x02eefad07a">7</float>
+    </struct>
+    <struct index="1">
+      <hash40 hash="stage_name">animal_village</hash40>
+      <float hash="0x0280e6d1ad">-50</float>
+      <float hash="0x0299fde0ec">-5</float>
+      <float hash="0x02f7e1e13b">50</float>
+      <float hash="0x02eefad07a">20</float>
+    </struct>
+    <struct index="2">
+      <hash40 hash="stage_name">battlefield</hash40>
+      <float hash="0x0280e6d1ad">-100</float>
+      <float hash="0x0299fde0ec">-15</float>
+      <float hash="0x02f7e1e13b">100</float>
+      <float hash="0x02eefad07a">10</float>
+    </struct>
+    <struct index="3">
+      <hash40 hash="stage_name">battlefield_l</hash40>
+      <float hash="0x0280e6d1ad">-140</float>
+      <float hash="0x0299fde0ec">-25</float>
+      <float hash="0x02f7e1e13b">140</float>
+      <float hash="0x02eefad07a">15</float>
+    </struct>
+    <struct index="4">
+      <hash40 hash="stage_name">bayo_clock</hash40>
+      <float hash="0x0280e6d1ad">-50</float>
+      <float hash="0x0299fde0ec">-10</float>
+      <float hash="0x02f7e1e13b">50</float>
+      <float hash="0x02eefad07a">10</float>
+    </struct>
+    <struct index="5">
+      <hash40 hash="stage_name">dk_jungle</hash40>
+      <float hash="0x0280e6d1ad">-60</float>
+      <float hash="0x0299fde0ec">-15</float>
+      <float hash="0x02f7e1e13b">60</float>
+      <float hash="0x02eefad07a">10</float>
+    </struct>
+    <struct index="6">
+      <hash40 hash="stage_name">dk_lodge</hash40>
+      <float hash="0x0280e6d1ad">-55</float>
+      <float hash="0x0299fde0ec">-5</float>
+      <float hash="0x02f7e1e13b">55</float>
+      <float hash="0x02eefad07a">15</float>
+    </struct>
+    <struct index="7">
+      <hash40 hash="stage_name">dk_waterfall</hash40>
+      <float hash="0x0280e6d1ad">-60</float>
+      <float hash="0x0299fde0ec">-15</float>
+      <float hash="0x02f7e1e13b">60</float>
+      <float hash="0x02eefad07a">10</float>
+    </struct>
+    <struct index="8">
+      <hash40 hash="stage_name">dracula_castle</hash40>
+      <float hash="0x0280e6d1ad">-120</float>
+      <float hash="0x0299fde0ec">-25</float>
+      <float hash="0x02f7e1e13b">80</float>
+      <float hash="0x02eefad07a">55</float>
+    </struct>
+    <struct index="9">
+      <hash40 hash="stage_name">duckhunt</hash40>
+      <float hash="0x0280e6d1ad">-70</float>
+      <float hash="0x0299fde0ec">-5</float>
+      <float hash="0x02f7e1e13b">70</float>
+      <float hash="0x02eefad07a">40</float>
+    </struct>
+    <struct index="10">
+      <hash40 hash="stage_name">fe_siege</hash40>
+      <float hash="0x0280e6d1ad">-50</float>
+      <float hash="0x0299fde0ec">-5</float>
+      <float hash="0x02f7e1e13b">50</float>
+      <float hash="0x02eefad07a">20</float>
+    </struct>
+    <struct index="11">
+      <hash40 hash="stage_name">flatzonex</hash40>
+      <float hash="0x0280e6d1ad">-25</float>
+      <float hash="0x0299fde0ec">-60</float>
+      <float hash="0x02f7e1e13b">30</float>
+      <float hash="0x02eefad07a">15</float>
+    </struct>
+    <struct index="12">
+      <hash40 hash="stage_name">fox_corneria</hash40>
+      <float hash="0x0280e6d1ad">-145</float>
+      <float hash="0x0299fde0ec">22</float>
+      <float hash="0x02f7e1e13b">58</float>
+      <float hash="0x02eefad07a">110</float>
+    </struct>
+    <struct index="13">
+      <hash40 hash="stage_name">fox_lylatcruise</hash40>
+      <float hash="0x0280e6d1ad">-50</float>
+      <float hash="0x0299fde0ec">-10</float>
+      <float hash="0x02f7e1e13b">50</float>
+      <float hash="0x02eefad07a">10</float>
+    </struct>
+    <struct index="14">
+      <hash40 hash="stage_name">icarus_angeland</hash40>
+      <float hash="0x0280e6d1ad">-350</float>
+      <float hash="0x0299fde0ec">125</float>
+      <float hash="0x02f7e1e13b">0</float>
+      <float hash="0x02eefad07a">425</float>
+    </struct>
+    <struct index="15">
+      <hash40 hash="stage_name">icarus_skyworld</hash40>
+      <float hash="0x0280e6d1ad">-50</float>
+      <float hash="0x0299fde0ec">-20</float>
+      <float hash="0x02f7e1e13b">30</float>
+      <float hash="0x02eefad07a">10</float>
+    </struct>
+    <struct index="16">
+      <hash40 hash="stage_name">kirby_cave</hash40>
+      <float hash="0x0280e6d1ad">-240</float>
+      <float hash="0x0299fde0ec">115</float>
+      <float hash="0x02f7e1e13b">275</float>
+      <float hash="0x02eefad07a">310</float>
+    </struct>
+    <struct index="17">
+      <hash40 hash="stage_name">kirby_greens</hash40>
+      <float hash="0x0280e6d1ad">-40</float>
+      <float hash="0x0299fde0ec">-10</float>
+      <float hash="0x02f7e1e13b">40</float>
+      <float hash="0x02eefad07a">10</float>
+    </struct>
+    <struct index="18">
+      <hash40 hash="stage_name">luigimansion</hash40>
+      <float hash="0x0280e6d1ad">-110</float>
+      <float hash="0x0299fde0ec">-5</float>
+      <float hash="0x02f7e1e13b">110</float>
+      <float hash="0x02eefad07a">5</float>
+    </struct>
+    <struct index="19">
+      <hash40 hash="stage_name">mario_castle64</hash40>
+      <float hash="0x0280e6d1ad">-40</float>
+      <float hash="0x0299fde0ec">10</float>
+      <float hash="0x02f7e1e13b">40</float>
+      <float hash="0x02eefad07a">80</float>
+    </struct>
+    <struct index="20">
+      <hash40 hash="stage_name">mario_galaxy</hash40>
+      <float hash="0x0280e6d1ad">-50</float>
+      <float hash="0x0299fde0ec">-10</float>
+      <float hash="0x02f7e1e13b">50</float>
+      <float hash="0x02eefad07a">10</float>
+    </struct>
+    <struct index="21">
+      <hash40 hash="stage_name">mario_past64</hash40>
+      <float hash="0x0280e6d1ad">-120</float>
+      <float hash="0x0299fde0ec">-15</float>
+      <float hash="0x02f7e1e13b">-22</float>
+      <float hash="0x02eefad07a">20</float>
+    </struct>
+    <struct index="22">
+      <hash40 hash="stage_name">mario_pastusa</hash40>
+      <float hash="0x0280e6d1ad">-40</float>
+      <float hash="0x0299fde0ec">-15</float>
+      <float hash="0x02f7e1e13b">40</float>
+      <float hash="0x02eefad07a">15</float>
+    </struct>
+    <struct index="23">
+      <hash40 hash="stage_name">mariobros</hash40>
+      <float hash="0x0280e6d1ad">-110</float>
+      <float hash="0x0299fde0ec">30</float>
+      <float hash="0x02f7e1e13b">110</float>
+      <float hash="0x02eefad07a">120</float>
+    </struct>
+    <struct index="24">
+      <hash40 hash="stage_name">metroid_kraid</hash40>
+      <float hash="0x0280e6d1ad">-130</float>
+      <float hash="0x0299fde0ec">20</float>
+      <float hash="0x02f7e1e13b">130</float>
+      <float hash="0x02eefad07a">125</float>
+    </struct>
+    <struct index="25">
+      <hash40 hash="stage_name">mg_shadowmoses</hash40>
+      <float hash="0x0280e6d1ad">-60</float>
+      <float hash="0x0299fde0ec">-5</float>
+      <float hash="0x02f7e1e13b">60</float>
+      <float hash="0x02eefad07a">80</float>
+    </struct>
+    <struct index="26">
+      <hash40 hash="stage_name">mother_fourside</hash40>
+      <float hash="0x0280e6d1ad">-113</float>
+      <float hash="0x0299fde0ec">-10</float>
+      <float hash="0x02f7e1e13b">-65</float>
+      <float hash="0x02eefad07a">60</float>
+    </struct>
+    <struct index="27">
+      <hash40 hash="stage_name">mother_magicant</hash40>
+      <float hash="0x0280e6d1ad">-140</float>
+      <float hash="0x0299fde0ec">-5</float>
+      <float hash="0x02f7e1e13b">100</float>
+      <float hash="0x02eefad07a">55</float>
+    </struct>
+    <struct index="28">
+      <hash40 hash="stage_name">mother_newpork</hash40>
+      <float hash="0x0280e6d1ad">-210</float>
+      <float hash="0x0299fde0ec">-34</float>
+      <float hash="0x02f7e1e13b">222</float>
+      <float hash="0x02eefad07a">80</float>
+    </struct>
+    <struct index="29">
+      <hash40 hash="stage_name">mother_onett</hash40>
+      <float hash="0x0280e6d1ad">-32</float>
+      <float hash="0x0299fde0ec">-1</float>
+      <float hash="0x02f7e1e13b">35</float>
+      <float hash="0x02eefad07a">65</float>
+    </struct>
+    <struct index="30">
+      <hash40 hash="stage_name">pikmin_planet</hash40>
+      <float hash="0x0280e6d1ad">-45</float>
+      <float hash="0x0299fde0ec">-5</float>
+      <float hash="0x02f7e1e13b">60</float>
+      <float hash="0x02eefad07a">5</float>
+    </struct>
+    <struct index="31">
+      <hash40 hash="stage_name">plankton</hash40>
+      <float hash="0x0280e6d1ad">-60</float>
+      <float hash="0x0299fde0ec">-20</float>
+      <float hash="0x02f7e1e13b">120</float>
+      <float hash="0x02eefad07a">120</float>
+    </struct>
+    <struct index="32">
+      <hash40 hash="stage_name">poke_yamabuki</hash40>
+      <float hash="0x0280e6d1ad">-50</float>
+      <float hash="0x0299fde0ec">-20</float>
+      <float hash="0x02f7e1e13b">62</float>
+      <float hash="0x02eefad07a">30</float>
+    </struct>
+    <struct index="33">
+      <hash40 hash="stage_name">punchoutsb</hash40>
+      <float hash="0x0280e6d1ad">-55</float>
+      <float hash="0x0299fde0ec">0</float>
+      <float hash="0x02f7e1e13b">55</float>
+      <float hash="0x02eefad07a">30</float>
+    </struct>
+    <struct index="34">
+      <hash40 hash="stage_name">punchoutw</hash40>
+      <float hash="0x0280e6d1ad">-55</float>
+      <float hash="0x0299fde0ec">0</float>
+      <float hash="0x02f7e1e13b">55</float>
+      <float hash="0x02eefad07a">30</float>
+    </struct>
+    <struct index="35">
+      <hash40 hash="stage_name">streetpass</hash40>
+      <float hash="0x0280e6d1ad">-148</float>
+      <float hash="0x0299fde0ec">-15</float>
+      <float hash="0x02f7e1e13b">-15</float>
+      <float hash="0x02eefad07a">80</float>
+    </struct>
+    <struct index="36">
+      <hash40 hash="stage_name">sf_suzaku</hash40>
+      <float hash="0x0280e6d1ad">0</float>
+      <float hash="0x0299fde0ec">-35</float>
+      <float hash="0x02f7e1e13b">130</float>
+      <float hash="0x02eefad07a">100</float>
+    </struct>
+    <struct index="37">
+      <hash40 hash="stage_name">sonic_greenhill</hash40>
+      <float hash="0x0280e6d1ad">-110</float>
+      <float hash="0x0299fde0ec">-50</float>
+      <float hash="0x02f7e1e13b">0</float>
+      <float hash="0x02eefad07a">100</float>
+    </struct>
+    <struct index="38">
+      <hash40 hash="stage_name">sonic_windyhill</hash40>
+      <float hash="0x0280e6d1ad">-130</float>
+      <float hash="0x0299fde0ec">-15</float>
+      <float hash="0x02f7e1e13b">65</float>
+      <float hash="0x02eefad07a">60</float>
+    </struct>
+    <struct index="39">
+      <hash40 hash="stage_name">training</hash40>
+      <float hash="0x0280e6d1ad">-55</float>
+      <float hash="0x0299fde0ec">-5</float>
+      <float hash="0x02f7e1e13b">105</float>
+      <float hash="0x02eefad07a">20</float>
+    </struct>
+    <struct index="40">
+      <hash40 hash="stage_name">0x09aeb6fa9f</hash40>
+      <float hash="0x0280e6d1ad">-220</float>
+      <float hash="0x0299fde0ec">20</float>
+      <float hash="0x02f7e1e13b">220</float>
+      <float hash="0x02eefad07a">100</float>
+    </struct>
+    <struct index="41">
+      <hash40 hash="stage_name">0x0f3bcdc5f4</hash40>
+      <float hash="0x0280e6d1ad">-75</float>
+      <float hash="0x0299fde0ec">-10</float>
+      <float hash="0x02f7e1e13b">75</float>
+      <float hash="0x02eefad07a">10</float>
+    </struct>
+    <struct index="42">
+      <hash40 hash="stage_name">0x0cf92bee54</hash40>
+      <float hash="0x0280e6d1ad">-50</float>
+      <float hash="0x0299fde0ec">-5</float>
+      <float hash="0x02f7e1e13b">50</float>
+      <float hash="0x02eefad07a">45</float>
+    </struct>
+    <struct index="43">
+      <hash40 hash="stage_name">0x0bcaa68648</hash40>
+      <float hash="0x0280e6d1ad">-50</float>
+      <float hash="0x0299fde0ec">-20</float>
+      <float hash="0x02f7e1e13b">50</float>
+      <float hash="0x02eefad07a">10</float>
+    </struct>
+    <struct index="44">
+      <hash40 hash="stage_name">0x0e03274fc1</hash40>
+      <float hash="0x0280e6d1ad">-120</float>
+      <float hash="0x0299fde0ec">30</float>
+      <float hash="0x02f7e1e13b">-15</float>
+      <float hash="0x02eefad07a">45</float>
+    </struct>
+    <struct index="45">
+      <hash40 hash="stage_name">0x0ce05ae4f4</hash40>
+      <float hash="0x0280e6d1ad">-73</float>
+      <float hash="0x0299fde0ec">30</float>
+      <float hash="0x02f7e1e13b">50</float>
+      <float hash="0x02eefad07a">50</float>
+    </struct>
+    <struct index="46">
+      <hash40 hash="stage_name">0x0d3b9741d8</hash40>
+      <float hash="0x0280e6d1ad">-100</float>
+      <float hash="0x0299fde0ec">-5</float>
+      <float hash="0x02f7e1e13b">-53</float>
+      <float hash="0x02eefad07a">40</float>
+    </struct>
+    <struct index="47">
+      <hash40 hash="stage_name">0x0c3fefd9b5</hash40>
+      <float hash="0x0280e6d1ad">-120</float>
+      <float hash="0x0299fde0ec">-30</float>
+      <float hash="0x02f7e1e13b">240</float>
+      <float hash="0x02eefad07a">60</float>
+    </struct>
+    <struct index="48">
+      <hash40 hash="stage_name">kirby_fountain</hash40>
+      <float hash="0x0280e6d1ad">-80</float>
+      <float hash="0x0299fde0ec">-5</float>
+      <float hash="0x02f7e1e13b">80</float>
+      <float hash="0x02eefad07a">15</float>
+    </struct>
+    <struct index="49">
+      <hash40 hash="stage_name">_75m</hash40>
+      <float hash="0x0280e6d1ad">-150</float>
+      <float hash="0x0299fde0ec">30</float>
+      <float hash="0x02f7e1e13b">0</float>
+      <float hash="0x02eefad07a">120</float>
+    </struct>
+  </list>
+</struct>

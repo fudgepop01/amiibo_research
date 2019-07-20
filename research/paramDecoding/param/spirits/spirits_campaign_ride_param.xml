@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<struct>
+  <list size="7" hash="ride_tbl">
+    <struct index="0">
+      <hash40 hash="type">route_ride_type_boat</hash40>
+      <float hash="scale">0.26</float>
+      <float hash="0x183f44d1a1">30</float>
+      <float hash="0x1e19d53f51">0.1</float>
+      <float hash="shadow_scale">0</float>
+      <hash40 hash="effect">0x0d6e77ffbe</hash40>
+      <hash40 hash="se_loop">0x1babfd5efc</hash40>
+      <float hash="se_pitch_min">1</float>
+      <float hash="se_pitch_max">1</float>
+      <float hash="se_vol_min">0.5</float>
+      <float hash="se_vol_max">1</float>
+    </struct>
+    <struct index="1">
+      <hash40 hash="type">route_ride_type_fzero</hash40>
+      <float hash="scale">1</float>
+      <float hash="0x183f44d1a1">30</float>
+      <float hash="0x1e19d53f51">0.1</float>
+      <float hash="shadow_scale">0</float>
+      <hash40 hash="effect"></hash40>
+      <hash40 hash="se_loop">0x1c54d6581a</hash40>
+      <float hash="se_pitch_min">1</float>
+      <float hash="se_pitch_max">1</float>
+      <float hash="se_vol_min">0.5</float>
+      <float hash="se_vol_max">1</float>
+    </struct>
+    <struct index="2">
+      <hash40 hash="type">route_ride_type_bus</hash40>
+      <float hash="scale">0.26</float>
+      <float hash="0x183f44d1a1">30</float>
+      <float hash="0x1e19d53f51">0.1</float>
+      <float hash="shadow_scale">0</float>
+      <hash40 hash="effect">0x10fefd9ab3</hash40>
+      <hash40 hash="se_loop">0x1babc2ce40</hash40>
+      <float hash="se_pitch_min">1</float>
+      <float hash="se_pitch_max">1</float>
+      <float hash="se_vol_min">1</float>
+      <float hash="se_vol_max">1</float>
+    </struct>
+    <struct index="3">
+      <hash40 hash="type">route_ride_type_train</hash40>
+      <float hash="scale">1</float>
+      <float hash="0x183f44d1a1">30</float>
+      <float hash="0x1e19d53f51">0.1</float>
+      <float hash="shadow_scale">0</float>
+      <hash40 hash="effect">0x1282669245</hash40>
+      <hash40 hash="se_loop">0x1ce69abebc</hash40>
+      <float hash="se_pitch_min">1</float>
+      <float hash="se_pitch_max">1</float>
+      <float hash="se_vol_min">0.5</float>
+      <float hash="se_vol_max">1</float>
+    </struct>
+    <struct index="4">
+      <hash40 hash="type">route_ride_type_spaceship</hash40>
+      <float hash="scale">1</float>
+      <float hash="0x183f44d1a1">30</float>
+      <float hash="0x1e19d53f51">0.1</float>
+      <float hash="shadow_scale">0</float>
+      <hash40 hash="effect">0x13b79631ad</hash40>
+      <hash40 hash="se_loop">0x1fd729df1d</hash40>
+      <float hash="se_pitch_min">1</float>
+      <float hash="se_pitch_max">1</float>
+      <float hash="se_vol_min">0.3</float>
+      <float hash="se_vol_max">1</float>
+    </struct>
+    <struct index="5">
+      <hash40 hash="type">route_ride_type_ocean</hash40>
+      <float hash="scale">1</float>
+      <float hash="0x183f44d1a1">30</float>
+      <float hash="0x1e19d53f51">0.1</float>
+      <float hash="shadow_scale">0</float>
+      <hash40 hash="effect">0x0d6e77ffbe</hash40>
+      <hash40 hash="se_loop">0x1deafb34cd</hash40>
+      <float hash="se_pitch_min">0.8</float>
+      <float hash="se_pitch_max">1</float>
+      <float hash="se_vol_min">0.5</float>
+      <float hash="se_vol_max">1</float>
+    </struct>
+    <struct index="6">
+      <hash40 hash="type">route_ride_type_airplane</hash40>
+      <float hash="scale">1</float>
+      <float hash="0x183f44d1a1">30</float>
+      <float hash="0x1e19d53f51">0.1</float>
+      <float hash="shadow_scale">0</float>
+      <hash40 hash="effect"></hash40>
+      <hash40 hash="se_loop">0x18ffb0cd12</hash40>
+      <float hash="se_pitch_min">0.8</float>
+      <float hash="se_pitch_max">1</float>
+      <float hash="se_vol_min">0.5</float>
+      <float hash="se_vol_max">1</float>
+    </struct>
+  </list>
+</struct>

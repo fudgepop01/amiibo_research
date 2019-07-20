@@ -1,0 +1,2053 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<struct>
+  <list size="81" hash="db_root">
+    <struct index="0">
+      <hash40 hash="ui_amiibo_id">6</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_mario</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">True</bool>
+      <ushort hash="0x16d989b32f">0</ushort>
+      <byte hash="0x16b94c1790">0</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="1">
+      <hash40 hash="ui_amiibo_id">7</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_mariod</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">False</bool>
+      <ushort hash="0x16d989b32f">0</ushort>
+      <byte hash="0x16b94c1790">1</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="2">
+      <hash40 hash="ui_amiibo_id">8</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_luigi</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">True</bool>
+      <ushort hash="0x16d989b32f">1</ushort>
+      <byte hash="0x16b94c1790">0</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="3">
+      <hash40 hash="ui_amiibo_id">9</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_peach</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">True</bool>
+      <ushort hash="0x16d989b32f">2</ushort>
+      <byte hash="0x16b94c1790">0</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="4">
+      <hash40 hash="ui_amiibo_id">10</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_yoshi</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">True</bool>
+      <ushort hash="0x16d989b32f">3</ushort>
+      <byte hash="0x16b94c1790">0</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="5">
+      <hash40 hash="ui_amiibo_id">11</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_rosetta</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">True</bool>
+      <ushort hash="0x16d989b32f">4</ushort>
+      <byte hash="0x16b94c1790">1</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="6">
+      <hash40 hash="ui_amiibo_id">12</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_koopa</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">True</bool>
+      <ushort hash="0x16d989b32f">5</ushort>
+      <byte hash="0x16b94c1790">0</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="7">
+      <hash40 hash="ui_amiibo_id">13</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_koopajr</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">True</bool>
+      <ushort hash="0x16d989b32f">6</ushort>
+      <byte hash="0x16b94c1790">0</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="8">
+      <hash40 hash="ui_amiibo_id">14</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_wario</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">True</bool>
+      <ushort hash="0x16d989b32f">7</ushort>
+      <byte hash="0x16b94c1790">0</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="9">
+      <hash40 hash="ui_amiibo_id">15</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_donkey</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">True</bool>
+      <ushort hash="0x16d989b32f">8</ushort>
+      <byte hash="0x16b94c1790">0</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="10">
+      <hash40 hash="ui_amiibo_id">16</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_diddy</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">True</bool>
+      <ushort hash="0x16d989b32f">9</ushort>
+      <byte hash="0x16b94c1790">0</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="11">
+      <hash40 hash="ui_amiibo_id">17</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_daisy</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">True</bool>
+      <ushort hash="0x16d989b32f">19</ushort>
+      <byte hash="0x16b94c1790">0</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="12">
+      <hash40 hash="ui_amiibo_id">18</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_link</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">True</bool>
+      <ushort hash="0x16d989b32f">256</ushort>
+      <byte hash="0x16b94c1790">0</byte>
+      <bool hash="0x1bc57e4ce5">False</bool>
+      <ushort hash="nfp_numbering_id">4</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="13">
+      <hash40 hash="ui_amiibo_id">19</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_link</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">False</bool>
+      <ushort hash="0x16d989b32f">256</ushort>
+      <byte hash="0x16b94c1790">0</byte>
+      <bool hash="0x1bc57e4ce5">False</bool>
+      <ushort hash="nfp_numbering_id">843</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="14">
+      <hash40 hash="ui_amiibo_id">20</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_link</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">False</bool>
+      <ushort hash="0x16d989b32f">256</ushort>
+      <byte hash="0x16b94c1790">0</byte>
+      <bool hash="0x1bc57e4ce5">False</bool>
+      <ushort hash="nfp_numbering_id">845</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="15">
+      <hash40 hash="ui_amiibo_id">21</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_link</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">False</bool>
+      <ushort hash="0x16d989b32f">256</ushort>
+      <byte hash="0x16b94c1790">0</byte>
+      <bool hash="0x1bc57e4ce5">False</bool>
+      <ushort hash="nfp_numbering_id">846</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="16">
+      <hash40 hash="ui_amiibo_id">22</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_link</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">False</bool>
+      <ushort hash="0x16d989b32f">256</ushort>
+      <byte hash="0x16b94c1790">0</byte>
+      <bool hash="0x1bc57e4ce5">False</bool>
+      <ushort hash="nfp_numbering_id">847</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="17">
+      <hash40 hash="ui_amiibo_id">23</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_link</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">False</bool>
+      <ushort hash="0x16d989b32f">256</ushort>
+      <byte hash="0x16b94c1790">0</byte>
+      <bool hash="0x1bc57e4ce5">False</bool>
+      <ushort hash="nfp_numbering_id">851</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="18">
+      <hash40 hash="ui_amiibo_id">24</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_link</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">False</bool>
+      <ushort hash="0x16d989b32f">256</ushort>
+      <byte hash="0x16b94c1790">0</byte>
+      <bool hash="0x1bc57e4ce5">False</bool>
+      <ushort hash="nfp_numbering_id">852</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="19">
+      <hash40 hash="ui_amiibo_id">25</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_younglink</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">False</bool>
+      <ushort hash="0x16d989b32f">256</ushort>
+      <byte hash="0x16b94c1790">0</byte>
+      <bool hash="0x1bc57e4ce5">False</bool>
+      <ushort hash="nfp_numbering_id">844</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="20">
+      <hash40 hash="ui_amiibo_id">26</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_younglink</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">False</bool>
+      <ushort hash="0x16d989b32f">256</ushort>
+      <byte hash="0x16b94c1790">0</byte>
+      <bool hash="0x1bc57e4ce5">False</bool>
+      <ushort hash="nfp_numbering_id">892</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="21">
+      <hash40 hash="ui_amiibo_id">27</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_toonlink</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">False</bool>
+      <ushort hash="0x16d989b32f">256</ushort>
+      <byte hash="0x16b94c1790">1</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="22">
+      <hash40 hash="ui_amiibo_id">28</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_zelda</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">True</bool>
+      <ushort hash="0x16d989b32f">257</ushort>
+      <byte hash="0x16b94c1790">0</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="23">
+      <hash40 hash="ui_amiibo_id">29</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_sheik</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">False</bool>
+      <ushort hash="0x16d989b32f">257</ushort>
+      <byte hash="0x16b94c1790">1</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="24">
+      <hash40 hash="ui_amiibo_id">30</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_ganon</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">True</bool>
+      <ushort hash="0x16d989b32f">258</ushort>
+      <byte hash="0x16b94c1790">1</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="25">
+      <hash40 hash="ui_amiibo_id">31</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_murabito</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">True</bool>
+      <ushort hash="0x16d989b32f">384</ushort>
+      <byte hash="0x16b94c1790">0</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="26">
+      <hash40 hash="ui_amiibo_id">32</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_shizue</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">True</bool>
+      <ushort hash="0x16d989b32f">385</ushort>
+      <byte hash="0x16b94c1790">0</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="27">
+      <hash40 hash="ui_amiibo_id">33</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_shizue</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">False</bool>
+      <ushort hash="0x16d989b32f">385</ushort>
+      <byte hash="0x16b94c1790">1</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">1</byte>
+    </struct>
+    <struct index="28">
+      <hash40 hash="ui_amiibo_id">34</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_fox</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">True</bool>
+      <ushort hash="0x16d989b32f">1408</ushort>
+      <byte hash="0x16b94c1790">0</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="29">
+      <hash40 hash="ui_amiibo_id">35</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_falco</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">True</bool>
+      <ushort hash="0x16d989b32f">1409</ushort>
+      <byte hash="0x16b94c1790">0</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="30">
+      <hash40 hash="ui_amiibo_id">36</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_wolf</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">True</bool>
+      <ushort hash="0x16d989b32f">1412</ushort>
+      <byte hash="0x16b94c1790">0</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="31">
+      <hash40 hash="ui_amiibo_id">37</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_samus</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">True</bool>
+      <ushort hash="0x16d989b32f">1472</ushort>
+      <byte hash="0x16b94c1790">0</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="32">
+      <hash40 hash="ui_amiibo_id">38</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_szerosuit</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">False</bool>
+      <ushort hash="0x16d989b32f">1472</ushort>
+      <byte hash="0x16b94c1790">1</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="33">
+      <hash40 hash="ui_amiibo_id">39</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_ridley</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">True</bool>
+      <ushort hash="0x16d989b32f">1474</ushort>
+      <byte hash="0x16b94c1790">0</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="34">
+      <hash40 hash="ui_amiibo_id">40</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_captain</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">True</bool>
+      <ushort hash="0x16d989b32f">1536</ushort>
+      <byte hash="0x16b94c1790">0</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="35">
+      <hash40 hash="ui_amiibo_id">41</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_pikmin</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">True</bool>
+      <ushort hash="0x16d989b32f">1600</ushort>
+      <byte hash="0x16b94c1790">1</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="36">
+      <hash40 hash="ui_amiibo_id">42</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_littlemac</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">True</bool>
+      <ushort hash="0x16d989b32f">1728</ushort>
+      <byte hash="0x16b94c1790">0</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="37">
+      <hash40 hash="ui_amiibo_id">43</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_wiifit</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">True</bool>
+      <ushort hash="0x16d989b32f">1792</ushort>
+      <byte hash="0x16b94c1790">0</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="38">
+      <hash40 hash="ui_amiibo_id">44</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_pit</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">True</bool>
+      <ushort hash="0x16d989b32f">1856</ushort>
+      <byte hash="0x16b94c1790">0</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="39">
+      <hash40 hash="ui_amiibo_id">45</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_pitb</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">True</bool>
+      <ushort hash="0x16d989b32f">1857</ushort>
+      <byte hash="0x16b94c1790">0</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="40">
+      <hash40 hash="ui_amiibo_id">46</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_palutena</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">True</bool>
+      <ushort hash="0x16d989b32f">1858</ushort>
+      <byte hash="0x16b94c1790">0</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="41">
+      <hash40 hash="ui_amiibo_id">47</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_gamewatch</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">True</bool>
+      <ushort hash="0x16d989b32f">1920</ushort>
+      <byte hash="0x16b94c1790">0</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="42">
+      <hash40 hash="ui_amiibo_id">48</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_robot</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">True</bool>
+      <ushort hash="0x16d989b32f">1921</ushort>
+      <byte hash="0x16b94c1790">0</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="43">
+      <hash40 hash="ui_amiibo_id">49</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_duckhunt</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">True</bool>
+      <ushort hash="0x16d989b32f">1922</ushort>
+      <byte hash="0x16b94c1790">0</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="44">
+      <hash40 hash="ui_amiibo_id">50</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_miifighter</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">True</bool>
+      <ushort hash="0x16d989b32f">1984</ushort>
+      <byte hash="0x16b94c1790">0</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="45">
+      <hash40 hash="ui_amiibo_id">51</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_miiswordsman</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">False</bool>
+      <ushort hash="0x16d989b32f">1984</ushort>
+      <byte hash="0x16b94c1790">1</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="46">
+      <hash40 hash="ui_amiibo_id">52</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_miigunner</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">False</bool>
+      <ushort hash="0x16d989b32f">1984</ushort>
+      <byte hash="0x16b94c1790">2</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="47">
+      <hash40 hash="ui_amiibo_id">53</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_inkling</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">True</bool>
+      <ushort hash="0x16d989b32f">2048</ushort>
+      <byte hash="0x16b94c1790">1</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="48">
+      <hash40 hash="ui_amiibo_id">54</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_inkling</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">False</bool>
+      <ushort hash="0x16d989b32f">2048</ushort>
+      <byte hash="0x16b94c1790">2</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">1</byte>
+    </struct>
+    <struct index="49">
+      <hash40 hash="ui_amiibo_id">55</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_inkling</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">False</bool>
+      <ushort hash="0x16d989b32f">2048</ushort>
+      <byte hash="0x16b94c1790">3</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="50">
+      <hash40 hash="ui_amiibo_id">56</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_plizardon</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">True</bool>
+      <ushort hash="0x16d989b32f">6406</ushort>
+      <byte hash="0x16b94c1790">0</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="51">
+      <hash40 hash="ui_amiibo_id">57</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_pikachu</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">True</bool>
+      <ushort hash="0x16d989b32f">6425</ushort>
+      <byte hash="0x16b94c1790">0</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="52">
+      <hash40 hash="ui_amiibo_id">58</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_purin</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">True</bool>
+      <ushort hash="0x16d989b32f">6439</ushort>
+      <byte hash="0x16b94c1790">0</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="53">
+      <hash40 hash="ui_amiibo_id">59</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_mewtwo</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">True</bool>
+      <ushort hash="0x16d989b32f">6550</ushort>
+      <byte hash="0x16b94c1790">0</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="54">
+      <hash40 hash="ui_amiibo_id">60</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_lucario</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">True</bool>
+      <ushort hash="0x16d989b32f">6848</ushort>
+      <byte hash="0x16b94c1790">0</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="55">
+      <hash40 hash="ui_amiibo_id">61</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_gekkouga</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">True</bool>
+      <ushort hash="0x16d989b32f">7058</ushort>
+      <byte hash="0x16b94c1790">0</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="56">
+      <hash40 hash="ui_amiibo_id">62</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_kirby</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">True</bool>
+      <ushort hash="0x16d989b32f">7936</ushort>
+      <byte hash="0x16b94c1790">0</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="57">
+      <hash40 hash="ui_amiibo_id">63</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_metaknight</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">True</bool>
+      <ushort hash="0x16d989b32f">7937</ushort>
+      <byte hash="0x16b94c1790">0</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="58">
+      <hash40 hash="ui_amiibo_id">64</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_dedede</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">True</bool>
+      <ushort hash="0x16d989b32f">7938</ushort>
+      <byte hash="0x16b94c1790">0</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="59">
+      <hash40 hash="ui_amiibo_id">65</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_marth</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">True</bool>
+      <ushort hash="0x16d989b32f">8448</ushort>
+      <byte hash="0x16b94c1790">0</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="60">
+      <hash40 hash="ui_amiibo_id">66</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_ike</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">True</bool>
+      <ushort hash="0x16d989b32f">8449</ushort>
+      <byte hash="0x16b94c1790">0</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="61">
+      <hash40 hash="ui_amiibo_id">67</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_ike</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">False</bool>
+      <ushort hash="0x16d989b32f">8449</ushort>
+      <byte hash="0x16b94c1790">0</byte>
+      <bool hash="0x1bc57e4ce5">False</bool>
+      <ushort hash="nfp_numbering_id">24</ushort>
+      <byte hash="default_color">1</byte>
+    </struct>
+    <struct index="62">
+      <hash40 hash="ui_amiibo_id">68</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_lucina</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">True</bool>
+      <ushort hash="0x16d989b32f">8450</ushort>
+      <byte hash="0x16b94c1790">0</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="63">
+      <hash40 hash="ui_amiibo_id">69</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_reflet</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">True</bool>
+      <ushort hash="0x16d989b32f">8451</ushort>
+      <byte hash="0x16b94c1790">0</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="64">
+      <hash40 hash="ui_amiibo_id">70</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_roy</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">True</bool>
+      <ushort hash="0x16d989b32f">8452</ushort>
+      <byte hash="0x16b94c1790">0</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="65">
+      <hash40 hash="ui_amiibo_id">71</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_kamui</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">True</bool>
+      <ushort hash="0x16d989b32f">8453</ushort>
+      <byte hash="0x16b94c1790">0</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="66">
+      <hash40 hash="ui_amiibo_id">72</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_kamui</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">False</bool>
+      <ushort hash="0x16d989b32f">8453</ushort>
+      <byte hash="0x16b94c1790">1</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">1</byte>
+    </struct>
+    <struct index="67">
+      <hash40 hash="ui_amiibo_id">73</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_chrom</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">True</bool>
+      <ushort hash="0x16d989b32f">8456</ushort>
+      <byte hash="0x16b94c1790">0</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="68">
+      <hash40 hash="ui_amiibo_id">74</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_shulk</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">True</bool>
+      <ushort hash="0x16d989b32f">8768</ushort>
+      <byte hash="0x16b94c1790">0</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="69">
+      <hash40 hash="ui_amiibo_id">75</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_ness</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">True</bool>
+      <ushort hash="0x16d989b32f">8832</ushort>
+      <byte hash="0x16b94c1790">0</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="70">
+      <hash40 hash="ui_amiibo_id">76</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_lucas</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">True</bool>
+      <ushort hash="0x16d989b32f">8833</ushort>
+      <byte hash="0x16b94c1790">0</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="71">
+      <hash40 hash="ui_amiibo_id">77</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_sonic</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">True</bool>
+      <ushort hash="0x16d989b32f">12800</ushort>
+      <byte hash="0x16b94c1790">0</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="72">
+      <hash40 hash="ui_amiibo_id">78</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_pacman</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">True</bool>
+      <ushort hash="0x16d989b32f">13120</ushort>
+      <byte hash="0x16b94c1790">0</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="73">
+      <hash40 hash="ui_amiibo_id">79</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_rockman</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">True</bool>
+      <ushort hash="0x16d989b32f">13440</ushort>
+      <byte hash="0x16b94c1790">0</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="74">
+      <hash40 hash="ui_amiibo_id">80</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_ryu</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">True</bool>
+      <ushort hash="0x16d989b32f">13504</ushort>
+      <byte hash="0x16b94c1790">0</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="75">
+      <hash40 hash="ui_amiibo_id">81</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_bayonetta</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">True</bool>
+      <ushort hash="0x16d989b32f">12864</ushort>
+      <byte hash="0x16b94c1790">0</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="76">
+      <hash40 hash="ui_amiibo_id">82</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_bayonetta</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">False</bool>
+      <ushort hash="0x16d989b32f">12864</ushort>
+      <byte hash="0x16b94c1790">1</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">1</byte>
+    </struct>
+    <struct index="77">
+      <hash40 hash="ui_amiibo_id">83</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_cloud</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">True</bool>
+      <ushort hash="0x16d989b32f">13824</ushort>
+      <byte hash="0x16b94c1790">0</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="78">
+      <hash40 hash="ui_amiibo_id">84</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_cloud</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">False</bool>
+      <ushort hash="0x16d989b32f">13824</ushort>
+      <byte hash="0x16b94c1790">1</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">1</byte>
+    </struct>
+    <struct index="79">
+      <hash40 hash="ui_amiibo_id">85</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_ice_climber</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">True</bool>
+      <ushort hash="0x16d989b32f">1935</ushort>
+      <byte hash="0x16b94c1790">0</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+    <struct index="80">
+      <hash40 hash="ui_amiibo_id">86</hash40>
+      <hash40 hash="ui_chara_id">ui_chara_krool</hash40>
+      <bool hash="is_valid">True</bool>
+      <bool hash="0x13a26bd6a0">True</bool>
+      <ushort hash="0x16d989b32f">192</ushort>
+      <byte hash="0x16b94c1790">0</byte>
+      <bool hash="0x1bc57e4ce5">True</bool>
+      <ushort hash="nfp_numbering_id">0</ushort>
+      <byte hash="default_color">0</byte>
+    </struct>
+  </list>
+  <ushort hash="0x15d2560f28">150</ushort>
+  <ushort hash="0x141ed77842">25</ushort>
+  <ushort hash="0x1c3e9c6845">40</ushort>
+  <float hash="0x16ccd37467">-9</float>
+  <float hash="0x1622dd154b">-7.3</float>
+  <float hash="ganonboss_ground_accel_frame_x">10</float>
+  <float hash="ganonboss_ground_accel_frame_y">4</float>
+  <float hash="0x1ea524847a">0</float>
+  <float hash="0x23b293e49b">90</float>
+  <float hash="ptrainer_position_x">-14</float>
+  <float hash="ptrainer_position_z">20</float>
+  <float hash="0x189bfd1db3">0</float>
+  <float hash="0x21c0be23cc">0.7</float>
+  <short hash="0x28ebf2321e">-35</short>
+  <list size="67" hash="0x14d6d4c4bf">
+    <struct index="0">
+      <hash40 hash="ui_chara_id">ui_chara_mario</hash40>
+      <ushort hash="0x21bff2c855">80</ushort>
+      <ushort hash="0x22eceab74e">35</ushort>
+      <hash40 hash="0x1f01d74e7c">appeal_hi_r</hash40>
+      <float hash="0x16c720db5d">0</float>
+      <float hash="appearing_position_x">0</float>
+    </struct>
+    <struct index="1">
+      <hash40 hash="ui_chara_id">ui_chara_donkey</hash40>
+      <ushort hash="0x21bff2c855">120</ushort>
+      <ushort hash="0x22eceab74e">35</ushort>
+      <hash40 hash="0x1f01d74e7c">appeal_hi_r</hash40>
+      <float hash="0x16c720db5d">325</float>
+      <float hash="appearing_position_x">0</float>
+    </struct>
+    <struct index="2">
+      <hash40 hash="ui_chara_id">ui_chara_link</hash40>
+      <ushort hash="0x21bff2c855">120</ushort>
+      <ushort hash="0x22eceab74e">35</ushort>
+      <hash40 hash="0x1f01d74e7c">appeal_s_r</hash40>
+      <float hash="0x16c720db5d">340</float>
+      <float hash="appearing_position_x">0</float>
+    </struct>
+    <struct index="3">
+      <hash40 hash="ui_chara_id">ui_chara_samus</hash40>
+      <ushort hash="0x21bff2c855">120</ushort>
+      <ushort hash="0x22eceab74e">35</ushort>
+      <hash40 hash="0x1f01d74e7c">appeal_s_r</hash40>
+      <float hash="0x16c720db5d">345</float>
+      <float hash="appearing_position_x">0</float>
+    </struct>
+    <struct index="4">
+      <hash40 hash="ui_chara_id">ui_chara_yoshi</hash40>
+      <ushort hash="0x21bff2c855">120</ushort>
+      <ushort hash="0x22eceab74e">35</ushort>
+      <hash40 hash="0x1f01d74e7c">appeal_lw_r</hash40>
+      <float hash="0x16c720db5d">345</float>
+      <float hash="appearing_position_x">0</float>
+    </struct>
+    <struct index="5">
+      <hash40 hash="ui_chara_id">ui_chara_kirby</hash40>
+      <ushort hash="0x21bff2c855">120</ushort>
+      <ushort hash="0x22eceab74e">35</ushort>
+      <hash40 hash="0x1f01d74e7c">appeal_lw_r</hash40>
+      <float hash="0x16c720db5d">0</float>
+      <float hash="appearing_position_x">0</float>
+    </struct>
+    <struct index="6">
+      <hash40 hash="ui_chara_id">ui_chara_fox</hash40>
+      <ushort hash="0x21bff2c855">100</ushort>
+      <ushort hash="0x22eceab74e">35</ushort>
+      <hash40 hash="0x1f01d74e7c">appeal_s_l</hash40>
+      <float hash="0x16c720db5d">340</float>
+      <float hash="appearing_position_x">0</float>
+    </struct>
+    <struct index="7">
+      <hash40 hash="ui_chara_id">ui_chara_pikachu</hash40>
+      <ushort hash="0x21bff2c855">120</ushort>
+      <ushort hash="0x22eceab74e">35</ushort>
+      <hash40 hash="0x1f01d74e7c">appeal_s_r</hash40>
+      <float hash="0x16c720db5d">355</float>
+      <float hash="appearing_position_x">0</float>
+    </struct>
+    <struct index="8">
+      <hash40 hash="ui_chara_id">ui_chara_luigi</hash40>
+      <ushort hash="0x21bff2c855">120</ushort>
+      <ushort hash="0x22eceab74e">35</ushort>
+      <hash40 hash="0x1f01d74e7c">appeal_s_r</hash40>
+      <float hash="0x16c720db5d">340</float>
+      <float hash="appearing_position_x">0</float>
+    </struct>
+    <struct index="9">
+      <hash40 hash="ui_chara_id">ui_chara_ness</hash40>
+      <ushort hash="0x21bff2c855">120</ushort>
+      <ushort hash="0x22eceab74e">35</ushort>
+      <hash40 hash="0x1f01d74e7c">appeal_s_r</hash40>
+      <float hash="0x16c720db5d">320</float>
+      <float hash="appearing_position_x">0</float>
+    </struct>
+    <struct index="10">
+      <hash40 hash="ui_chara_id">ui_chara_captain</hash40>
+      <ushort hash="0x21bff2c855">120</ushort>
+      <ushort hash="0x22eceab74e">35</ushort>
+      <hash40 hash="0x1f01d74e7c">appeal_lw_r</hash40>
+      <float hash="0x16c720db5d">0</float>
+      <float hash="appearing_position_x">0</float>
+    </struct>
+    <struct index="11">
+      <hash40 hash="ui_chara_id">ui_chara_purin</hash40>
+      <ushort hash="0x21bff2c855">150</ushort>
+      <ushort hash="0x22eceab74e">35</ushort>
+      <hash40 hash="0x1f01d74e7c">appeal_hi_r</hash40>
+      <float hash="0x16c720db5d">0</float>
+      <float hash="appearing_position_x">0</float>
+    </struct>
+    <struct index="12">
+      <hash40 hash="ui_chara_id">ui_chara_peach</hash40>
+      <ushort hash="0x21bff2c855">120</ushort>
+      <ushort hash="0x22eceab74e">35</ushort>
+      <hash40 hash="0x1f01d74e7c">appeal_hi_r</hash40>
+      <float hash="0x16c720db5d">355</float>
+      <float hash="appearing_position_x">0</float>
+    </struct>
+    <struct index="13">
+      <hash40 hash="ui_chara_id">ui_chara_daisy</hash40>
+      <ushort hash="0x21bff2c855">120</ushort>
+      <ushort hash="0x22eceab74e">35</ushort>
+      <hash40 hash="0x1f01d74e7c">appeal_s_r</hash40>
+      <float hash="0x16c720db5d">340</float>
+      <float hash="appearing_position_x">0</float>
+    </struct>
+    <struct index="14">
+      <hash40 hash="ui_chara_id">ui_chara_koopa</hash40>
+      <ushort hash="0x21bff2c855">120</ushort>
+      <ushort hash="0x22eceab74e">35</ushort>
+      <hash40 hash="0x1f01d74e7c">appeal_hi_r</hash40>
+      <float hash="0x16c720db5d">300</float>
+      <float hash="appearing_position_x">0</float>
+    </struct>
+    <struct index="15">
+      <hash40 hash="ui_chara_id">ui_chara_ice_climber</hash40>
+      <ushort hash="0x21bff2c855">120</ushort>
+      <ushort hash="0x22eceab74e">35</ushort>
+      <hash40 hash="0x1f01d74e7c">appeal_lw_r</hash40>
+      <float hash="0x16c720db5d">300</float>
+      <float hash="appearing_position_x">3.5</float>
+    </struct>
+    <struct index="16">
+      <hash40 hash="ui_chara_id">ui_chara_sheik</hash40>
+      <ushort hash="0x21bff2c855">120</ushort>
+      <ushort hash="0x22eceab74e">35</ushort>
+      <hash40 hash="0x1f01d74e7c">appeal_s_r</hash40>
+      <float hash="0x16c720db5d">330</float>
+      <float hash="appearing_position_x">0</float>
+    </struct>
+    <struct index="17">
+      <hash40 hash="ui_chara_id">ui_chara_zelda</hash40>
+      <ushort hash="0x21bff2c855">120</ushort>
+      <ushort hash="0x22eceab74e">35</ushort>
+      <hash40 hash="0x1f01d74e7c">appeal_lw_r</hash40>
+      <float hash="0x16c720db5d">305</float>
+      <float hash="appearing_position_x">0</float>
+    </struct>
+    <struct index="18">
+      <hash40 hash="ui_chara_id">ui_chara_mariod</hash40>
+      <ushort hash="0x21bff2c855">120</ushort>
+      <ushort hash="0x22eceab74e">35</ushort>
+      <hash40 hash="0x1f01d74e7c">appeal_lw_r</hash40>
+      <float hash="0x16c720db5d">340</float>
+      <float hash="appearing_position_x">0</float>
+    </struct>
+    <struct index="19">
+      <hash40 hash="ui_chara_id">ui_chara_falco</hash40>
+      <ushort hash="0x21bff2c855">120</ushort>
+      <ushort hash="0x22eceab74e">35</ushort>
+      <hash40 hash="0x1f01d74e7c">appeal_lw_r</hash40>
+      <float hash="0x16c720db5d">345</float>
+      <float hash="appearing_position_x">0</float>
+    </struct>
+    <struct index="20">
+      <hash40 hash="ui_chara_id">ui_chara_marth</hash40>
+      <ushort hash="0x21bff2c855">120</ushort>
+      <ushort hash="0x22eceab74e">35</ushort>
+      <hash40 hash="0x1f01d74e7c">appeal_lw_l</hash40>
+      <float hash="0x16c720db5d">200</float>
+      <float hash="appearing_position_x">0</float>
+    </struct>
+    <struct index="21">
+      <hash40 hash="ui_chara_id">ui_chara_lucina</hash40>
+      <ushort hash="0x21bff2c855">120</ushort>
+      <ushort hash="0x22eceab74e">35</ushort>
+      <hash40 hash="0x1f01d74e7c">appeal_s_r</hash40>
+      <float hash="0x16c720db5d">190</float>
+      <float hash="appearing_position_x">0</float>
+    </struct>
+    <struct index="22">
+      <hash40 hash="ui_chara_id">ui_chara_younglink</hash40>
+      <ushort hash="0x21bff2c855">120</ushort>
+      <ushort hash="0x22eceab74e">35</ushort>
+      <hash40 hash="0x1f01d74e7c">appeal_s_l</hash40>
+      <float hash="0x16c720db5d">250</float>
+      <float hash="appearing_position_x">0</float>
+    </struct>
+    <struct index="23">
+      <hash40 hash="ui_chara_id">ui_chara_ganon</hash40>
+      <ushort hash="0x21bff2c855">120</ushort>
+      <ushort hash="0x22eceab74e">35</ushort>
+      <hash40 hash="0x1f01d74e7c">appeal_s_r</hash40>
+      <float hash="0x16c720db5d">330</float>
+      <float hash="appearing_position_x">0</float>
+    </struct>
+    <struct index="24">
+      <hash40 hash="ui_chara_id">ui_chara_mewtwo</hash40>
+      <ushort hash="0x21bff2c855">120</ushort>
+      <ushort hash="0x22eceab74e">35</ushort>
+      <hash40 hash="0x1f01d74e7c">appeal_lw_r</hash40>
+      <float hash="0x16c720db5d">340</float>
+      <float hash="appearing_position_x">0</float>
+    </struct>
+    <struct index="25">
+      <hash40 hash="ui_chara_id">ui_chara_roy</hash40>
+      <ushort hash="0x21bff2c855">120</ushort>
+      <ushort hash="0x22eceab74e">35</ushort>
+      <hash40 hash="0x1f01d74e7c">appeal_hi_l</hash40>
+      <float hash="0x16c720db5d">200</float>
+      <float hash="appearing_position_x">0</float>
+    </struct>
+    <struct index="26">
+      <hash40 hash="ui_chara_id">ui_chara_chrom</hash40>
+      <ushort hash="0x21bff2c855">120</ushort>
+      <ushort hash="0x22eceab74e">35</ushort>
+      <hash40 hash="0x1f01d74e7c">appeal_lw_l</hash40>
+      <float hash="0x16c720db5d">245</float>
+      <float hash="appearing_position_x">0</float>
+    </struct>
+    <struct index="27">
+      <hash40 hash="ui_chara_id">ui_chara_gamewatch</hash40>
+      <ushort hash="0x21bff2c855">120</ushort>
+      <ushort hash="0x22eceab74e">35</ushort>
+      <hash40 hash="0x1f01d74e7c">appeal_hi_r</hash40>
+      <float hash="0x16c720db5d">0</float>
+      <float hash="appearing_position_x">-1</float>
+    </struct>
+    <struct index="28">
+      <hash40 hash="ui_chara_id">ui_chara_metaknight</hash40>
+      <ushort hash="0x21bff2c855">120</ushort>
+      <ushort hash="0x22eceab74e">35</ushort>
+      <hash40 hash="0x1f01d74e7c">appeal_hi_r</hash40>
+      <float hash="0x16c720db5d">330</float>
+      <float hash="appearing_position_x">0</float>
+    </struct>
+    <struct index="29">
+      <hash40 hash="ui_chara_id">ui_chara_pit</hash40>
+      <ushort hash="0x21bff2c855">120</ushort>
+      <ushort hash="0x22eceab74e">35</ushort>
+      <hash40 hash="0x1f01d74e7c">appeal_lw_l</hash40>
+      <float hash="0x16c720db5d">230</float>
+      <float hash="appearing_position_x">0</float>
+    </struct>
+    <struct index="30">
+      <hash40 hash="ui_chara_id">ui_chara_pitb</hash40>
+      <ushort hash="0x21bff2c855">120</ushort>
+      <ushort hash="0x22eceab74e">35</ushort>
+      <hash40 hash="0x1f01d74e7c">appeal_lw_l</hash40>
+      <float hash="0x16c720db5d">230</float>
+      <float hash="appearing_position_x">0</float>
+    </struct>
+    <struct index="31">
+      <hash40 hash="ui_chara_id">ui_chara_szerosuit</hash40>
+      <ushort hash="0x21bff2c855">120</ushort>
+      <ushort hash="0x22eceab74e">35</ushort>
+      <hash40 hash="0x1f01d74e7c">appeal_hi_r</hash40>
+      <float hash="0x16c720db5d">355</float>
+      <float hash="appearing_position_x">0</float>
+    </struct>
+    <struct index="32">
+      <hash40 hash="ui_chara_id">ui_chara_wario</hash40>
+      <ushort hash="0x21bff2c855">120</ushort>
+      <ushort hash="0x22eceab74e">35</ushort>
+      <hash40 hash="0x1f01d74e7c">appeal_hi_r</hash40>
+      <float hash="0x16c720db5d">330</float>
+      <float hash="appearing_position_x">0</float>
+    </struct>
+    <struct index="33">
+      <hash40 hash="ui_chara_id">ui_chara_ike</hash40>
+      <ushort hash="0x21bff2c855">120</ushort>
+      <ushort hash="0x22eceab74e">35</ushort>
+      <hash40 hash="0x1f01d74e7c">appeal_s_r</hash40>
+      <float hash="0x16c720db5d">320</float>
+      <float hash="appearing_position_x">0</float>
+    </struct>
+    <struct index="34">
+      <hash40 hash="ui_chara_id">ui_chara_plizardon</hash40>
+      <ushort hash="0x21bff2c855">120</ushort>
+      <ushort hash="0x22eceab74e">35</ushort>
+      <hash40 hash="0x1f01d74e7c">appeal_lw_l</hash40>
+      <float hash="0x16c720db5d">260</float>
+      <float hash="appearing_position_x">9.5</float>
+    </struct>
+    <struct index="35">
+      <hash40 hash="ui_chara_id">ui_chara_diddy</hash40>
+      <ushort hash="0x21bff2c855">120</ushort>
+      <ushort hash="0x22eceab74e">35</ushort>
+      <hash40 hash="0x1f01d74e7c">appeal_lw_r</hash40>
+      <float hash="0x16c720db5d">340</float>
+      <float hash="appearing_position_x">0</float>
+    </struct>
+    <struct index="36">
+      <hash40 hash="ui_chara_id">ui_chara_lucas</hash40>
+      <ushort hash="0x21bff2c855">120</ushort>
+      <ushort hash="0x22eceab74e">35</ushort>
+      <hash40 hash="0x1f01d74e7c">appeal_lw_r</hash40>
+      <float hash="0x16c720db5d">305</float>
+      <float hash="appearing_position_x">0</float>
+    </struct>
+    <struct index="37">
+      <hash40 hash="ui_chara_id">ui_chara_sonic</hash40>
+      <ushort hash="0x21bff2c855">120</ushort>
+      <ushort hash="0x22eceab74e">35</ushort>
+      <hash40 hash="0x1f01d74e7c">appeal_s_r</hash40>
+      <float hash="0x16c720db5d">320</float>
+      <float hash="appearing_position_x">0</float>
+    </struct>
+    <struct index="38">
+      <hash40 hash="ui_chara_id">ui_chara_dedede</hash40>
+      <ushort hash="0x21bff2c855">120</ushort>
+      <ushort hash="0x22eceab74e">35</ushort>
+      <hash40 hash="0x1f01d74e7c">appeal_hi_r</hash40>
+      <float hash="0x16c720db5d">330</float>
+      <float hash="appearing_position_x">0</float>
+    </struct>
+    <struct index="39">
+      <hash40 hash="ui_chara_id">ui_chara_pikmin</hash40>
+      <ushort hash="0x21bff2c855">120</ushort>
+      <ushort hash="0x22eceab74e">35</ushort>
+      <hash40 hash="0x1f01d74e7c">appeal_hi_r</hash40>
+      <float hash="0x16c720db5d">315</float>
+      <float hash="appearing_position_x">0</float>
+    </struct>
+    <struct index="40">
+      <hash40 hash="ui_chara_id">ui_chara_lucario</hash40>
+      <ushort hash="0x21bff2c855">120</ushort>
+      <ushort hash="0x22eceab74e">35</ushort>
+      <hash40 hash="0x1f01d74e7c">appeal_lw_r</hash40>
+      <float hash="0x16c720db5d">300</float>
+      <float hash="appearing_position_x">0</float>
+    </struct>
+    <struct index="41">
+      <hash40 hash="ui_chara_id">ui_chara_robot</hash40>
+      <ushort hash="0x21bff2c855">120</ushort>
+      <ushort hash="0x22eceab74e">35</ushort>
+      <hash40 hash="0x1f01d74e7c">appeal_lw_r</hash40>
+      <float hash="0x16c720db5d">299</float>
+      <float hash="appearing_position_x">0</float>
+    </struct>
+    <struct index="42">
+      <hash40 hash="ui_chara_id">ui_chara_toonlink</hash40>
+      <ushort hash="0x21bff2c855">120</ushort>
+      <ushort hash="0x22eceab74e">35</ushort>
+      <hash40 hash="0x1f01d74e7c">appeal_hi_l</hash40>
+      <float hash="0x16c720db5d">220</float>
+      <float hash="appearing_position_x">0</float>
+    </struct>
+    <struct index="43">
+      <hash40 hash="ui_chara_id">ui_chara_wolf</hash40>
+      <ushort hash="0x21bff2c855">120</ushort>
+      <ushort hash="0x22eceab74e">35</ushort>
+      <hash40 hash="0x1f01d74e7c">appeal_hi_r</hash40>
+      <float hash="0x16c720db5d">345</float>
+      <float hash="appearing_position_x">0</float>
+    </struct>
+    <struct index="44">
+      <hash40 hash="ui_chara_id">ui_chara_murabito</hash40>
+      <ushort hash="0x21bff2c855">120</ushort>
+      <ushort hash="0x22eceab74e">35</ushort>
+      <hash40 hash="0x1f01d74e7c">appeal_hi_r</hash40>
+      <float hash="0x16c720db5d">315</float>
+      <float hash="appearing_position_x">0</float>
+    </struct>
+    <struct index="45">
+      <hash40 hash="ui_chara_id">ui_chara_rockman</hash40>
+      <ushort hash="0x21bff2c855">120</ushort>
+      <ushort hash="0x22eceab74e">35</ushort>
+      <hash40 hash="0x1f01d74e7c">appeal_s_r</hash40>
+      <float hash="0x16c720db5d">300</float>
+      <float hash="appearing_position_x">0</float>
+    </struct>
+    <struct index="46">
+      <hash40 hash="ui_chara_id">ui_chara_wiifit</hash40>
+      <ushort hash="0x21bff2c855">120</ushort>
+      <ushort hash="0x22eceab74e">35</ushort>
+      <hash40 hash="0x1f01d74e7c">appeal_s_r</hash40>
+      <float hash="0x16c720db5d">300</float>
+      <float hash="appearing_position_x">0</float>
+    </struct>
+    <struct index="47">
+      <hash40 hash="ui_chara_id">ui_chara_rosetta</hash40>
+      <ushort hash="0x21bff2c855">120</ushort>
+      <ushort hash="0x22eceab74e">35</ushort>
+      <hash40 hash="0x1f01d74e7c">appeal_lw_l</hash40>
+      <float hash="0x16c720db5d">240</float>
+      <float hash="appearing_position_x">-2.5</float>
+    </struct>
+    <struct index="48">
+      <hash40 hash="ui_chara_id">ui_chara_littlemac</hash40>
+      <ushort hash="0x21bff2c855">120</ushort>
+      <ushort hash="0x22eceab74e">35</ushort>
+      <hash40 hash="0x1f01d74e7c">appeal_hi_r</hash40>
+      <float hash="0x16c720db5d">315</float>
+      <float hash="appearing_position_x">-2</float>
+    </struct>
+    <struct index="49">
+      <hash40 hash="ui_chara_id">ui_chara_gekkouga</hash40>
+      <ushort hash="0x21bff2c855">120</ushort>
+      <ushort hash="0x22eceab74e">35</ushort>
+      <hash40 hash="0x1f01d74e7c">appeal_hi_r</hash40>
+      <float hash="0x16c720db5d">350</float>
+      <float hash="appearing_position_x">0</float>
+    </struct>
+    <struct index="50">
+      <hash40 hash="ui_chara_id">ui_chara_miifighter</hash40>
+      <ushort hash="0x21bff2c855">120</ushort>
+      <ushort hash="0x22eceab74e">35</ushort>
+      <hash40 hash="0x1f01d74e7c">appeal_lw_r</hash40>
+      <float hash="0x16c720db5d">330</float>
+      <float hash="appearing_position_x">-1</float>
+    </struct>
+    <struct index="51">
+      <hash40 hash="ui_chara_id">ui_chara_miiswordsman</hash40>
+      <ushort hash="0x21bff2c855">120</ushort>
+      <ushort hash="0x22eceab74e">35</ushort>
+      <hash40 hash="0x1f01d74e7c">appeal_lw_r</hash40>
+      <float hash="0x16c720db5d">300</float>
+      <float hash="appearing_position_x">0</float>
+    </struct>
+    <struct index="52">
+      <hash40 hash="ui_chara_id">ui_chara_miigunner</hash40>
+      <ushort hash="0x21bff2c855">120</ushort>
+      <ushort hash="0x22eceab74e">35</ushort>
+      <hash40 hash="0x1f01d74e7c">appeal_s_r</hash40>
+      <float hash="0x16c720db5d">325</float>
+      <float hash="appearing_position_x">0</float>
+    </struct>
+    <struct index="53">
+      <hash40 hash="ui_chara_id">ui_chara_palutena</hash40>
+      <ushort hash="0x21bff2c855">120</ushort>
+      <ushort hash="0x22eceab74e">35</ushort>
+      <hash40 hash="0x1f01d74e7c">appeal_hi_r</hash40>
+      <float hash="0x16c720db5d">300</float>
+      <float hash="appearing_position_x">0</float>
+    </struct>
+    <struct index="54">
+      <hash40 hash="ui_chara_id">ui_chara_pacman</hash40>
+      <ushort hash="0x21bff2c855">120</ushort>
+      <ushort hash="0x22eceab74e">35</ushort>
+      <hash40 hash="0x1f01d74e7c">appeal_lw_r</hash40>
+      <float hash="0x16c720db5d">342</float>
+      <float hash="appearing_position_x">0</float>
+    </struct>
+    <struct index="55">
+      <hash40 hash="ui_chara_id">ui_chara_reflet</hash40>
+      <ushort hash="0x21bff2c855">120</ushort>
+      <ushort hash="0x22eceab74e">35</ushort>
+      <hash40 hash="0x1f01d74e7c">appeal_hi_l</hash40>
+      <float hash="0x16c720db5d">240</float>
+      <float hash="appearing_position_x">0</float>
+    </struct>
+    <struct index="56">
+      <hash40 hash="ui_chara_id">ui_chara_shulk</hash40>
+      <ushort hash="0x21bff2c855">120</ushort>
+      <ushort hash="0x22eceab74e">35</ushort>
+      <hash40 hash="0x1f01d74e7c">appeal_lw_r</hash40>
+      <float hash="0x16c720db5d">320</float>
+      <float hash="appearing_position_x">0</float>
+    </struct>
+    <struct index="57">
+      <hash40 hash="ui_chara_id">ui_chara_koopajr</hash40>
+      <ushort hash="0x21bff2c855">120</ushort>
+      <ushort hash="0x22eceab74e">35</ushort>
+      <hash40 hash="0x1f01d74e7c">appeal_s_r</hash40>
+      <float hash="0x16c720db5d">345</float>
+      <float hash="appearing_position_x">0</float>
+    </struct>
+    <struct index="58">
+      <hash40 hash="ui_chara_id">ui_chara_duckhunt</hash40>
+      <ushort hash="0x21bff2c855">120</ushort>
+      <ushort hash="0x22eceab74e">35</ushort>
+      <hash40 hash="0x1f01d74e7c">appeal_hi_r</hash40>
+      <float hash="0x16c720db5d">327</float>
+      <float hash="appearing_position_x">0</float>
+    </struct>
+    <struct index="59">
+      <hash40 hash="ui_chara_id">ui_chara_ryu</hash40>
+      <ushort hash="0x21bff2c855">120</ushort>
+      <ushort hash="0x22eceab74e">35</ushort>
+      <hash40 hash="0x1f01d74e7c">appeal_s_r</hash40>
+      <float hash="0x16c720db5d">320</float>
+      <float hash="appearing_position_x">0</float>
+    </struct>
+    <struct index="60">
+      <hash40 hash="ui_chara_id">ui_chara_cloud</hash40>
+      <ushort hash="0x21bff2c855">120</ushort>
+      <ushort hash="0x22eceab74e">35</ushort>
+      <hash40 hash="0x1f01d74e7c">appeal_lw_r</hash40>
+      <float hash="0x16c720db5d">340</float>
+      <float hash="appearing_position_x">-2</float>
+    </struct>
+    <struct index="61">
+      <hash40 hash="ui_chara_id">ui_chara_kamui</hash40>
+      <ushort hash="0x21bff2c855">120</ushort>
+      <ushort hash="0x22eceab74e">35</ushort>
+      <hash40 hash="0x1f01d74e7c">appeal_lw_r</hash40>
+      <float hash="0x16c720db5d">295</float>
+      <float hash="appearing_position_x">0</float>
+    </struct>
+    <struct index="62">
+      <hash40 hash="ui_chara_id">ui_chara_bayonetta</hash40>
+      <ushort hash="0x21bff2c855">120</ushort>
+      <ushort hash="0x22eceab74e">35</ushort>
+      <hash40 hash="0x1f01d74e7c">appeal_lw_r</hash40>
+      <float hash="0x16c720db5d">260</float>
+      <float hash="appearing_position_x">0</float>
+    </struct>
+    <struct index="63">
+      <hash40 hash="ui_chara_id">ui_chara_inkling</hash40>
+      <ushort hash="0x21bff2c855">120</ushort>
+      <ushort hash="0x22eceab74e">35</ushort>
+      <hash40 hash="0x1f01d74e7c">appeal_hi_r</hash40>
+      <float hash="0x16c720db5d">300</float>
+      <float hash="appearing_position_x">0</float>
+    </struct>
+    <struct index="64">
+      <hash40 hash="ui_chara_id">ui_chara_ridley</hash40>
+      <ushort hash="0x21bff2c855">120</ushort>
+      <ushort hash="0x22eceab74e">35</ushort>
+      <hash40 hash="0x1f01d74e7c">appeal_hi_r</hash40>
+      <float hash="0x16c720db5d">330</float>
+      <float hash="appearing_position_x">0</float>
+    </struct>
+    <struct index="65">
+      <hash40 hash="ui_chara_id">ui_chara_krool</hash40>
+      <ushort hash="0x21bff2c855">120</ushort>
+      <ushort hash="0x22eceab74e">35</ushort>
+      <hash40 hash="0x1f01d74e7c">appeal_lw_r</hash40>
+      <float hash="0x16c720db5d">300</float>
+      <float hash="appearing_position_x">0</float>
+    </struct>
+    <struct index="66">
+      <hash40 hash="ui_chara_id">ui_chara_shizue</hash40>
+      <ushort hash="0x21bff2c855">120</ushort>
+      <ushort hash="0x22eceab74e">35</ushort>
+      <hash40 hash="0x1f01d74e7c">appeal_lw_r</hash40>
+      <float hash="0x16c720db5d">340</float>
+      <float hash="appearing_position_x">0</float>
+    </struct>
+  </list>
+  <float hash="0x13fa49cccf">1.25</float>
+  <float hash="0x1b5f4622f6">1.2</float>
+  <float hash="0x196a4c57c6">1.2</float>
+  <byte hash="0x18ace461d3">5</byte>
+  <float hash="0x1cd5b8bcae">1.25</float>
+  <float hash="0x1853d88235">80</float>
+  <float hash="0x202a189f65">1.13</float>
+  <float hash="exp_no_hit_time_max">100</float>
+  <float hash="0x21488d584c">1.1</float>
+  <float hash="0x184118b489">80</float>
+  <float hash="0x206b3a16b3">1.13</float>
+  <float hash="0x18bbf63af4">7</float>
+  <float hash="0x22a9c1c4ce">1.05</float>
+  <float hash="0x18ac3b2888">3</float>
+  <float hash="0x2284583b89">1.05</float>
+  <float hash="0x1b8a4d72d9">2</float>
+  <float hash="0x1b70424fba">3</float>
+  <float hash="0x1b07457f2c">4</float>
+  <float hash="0x2219093ac9">1.1</float>
+  <float hash="0x1cce449772">0.1</float>
+  <float hash="0x203db3a7fe">0.2</float>
+  <list size="50" hash="exp_table">
+    <struct index="0">
+      <ushort hash="exp_value">0</ushort>
+    </struct>
+    <struct index="1">
+      <ushort hash="exp_value">8</ushort>
+    </struct>
+    <struct index="2">
+      <ushort hash="exp_value">22</ushort>
+    </struct>
+    <struct index="3">
+      <ushort hash="exp_value">41</ushort>
+    </struct>
+    <struct index="4">
+      <ushort hash="exp_value">63</ushort>
+    </struct>
+    <struct index="5">
+      <ushort hash="exp_value">90</ushort>
+    </struct>
+    <struct index="6">
+      <ushort hash="exp_value">120</ushort>
+    </struct>
+    <struct index="7">
+      <ushort hash="exp_value">155</ushort>
+    </struct>
+    <struct index="8">
+      <ushort hash="exp_value">195</ushort>
+    </struct>
+    <struct index="9">
+      <ushort hash="exp_value">238</ushort>
+    </struct>
+    <struct index="10">
+      <ushort hash="exp_value">284</ushort>
+    </struct>
+    <struct index="11">
+      <ushort hash="exp_value">330</ushort>
+    </struct>
+    <struct index="12">
+      <ushort hash="exp_value">376</ushort>
+    </struct>
+    <struct index="13">
+      <ushort hash="exp_value">426</ushort>
+    </struct>
+    <struct index="14">
+      <ushort hash="exp_value">476</ushort>
+    </struct>
+    <struct index="15">
+      <ushort hash="exp_value">528</ushort>
+    </struct>
+    <struct index="16">
+      <ushort hash="exp_value">580</ushort>
+    </struct>
+    <struct index="17">
+      <ushort hash="exp_value">632</ushort>
+    </struct>
+    <struct index="18">
+      <ushort hash="exp_value">684</ushort>
+    </struct>
+    <struct index="19">
+      <ushort hash="exp_value">737</ushort>
+    </struct>
+    <struct index="20">
+      <ushort hash="exp_value">790</ushort>
+    </struct>
+    <struct index="21">
+      <ushort hash="exp_value">843</ushort>
+    </struct>
+    <struct index="22">
+      <ushort hash="exp_value">896</ushort>
+    </struct>
+    <struct index="23">
+      <ushort hash="exp_value">950</ushort>
+    </struct>
+    <struct index="24">
+      <ushort hash="exp_value">1004</ushort>
+    </struct>
+    <struct index="25">
+      <ushort hash="exp_value">1058</ushort>
+    </struct>
+    <struct index="26">
+      <ushort hash="exp_value">1112</ushort>
+    </struct>
+    <struct index="27">
+      <ushort hash="exp_value">1167</ushort>
+    </struct>
+    <struct index="28">
+      <ushort hash="exp_value">1222</ushort>
+    </struct>
+    <struct index="29">
+      <ushort hash="exp_value">1277</ushort>
+    </struct>
+    <struct index="30">
+      <ushort hash="exp_value">1339</ushort>
+    </struct>
+    <struct index="31">
+      <ushort hash="exp_value">1406</ushort>
+    </struct>
+    <struct index="32">
+      <ushort hash="exp_value">1478</ushort>
+    </struct>
+    <struct index="33">
+      <ushort hash="exp_value">1555</ushort>
+    </struct>
+    <struct index="34">
+      <ushort hash="exp_value">1637</ushort>
+    </struct>
+    <struct index="35">
+      <ushort hash="exp_value">1724</ushort>
+    </struct>
+    <struct index="36">
+      <ushort hash="exp_value">1816</ushort>
+    </struct>
+    <struct index="37">
+      <ushort hash="exp_value">1910</ushort>
+    </struct>
+    <struct index="38">
+      <ushort hash="exp_value">2012</ushort>
+    </struct>
+    <struct index="39">
+      <ushort hash="exp_value">2115</ushort>
+    </struct>
+    <struct index="40">
+      <ushort hash="exp_value">2220</ushort>
+    </struct>
+    <struct index="41">
+      <ushort hash="exp_value">2329</ushort>
+    </struct>
+    <struct index="42">
+      <ushort hash="exp_value">2459</ushort>
+    </struct>
+    <struct index="43">
+      <ushort hash="exp_value">2619</ushort>
+    </struct>
+    <struct index="44">
+      <ushort hash="exp_value">2799</ushort>
+    </struct>
+    <struct index="45">
+      <ushort hash="exp_value">2999</ushort>
+    </struct>
+    <struct index="46">
+      <ushort hash="exp_value">3209</ushort>
+    </struct>
+    <struct index="47">
+      <ushort hash="exp_value">3429</ushort>
+    </struct>
+    <struct index="48">
+      <ushort hash="exp_value">3669</ushort>
+    </struct>
+    <struct index="49">
+      <ushort hash="exp_value">3912</ushort>
+    </struct>
+  </list>
+  <float hash="0x157b06cf07">31</float>
+  <float hash="0x15470bf05e">5</float>
+  <float hash="0x0eea410480">4</float>
+  <float hash="0x11a3b0aaaa">22</float>
+  <list size="9" hash="0x1395b61bac">
+    <struct index="0">
+      <ushort hash="exp_value">0</ushort>
+      <byte hash="cpu_rank">8</byte>
+    </struct>
+    <struct index="1">
+      <ushort hash="exp_value">63</ushort>
+      <byte hash="cpu_rank">15</byte>
+    </struct>
+    <struct index="2">
+      <ushort hash="exp_value">210</ushort>
+      <byte hash="cpu_rank">24</byte>
+    </struct>
+    <struct index="3">
+      <ushort hash="exp_value">434</ushort>
+      <byte hash="cpu_rank">36</byte>
+    </struct>
+    <struct index="4">
+      <ushort hash="exp_value">749</ushort>
+      <byte hash="cpu_rank">48</byte>
+    </struct>
+    <struct index="5">
+      <ushort hash="exp_value">1141</ushort>
+      <byte hash="cpu_rank">61</byte>
+    </struct>
+    <struct index="6">
+      <ushort hash="exp_value">1603</ushort>
+      <byte hash="cpu_rank">74</byte>
+    </struct>
+    <struct index="7">
+      <ushort hash="exp_value">2065</ushort>
+      <byte hash="cpu_rank">87</byte>
+    </struct>
+    <struct index="8">
+      <ushort hash="exp_value">2765</ushort>
+      <byte hash="cpu_rank">100</byte>
+    </struct>
+  </list>
+  <float hash="0x18a0a98f69">26</float>
+  <float hash="0x189ca4b030">4</float>
+  <float hash="0x11d71d14c6">4</float>
+  <float hash="0x14ffb8546b">22</float>
+  <uint hash="0x1cf5388ba4">300</uint>
+  <uint hash="0x1758f855fa">120</uint>
+  <uint hash="0x1a738c5452">15</uint>
+  <uint hash="0x1a4f816b0b">120</uint>
+  <float hash="0x108d94c1c0">1</float>
+  <float hash="0x14f3897211">30</float>
+  <float hash="prize_time_min">60</float>
+  <float hash="prize_time_ratio_max">1</float>
+  <float hash="prize_time_max">1200</float>
+  <float hash="prize_time_ratio_min">0.7</float>
+  <float hash="0x18d06e8d09">1</float>
+  <float hash="0x1830bb6417">1.25</float>
+  <float hash="0x1a10a5b3db">0.6</float>
+  <float hash="0x1a5845bdbf">1</float>
+  <float hash="0x1d76340344">1.2</float>
+  <float hash="0x11347c60b0">1</float>
+  <float hash="0x1918e033b0">1.1</float>
+  <float hash="0x133b2b2fbb">1.1</float>
+  <byte hash="0x156c9328e0">5</byte>
+  <ushort hash="prize_point_max">9999</ushort>
+  <float hash="0x1395417e36">1.3</float>
+  <float hash="0x1df5653a6c">2</float>
+  <float hash="0x1e14b7b71a">3</float>
+  <float hash="0x1fea9cca26">1</float>
+  <float hash="0x21c89b48ca">30</float>
+  <float hash="0x1e848631bd">0.5</float>
+  <float hash="0x26904eaec1">100</float>
+  <float hash="0x18251f691e">0.1</float>
+  <float hash="0x174e216242">0.25</float>
+  <float hash="0x1706c16c26">0.25</float>
+  <float hash="0x239e75cedb">0.23</float>
+  <float hash="0x2ba13748ff">0.85</float>
+  <float hash="0x2f4bc56038">1.1</float>
+  <float hash="0x2fb94c23cb">1.3</float>
+  <float hash="0x291c6a8958">0.33</float>
+  <ushort hash="0x2de648b92a">40</ushort>
+  <ushort hash="0x1f3656fac9">15</ushort>
+  <list size="4" hash="0x319ef144e3">
+    <float index="0">1</float>
+    <float index="1">1.1</float>
+    <float index="2">1.15</float>
+    <float index="3">1.2</float>
+  </list>
+  <list size="4" hash="0x2ea0ffed2c">
+    <ushort index="0">0</ushort>
+    <ushort index="1">5</ushort>
+    <ushort index="2">6</ushort>
+    <ushort index="3">8</ushort>
+  </list>
+  <list size="4" hash="0x2284e878d7">
+    <struct index="0">
+      <hash40 hash="rank">normal</hash40>
+      <ushort hash="0x0cea351e15">0</ushort>
+    </struct>
+    <struct index="1">
+      <hash40 hash="rank">hope</hash40>
+      <ushort hash="0x0cea351e15">4</ushort>
+    </struct>
+    <struct index="2">
+      <hash40 hash="rank">ace</hash40>
+      <ushort hash="0x0cea351e15">7</ushort>
+    </struct>
+    <struct index="3">
+      <hash40 hash="rank">legend</hash40>
+      <ushort hash="0x0cea351e15">11</ushort>
+    </struct>
+  </list>
+  <float hash="0x24077bd499">0.02</float>
+  <list size="4" hash="0x28471b81ed">
+    <float index="0">1</float>
+    <float index="1">1.2</float>
+    <float index="2">1.8</float>
+    <float index="3">2.7</float>
+  </list>
+  <list size="4" hash="0x2383a380d4">
+    <struct index="0">
+      <hash40 hash="rank">normal</hash40>
+      <ushort hash="0x0cea351e15">0</ushort>
+    </struct>
+    <struct index="1">
+      <hash40 hash="rank">hope</hash40>
+      <ushort hash="0x0cea351e15">4</ushort>
+    </struct>
+    <struct index="2">
+      <hash40 hash="rank">ace</hash40>
+      <ushort hash="0x0cea351e15">7</ushort>
+    </struct>
+    <struct index="3">
+      <hash40 hash="rank">legend</hash40>
+      <ushort hash="0x0cea351e15">11</ushort>
+    </struct>
+  </list>
+  <ushort hash="param_total_max">5000</ushort>
+  <ushort hash="0x1de63a0ca4">25</ushort>
+  <ushort hash="0x2428f290ff">600</ushort>
+  <float hash="0x1ed07f0135">0.61</float>
+  <list size="4" hash="0x1a8ffa604d">
+    <struct index="0">
+      <ushort hash="attack_penalty">0</ushort>
+      <ushort hash="defense_penalty">0</ushort>
+    </struct>
+    <struct index="1">
+      <ushort hash="attack_penalty">150</ushort>
+      <ushort hash="defense_penalty">150</ushort>
+    </struct>
+    <struct index="2">
+      <ushort hash="attack_penalty">250</ushort>
+      <ushort hash="defense_penalty">250</ushort>
+    </struct>
+    <struct index="3">
+      <ushort hash="attack_penalty">400</ushort>
+      <ushort hash="defense_penalty">400</ushort>
+    </struct>
+  </list>
+  <list size="4" hash="0x1f8ae593ee">
+    <struct index="0">
+      <hash40 hash="rank">normal</hash40>
+      <float hash="ratio">0.2</float>
+    </struct>
+    <struct index="1">
+      <hash40 hash="rank">hope</hash40>
+      <float hash="ratio">0.3</float>
+    </struct>
+    <struct index="2">
+      <hash40 hash="rank">ace</hash40>
+      <float hash="ratio">0.5</float>
+    </struct>
+    <struct index="3">
+      <hash40 hash="rank">legend</hash40>
+      <float hash="ratio">0.7</float>
+    </struct>
+  </list>
+  <list size="3" hash="0x1f009247c4">
+    <float index="0">9</float>
+    <float index="1">20</float>
+    <float index="2">30</float>
+  </list>
+  <uint hash="0x24a18ceada">1440</uint>
+  <list size="54" hash="prize_table">
+    <struct index="0">
+      <ushort hash="numbering_id">56</ushort>
+      <hash40 hash="ui_spirit_id">toad</hash40>
+    </struct>
+    <struct index="1">
+      <ushort hash="numbering_id">58</ushort>
+      <hash40 hash="ui_spirit_id">chibi_robo</hash40>
+    </struct>
+    <struct index="2">
+      <ushort hash="numbering_id">576</ushort>
+      <hash40 hash="ui_spirit_id">dj_k_k</hash40>
+    </struct>
+    <struct index="3">
+      <ushort hash="numbering_id">577</ushort>
+      <hash40 hash="ui_spirit_id">able_sisters</hash40>
+    </struct>
+    <struct index="4">
+      <ushort hash="numbering_id">578</ushort>
+      <hash40 hash="ui_spirit_id">tom_nook</hash40>
+    </struct>
+    <struct index="5">
+      <ushort hash="numbering_id">579</ushort>
+      <hash40 hash="ui_spirit_id">digby</hash40>
+    </struct>
+    <struct index="6">
+      <ushort hash="numbering_id">580</ushort>
+      <hash40 hash="ui_spirit_id">lottie</hash40>
+    </struct>
+    <struct index="7">
+      <ushort hash="numbering_id">581</ushort>
+      <hash40 hash="ui_spirit_id">reese_and_cyrus</hash40>
+    </struct>
+    <struct index="8">
+      <ushort hash="numbering_id">582</ushort>
+      <hash40 hash="ui_spirit_id">reese_and_cyrus</hash40>
+    </struct>
+    <struct index="9">
+      <ushort hash="numbering_id">583</ushort>
+      <hash40 hash="ui_spirit_id">blathers</hash40>
+    </struct>
+    <struct index="10">
+      <ushort hash="numbering_id">584</ushort>
+      <hash40 hash="ui_spirit_id">celeste</hash40>
+    </struct>
+    <struct index="11">
+      <ushort hash="numbering_id">585</ushort>
+      <hash40 hash="ui_spirit_id">resetti</hash40>
+    </struct>
+    <struct index="12">
+      <ushort hash="numbering_id">586</ushort>
+      <hash40 hash="ui_spirit_id">kicks</hash40>
+    </struct>
+    <struct index="13">
+      <ushort hash="numbering_id">588</ushort>
+      <hash40 hash="ui_spirit_id">rover</hash40>
+    </struct>
+    <struct index="14">
+      <ushort hash="numbering_id">589</ushort>
+      <hash40 hash="ui_spirit_id">timmy_and_tommy</hash40>
+    </struct>
+    <struct index="15">
+      <ushort hash="numbering_id">590</ushort>
+      <hash40 hash="ui_spirit_id">kappn</hash40>
+    </struct>
+    <struct index="16">
+      <ushort hash="numbering_id">591</ushort>
+      <hash40 hash="ui_spirit_id">midna</hash40>
+    </struct>
+    <struct index="17">
+      <ushort hash="numbering_id">592</ushort>
+      <hash40 hash="ui_spirit_id">shovel_knight</hash40>
+    </struct>
+    <struct index="18">
+      <ushort hash="numbering_id">599</ushort>
+      <hash40 hash="ui_spirit_id">0x0a4059e4e6</hash40>
+    </struct>
+    <struct index="19">
+      <ushort hash="numbering_id">605</ushort>
+      <hash40 hash="ui_spirit_id">squid_sisters</hash40>
+    </struct>
+    <struct index="20">
+      <ushort hash="numbering_id">606</ushort>
+      <hash40 hash="ui_spirit_id">squid_sisters</hash40>
+    </struct>
+    <struct index="21">
+      <ushort hash="numbering_id">615</ushort>
+      <hash40 hash="ui_spirit_id">0x072efcf3f5</hash40>
+    </struct>
+    <struct index="22">
+      <ushort hash="numbering_id">616</ushort>
+      <hash40 hash="ui_spirit_id">boo_buddy</hash40>
+    </struct>
+    <struct index="23">
+      <ushort hash="numbering_id">853</ushort>
+      <hash40 hash="ui_spirit_id">guardian</hash40>
+    </struct>
+    <struct index="24">
+      <ushort hash="numbering_id">856</ushort>
+      <hash40 hash="ui_spirit_id">daruk</hash40>
+    </struct>
+    <struct index="25">
+      <ushort hash="numbering_id">857</ushort>
+      <hash40 hash="ui_spirit_id">urbosa</hash40>
+    </struct>
+    <struct index="26">
+      <ushort hash="numbering_id">858</ushort>
+      <hash40 hash="ui_spirit_id">mipha</hash40>
+    </struct>
+    <struct index="27">
+      <ushort hash="numbering_id">859</ushort>
+      <hash40 hash="ui_spirit_id">revali</hash40>
+    </struct>
+    <struct index="28">
+      <ushort hash="numbering_id">860</ushort>
+      <hash40 hash="ui_spirit_id">bokoblin</hash40>
+    </struct>
+    <struct index="29">
+      <ushort hash="numbering_id">861</ushort>
+      <hash40 hash="ui_spirit_id">poochy_woolly_world</hash40>
+    </struct>
+    <struct index="30">
+      <ushort hash="numbering_id">862</ushort>
+      <hash40 hash="ui_spirit_id">qbby</hash40>
+    </struct>
+    <struct index="31">
+      <ushort hash="numbering_id">863</ushort>
+      <hash40 hash="ui_spirit_id">blue_pikmin</hash40>
+    </struct>
+    <struct index="32">
+      <ushort hash="numbering_id">863</ushort>
+      <hash40 hash="ui_spirit_id">red_pikmin</hash40>
+    </struct>
+    <struct index="33">
+      <ushort hash="numbering_id">863</ushort>
+      <hash40 hash="ui_spirit_id">0x0dce3e2868</hash40>
+    </struct>
+    <struct index="34">
+      <ushort hash="numbering_id">863</ushort>
+      <hash40 hash="ui_spirit_id">0x0df6449739</hash40>
+    </struct>
+    <struct index="35">
+      <ushort hash="numbering_id">863</ushort>
+      <hash40 hash="ui_spirit_id">rock_pikmin</hash40>
+    </struct>
+    <struct index="36">
+      <ushort hash="numbering_id">864</ushort>
+      <hash40 hash="ui_spirit_id">alm_and_celica_childhood</hash40>
+    </struct>
+    <struct index="37">
+      <ushort hash="numbering_id">865</ushort>
+      <hash40 hash="ui_spirit_id">alm_and_celica_childhood</hash40>
+    </struct>
+    <struct index="38">
+      <ushort hash="numbering_id">870</ushort>
+      <hash40 hash="ui_spirit_id">metroid</hash40>
+    </struct>
+    <struct index="39">
+      <ushort hash="numbering_id">871</ushort>
+      <hash40 hash="ui_spirit_id">goomba</hash40>
+    </struct>
+    <struct index="40">
+      <ushort hash="numbering_id">872</ushort>
+      <hash40 hash="ui_spirit_id">koopa_troopa</hash40>
+    </struct>
+    <struct index="41">
+      <ushort hash="numbering_id">876</ushort>
+      <hash40 hash="ui_spirit_id">plague_knight</hash40>
+    </struct>
+    <struct index="42">
+      <ushort hash="numbering_id">877</ushort>
+      <hash40 hash="ui_spirit_id">specter_knight</hash40>
+    </struct>
+    <struct index="43">
+      <ushort hash="numbering_id">878</ushort>
+      <hash40 hash="ui_spirit_id">king_knight</hash40>
+    </struct>
+    <struct index="44">
+      <ushort hash="numbering_id">880</ushort>
+      <hash40 hash="ui_spirit_id">tiki</hash40>
+    </struct>
+    <struct index="45">
+      <ushort hash="numbering_id">881</ushort>
+      <hash40 hash="ui_spirit_id">mario_wedding</hash40>
+    </struct>
+    <struct index="46">
+      <ushort hash="numbering_id">882</ushort>
+      <hash40 hash="ui_spirit_id">peach_wedding</hash40>
+    </struct>
+    <struct index="47">
+      <ushort hash="numbering_id">883</ushort>
+      <hash40 hash="ui_spirit_id">bowser_wedding</hash40>
+    </struct>
+    <struct index="48">
+      <ushort hash="numbering_id">885</ushort>
+      <hash40 hash="ui_spirit_id">detective_pikachu</hash40>
+    </struct>
+    <struct index="49">
+      <ushort hash="numbering_id">886</ushort>
+      <hash40 hash="ui_spirit_id">tentacles</hash40>
+    </struct>
+    <struct index="50">
+      <ushort hash="numbering_id">887</ushort>
+      <hash40 hash="ui_spirit_id">tentacles</hash40>
+    </struct>
+    <struct index="51">
+      <ushort hash="numbering_id">910</ushort>
+      <hash40 hash="ui_spirit_id">octoling_agent8</hash40>
+    </struct>
+    <struct index="52">
+      <ushort hash="numbering_id">911</ushort>
+      <hash40 hash="ui_spirit_id">octoling_agent8</hash40>
+    </struct>
+    <struct index="53">
+      <ushort hash="numbering_id">912</ushort>
+      <hash40 hash="ui_spirit_id">octopus_form</hash40>
+    </struct>
+  </list>
+  <byte hash="0x1bc33bdec2">24</byte>
+  <byte hash="0x22d2c5421f">3</byte>
+  <ushort hash="journey_battle_time_limit">120</ushort>
+  <byte hash="0x1f4e25460f">2</byte>
+  <ushort hash="0x184730b69e">200</ushort>
+  <ushort hash="0x1e187fc277">9999</ushort>
+  <sbyte hash="attribute_min">-30</sbyte>
+  <sbyte hash="attribute_max">30</sbyte>
+  <ushort hash="0x21b9be0d83">35</ushort>
+  <uint hash="0x26469b1862">9999</uint>
+  <uint hash="0x1b17a9d4da">2500</uint>
+  <hash40 hash="amiibo_lottery_id">0x17988c6f42</hash40>
+  <list size="4" hash="0x2214a781f4">
+    <struct index="0">
+      <hash40 hash="ui_lottery_id">0x1bae0173db</hash40>
+      <uint hash="inherit_point">1</uint>
+    </struct>
+    <struct index="1">
+      <hash40 hash="ui_lottery_id">0x1b37082261</hash40>
+      <uint hash="inherit_point">300</uint>
+    </struct>
+    <struct index="2">
+      <hash40 hash="ui_lottery_id">0x1b400f12f7</hash40>
+      <uint hash="inherit_point">1400</uint>
+    </struct>
+    <struct index="3">
+      <hash40 hash="ui_lottery_id">0x1bde6b8754</hash40>
+      <uint hash="inherit_point">2400</uint>
+    </struct>
+  </list>
+</struct>

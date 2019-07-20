@@ -1,0 +1,981 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<struct>
+  <struct hash="0x145f94e3d4">
+    <float hash="jump_aerial_motion_mul">1</float>
+    <float hash="fly_speed_y_mul">1</float>
+    <float hash="power_up_move">1</float>
+    <float hash="power_up_jump">1</float>
+    <float hash="power_up_attack">1</float>
+    <float hash="power_up_special">1</float>
+    <float hash="power_up_special_n">1</float>
+    <float hash="power_up_special_s">1</float>
+    <float hash="power_up_special_hi">1</float>
+    <float hash="power_up_special_lw">1</float>
+    <float hash="power_up_item">1</float>
+    <float hash="power_up_defense">1</float>
+    <float hash="power_attack_1">1</float>
+    <float hash="power_attack_3">1</float>
+    <float hash="power_attack_dash">1</float>
+    <float hash="power_attack_air">1</float>
+    <float hash="power_attack_cliff">1</float>
+    <float hash="power_attack_down_stand">1</float>
+    <float hash="power_attack_4">1</float>
+    <float hash="attack_4_hold_frame">1</float>
+    <float hash="power_special_n">1</float>
+    <float hash="power_special_hi">1</float>
+    <float hash="power_special_s">1</float>
+    <float hash="power_special_lw">1</float>
+    <float hash="power_final">1</float>
+    <float hash="power_special_attr">1</float>
+    <float hash="power_attack_meteor">1</float>
+    <float hash="power_attack_upper">1</float>
+    <float hash="power_shoot">1</float>
+    <float hash="0x11a2f22b40">1</float>
+    <float hash="item_heal">1</float>
+    <float hash="item_heal_tabemono">1</float>
+    <float hash="item_attack_power">1</float>
+    <float hash="item_shoot_power">1</float>
+    <float hash="item_attack_dash_power">1</float>
+    <float hash="item_assist_power">1</float>
+    <float hash="item_pokemon_power">1</float>
+    <float hash="item_etc_power">1</float>
+    <float hash="item_state_frame">1</float>
+    <float hash="item_equipment_frame">1</float>
+    <float hash="attack_drop_item">1</float>
+    <float hash="damage_drop_item">1</float>
+    <float hash="catch_frame">1</float>
+    <float hash="catch_attack_power">1</float>
+    <float hash="catch_range">1</float>
+    <float hash="throw_attack_power">1</float>
+    <float hash="defense">1</float>
+    <float hash="shield_frame">1</float>
+    <float hash="shield_recovery">1</float>
+    <float hash="shield_scale">1</float>
+    <float hash="shield_max_mul">1</float>
+    <float hash="sub_shield_mul">1</float>
+    <float hash="furafura_frame">1</float>
+    <float hash="just_shield_check_frame">1</float>
+    <float hash="escape_invincible_frame">1</float>
+    <float hash="cliff_hang_scale">1</float>
+    <float hash="0x15b2eb7637">1</float>
+    <float hash="cliff_hang_invincible_frame">1</float>
+    <float hash="rebirth_invincible_frame">1</float>
+    <float hash="0x1583f01775">1</float>
+    <float hash="smashball_drop_rate">1</float>
+    <float hash="smashball_attack_mul">1</float>
+    <float hash="0x1c86f38a0c">1</float>
+    <float hash="item_shoot_bullet">1</float>
+    <float hash="item_throw_power_speed_mul">1</float>
+    <float hash="attack_power_mul_attr_fire">1</float>
+    <float hash="attack_power_mul_attr_elec">1</float>
+    <float hash="attack_power_mul_attr_magic">1</float>
+    <float hash="attack_power_mul_attr_purple">1</float>
+    <float hash="attack_power_mul_attr_water">1</float>
+    <float hash="attack_power_mul_attr_ice">1</float>
+    <float hash="attack_power_mul_attr_cutup">1</float>
+    <float hash="attack_power_mul_attr_sting">1</float>
+    <float hash="attack_power_mul_attr_pierce">1</float>
+    <float hash="attack_power_mul_attr_aura">1</float>
+    <float hash="attack_power_mul_region_head">1</float>
+    <float hash="attack_power_mul_region_body">1</float>
+    <float hash="attack_power_mul_region_hip">1</float>
+    <float hash="attack_power_mul_region_punch">1</float>
+    <float hash="attack_power_mul_region_elbow">1</float>
+    <float hash="attack_power_mul_region_kick">1</float>
+    <float hash="attack_power_mul_region_knee">1</float>
+    <float hash="attack_power_mul_region_throw">1</float>
+    <float hash="attack_power_mul_region_object">1</float>
+    <float hash="attack_power_mul_region_sword">1</float>
+    <float hash="attack_power_mul_region_hammer">1</float>
+    <float hash="attack_power_mul_region_bomb">1</float>
+    <float hash="attack_power_mul_region_spin">1</float>
+    <float hash="attack_power_mul_region_bite">1</float>
+    <float hash="attack_power_mul_region_magic">1</float>
+    <float hash="attack_power_mul_region_psi">1</float>
+    <float hash="attack_power_mul_region_palutena">1</float>
+    <float hash="attack_power_mul_region_bat">1</float>
+    <float hash="attack_power_mul_region_parasol">1</float>
+    <float hash="attack_power_mul_region_pikmin">1</float>
+    <float hash="attack_power_mul_region_whip">1</float>
+    <float hash="attack_power_mul_region_tail">1</float>
+    <float hash="attack_power_mul_region_energy">1</float>
+    <float hash="damage_mul_attack_attr_cutup">1</float>
+    <float hash="damage_mul_attack_attr_fire">1</float>
+    <float hash="damage_mul_attack_attr_purple">1</float>
+    <float hash="damage_mul_attack_attr_elec">1</float>
+    <float hash="damage_mul_attack_attr_ice">1</float>
+    <float hash="damage_mul_attack_attr_water">1</float>
+    <float hash="damage_mul_attack_attr_magic">1</float>
+    <float hash="damage_mul_attack_attr_aura">1</float>
+    <float hash="damage_mul_attack_region_psi">1</float>
+    <float hash="damage_mul_attack_region_magic">1</float>
+    <float hash="damage_mul_attack_region_bomb">1</float>
+    <float hash="damage_mul_attack_region_energy">1</float>
+    <float hash="damage_mul_attack_region_object">1</float>
+    <float hash="damage_mul_attack_region_sword">1</float>
+    <float hash="damage_mul_attack_region_hammer">1</float>
+    <float hash="damage_mul_attack_region_palutena">1</float>
+    <float hash="damage_mul_attack_region_bat">1</float>
+    <float hash="damage_mul_attack_region_parasol">1</float>
+    <float hash="damage_mul_attack_region_pikmin">1</float>
+    <float hash="damage_mul_attack_region_whip">1</float>
+    <float hash="escape_air_slide_distance_mul">1</float>
+    <float hash="reflector_attack_limit_mul">1</float>
+    <float hash="power_special_n_ground">1</float>
+    <float hash="power_special_hi_ground">1</float>
+    <float hash="power_special_s_ground">1</float>
+    <float hash="power_special_lw_ground">1</float>
+    <float hash="power_special_attr_ground">1</float>
+    <float hash="power_special_n_air">1</float>
+    <float hash="power_special_hi_air">1</float>
+    <float hash="power_special_s_air">1</float>
+    <float hash="power_special_lw_air">1</float>
+    <float hash="power_special_attr_air">1</float>
+    <float hash="charge_final_add_gauge_by_time">1</float>
+    <float hash="charge_final_add_gauge_by_attack">1</float>
+    <float hash="0x2d073b8b11">1</float>
+    <float hash="0x2b0de64f73">1</float>
+    <float hash="latios_transactor_rate">1</float>
+    <float hash="passive_trigger_frame_mul">1</float>
+    <float hash="attack_power_mul_for_assist">1</float>
+    <float hash="swim_drown_frame">1</float>
+    <float hash="swim_drown_out_frame">1</float>
+    <float hash="damage_speed_mul">1</float>
+    <float hash="0x17e1e49375">1</float>
+    <float hash="0x19cb32add5">1</float>
+    <float hash="0x1f0c926372">1</float>
+    <float hash="special_landing_frame_mul">1</float>
+    <float hash="squat_walk_speed_max_mul">1</float>
+  </struct>
+  <list size="25" hash="power_up_move">
+    <struct index="0">
+      <hash40 hash="param_kind">power_up_move</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">1</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">1</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="1">
+      <hash40 hash="param_kind">0x0ef53a098c</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">0.75</float>
+      <float hash="up_mul">1.8</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.4</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="2">
+      <hash40 hash="param_kind">0x0ea1225bca</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">0.75</float>
+      <float hash="up_mul">1.4</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.4</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="3">
+      <hash40 hash="param_kind">0x0ee2ec2860</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">0.75</float>
+      <float hash="up_mul">1.4</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.4</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="4">
+      <hash40 hash="param_kind">squat_walk_speed_max_mul</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">0.75</float>
+      <float hash="up_mul">1.4</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.4</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="5">
+      <hash40 hash="param_kind">ground_brake</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">0.75</float>
+      <float hash="up_mul">3.4</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.4</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="6">
+      <hash40 hash="param_kind">dash_speed</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">0.75</float>
+      <float hash="up_mul">1.4</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.4</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="7">
+      <hash40 hash="param_kind">run_accel_mul</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">0.75</float>
+      <float hash="up_mul">2.6</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.4</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="8">
+      <hash40 hash="param_kind">run_accel_add</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">0.75</float>
+      <float hash="up_mul">2.6</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.4</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="9">
+      <hash40 hash="param_kind">run_speed_max</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">0.75</float>
+      <float hash="up_mul">2.6</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.4</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="10">
+      <hash40 hash="param_kind">air_accel_x_mul</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">0.75</float>
+      <float hash="up_mul">3.2</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.4</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="11">
+      <hash40 hash="param_kind">air_accel_x_add</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">0.75</float>
+      <float hash="up_mul">3.2</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.4</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="12">
+      <hash40 hash="param_kind">air_speed_x_stable</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">0.75</float>
+      <float hash="up_mul">2.5</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.4</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="13">
+      <hash40 hash="param_kind">air_brake_x</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">0.75</float>
+      <float hash="up_mul">1.8</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.4</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="14">
+      <hash40 hash="param_kind">item_lift_accel_mul</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">0.75</float>
+      <float hash="up_mul">2.7</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.4</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="15">
+      <hash40 hash="param_kind">item_lift_accel_add</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">0.75</float>
+      <float hash="up_mul">2.7</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.4</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="16">
+      <hash40 hash="param_kind">item_lift_speed_max</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">0.75</float>
+      <float hash="up_mul">2</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.4</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="17">
+      <hash40 hash="param_kind">shoot_walk_accel_mul</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">0.75</float>
+      <float hash="up_mul">2.7</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.4</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="18">
+      <hash40 hash="param_kind">shoot_walk_accel_add</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">0.75</float>
+      <float hash="up_mul">2.7</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.4</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="19">
+      <hash40 hash="param_kind">shoot_walk_speed_max</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">0.75</float>
+      <float hash="up_mul">2</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.4</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="20">
+      <hash40 hash="param_kind">shoot_dash_speed_f</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">0.75</float>
+      <float hash="up_mul">2.3</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.4</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="21">
+      <hash40 hash="param_kind">shoot_dash_speed_b</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">0.75</float>
+      <float hash="up_mul">2</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.4</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="22">
+      <hash40 hash="param_kind">ground_speed_limit</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">1.7</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.4</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="23">
+      <hash40 hash="param_kind">passive_wall_jump_x_speed</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">0.75</float>
+      <float hash="up_mul">3</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.4</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="24">
+      <hash40 hash="param_kind">cliff_jump_x_speed</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">0.75</float>
+      <float hash="up_mul">2</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.4</float>
+      <float hash="down_add">0</float>
+    </struct>
+  </list>
+  <list size="23" hash="power_up_jump">
+    <struct index="0">
+      <hash40 hash="param_kind">power_up_jump</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">1</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">1</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="1">
+      <hash40 hash="param_kind">jump_speed_x</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">0.85</float>
+      <float hash="up_mul">2.2</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.4</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="2">
+      <hash40 hash="param_kind">jump_speed_x_mul</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">0.85</float>
+      <float hash="up_mul">2.2</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.4</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="3">
+      <hash40 hash="param_kind">jump_speed_x_max</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">0.85</float>
+      <float hash="up_mul">2.2</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.4</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="4">
+      <hash40 hash="param_kind">jump_aerial_speed_x_mul</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">0.85</float>
+      <float hash="up_mul">2.2</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.4</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="5">
+      <hash40 hash="param_kind">jump_speed_y</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">0.85</float>
+      <float hash="up_mul">2.2</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.4</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="6">
+      <hash40 hash="param_kind">jump_initial_y</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">0.85</float>
+      <float hash="up_mul">1.5</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.4</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="7">
+      <hash40 hash="param_kind">jump_initial_speed_y</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">0.85</float>
+      <float hash="up_mul">1.5</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.4</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="8">
+      <hash40 hash="param_kind">jump_initial_accel_y</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">0.85</float>
+      <float hash="up_mul">1.5</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.4</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="9">
+      <hash40 hash="param_kind">jump_y</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">0.85</float>
+      <float hash="up_mul">2.2</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.4</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="10">
+      <hash40 hash="param_kind">mini_jump_speed_y</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">0.85</float>
+      <float hash="up_mul">1.3</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.4</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="11">
+      <hash40 hash="param_kind">jump_aerial_speed_y</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">0.85</float>
+      <float hash="up_mul">1.5</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.4</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="12">
+      <hash40 hash="param_kind">jump_aerial_motion_mul</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">0.9</float>
+      <float hash="up_mul">2.2</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.4</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="13">
+      <hash40 hash="param_kind">fly_speed_y_mul</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">0.9</float>
+      <float hash="up_mul">1.8</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.4</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="14">
+      <hash40 hash="param_kind">air_accel_y</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">1</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.4</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="15">
+      <hash40 hash="param_kind">air_speed_y_stable</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">1.9</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.4</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="16">
+      <hash40 hash="param_kind">air_brake_y</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">1.3</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.4</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="17">
+      <hash40 hash="param_kind">dive_speed_y</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">0.85</float>
+      <float hash="up_mul">2.1</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.4</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="18">
+      <hash40 hash="param_kind">tread_jump_speed_y</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">0.85</float>
+      <float hash="up_mul">2</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.4</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="19">
+      <hash40 hash="param_kind">tread_mini_jump_speed_y</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">0.85</float>
+      <float hash="up_mul">1.7</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.4</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="20">
+      <hash40 hash="param_kind">passive_wall_x_speed</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">0.85</float>
+      <float hash="up_mul">2.4</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.4</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="21">
+      <hash40 hash="param_kind">passive_wall_jump_y_speed</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">0.85</float>
+      <float hash="up_mul">2.2</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.4</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="22">
+      <hash40 hash="param_kind">cliff_jump_y_speed</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">0.85</float>
+      <float hash="up_mul">2.4</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.4</float>
+      <float hash="down_add">0</float>
+    </struct>
+  </list>
+  <list size="9" hash="power_up_attack">
+    <struct index="0">
+      <hash40 hash="param_kind">power_up_attack</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">1</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">1</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="1">
+      <hash40 hash="param_kind">power_attack_1</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">0.9</float>
+      <float hash="up_mul">3.2</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.5</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="2">
+      <hash40 hash="param_kind">power_attack_3</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">0.9</float>
+      <float hash="up_mul">3.2</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.5</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="3">
+      <hash40 hash="param_kind">power_attack_dash</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">0.9</float>
+      <float hash="up_mul">3.2</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.5</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="4">
+      <hash40 hash="param_kind">power_attack_air</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">3.2</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.5</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="5">
+      <hash40 hash="param_kind">power_attack_cliff</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">3.2</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.5</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="6">
+      <hash40 hash="param_kind">power_attack_down_stand</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">3.2</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.5</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="7">
+      <hash40 hash="param_kind">power_attack_4</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">0.9</float>
+      <float hash="up_mul">3.2</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.5</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="8">
+      <hash40 hash="param_kind">attack_4_hold_frame</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">1.5</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.5</float>
+      <float hash="down_add">0</float>
+    </struct>
+  </list>
+  <list size="6" hash="power_up_special">
+    <struct index="0">
+      <hash40 hash="param_kind">power_up_special</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">1</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">1</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="1">
+      <hash40 hash="param_kind">power_special_n</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">3.5</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.5</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="2">
+      <hash40 hash="param_kind">power_special_hi</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">3.5</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.5</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="3">
+      <hash40 hash="param_kind">power_special_s</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">3.5</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.5</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="4">
+      <hash40 hash="param_kind">power_special_lw</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">3.5</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.5</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="5">
+      <hash40 hash="param_kind">power_special_attr</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">1.5</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.5</float>
+      <float hash="down_add">0</float>
+    </struct>
+  </list>
+  <list size="17" hash="power_up_item">
+    <struct index="0">
+      <hash40 hash="param_kind">power_up_item</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">1</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">1</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="1">
+      <hash40 hash="param_kind">throw_item_speed_mul</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">1.7</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.5</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="2">
+      <hash40 hash="param_kind">throw_item_power_mul</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">0.8</float>
+      <float hash="up_mul">3</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.5</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="3">
+      <hash40 hash="param_kind">item_heal</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">2.5</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.5</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="4">
+      <hash40 hash="param_kind">item_attack_power</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">0.8</float>
+      <float hash="up_mul">2.7</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.5</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="5">
+      <hash40 hash="param_kind">item_shoot_power</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">0.8</float>
+      <float hash="up_mul">3.3</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.5</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="6">
+      <hash40 hash="param_kind">item_attack_dash_power</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">0.8</float>
+      <float hash="up_mul">3.3</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.5</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="7">
+      <hash40 hash="param_kind">item_assist_power</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">3</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.5</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="8">
+      <hash40 hash="param_kind">item_etc_power</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">3</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.5</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="9">
+      <hash40 hash="param_kind">item_state_frame</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">2</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.5</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="10">
+      <hash40 hash="param_kind">item_equipment_frame</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">2</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">1</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="11">
+      <hash40 hash="param_kind">attack_drop_item</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">5</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.2</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="12">
+      <hash40 hash="param_kind">damage_drop_item</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">5</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.2</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="13">
+      <hash40 hash="param_kind">catch_frame</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">4</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.5</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="14">
+      <hash40 hash="param_kind">catch_attack_power</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">3.5</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.5</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="15">
+      <hash40 hash="param_kind">catch_range</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">2</float>
+      <float hash="up_mul">3.5</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.7</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="16">
+      <hash40 hash="param_kind">throw_attack_power</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">4</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.5</float>
+      <float hash="down_add">0</float>
+    </struct>
+  </list>
+  <list size="11" hash="power_up_defense">
+    <struct index="0">
+      <hash40 hash="param_kind">power_up_defense</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">1</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">1</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="1">
+      <hash40 hash="param_kind">defense</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">0.8</float>
+      <float hash="up_mul">7.7</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.5</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="2">
+      <hash40 hash="param_kind">shield_frame</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">2.5</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.5</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="3">
+      <hash40 hash="param_kind">shield_recovery</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">4</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.5</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="4">
+      <hash40 hash="param_kind">furafura_frame</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">0.5</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">1</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="5">
+      <hash40 hash="param_kind">just_guard_check_frame</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">2</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">1</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="6">
+      <hash40 hash="param_kind">0x0ea1225bca</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">0.9</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">1</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="7">
+      <hash40 hash="param_kind">dash_speed</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">0.9</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">1</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="8">
+      <hash40 hash="param_kind">run_accel_add</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">0.9</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">1</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="9">
+      <hash40 hash="param_kind">jump_speed_x_mul</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">0.9</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">1</float>
+      <float hash="down_add">0</float>
+    </struct>
+    <struct index="10">
+      <hash40 hash="param_kind">air_accel_x_add</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">0.9</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">1</float>
+      <float hash="down_add">0</float>
+    </struct>
+  </list>
+</struct>

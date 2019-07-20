@@ -1,0 +1,2614 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<struct>
+  <int hash="level_min">1</int>
+  <int hash="level_max">50</int>
+  <int hash="default_param_lv">13</int>
+  <float hash="power_up_increase_rate">0.5</float>
+  <float hash="power_up_decrease_rate">0.3</float>
+  <int hash="power_up_point_max">10000</int>
+  <int hash="power_up_point_min">-10000</int>
+  <list size="23" hash="power_up_attack">
+    <struct index="0">
+      <hash40 hash="param_kind">power_up_attack</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">1</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">1</float>
+      <float hash="down_add">0</float>
+      <float hash="level_min_mul">1</float>
+      <float hash="level_max_mul">1</float>
+    </struct>
+    <struct index="1">
+      <hash40 hash="param_kind">power_attack_1</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">5</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.5</float>
+      <float hash="down_add">0</float>
+      <float hash="level_min_mul">0.8</float>
+      <float hash="level_max_mul">1.6</float>
+    </struct>
+    <struct index="2">
+      <hash40 hash="param_kind">power_attack_3</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">5</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.5</float>
+      <float hash="down_add">0</float>
+      <float hash="level_min_mul">0.8</float>
+      <float hash="level_max_mul">1.6</float>
+    </struct>
+    <struct index="3">
+      <hash40 hash="param_kind">power_attack_dash</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">5</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.5</float>
+      <float hash="down_add">0</float>
+      <float hash="level_min_mul">0.8</float>
+      <float hash="level_max_mul">1.6</float>
+    </struct>
+    <struct index="4">
+      <hash40 hash="param_kind">power_attack_air</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">5</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.5</float>
+      <float hash="down_add">0</float>
+      <float hash="level_min_mul">0.8</float>
+      <float hash="level_max_mul">1.6</float>
+    </struct>
+    <struct index="5">
+      <hash40 hash="param_kind">power_attack_cliff</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">5</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.5</float>
+      <float hash="down_add">0</float>
+      <float hash="level_min_mul">0.8</float>
+      <float hash="level_max_mul">1.6</float>
+    </struct>
+    <struct index="6">
+      <hash40 hash="param_kind">power_attack_down_stand</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">5</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.5</float>
+      <float hash="down_add">0</float>
+      <float hash="level_min_mul">0.8</float>
+      <float hash="level_max_mul">1.6</float>
+    </struct>
+    <struct index="7">
+      <hash40 hash="param_kind">power_attack_4</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">5</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.5</float>
+      <float hash="down_add">0</float>
+      <float hash="level_min_mul">0.8</float>
+      <float hash="level_max_mul">1.6</float>
+    </struct>
+    <struct index="8">
+      <hash40 hash="param_kind">attack_4_hold_frame</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">5</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.5</float>
+      <float hash="down_add">0</float>
+      <float hash="level_min_mul">0.8</float>
+      <float hash="level_max_mul">1.6</float>
+    </struct>
+    <struct index="9">
+      <hash40 hash="param_kind">throw_attack_power</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">5</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.5</float>
+      <float hash="down_add">0</float>
+      <float hash="level_min_mul">0.8</float>
+      <float hash="level_max_mul">1.6</float>
+    </struct>
+    <struct index="10">
+      <hash40 hash="param_kind">catch_attack_power</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">5</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.5</float>
+      <float hash="down_add">0</float>
+      <float hash="level_min_mul">0.8</float>
+      <float hash="level_max_mul">1.6</float>
+    </struct>
+    <struct index="11">
+      <hash40 hash="param_kind">throw_item_power_mul</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">2.5</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.5</float>
+      <float hash="down_add">0</float>
+      <float hash="level_min_mul">0.8</float>
+      <float hash="level_max_mul">1.6</float>
+    </struct>
+    <struct index="12">
+      <hash40 hash="param_kind">item_attack_power</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">2.5</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.5</float>
+      <float hash="down_add">0</float>
+      <float hash="level_min_mul">0.8</float>
+      <float hash="level_max_mul">1.6</float>
+    </struct>
+    <struct index="13">
+      <hash40 hash="param_kind">item_shoot_power</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">2.5</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.5</float>
+      <float hash="down_add">0</float>
+      <float hash="level_min_mul">0.8</float>
+      <float hash="level_max_mul">1.6</float>
+    </struct>
+    <struct index="14">
+      <hash40 hash="param_kind">item_attack_dash_power</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">2.5</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.5</float>
+      <float hash="down_add">0</float>
+      <float hash="level_min_mul">0.8</float>
+      <float hash="level_max_mul">1.6</float>
+    </struct>
+    <struct index="15">
+      <hash40 hash="param_kind">item_etc_power</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">2.5</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.5</float>
+      <float hash="down_add">0</float>
+      <float hash="level_min_mul">0.8</float>
+      <float hash="level_max_mul">1.6</float>
+    </struct>
+    <struct index="16">
+      <hash40 hash="param_kind">item_assist_power</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">5</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.5</float>
+      <float hash="down_add">0</float>
+      <float hash="level_min_mul">0.8</float>
+      <float hash="level_max_mul">1.6</float>
+    </struct>
+    <struct index="17">
+      <hash40 hash="param_kind">item_pokemon_power</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">5</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.5</float>
+      <float hash="down_add">0</float>
+      <float hash="level_min_mul">0.8</float>
+      <float hash="level_max_mul">1.6</float>
+    </struct>
+    <struct index="18">
+      <hash40 hash="param_kind">power_final</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">2</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.5</float>
+      <float hash="down_add">0</float>
+      <float hash="level_min_mul">0.8</float>
+      <float hash="level_max_mul">1.6</float>
+    </struct>
+    <struct index="19">
+      <hash40 hash="param_kind">power_special_n</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">5</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.5</float>
+      <float hash="down_add">0</float>
+      <float hash="level_min_mul">0.8</float>
+      <float hash="level_max_mul">1.6</float>
+    </struct>
+    <struct index="20">
+      <hash40 hash="param_kind">power_special_hi</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">5</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.5</float>
+      <float hash="down_add">0</float>
+      <float hash="level_min_mul">0.8</float>
+      <float hash="level_max_mul">1.6</float>
+    </struct>
+    <struct index="21">
+      <hash40 hash="param_kind">power_special_s</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">5</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.5</float>
+      <float hash="down_add">0</float>
+      <float hash="level_min_mul">0.8</float>
+      <float hash="level_max_mul">1.6</float>
+    </struct>
+    <struct index="22">
+      <hash40 hash="param_kind">power_special_lw</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">5</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.5</float>
+      <float hash="down_add">0</float>
+      <float hash="level_min_mul">0.8</float>
+      <float hash="level_max_mul">1.6</float>
+    </struct>
+  </list>
+  <list size="11" hash="power_up_defense">
+    <struct index="0">
+      <hash40 hash="param_kind">power_up_defense</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">1</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">1</float>
+      <float hash="down_add">0</float>
+      <float hash="level_min_mul">1</float>
+      <float hash="level_max_mul">1</float>
+    </struct>
+    <struct index="1">
+      <hash40 hash="param_kind">defense</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">5</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.5</float>
+      <float hash="down_add">0</float>
+      <float hash="level_min_mul">0.8</float>
+      <float hash="level_max_mul">1.6</float>
+    </struct>
+    <struct index="2">
+      <hash40 hash="param_kind">shield_frame</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">2</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.5</float>
+      <float hash="down_add">0</float>
+      <float hash="level_min_mul">0.8</float>
+      <float hash="level_max_mul">1.6</float>
+    </struct>
+    <struct index="3">
+      <hash40 hash="param_kind">shield_recovery</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">2</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">0.5</float>
+      <float hash="down_add">0</float>
+      <float hash="level_min_mul">0.8</float>
+      <float hash="level_max_mul">1.6</float>
+    </struct>
+    <struct index="4">
+      <hash40 hash="param_kind">furafura_frame</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">0.5</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">1</float>
+      <float hash="down_add">0</float>
+      <float hash="level_min_mul">1.6</float>
+      <float hash="level_max_mul">0.76</float>
+    </struct>
+    <struct index="5">
+      <hash40 hash="param_kind">just_guard_check_frame</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">1</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">1</float>
+      <float hash="down_add">0</float>
+      <float hash="level_min_mul">0.8</float>
+      <float hash="level_max_mul">1.3</float>
+    </struct>
+    <struct index="6">
+      <hash40 hash="param_kind">0x0ea1225bca</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">1</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">1</float>
+      <float hash="down_add">0</float>
+      <float hash="level_min_mul">1</float>
+      <float hash="level_max_mul">1</float>
+    </struct>
+    <struct index="7">
+      <hash40 hash="param_kind">dash_speed</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">1</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">1</float>
+      <float hash="down_add">0</float>
+      <float hash="level_min_mul">1</float>
+      <float hash="level_max_mul">1</float>
+    </struct>
+    <struct index="8">
+      <hash40 hash="param_kind">run_accel_add</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">1</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">1</float>
+      <float hash="down_add">0</float>
+      <float hash="level_min_mul">1</float>
+      <float hash="level_max_mul">1</float>
+    </struct>
+    <struct index="9">
+      <hash40 hash="param_kind">jump_speed_x_mul</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">1</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">1</float>
+      <float hash="down_add">0</float>
+      <float hash="level_min_mul">1</float>
+      <float hash="level_max_mul">1</float>
+    </struct>
+    <struct index="10">
+      <hash40 hash="param_kind">air_accel_x_add</hash40>
+      <hash40 hash="param_kind2"></hash40>
+      <float hash="base_mul">1</float>
+      <float hash="up_mul">1</float>
+      <float hash="up_add">0</float>
+      <float hash="down_mul">1</float>
+      <float hash="down_add">0</float>
+      <float hash="level_min_mul">1</float>
+      <float hash="level_max_mul">1</float>
+    </struct>
+  </list>
+  <struct hash="run_speed_up">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">0x0ef53a098c</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">0x1479d91d93</hash40>
+  </struct>
+  <struct hash="spike_shoes">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">ground_brake</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="jump_up">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">jump_y</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="landing_frame_down">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">landing_attack_air_frame_n</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="landing_frame_down_dx">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">landing_attack_air_frame_n</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="light_weight">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">0x0607cd5541</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="heavy_weight">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">0x0607cd5541</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="jump_plus">
+    <hash40 hash="attach_effect_kind">null</hash40>
+    <list size="5" hash="add_count">
+      <int index="0">0</int>
+      <int index="1">0</int>
+      <int index="2">0</int>
+      <int index="3">0</int>
+      <int index="4">0</int>
+    </list>
+  </struct>
+  <struct hash="hyper_smash">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">attack_4_hold_frame</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="quick_smash">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">attack_4_hold_frame</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind"></hash40>
+  </struct>
+  <struct hash="shield_shave_up">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">sub_shield_mul</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="shield_size_up">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">shield_scale</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="easy_escape">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">escape_invincible_frame</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="easy_escape_dx">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">escape_invincible_frame</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="easy_just_shield">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">just_shield_check_frame</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="air_escape_move_up">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">escape_air_slide_distance_mul</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="air_escape_move_up_dx">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">escape_air_slide_distance_mul</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="life_steal">
+    <hash40 hash="attach_effect_kind">null</hash40>
+    <list size="5" hash="probability">
+      <int index="0">0</int>
+      <int index="1">0</int>
+      <int index="2">0</int>
+      <int index="3">0</int>
+      <int index="4">0</int>
+    </list>
+    <list size="2" hash="life_rate">
+      <int index="0">0</int>
+      <int index="1">0</int>
+    </list>
+  </struct>
+  <struct hash="sacrifice_offense_up">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">power_attack_1</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+    <list size="5" hash="damage">
+      <float index="0">0</float>
+      <float index="1">0</float>
+      <float index="2">0</float>
+      <float index="3">0</float>
+      <float index="4">0</float>
+    </list>
+  </struct>
+  <struct hash="sacrifice_defense_up">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">defense</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+    <list size="2" hash="damage">
+      <float index="0">0</float>
+      <float index="1">0</float>
+    </list>
+  </struct>
+  <struct hash="sacrifice_speed_up">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">0x0ef53a098c</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+    <list size="2" hash="damage">
+      <float index="0">0</float>
+      <float index="1">0</float>
+    </list>
+  </struct>
+  <struct hash="sacrifice_various_up">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">power_attack_1</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+    <list size="2" hash="damage">
+      <float index="0">0</float>
+      <float index="1">0</float>
+    </list>
+  </struct>
+  <struct hash="pinch_offense_up">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">power_attack_1</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">0x1532f8b0a6</hash40>
+    <list size="4" hash="damage">
+      <float index="0">0</float>
+      <float index="1">0</float>
+      <float index="2">0</float>
+      <float index="3">0</float>
+    </list>
+    <list size="3" hash="hp_rate">
+      <float index="0">0</float>
+      <float index="1">0</float>
+      <float index="2">0</float>
+    </list>
+    <list size="2" hash="frame">
+      <int index="0">0</int>
+      <int index="1">0</int>
+    </list>
+  </struct>
+  <struct hash="pinch_defense_up">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">defense</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">0x1611f60fc4</hash40>
+    <list size="4" hash="damage">
+      <float index="0">0</float>
+      <float index="1">0</float>
+      <float index="2">0</float>
+      <float index="3">0</float>
+    </list>
+    <list size="3" hash="hp_rate">
+      <float index="0">0</float>
+      <float index="1">0</float>
+      <float index="2">0</float>
+    </list>
+    <list size="2" hash="frame">
+      <int index="0">0</int>
+      <int index="1">0</int>
+    </list>
+  </struct>
+  <struct hash="pinch_various_up">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">power_attack_1</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">0x128771e04b</hash40>
+    <list size="4" hash="damage">
+      <float index="0">0</float>
+      <float index="1">0</float>
+      <float index="2">0</float>
+      <float index="3">0</float>
+    </list>
+    <list size="3" hash="hp_rate">
+      <float index="0">0</float>
+      <float index="1">0</float>
+      <float index="2">0</float>
+    </list>
+    <list size="2" hash="frame">
+      <int index="0">0</int>
+      <int index="1">0</int>
+    </list>
+  </struct>
+  <struct hash="pinch_various_up_plus">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">power_attack_1</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">0x128771e04b</hash40>
+    <list size="4" hash="damage">
+      <float index="0">0</float>
+      <float index="1">0</float>
+      <float index="2">0</float>
+      <float index="3">0</float>
+    </list>
+    <list size="3" hash="hp_rate">
+      <float index="0">0</float>
+      <float index="1">0</float>
+      <float index="2">0</float>
+    </list>
+    <list size="2" hash="frame">
+      <int index="0">0</int>
+      <int index="1">0</int>
+    </list>
+  </struct>
+  <struct hash="pinch_invincible">
+    <hash40 hash="attach_effect_kind">null</hash40>
+    <list size="5" hash="damage">
+      <float index="0">0</float>
+      <float index="1">0</float>
+      <float index="2">0</float>
+      <float index="3">0</float>
+      <float index="4">0</float>
+    </list>
+    <list size="3" hash="hp_rate">
+      <float index="0">0</float>
+      <float index="1">0</float>
+      <float index="2">0</float>
+    </list>
+    <list size="2" hash="frame">
+      <int index="0">0</int>
+      <int index="1">0</int>
+    </list>
+  </struct>
+  <struct hash="pinch_heal">
+    <hash40 hash="attach_effect_kind">null</hash40>
+    <list size="3" hash="damage">
+      <float index="0">0</float>
+      <float index="1">0</float>
+      <float index="2">0</float>
+    </list>
+    <list size="2" hash="hp_rate">
+      <float index="0">0</float>
+      <float index="1">0</float>
+    </list>
+    <list size="5" hash="percent">
+      <float index="0">0</float>
+      <float index="1">0</float>
+      <float index="2">0</float>
+      <float index="3">0</float>
+      <float index="4">0</float>
+    </list>
+  </struct>
+  <struct hash="low_damage_offense_up">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">power_attack_1</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">0x1532f8b0a6</hash40>
+    <list size="4" hash="damage">
+      <float index="0">0</float>
+      <float index="1">0</float>
+      <float index="2">0</float>
+      <float index="3">0</float>
+    </list>
+    <list size="3" hash="hp_rate">
+      <float index="0">0</float>
+      <float index="1">0</float>
+      <float index="2">0</float>
+    </list>
+    <list size="2" hash="frame">
+      <int index="0">0</int>
+      <int index="1">0</int>
+    </list>
+  </struct>
+  <struct hash="low_damage_defense_up">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">defense</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">0x1611f60fc4</hash40>
+    <list size="4" hash="damage">
+      <float index="0">0</float>
+      <float index="1">0</float>
+      <float index="2">0</float>
+      <float index="3">0</float>
+    </list>
+    <list size="3" hash="hp_rate">
+      <float index="0">0</float>
+      <float index="1">0</float>
+      <float index="2">0</float>
+    </list>
+    <list size="2" hash="frame">
+      <int index="0">0</int>
+      <int index="1">0</int>
+    </list>
+  </struct>
+  <struct hash="auto_heal">
+    <hash40 hash="attach_effect_kind">null</hash40>
+    <list size="2" hash="frame">
+      <int index="0">0</int>
+      <int index="1">0</int>
+    </list>
+    <list size="5" hash="percent">
+      <float index="0">0</float>
+      <float index="1">0</float>
+      <float index="2">0</float>
+      <float index="3">0</float>
+      <float index="4">0</float>
+    </list>
+  </struct>
+  <struct hash="auto_heal_plus">
+    <hash40 hash="attach_effect_kind">null</hash40>
+    <list size="2" hash="frame">
+      <int index="0">0</int>
+      <int index="1">0</int>
+    </list>
+    <list size="5" hash="percent">
+      <float index="0">0</float>
+      <float index="1">0</float>
+      <float index="2">0</float>
+      <float index="3">0</float>
+      <float index="4">0</float>
+    </list>
+  </struct>
+  <struct hash="super_armor">
+    <hash40 hash="attach_effect_kind">null</hash40>
+    <list size="5" hash="damage_mul">
+      <float index="0">0</float>
+      <float index="1">0</float>
+      <float index="2">0</float>
+      <float index="3">0</float>
+      <float index="4">0</float>
+    </list>
+    <list size="2" hash="damage_reaction">
+      <float index="0">0</float>
+      <float index="1">0</float>
+    </list>
+  </struct>
+  <struct hash="slow_super_armor">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">0x0ef53a098c</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+    <list size="5" hash="damage_mul">
+      <float index="0">0</float>
+      <float index="1">0</float>
+      <float index="2">0</float>
+      <float index="3">0</float>
+      <float index="4">0</float>
+    </list>
+    <list size="2" hash="damage_reaction">
+      <float index="0">0</float>
+      <float index="1">0</float>
+    </list>
+  </struct>
+  <struct hash="body_offense_up">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">attack_power_mul_region_head</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="0x11f99bac6e">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">attack_power_mul_region_object</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="punch_offense_up">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">attack_power_mul_region_punch</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="kick_offense_up">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">attack_power_mul_region_kick</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="0x0f3fbc2206">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">attack_power_mul_attr_aura</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="psi_offense_up">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">attack_power_mul_region_psi</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="slash_offense_up">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">attack_power_mul_attr_cutup</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="magic_offense_up">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">attack_power_mul_region_magic</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="fire_offense_up">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">attack_power_mul_attr_fire</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="purplefire_offense_up">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">attack_power_mul_attr_purple</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="thunder_offense_up">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">attack_power_mul_attr_elec</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="energy_offense_up">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">attack_power_mul_region_energy</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="ice_offense_up">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">attack_power_mul_attr_water</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="0x0df6f9babe">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">damage_mul_attack_region_object</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="magic_resist">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">damage_mul_attack_attr_magic</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="psi_resist">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">damage_mul_attack_region_psi</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="slash_resist">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">damage_mul_attack_attr_cutup</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="fire_resist">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">damage_mul_attack_attr_fire</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="purplefire_resist">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">damage_mul_attack_attr_purple</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="bomb_resist">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">damage_mul_attack_region_bomb</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="thunder_resist">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">damage_mul_attack_attr_elec</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="energy_resist">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">damage_mul_attack_region_energy</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="ice_resist">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">damage_mul_attack_attr_ice</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="0x0c122d3d6c">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">damage_mul_attack_attr_water</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="0x0b365a2036">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">damage_mul_attack_attr_aura</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="air_offense_up">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">power_attack_air</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="air_offense_up_dx">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">power_attack_air</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="air_defense_up">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">defense</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="special_n_offense_up">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">power_special_n</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="special_s_offense_up">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">power_special_s</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="special_hi_offense_up">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">power_special_hi</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="special_lw_offense_up">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">power_special_lw</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="throw_offense_up">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">throw_attack_power</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="throw_offense_up_dx">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">throw_attack_power</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="endure_smash_hold">
+    <hash40 hash="attach_effect_kind">null</hash40>
+    <list size="5" hash="damage_mul">
+      <float index="0">0</float>
+      <float index="1">0</float>
+      <float index="2">0</float>
+      <float index="3">0</float>
+      <float index="4">0</float>
+    </list>
+    <list size="2" hash="damage_reaction">
+      <float index="0">0</float>
+      <float index="1">0</float>
+    </list>
+  </struct>
+  <struct hash="endure_air">
+    <hash40 hash="attach_effect_kind">null</hash40>
+    <list size="5" hash="damage_mul">
+      <float index="0">0</float>
+      <float index="1">0</float>
+      <float index="2">0</float>
+      <float index="3">0</float>
+      <float index="4">0</float>
+    </list>
+    <list size="2" hash="damage_reaction">
+      <float index="0">0</float>
+      <float index="1">0</float>
+    </list>
+  </struct>
+  <struct hash="endure_run">
+    <hash40 hash="attach_effect_kind">null</hash40>
+    <list size="5" hash="damage_mul">
+      <float index="0">0</float>
+      <float index="1">0</float>
+      <float index="2">0</float>
+      <float index="3">0</float>
+      <float index="4">0</float>
+    </list>
+    <list size="2" hash="damage_reaction">
+      <float index="0">0</float>
+      <float index="1">0</float>
+    </list>
+  </struct>
+  <struct hash="strong_upper_meteor">
+    <hash40 hash="attach_effect_kind">null</hash40>
+    <list size="5" hash="upper_vector_min">
+      <float index="0">0</float>
+      <float index="1">0</float>
+      <float index="2">0</float>
+      <float index="3">0</float>
+      <float index="4">0</float>
+    </list>
+    <list size="3" hash="upper_vector_max">
+      <float index="0">0</float>
+      <float index="1">0</float>
+      <float index="2">0</float>
+    </list>
+    <list size="2" hash="power_mul">
+      <float index="0">0</float>
+      <float index="1">0</float>
+    </list>
+  </struct>
+  <struct hash="chase_offense_up">
+    <hash40 hash="attach_effect_kind">null</hash40>
+    <list size="5" hash="damage_mul">
+      <float index="0">1</float>
+      <float index="1">1</float>
+      <float index="2">1</float>
+      <float index="3">1</float>
+      <float index="4">1</float>
+    </list>
+  </struct>
+  <struct hash="critical_hit">
+    <hash40 hash="attach_effect_kind">null</hash40>
+    <list size="5" hash="probability">
+      <int index="0">0</int>
+      <int index="1">0</int>
+      <int index="2">0</int>
+      <int index="3">0</int>
+      <int index="4">0</int>
+    </list>
+    <list size="2" hash="damage_mul">
+      <float index="0">0</float>
+      <float index="1">0</float>
+    </list>
+  </struct>
+  <struct hash="critical_hit_plus">
+    <hash40 hash="attach_effect_kind">null</hash40>
+    <list size="5" hash="probability">
+      <int index="0">0</int>
+      <int index="1">0</int>
+      <int index="2">0</int>
+      <int index="3">0</int>
+      <int index="4">0</int>
+    </list>
+    <list size="2" hash="damage_mul">
+      <float index="0">0</float>
+      <float index="1">0</float>
+    </list>
+  </struct>
+  <struct hash="quick_escape">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">0x1583f01775</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="shield_max_up">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">shield_max_mul</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="shield_heal_up">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">shield_recovery</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="pinpoint_shield">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">shield_scale</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="just_shield_bomber">
+    <hash40 hash="attach_effect_kind">null</hash40>
+    <list size="3" hash="frame">
+      <int index="0">0</int>
+      <int index="1">0</int>
+      <int index="2">0</int>
+    </list>
+    <list size="5" hash="power">
+      <float index="0">0</float>
+      <float index="1">0</float>
+      <float index="2">0</float>
+      <float index="3">0</float>
+      <float index="4">0</float>
+    </list>
+    <list size="2" hash="size_mul">
+      <float index="0">0</float>
+      <float index="1">0</float>
+    </list>
+  </struct>
+  <struct hash="item_hitter">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">item_attack_power</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="item_shooter">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">item_shoot_power</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="item_pitcher">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">throw_item_power_mul</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="shoot_heal">
+    <hash40 hash="attach_effect_kind">null</hash40>
+    <list size="5" hash="percent">
+      <float index="0">0</float>
+      <float index="1">0</float>
+      <float index="2">0</float>
+      <float index="3">0</float>
+      <float index="4">0</float>
+    </list>
+  </struct>
+  <struct hash="eat_invincible">
+    <hash40 hash="attach_effect_kind">0x128771e04b</hash40>
+    <list size="5" hash="frame">
+      <int index="0">0</int>
+      <int index="1">0</int>
+      <int index="2">0</int>
+      <int index="3">0</int>
+      <int index="4">0</int>
+    </list>
+  </struct>
+  <struct hash="eat_various_up">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">power_attack_1</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">0x128771e04b</hash40>
+    <list size="2" hash="frame">
+      <int index="0">0</int>
+      <int index="1">0</int>
+    </list>
+  </struct>
+  <struct hash="eat_various_up_plus">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">power_attack_1</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">0x128771e04b</hash40>
+    <list size="2" hash="frame">
+      <int index="0">0</int>
+      <int index="1">0</int>
+    </list>
+  </struct>
+  <struct hash="smashball_keep">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">smashball_drop_rate</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="first_hitter">
+    <hash40 hash="attach_effect_kind">null</hash40>
+    <list size="5" hash="frame">
+      <int index="0">0</int>
+      <int index="1">0</int>
+      <int index="2">0</int>
+      <int index="3">0</int>
+      <int index="4">0</int>
+    </list>
+  </struct>
+  <struct hash="reflect_limit_up">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">reflector_attack_limit_mul</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="start_dash">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">power_attack_1</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">0x128771e04b</hash40>
+    <list size="2" hash="frame">
+      <int index="0">0</int>
+      <int index="1">0</int>
+    </list>
+  </struct>
+  <struct hash="last_spurt">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">power_attack_1</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">0x128771e04b</hash40>
+    <list size="2" hash="frame">
+      <int index="0">0</int>
+      <int index="1">0</int>
+    </list>
+    <list size="3" hash="remaining_time">
+      <int index="0">0</int>
+      <int index="1">0</int>
+      <int index="2">0</int>
+    </list>
+  </struct>
+  <struct hash="highspeed_final_charge">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">charge_final_add_gauge_by_time</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="mach_stamp">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">dive_speed_y</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+    <list size="3" hash="frame">
+      <int index="0">0</int>
+      <int index="1">0</int>
+      <int index="2">0</int>
+    </list>
+    <list size="2" hash="attack_mul">
+      <float index="0">0</float>
+      <float index="1">0</float>
+    </list>
+  </struct>
+  <struct hash="shield_heal">
+    <hash40 hash="attach_effect_kind">null</hash40>
+    <list size="5" hash="life_rate">
+      <int index="0">0</int>
+      <int index="1">0</int>
+      <int index="2">0</int>
+      <int index="3">0</int>
+      <int index="4">0</int>
+    </list>
+  </struct>
+  <struct hash="just_shield_heal">
+    <hash40 hash="attach_effect_kind">null</hash40>
+    <list size="5" hash="life_rate">
+      <int index="0">0</int>
+      <int index="1">0</int>
+      <int index="2">0</int>
+      <int index="3">0</int>
+      <int index="4">0</int>
+    </list>
+  </struct>
+  <struct hash="shield_insensitive">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">shield_max_mul</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="extend_return_invincible">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">rebirth_invincible_frame</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="light_jump">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">air_accel_y</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="skateshoes">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">0x0ef53a098c</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="heal_up">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">item_heal</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="change_extension">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">item_state_frame</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="no_damage_offense_up">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">power_attack_1</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">0x1532f8b0a6</hash40>
+  </struct>
+  <struct hash="no_damage_speed_up">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">0x0ef53a098c</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">0x1479d91d93</hash40>
+  </struct>
+  <struct hash="no_damage_offense_speed_up">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">power_attack_1</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">0x128771e04b</hash40>
+  </struct>
+  <struct hash="smashball_various_up">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">power_attack_1</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">0x128771e04b</hash40>
+  </struct>
+  <struct hash="heal_final">
+    <hash40 hash="attach_effect_kind">null</hash40>
+    <list size="2" hash="frame">
+      <int index="0">0</int>
+      <int index="1">0</int>
+    </list>
+    <list size="5" hash="percent">
+      <float index="0">0</float>
+      <float index="1">0</float>
+      <float index="2">0</float>
+      <float index="3">0</float>
+      <float index="4">0</float>
+    </list>
+  </struct>
+  <struct hash="cliff_catch_up">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">cliff_hang_scale</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="high_speed_dash">
+    <hash40 hash="attach_effect_kind">null</hash40>
+    <list size="2" hash="frame">
+      <int index="0">0</int>
+      <int index="1">0</int>
+    </list>
+    <list size="5" hash="attack_power_min">
+      <float index="0">0</float>
+      <float index="1">0</float>
+      <float index="2">0</float>
+      <float index="3">0</float>
+      <float index="4">0</float>
+    </list>
+    <list size="3" hash="attack_power_max">
+      <float index="0">0</float>
+      <float index="1">0</float>
+      <float index="2">0</float>
+    </list>
+  </struct>
+  <struct hash="smashball_crusher">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">smashball_attack_mul</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="item_attracted">
+    <hash40 hash="attach_effect_kind">null</hash40>
+    <list size="5" hash="range">
+      <float index="0">0</float>
+      <float index="1">0</float>
+      <float index="2">0</float>
+      <float index="3">0</float>
+      <float index="4">0</float>
+    </list>
+    <list size="2" hash="speed">
+      <float index="0">0</float>
+      <float index="1">0</float>
+    </list>
+  </struct>
+  <struct hash="heal_item_attracted">
+    <hash40 hash="attach_effect_kind">null</hash40>
+    <list size="5" hash="range">
+      <float index="0">0</float>
+      <float index="1">0</float>
+      <float index="2">0</float>
+      <float index="3">0</float>
+      <float index="4">0</float>
+    </list>
+    <list size="2" hash="speed">
+      <float index="0">0</float>
+      <float index="1">0</float>
+    </list>
+  </struct>
+  <struct hash="appeal_heal">
+    <hash40 hash="attach_effect_kind">null</hash40>
+    <list size="5" hash="percent">
+      <float index="0">0</float>
+      <float index="1">0</float>
+      <float index="2">0</float>
+      <float index="3">0</float>
+      <float index="4">0</float>
+    </list>
+  </struct>
+  <struct hash="one_more_final">
+    <hash40 hash="attach_effect_kind">null</hash40>
+    <list size="5" hash="succeed_rate">
+      <int index="0">0</int>
+      <int index="1">0</int>
+      <int index="2">0</int>
+      <int index="3">0</int>
+      <int index="4">0</int>
+    </list>
+    <list size="2" hash="0x18f29461b8">
+      <int index="0">0</int>
+      <int index="1">0</int>
+    </list>
+  </struct>
+  <struct hash="raygun_master">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">item_shoot_power</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="beamsword_master">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">item_attack_power</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="metal_big">
+    <hash40 hash="attach_effect_kind">null</hash40>
+    <list size="5" hash="frame_mul">
+      <float index="0">1</float>
+      <float index="1">1</float>
+      <float index="2">1</float>
+      <float index="3">1</float>
+      <float index="4">1</float>
+    </list>
+  </struct>
+  <struct hash="armor_knight">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">power_attack_1</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="dash_attack_offense_up">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">dash_speed</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="back_attack_up">
+    <hash40 hash="attach_effect_kind">null</hash40>
+    <list size="5" hash="damage_mul">
+      <float index="0">1</float>
+      <float index="1">1</float>
+      <float index="2">1</float>
+      <float index="3">1</float>
+      <float index="4">1</float>
+    </list>
+  </struct>
+  <struct hash="energy_offense_resist_up">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">attack_power_mul_region_energy</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind"></hash40>
+  </struct>
+  <struct hash="hammer_extended">
+    <hash40 hash="attach_effect_kind">null</hash40>
+    <list size="5" hash="frame_mul">
+      <float index="0">1</float>
+      <float index="1">1</float>
+      <float index="2">1</float>
+      <float index="3">1</float>
+      <float index="4">1</float>
+    </list>
+  </struct>
+  <struct hash="item_offense_up">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">throw_item_power_mul</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="item_offense_up_plus">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">throw_item_power_mul</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="assist_offense_up">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">item_assist_power</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="fire_ice_offense_up">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">attack_power_mul_attr_fire</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="fire_resist_strength">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">damage_mul_attack_attr_fire</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="0x15bc926b68">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">damage_mul_attack_attr_water</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="attack_itemfall_up">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">attack_drop_item</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="0x166ad370d2">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">attack_power_mul_region_object</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="shoot_offense_up">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">power_shoot</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="final_charge_offense_up">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">charge_final_add_gauge_by_time</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="special_all_offense_up">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">power_special_n</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="special_all_offense_up_dx">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">power_special_n</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="physical_up">
+    <hash40 hash="attach_effect_kind">null</hash40>
+    <list size="5" hash="add_hp_max">
+      <float index="0">0</float>
+      <float index="1">0</float>
+      <float index="2">0</float>
+      <float index="3">0</float>
+      <float index="4">0</float>
+    </list>
+  </struct>
+  <struct hash="attack_1_offense_up">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">power_attack_1</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="attack_1_offense_up_dx">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">power_attack_1</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="attack_3_offense_up">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">power_attack_3</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="attack_3_offense_up_dx">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">power_attack_3</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="meteor_up">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">power_attack_meteor</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="poison_smash">
+    <hash40 hash="attach_effect_kind">null</hash40>
+    <list size="5" hash="probability">
+      <int index="0">0</int>
+      <int index="1">0</int>
+      <int index="2">0</int>
+      <int index="3">0</int>
+      <int index="4">0</int>
+    </list>
+    <list size="4" hash="frame">
+      <int index="0">0</int>
+      <int index="1">0</int>
+      <int index="2">0</int>
+      <int index="3">0</int>
+    </list>
+    <list size="3" hash="interval_frame">
+      <int index="0">0</int>
+      <int index="1">0</int>
+      <int index="2">0</int>
+    </list>
+    <list size="2" hash="add_damage">
+      <float index="0">0</float>
+      <float index="1">0</float>
+    </list>
+  </struct>
+  <struct hash="heal_smash">
+    <hash40 hash="attach_effect_kind">null</hash40>
+    <list size="5" hash="probability">
+      <int index="0">0</int>
+      <int index="1">0</int>
+      <int index="2">0</int>
+      <int index="3">0</int>
+      <int index="4">0</int>
+    </list>
+    <list size="2" hash="life_rate">
+      <int index="0">0</int>
+      <int index="1">0</int>
+    </list>
+  </struct>
+  <struct hash="good_passive">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">passive_trigger_frame_mul</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">0</float>
+        <float hash="rate2">0</float>
+        <float hash="rate3">0</float>
+        <float hash="rate4">0</float>
+        <float hash="rate5">0</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="giant_killer">
+    <hash40 hash="attach_effect_kind">null</hash40>
+    <list size="5" hash="damage_mul">
+      <float index="0">1</float>
+      <float index="1">1</float>
+      <float index="2">1</float>
+      <float index="3">1</float>
+      <float index="4">1</float>
+    </list>
+  </struct>
+  <struct hash="metal_killer">
+    <hash40 hash="attach_effect_kind">null</hash40>
+    <list size="5" hash="damage_mul">
+      <float index="0">1</float>
+      <float index="1">1</float>
+      <float index="2">1</float>
+      <float index="3">1</float>
+      <float index="4">1</float>
+    </list>
+  </struct>
+  <struct hash="assist_killer">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">attack_power_mul_for_assist</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="charge_final_jammer">
+    <hash40 hash="attach_effect_kind">null</hash40>
+    <list size="5" hash="add_gauge_mul">
+      <float index="0">1</float>
+      <float index="1">1</float>
+      <float index="2">1</float>
+      <float index="3">1</float>
+      <float index="4">1</float>
+    </list>
+  </struct>
+  <struct hash="0x0995debdf1">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">0x17e1e49375</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="poison_half">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">0x19cb32add5</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+  <struct hash="damage_floor_half">
+    <list size="1" hash="param_rate">
+      <struct index="0">
+        <hash40 hash="param_kind">0x1f0c926372</hash40>
+        <hash40 hash="param_kind2"></hash40>
+        <float hash="rate1">1</float>
+        <float hash="rate2">1</float>
+        <float hash="rate3">1</float>
+        <float hash="rate4">1</float>
+        <float hash="rate5">1</float>
+      </struct>
+    </list>
+    <hash40 hash="attach_effect_kind">null</hash40>
+  </struct>
+</struct>

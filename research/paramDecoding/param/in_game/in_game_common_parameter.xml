@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<struct>
+  <list size="8" hash="0x142f01ae36">
+    <struct index="0">
+      <float hash="rate">1</float>
+    </struct>
+    <struct index="1">
+      <float hash="rate">0.75</float>
+    </struct>
+    <struct index="2">
+      <float hash="rate">0.6</float>
+    </struct>
+    <struct index="3">
+      <float hash="rate">0.5</float>
+    </struct>
+    <struct index="4">
+      <float hash="rate">0.45</float>
+    </struct>
+    <struct index="5">
+      <float hash="rate">0.4</float>
+    </struct>
+    <struct index="6">
+      <float hash="rate">0.36</float>
+    </struct>
+    <struct index="7">
+      <float hash="rate">0.33</float>
+    </struct>
+  </list>
+  <struct hash="rule_parameter">
+    <float hash="0x1d2d674227">0.6</float>
+  </struct>
+</struct>

@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<struct>
+  <list size="13" hash="switch_tbl">
+    <struct index="0">
+      <hash40 hash="type">0x1cf5fc7359</hash40>
+      <hash40 hash="act_on">0x1eca688383</hash40>
+      <hash40 hash="act_off"></hash40>
+      <byte hash="0x0f9025613f">0</byte>
+    </struct>
+    <struct index="1">
+      <hash40 hash="type">0x1f6adcc54f</hash40>
+      <hash40 hash="act_on">0x21091cc376</hash40>
+      <hash40 hash="act_off"></hash40>
+      <byte hash="0x0f9025613f">0</byte>
+    </struct>
+    <struct index="2">
+      <hash40 hash="type">0x16e7290737</hash40>
+      <hash40 hash="act_on">0x1b5633dcfd</hash40>
+      <hash40 hash="act_off"></hash40>
+      <byte hash="0x0f9025613f">0</byte>
+    </struct>
+    <struct index="3">
+      <hash40 hash="type">0x18a873c866</hash40>
+      <hash40 hash="act_on">0x1bf995efed</hash40>
+      <hash40 hash="act_off"></hash40>
+      <byte hash="0x0f9025613f">0</byte>
+    </struct>
+    <struct index="4">
+      <hash40 hash="type">0x1624d16d37</hash40>
+      <hash40 hash="act_on">0x19dba29895</hash40>
+      <hash40 hash="act_off"></hash40>
+      <byte hash="0x0f9025613f">0</byte>
+    </struct>
+    <struct index="5">
+      <hash40 hash="type">0x1ea919f86f</hash40>
+      <hash40 hash="act_on">0x1e64b803c1</hash40>
+      <hash40 hash="act_off"></hash40>
+      <byte hash="0x0f9025613f">0</byte>
+    </struct>
+    <struct index="6">
+      <hash40 hash="type">0x1e3010a9d5</hash40>
+      <hash40 hash="act_on">0x1e64b803c1</hash40>
+      <hash40 hash="act_off"></hash40>
+      <byte hash="0x0f9025613f">0</byte>
+    </struct>
+    <struct index="7">
+      <hash40 hash="type">0x1e47179943</hash40>
+      <hash40 hash="act_on">0x1e64b803c1</hash40>
+      <hash40 hash="act_off"></hash40>
+      <byte hash="0x0f9025613f">0</byte>
+    </struct>
+    <struct index="8">
+      <hash40 hash="type">0x18dad6cf4a</hash40>
+      <hash40 hash="act_on">0x1b8b30e8c1</hash40>
+      <hash40 hash="act_off"></hash40>
+      <byte hash="0x0f9025613f">0</byte>
+    </struct>
+    <struct index="9">
+      <hash40 hash="type">0x1c74410c51</hash40>
+      <hash40 hash="act_on">0x1ec6079068</hash40>
+      <hash40 hash="act_off"></hash40>
+      <byte hash="0x0f9025613f">0</byte>
+    </struct>
+    <struct index="10">
+      <hash40 hash="type">linebeck_gekkouga_shuriken_hold</hash40>
+      <hash40 hash="act_on">0x2120c23012</hash40>
+      <hash40 hash="act_off"></hash40>
+      <byte hash="0x0f9025613f">0</byte>
+    </struct>
+    <struct index="11">
+      <hash40 hash="type">0x249d4ce9fe</hash40>
+      <hash40 hash="act_on">0x2553e66bc0</hash40>
+      <hash40 hash="act_off">0x253b0e14a4</hash40>
+      <byte hash="0x0f9025613f">1</byte>
+    </struct>
+    <struct index="12">
+      <hash40 hash="type">0x2523c4e733</hash40>
+      <hash40 hash="act_on">0x26e26b501a</hash40>
+      <hash40 hash="act_off">0x26a8dc1d24</hash40>
+      <byte hash="0x0f9025613f">1</byte>
+    </struct>
+  </list>
+</struct>

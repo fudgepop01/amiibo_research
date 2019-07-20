@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<struct>
+  <float hash="0x0f98c5409b">0.4</float>
+  <list size="5" hash="0x14646d80b0">
+    <struct index="0">
+      <bool hash="0x0c4ef6af24">True</bool>
+      <float hash="0x0a8160de2f">44</float>
+      <bool hash="0x0c39f19fb2">True</bool>
+      <float hash="0x0af667eeb9">-76</float>
+      <bool hash="0x0ca0f8ce08">True</bool>
+      <float hash="0x0a6f6ebf03">-119</float>
+      <bool hash="0x0cd7fffe9e">True</bool>
+      <float hash="0x0a18698f95">179</float>
+      <bool hash="0x0c499b6b3d">True</bool>
+      <float hash="0x0a860d1a36">-147</float>
+    </struct>
+    <struct index="1">
+      <bool hash="0x0c4ef6af24">True</bool>
+      <float hash="0x0a8160de2f">104</float>
+      <bool hash="0x0c39f19fb2">True</bool>
+      <float hash="0x0af667eeb9">-18</float>
+      <bool hash="0x0ca0f8ce08">True</bool>
+      <float hash="0x0a6f6ebf03">-161</float>
+      <bool hash="0x0cd7fffe9e">True</bool>
+      <float hash="0x0a18698f95">148</float>
+      <bool hash="0x0c499b6b3d">False</bool>
+      <float hash="0x0a860d1a36">-177</float>
+    </struct>
+    <struct index="2">
+      <bool hash="0x0c4ef6af24">True</bool>
+      <float hash="0x0a8160de2f">60</float>
+      <bool hash="0x0c39f19fb2">True</bool>
+      <float hash="0x0af667eeb9">19</float>
+      <bool hash="0x0ca0f8ce08">True</bool>
+      <float hash="0x0a6f6ebf03">-94</float>
+      <bool hash="0x0cd7fffe9e">True</bool>
+      <float hash="0x0a18698f95">113</float>
+      <bool hash="0x0c499b6b3d">True</bool>
+      <float hash="0x0a860d1a36">163</float>
+    </struct>
+    <struct index="3">
+      <bool hash="0x0c4ef6af24">True</bool>
+      <float hash="0x0a8160de2f">0</float>
+      <bool hash="0x0c39f19fb2">True</bool>
+      <float hash="0x0af667eeb9">-31</float>
+      <bool hash="0x0ca0f8ce08">True</bool>
+      <float hash="0x0a6f6ebf03">-66</float>
+      <bool hash="0x0cd7fffe9e">True</bool>
+      <float hash="0x0a18698f95">132</float>
+      <bool hash="0x0c499b6b3d">True</bool>
+      <float hash="0x0a860d1a36">-107</float>
+    </struct>
+    <struct index="4">
+      <bool hash="0x0c4ef6af24">True</bool>
+      <float hash="0x0a8160de2f">32</float>
+      <bool hash="0x0c39f19fb2">False</bool>
+      <float hash="0x0af667eeb9">2</float>
+      <bool hash="0x0ca0f8ce08">True</bool>
+      <float hash="0x0a6f6ebf03">-17</float>
+      <bool hash="0x0cd7fffe9e">True</bool>
+      <float hash="0x0a18698f95">72</float>
+      <bool hash="0x0c499b6b3d">True</bool>
+      <float hash="0x0a860d1a36">-158</float>
+    </struct>
+  </list>
+</struct>

@@ -1,0 +1,256 @@
+nothing
+move speed +
+hyper smash attacks
+sword
+jump +
+additional midair jump
+lifesteal
+shield
+easier dodging
+easier perfect shield
+super armor
+slow super armor
+trade off attack +
+trade off defense +
+trade off speed +
+trade off abillity +
+critical health attack +
+critical health defense +
+critical health stats +
+critical immunity
+autoheal
+poison immunity
+poison damage reduced
+poison heals
+lava floor immunity
+sticky floor immunity
+beam sword equipped
+lips stick equipped
+star rod equipped
+ore club equipped
+home run bat equipped
+ray gun equipped
+super scope equipped
+gust bellows equipped
+drill equipped
+green shell equipped
+poke ball equipped
+blank
+back shield equipped
+bunny hood equipped
+made of metal
+mouthful of curry
+franklin badge equipped
+hammer equipped
+fairy bottle equipped
+fire flower equipped
+freezie equipped
+ramblin evil mushroom equipped
+killing edge equipped
+blank
+physical attack +
+weapon attack +
+fist attack +
+foot attack +
+aura attack +
+magic attack +
+psi attack +
+sword
+fire and explosion attack +
+sword
+electric attack +
+energy shot attack +
+water and ice attack +
+magic resist +
+psi resist +
+shield
+fire explosion resist +
+shield
+shield
+electric resist +
+energy shot resist +
+shield
+water freezing resist +
+aura resist +
+zap floor immunity
+slumber immunity
+ice floor immunity
+falling immunity
+bury immunity
+braking ability +
+shoe
+landing lag -
+lightweight
+shield damage +
+air attack +
+air defense +
+neutral special +
+side special +
+up special +
+down special +
+strong throw
+unflinching charged smashes
+toss and meteor
+sword
+critical hit +
+swimmer
+shield durability +
+improved escape
+shield
+shield (2)
+x
+battering items +
+shooting items +
+thrown items +
+KOs heal damage
+invincibility after eating
+stats + after eating
+x
+first strike advantage
+x
+running start
+x
+fast final smash meter
+instadrop
+healing shield
+shield
+x
+floaty jumps
+shoe
+irreversible controls
+recovery items +
+transformation duration +
+undamaged attack +
+undamaged speed +
+undamaged attack and speed +
+x
+medkit
+edge grab +
+impact run
+x
+lava floor resist
+item gravitation
+blank
+chance of double final smash
+double final smash
+hammer (2)
+hammer (2)
+metal and giant
+giant
+dash attack +
+armor knight
+shield
+energy shot attack resistance +
+hammer duration +
+boomerang equipped
+item attack +
+hammer
+sword
+shield (2)
+shield (2)
+x
+perfect-shield reflect
+weapon attack and move speed +
+shooting attack +
+charge speed and power +
+x
+screen flip immunity
+fog immunity
+gravity change immunity
+stamina +
+strong wind resist
+strong wind immunity
+critical health healing
+special move power +
+x
+bob-omb equipped
+hothead equipped
+super leaf equipped
+super launch star equipped
+beastball equipped
+deaths scythe equipped
+mr saturn equipped
+unira equipped
+rocket belt equipped
+black hole equipped
+x
+stats ++ after eating
+hammer (2)
+critical health stats ++
+critical hit ++
+great autoheal
+steel diver equipped
+banana gun equipped
+rage blaster equipped
+staff equipped
+fire bar equipped
+screw attack equipped
+bomber equipped
+cucco equipped
+neutral attack +
+neutral attack ++
+tilt attack +
+tilt attack ++
+air attack ++
+mighty throw
+special move power ++
+super easy dodging
+shoe
+landing lag --
+become heavy
+meteor smashes +
+poisoned smash
+no penalty for continuous dodging
+airborne endurance
+sprinting endurance
+perfect shield recovery
+masterful fall break
+healing item attraction
+attack + when healthy
+defense + when healthy
+endless smash holding
+heal with smash attacks
+activities +
+giant killer
+metal killer
+assist killer
+jam final smash charge
+weapon resist +
+hyper smash attacks
+neutral attack +
+tilt attack +
+special move power +
+air attack +
+none
+none
+none
+none
+item autograb
+none
+none
+none
+none
+none
+none
+none
+none
+none
+none
+none
+none
+none
+none
+none
+none
+none
+none
+none
+none
+none
+none
+none
+none
+none
+none
+none
+none

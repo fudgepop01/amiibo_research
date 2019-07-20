@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<struct>
+  <uint hash="0x10b603a528">120</uint>
+  <float hash="talk_speed_rate">2</float>
+  <list size="5" hash="talk_speed_threshold">
+    <byte index="0">15</byte>
+    <byte index="1">35</byte>
+    <byte index="2">45</byte>
+    <byte index="3">50</byte>
+    <byte index="4">60</byte>
+  </list>
+  <float hash="0x1a1878a1d1">0.25</float>
+  <uint hash="0x1def7b9c90">2</uint>
+  <uint hash="0x0fae6d0472">30</uint>
+  <float hash="gym_gauge_speed">0.15</float>
+  <float hash="school_gauge_speed">0.1</float>
+  <uint hash="0x1d86d38b22">120</uint>
+  <uint hash="0x2005bb1f73">1800</uint>
+  <uint hash="0x2004b785c7">2700</uint>
+  <uint hash="0x247c7b4fce">4</uint>
+  <uint hash="0x247d77d57a">6</uint>
+  <uint hash="0x1f26dbbd56">300</uint>
+  <uint hash="0x1f27d727e2">600</uint>
+  <uint hash="0x21a072293f">90</uint>
+  <list size="25" hash="0x17a199fff2">
+    <struct index="0">
+      <hash40 hash="personal_type">personal_0</hash40>
+      <float hash="value">1.5</float>
+    </struct>
+    <struct index="1">
+      <hash40 hash="personal_type">personal_1</hash40>
+      <float hash="value">1.425</float>
+    </struct>
+    <struct index="2">
+      <hash40 hash="personal_type">personal_2</hash40>
+      <float hash="value">1.35</float>
+    </struct>
+    <struct index="3">
+      <hash40 hash="personal_type">personal_3</hash40>
+      <float hash="value">1.275</float>
+    </struct>
+    <struct index="4">
+      <hash40 hash="personal_type">personal_4</hash40>
+      <float hash="value">1.2</float>
+    </struct>
+    <struct index="5">
+      <hash40 hash="personal_type">personal_5</hash40>
+      <float hash="value">1.125</float>
+    </struct>
+    <struct index="6">
+      <hash40 hash="personal_type">personal_6</hash40>
+      <float hash="value">1.05</float>
+    </struct>
+    <struct index="7">
+      <hash40 hash="personal_type">personal_7</hash40>
+      <float hash="value">0.975</float>
+    </struct>
+    <struct index="8">
+      <hash40 hash="personal_type">personal_8</hash40>
+      <float hash="value">0.9</float>
+    </struct>
+    <struct index="9">
+      <hash40 hash="personal_type">personal_9</hash40>
+      <float hash="value">0.825</float>
+    </struct>
+    <struct index="10">
+      <hash40 hash="personal_type">personal_10</hash40>
+      <float hash="value">0.75</float>
+    </struct>
+    <struct index="11">
+      <hash40 hash="personal_type">personal_11</hash40>
+      <float hash="value">0.675</float>
+    </struct>
+    <struct index="12">
+      <hash40 hash="personal_type">personal_12</hash40>
+      <float hash="value">0.6</float>
+    </struct>
+    <struct index="13">
+      <hash40 hash="personal_type">personal_13</hash40>
+      <float hash="value">0.525</float>
+    </struct>
+    <struct index="14">
+      <hash40 hash="personal_type">personal_14</hash40>
+      <float hash="value">0.45</float>
+    </struct>
+    <struct index="15">
+      <hash40 hash="personal_type">personal_15</hash40>
+      <float hash="value">0.375</float>
+    </struct>
+    <struct index="16">
+      <hash40 hash="personal_type">personal_16</hash40>
+      <float hash="value">0.3</float>
+    </struct>
+    <struct index="17">
+      <hash40 hash="personal_type">personal_17</hash40>
+      <float hash="value">0.225</float>
+    </struct>
+    <struct index="18">
+      <hash40 hash="personal_type">personal_18</hash40>
+      <float hash="value">0.15</float>
+    </struct>
+    <struct index="19">
+      <hash40 hash="personal_type">personal_19</hash40>
+      <float hash="value">0.075</float>
+    </struct>
+    <struct index="20">
+      <hash40 hash="personal_type">personal_20</hash40>
+      <float hash="value">0</float>
+    </struct>
+    <struct index="21">
+      <hash40 hash="personal_type">personal_21</hash40>
+      <float hash="value">-0.075</float>
+    </struct>
+    <struct index="22">
+      <hash40 hash="personal_type">personal_22</hash40>
+      <float hash="value">-0.15</float>
+    </struct>
+    <struct index="23">
+      <hash40 hash="personal_type">personal_23</hash40>
+      <float hash="value">-0.225</float>
+    </struct>
+    <struct index="24">
+      <hash40 hash="personal_type">personal_24</hash40>
+      <float hash="value">-0.3</float>
+    </struct>
+  </list>
+  <float hash="0x1761221a02">1</float>
+  <float hash="0x1720244585">1.1</float>
+  <float hash="0x1783dbfc27">1.2</float>
+  <float hash="0x17fed80dd9">1.3</float>
+  <float hash="0x178b7102e1">1.5</float>
+  <float hash="0x1965ae6920">0.7</float>
+  <float hash="0x185d2a2350">-0.7</float>
+  <float hash="0x132e892f58">0.2</float>
+  <hash40 hash="0x119e149168">doc_louis</hash40>
+  <hash40 hash="0x0d8827b5bf">ui_bgm_r21_wpo_minorcircuit</hash40>
+  <float hash="0x17ba2d6133">1.3</float>
+  <float hash="0x16144db756">0.5</float>
+  <list size="4" hash="0x1b72784c75">
+    <float index="0">2</float>
+    <float index="1">5</float>
+    <float index="2">20</float>
+    <float index="3">48</float>
+  </list>
+  <float hash="0x0f9cd227ec">1.1</float>
+  <float hash="0x1a04e71129">0.8</float>
+  <float hash="0x19d52dbd24">1.5</float>
+  <float hash="0x1cafc6fbdd">30</float>
+  <float hash="0x1648ce6d11">200</float>
+  <float hash="0x20ac3521ae">0.05</float>
+  <float hash="0x1e85573b26">0.05</float>
+  <float hash="0x2795876742">0.5</float>
+  <float hash="0x25b2fb26b3">0.5</float>
+  <float hash="0x12e9b6def6">0.9</float>
+  <list size="3" hash="search_field">
+    <struct index="0">
+      <hash40 hash="master_spirit">toadett</hash40>
+      <int hash="treasure_max">500</int>
+      <int hash="0x15fa79f0b4">300</int>
+      <int hash="0x136affcd51">400</int>
+      <float hash="0x151f1fcf9d">120</float>
+      <hash40 hash="0x13894b6199">sp</hash40>
+      <float hash="0x191a632c96">2000</float>
+      <hash40 hash="ui_bgm_id">ui_bgm_aa21_skt_kinopiotaicho_theme</hash40>
+    </struct>
+    <struct index="1">
+      <hash40 hash="master_spirit">captain_charlie</hash40>
+      <int hash="treasure_max">1000</int>
+      <int hash="0x15fa79f0b4">700</int>
+      <int hash="0x136affcd51">900</int>
+      <float hash="0x151f1fcf9d">360</float>
+      <hash40 hash="0x13894b6199">support</hash40>
+      <float hash="0x191a632c96">40</float>
+      <hash40 hash="ui_bgm_id">ui_bgm_l09_pik2_stageselect</hash40>
+    </struct>
+    <struct index="2">
+      <hash40 hash="master_spirit">linebeck</hash40>
+      <int hash="treasure_max">4000</int>
+      <int hash="0x15fa79f0b4">2200</int>
+      <int hash="0x136affcd51">2400</int>
+      <float hash="0x151f1fcf9d">600</float>
+      <hash40 hash="0x13894b6199">strengthen</hash40>
+      <float hash="0x191a632c96">70</float>
+      <hash40 hash="ui_bgm_id">ui_bgm_c43_tri3_maintheme</hash40>
+    </struct>
+  </list>
+  <uint hash="0x14157c6ffe">5</uint>
+  <uint hash="0x1dd14eeb5e">500</uint>
+  <uint hash="0x2558ffac6f">15</uint>
+  <uint hash="0x15f5676380">2</uint>
+  <float hash="0x12c1d971d8">1.1</float>
+  <list size="4" hash="0x290831aec8">
+    <float index="0">0.25</float>
+    <float index="1">0.5</float>
+    <float index="2">0.75</float>
+    <float index="3">1</float>
+  </list>
+  <list size="4" hash="0x1cf7ceda87">
+    <float index="0">1</float>
+    <float index="1">1.02</float>
+    <float index="2">1.05</float>
+    <float index="3">1.15</float>
+  </list>
+  <list size="2" hash="0x1d39297b55">
+    <float index="0">1</float>
+    <float index="1">1.1</float>
+  </list>
+  <list size="3" hash="0x216cb011e8">
+    <float index="0">1.1</float>
+    <float index="1">1.05</float>
+    <float index="2">1</float>
+  </list>
+  <list size="5" hash="campaign_shop">
+    <struct index="0">
+      <hash40 hash="master_spirit">sheldon</hash40>
+      <hash40 hash="ui_bgm_id">ui_bgm_sp04_sp_krakenup</hash40>
+    </struct>
+    <struct index="1">
+      <hash40 hash="master_spirit">anna</hash40>
+      <hash40 hash="ui_bgm_id">ui_bgm_j23_ksi_ensei_honoo</hash40>
+    </struct>
+    <struct index="2">
+      <hash40 hash="master_spirit">funky_kong</hash40>
+      <hash40 hash="ui_bgm_id">ui_bgm_b25_spr_funkykongpage</hash40>
+    </struct>
+    <struct index="3">
+      <hash40 hash="master_spirit">timmy_and_tommy</hash40>
+      <hash40 hash="ui_bgm_id">ui_bgm_n06_oid_yakubatotanukichi</hash40>
+    </struct>
+    <struct index="4">
+      <hash40 hash="master_spirit">beedle</hash40>
+      <hash40 hash="ui_bgm_id">ui_bgm_c12_4sw_aonomikonomura</hash40>
+    </struct>
+  </list>
+  <uint hash="0x1c01dbc8e7">5</uint>
+</struct>

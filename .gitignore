@@ -1,0 +1,11 @@
+super_amiibo_encoder
+Amiibo\ Bin\ Dump
+build
+data/log
+decrypted
+encrypted
+enc_custom
+last_modified
+locked_files
+re_enc_custom
+node_modules
