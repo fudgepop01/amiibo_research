@@ -18,6 +18,8 @@
     "nfc-pcsc": "^0.7.4",
     "opencv4nodejs": "^5.1.0",
     "readline-promise": "^1.0.4",
+    "stardust-core": "^0.2.4",
+    "stardust-webgl": "^0.2.4",
     "usb": "^1.6.0"
   },
   "devDependencies": {

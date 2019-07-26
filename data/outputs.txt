@@ -1957,3 +1957,673 @@ light
 cautious
 normal
 laid back
+cool
+light
+reckless
+normal
+laid back
+normal
+logical
+cautious
+laid back
+logical
+cool
+laid back
+cool
+laid back
+cool
+logical
+normal
+normal
+realistic
+cautious
+logical
+sly
+sly
+sly
+sly
+normal
+laid back
+laid back
+cool
+sly
+enthusiastic
+cool
+cool
+normal
+cautious
+enthusiastic
+reckless
+enthusiastic
+enthusiastic
+normal
+logical
+normal
+reckless
+cautious
+enthusiastic
+enthusiastic
+cool
+reckless
+normal
+enthusiastic
+cool
+light
+enthusiastic
+enthusiastic
+cautious
+normal
+enthusiastic
+logical
+cool
+cool
+enthusiastic
+normal
+enthusiastic
+normal
+cool
+enthusiastic
+enthusiastic
+logical
+light
+logical
+normal
+enthusiastic
+cool
+enthusiastic
+cool
+cautious
+cool
+laid back
+enthusiastic
+logical
+normal
+laid back
+cool
+cautious
+realistic
+normal
+enthusiastic
+enthusiastic
+normal
+enthusiastic
+cautious
+normal
+cool
+cautious
+light
+aggressive
+logical
+enthusiastic
+laid back
+logical
+logical
+normal
+normal
+light
+normal
+logical
+normal
+enthusiastic
+cool
+normal
+cautious
+normal
+quick
+cool
+cool
+reckless
+light
+cautious
+normal
+normal
+show-off
+show-off
+show-off
+show-off
+cautious
+show-off
+cool
+cool
+enthusiastic
+normal
+show-off
+show-off
+show-off
+flashy
+normal
+laid back
+show-off
+laid back
+cool
+reckless
+cool
+tricky
+cool
+show-off
+show-off
+show-off
+show-off
+enthusiastic
+enthusiastic
+flashy
+normal
+normal
+light
+flashy
+show-off
+show-off
+cautious
+enthusiastic
+light
+show-off
+show-off
+laid back
+light
+laid back
+normal
+enthusiastic
+cool
+versatile
+show-off
+show-off
+show-off
+light
+cool
+show-off
+normal
+enthusiastic
+cool
+cool
+flashy
+normal
+laid back
+show-off
+logical
+cool
+normal
+show-off
+show-off
+light
+laid back
+show-off
+show-off
+show-off
+laid back
+cautious
+quick
+laid back
+enthusiastic
+cool
+cool
+laid back
+laid back
+cautious
+cool
+laid back
+reckless
+flashy
+cool
+normal
+cool
+normal
+show-off
+show-off
+show-off
+laid back
+show-off
+show-off
+normal
+laid back
+show-off
+show-off
+cool
+cautious
+laid back
+cautious
+cautious
+laid back
+cool
+normal
+show-off
+reckless
+laid back
+normal
+enthusiastic
+cautious
+cool
+laid back
+laid back
+cautious
+laid back
+laid back
+show-off
+reckless
+logical
+cool
+cool
+cautious
+show-off
+laid back
+show-off
+enthusiastic
+quick
+show-off
+show-off
+show-off
+logical
+show-off
+show-off
+normal
+show-off
+tricky
+normal
+laid back
+reckless
+show-off
+flashy
+laid back
+laid back
+normal
+laid back
+show-off
+cautious
+realistic
+show-off
+normal
+cautious
+show-off
+normal
+cool
+cool
+normal
+show-off
+cool
+normal
+reckless
+thrill seeker
+normal
+normal
+normal
+laid back
+show-off
+show-off
+show-off
+normal
+cool
+show-off
+laid back
+show-off
+cool
+show-off
+show-off
+show-off
+cool
+versatile
+light
+cool
+cool
+flashy
+cautious
+normal
+reckless
+reckless
+show-off
+enthusiastic
+cautious
+laid back
+cool
+laid back
+versatile
+light
+show-off
+show-off
+laid back
+cool
+reckless
+light
+normal
+normal
+cool
+normal
+reckless
+show-off
+enthusiastic
+quick
+normal
+show-off
+cool
+show-off
+cool
+cautious
+show-off
+reckless
+laid back
+show-off
+light
+show-off
+reckless
+laid back
+enthusiastic
+laid back
+quick
+cautious
+cautious
+normal
+reckless
+thrill seeker
+enthusiastic
+normal
+cool
+show-off
+cool
+normal
+show-off
+cautious
+laid back
+laid back
+reckless
+cool
+light
+flashy
+laid back
+show-off
+cool
+show-off
+light
+normal
+show-off
+reckless
+normal
+normal
+normal
+enthusiastic
+laid back
+show-off
+show-off
+enthusiastic
+light
+enthusiastic
+reckless
+normal
+show-off
+quick
+normal
+cautious
+show-off
+cautious
+show-off
+light
+thrill seeker
+cautious
+show-off
+show-off
+versatile
+show-off
+normal
+light
+normal
+light
+cool
+show-off
+show-off
+reckless
+show-off
+cautious
+show-off
+tricky
+show-off
+versatile
+cautious
+show-off
+laid back
+logical
+cautious
+quick
+cautious
+cautious
+laid back
+laid back
+cool
+cautious
+normal
+normal
+laid back
+cautious
+normal
+cautious
+normal
+cool
+show-off
+enthusiastic
+versatile
+tricky
+versatile
+logical
+normal
+normal
+logical
+cautious
+cautious
+light
+cool
+cautious
+normal
+enthusiastic
+reckless
+cool
+cool
+realistic
+cautious
+normal
+enthusiastic
+enthusiastic
+normal
+realistic
+normal
+cool
+normal
+cool
+normal
+cautious
+normal
+normal
+normal
+normal
+reckless
+normal
+light
+light
+laid back
+normal
+cautious
+normal
+enthusiastic
+light
+laid back
+enthusiastic
+logical
+normal
+cautious
+cautious
+laid back
+laid back
+normal
+cool
+logical
+enthusiastic
+normal
+cool
+reckless
+laid back
+cool
+reckless
+cautious
+reckless
+enthusiastic
+cautious
+cool
+cool
+light
+normal
+cautious
+normal
+logical
+enthusiastic
+cool
+normal
+cautious
+normal
+cautious
+enthusiastic
+cool
+cool
+laid back
+realistic
+reckless
+cool
+quick
+normal
+laid back
+normal
+cautious
+quick
+cool
+cool
+cool
+light
+enthusiastic
+realistic
+cool
+reckless
+cool
+normal
+enthusiastic
+cautious
+enthusiastic
+cool
+cautious
+laid back
+cool
+reckless
+normal
+cool
+logical
+laid back
+logical
+logical
+normal
+laid back
+cool
+light
+light
+cool
+logical
+enthusiastic
+cool
+cautious
+cool
+cautious
+normal
+laid back
+show-off
+show-off
+reckless
+show-off
+show-off
+light
+versatile
+light
+cool
+show-off
+flashy
+cautious
+laid back
+cool
+enthusiastic
+show-off
+thrill seeker
+cool
+cool
+enthusiastic
+laid back
+enthusiastic
+light
+normal
+reckless
+versatile
+show-off
+show-off
+light
+cautious
+reckless
+quick
+aggressive
+show-off
+show-off
+show-off
+show-off
+cautious
+cautious
+normal
+show-off
+light
+cool
+cool
+enthusiastic
+light
+light
+thrill seeker
+normal
+cool
+cautious
+cautious
+cool
+normal
+versatile
+technician
+normal
+light
+show-off
+show-off
+show-off
+show-off
+cautious
+normal
+laid back
+cool
+logical
+reckless
+show-off
+cautious
+logical
+cool
+laid back
+show-off
+cautious
+realistic
+versatile
+cool
+show-off
+light
+reckless
+light
+reckless
+laid back
+versatile
+show-off
+cool
+cool
+reckless
+show-off
+show-off
+normal
+normal
+light
+show-off
+laid back
+cautious
+technician
+reckless
+show-off
+versatile

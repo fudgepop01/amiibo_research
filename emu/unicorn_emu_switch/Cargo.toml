@@ -1,9 +1,0 @@
-[package]
-name = "unicorn_emu_switch"
-version = "0.1.0"
-authors = ["dar2355 <fudgepop01@gmail.com>"]
-edition = "2018"
-
-[dependencies]
-cala = "0.4.0"
-libusb = "0.3.0"

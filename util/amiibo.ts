@@ -46,6 +46,9 @@ export default class amiibo {
   get personality(): Buffer { return this.dataChunk.slice(0x88, 0xC2) }
   set personality(v: Buffer) { v.copy(this.dataChunk.slice(0x88, 0xC2))  }
 
+  get tauntRate(): number { return this.personality.readUInt8(0x19) }
+  set tauntRate(v: number) { this.personality.writeUInt8(v, 0x19) }
+
   get personalityParamsOffense(): Buffer { return this.personality.slice(0x00, 0x07) }
   set personalityParamsOffense(v: Buffer) { v.copy(this.personality.slice(0x00, 0x07)) }
 
